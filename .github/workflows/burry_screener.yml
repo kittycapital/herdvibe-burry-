@@ -1,0 +1,34 @@
+name: Burry Screener Daily
+
+on:
+  schedule:
+    - cron: '0 20 * * *'   # 매일 UTC 20:00 = KST 05:00
+  workflow_dispatch:         # 수동 실행도 가능
+
+jobs:
+  screen:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120     # 최대 2시간
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          pip install yfinance pandas requests
+
+      - name: Run Burry Screener
+        run: python fetch_burry_scores.py
+
+      - name: Commit & Push JSON
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/burry_scores.json
+          git diff --cached --quiet || git commit -m "📊 Burry scores updated $(date -u +'%Y-%m-%d')"
+          git push
