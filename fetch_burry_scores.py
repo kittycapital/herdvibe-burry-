@@ -33,7 +33,7 @@ def load_iwm_tickers():
         r = requests.get(IWM_CSV_URL, headers=headers, timeout=30)
         r.raise_for_status()
         # 앞 9행 메타데이터 스킵
-        df = pd.read_csv(StringIO(r.text), skiprows=9)
+        df = pd.read_csv(StringIO(r.text), skiprows=9, on_bad_lines='skip')
         df = df[df['Asset Class'] == 'Equity']
         df = df[df['Ticker'].notna()]
         df = df[df['Ticker'].str.strip() != '-']
