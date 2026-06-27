@@ -24,11 +24,11 @@ jobs:
 
       - name: Run Burry Screener
         run: python fetch_burry_scores.py
-
+ 
       - name: Commit & Push JSON
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/burry_scores.json
+          git add data/
           git diff --cached --quiet || git commit -m "📊 Burry scores updated $(date -u +'%Y-%m-%d')"
-          git push
+          git push || true
