@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Burry Style Screener | HerdVibe</title>
+<meta property="og:title" content="Burry Style Screener | HerdVibe">
+<meta property="og:description" content="Russell 2000 종목 중 Michael Burry 투자 기준으로 스코어링한 저평가 종목 스크리너">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<style>
+:root {
+  --bg: #0a0a0a;
+  --bg-card: #111111;
+  --bg-hover: #1a1a1a;
+  --border: #222222;
+  --border-l: #333333;
+  --t1: #e8e8e8;
+  --t2: #888888;
+  --t3: #555555;
+  --cyan: #00d4ff;
+  --green: #00e676;
+  --red: #ff3d5a;
+  --orange: #ff9100;
+  --yellow: #ffd600;
+  --purple: #b388ff;
+  --gold: #f5c842;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Noto Sans KR',sans-serif;background:var(--bg);color:var(--t1);line-height:1.6;min-height:100vh;overflow-x:hidden}
+html{overflow-x:hidden}
+.mono{font-family:'JetBrains Mono',monospace}
+
+/* ─── Header ─── */
+.hdr{padding:24px 20px 0;max-width:1400px;margin:0 auto;text-align:center}
+.hdr-top{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:12px;margin-bottom:8px}
+.hdr h1{font-size:22px;font-weight:900;letter-spacing:-.5px;color:var(--t1)}
+.badge-up{font-size:12px;color:var(--t3);font-family:'JetBrains Mono',monospace;background:var(--bg-card);padding:4px 10px;border-radius:4px;border:1px solid var(--border)}
+.hdr-sub{font-size:13px;color:var(--t2);margin-bottom:20px}
+
+/* ─── Burry Quote ─── */
+.quote-bar{max-width:1400px;margin:0 auto 20px;padding:0 20px}
+.quote-inner{background:var(--bg-card);border:1px solid var(--border);border-left:3px solid var(--gold);border-radius:8px;padding:14px 20px;display:flex;align-items:center;gap:12px}
+.quote-text{font-size:13px;color:var(--t2);font-style:italic;line-height:1.5}
+.quote-author{font-size:11px;color:var(--gold);font-family:'JetBrains Mono',monospace;white-space:nowrap;flex-shrink:0}
+
+/* ─── Tabs ─── */
+.tab-row{display:flex;gap:0;margin-bottom:16px;max-width:1400px;margin-left:auto;margin-right:auto;padding:0 20px;flex-wrap:wrap;justify-content:center;gap:12px}
+.tg{display:flex;background:var(--bg-card);border-radius:8px;overflow:hidden;border:1px solid var(--border)}
+.tb{padding:8px 16px;font-size:13px;font-weight:500;color:var(--t2);background:transparent;border:none;cursor:pointer;transition:all .2s;font-family:'Noto Sans KR',sans-serif;white-space:nowrap}
+.tb:hover{color:var(--t1);background:var(--bg-hover)}
+.tb.on{color:#000;background:var(--gold);font-weight:700}
+.tb.on-s{color:#000;background:var(--cyan);font-weight:700}
+
+/* ─── Summary ─── */
+.sum-row{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;max-width:1400px;margin:0 auto 20px;padding:0 20px}
+.sum{background:var(--bg-card);border:1px solid var(--border);border-radius:10px;padding:16px;text-align:center}
+.sum .lb{font-size:12px;color:var(--t2);margin-bottom:6px;font-weight:500}
+.sum .vl{font-family:'JetBrains Mono',monospace;font-size:28px;font-weight:700;line-height:1.2}
+.sum .sb{font-size:11px;color:var(--t3);margin-top:4px}
+.sum.s-g .vl{color:var(--green)}
+.sum.s-y .vl{color:var(--gold)}
+.sum.s-c .vl{color:var(--cyan)}
+.sum.s-o .vl{color:var(--orange)}
+
+/* ─── Main ─── */
+.main{max-width:1400px;margin:0 auto;padding:0 20px 40px;overflow:hidden}
+
+/* ─── Score Legend ─── */
+.legend{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px;align-items:center}
+.legend-item{display:flex;align-items:center;gap:6px;font-size:12px;color:var(--t2)}
+.legend-dot{width:10px;height:10px;border-radius:2px}
+
+/* ─── Chart ─── */
+.chart-sec{background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:20px;margin-bottom:20px}
+.chart-sec h2{font-size:15px;font-weight:700;margin-bottom:16px;display:flex;align-items:center;justify-content:center;gap:8px}
+.chart-wrap{position:relative;width:100%;height:500px}
+
+/* ─── Score Bar ─── */
+.score-bar-wrap{display:flex;align-items:center;gap:8px;width:120px}
+.score-bar-bg{flex:1;height:6px;background:var(--border-l);border-radius:3px;overflow:hidden}
+.score-bar-fill{height:100%;border-radius:3px;transition:width .3s}
+.score-num{font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:700;width:28px;text-align:right;flex-shrink:0}
+
+/* ─── Sector Badges ─── */
+.sector-bdg{display:inline-block;padding:2px 7px;border-radius:4px;font-size:10px;font-weight:600;background:rgba(255,255,255,.06);color:var(--t2);white-space:nowrap}
+
+/* ─── Table ─── */
+.tbl-sec{background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:20px;margin-bottom:20px;overflow-x:auto;-webkit-overflow-scrolling:touch}
+.tbl-sec h2{font-size:15px;font-weight:700;margin-bottom:12px;display:flex;align-items:center;justify-content:center;gap:8px}
+table{width:100%;border-collapse:collapse;font-size:13px}
+thead th{text-align:left;padding:10px 12px;border-bottom:2px solid var(--border-l);color:var(--t2);font-weight:500;font-size:11px;text-transform:uppercase;letter-spacing:.5px;white-space:nowrap;cursor:pointer;user-select:none}
+thead th:hover{color:var(--t1)}
+thead th.sorted{color:var(--gold)}
+th.r{text-align:right}th.c{text-align:center}
+tbody tr{border-bottom:1px solid var(--border);transition:background .15s}
+tbody tr:hover{background:var(--bg-hover)}
+tbody td{padding:10px 12px;vertical-align:middle}
+.rk{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:14px;width:36px;text-align:center;color:var(--t3)}
+.rk.gold{color:var(--gold)}
+.tk{font-family:'JetBrains Mono',monospace;font-size:13px;color:var(--cyan);font-weight:700}
+.nm{font-weight:500;max-width:200px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.val{font-family:'JetBrains Mono',monospace;text-align:right;white-space:nowrap;font-size:12px}
+.val.pos{color:var(--green)}
+.val.neg{color:var(--red)}
+.val.neutral{color:var(--t2)}
+.zone-bdg{display:inline-block;padding:3px 9px;border-radius:4px;font-size:11px;font-weight:700;font-family:'JetBrains Mono',monospace;white-space:nowrap}
+.zone-burry{background:rgba(245,200,66,.15);color:var(--gold);border:1px solid rgba(245,200,66,.3)}
+.zone-watch{background:rgba(0,212,255,.1);color:var(--cyan);border:1px solid rgba(0,212,255,.25)}
+.zone-normal{background:rgba(255,255,255,.04);color:var(--t3);border:1px solid var(--border)}
+
+/* ─── Filter Bar ─── */
+.filter-bar{display:flex;align-items:center;gap:12px;margin-bottom:16px;flex-wrap:wrap}
+.filter-bar input{background:var(--bg-card);border:1px solid var(--border-l);border-radius:6px;color:var(--t1);padding:7px 12px;font-size:13px;font-family:'Noto Sans KR',sans-serif;outline:none;width:200px}
+.filter-bar input:focus{border-color:var(--gold)}
+.filter-bar select{background:var(--bg-card);border:1px solid var(--border-l);border-radius:6px;color:var(--t1);padding:7px 12px;font-size:13px;font-family:'Noto Sans KR',sans-serif;outline:none;cursor:pointer}
+.filter-bar select:focus{border-color:var(--gold)}
+.filter-label{font-size:12px;color:var(--t3)}
+.result-count{font-size:12px;color:var(--t3);font-family:'JetBrains Mono',monospace;margin-left:auto}
+
+/* ─── Detail Tooltip ─── */
+.criteria-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:6px;margin-bottom:16px}
+.crit-item{background:var(--bg-card);border:1px solid var(--border);border-radius:8px;padding:10px;text-align:center}
+.crit-item .crit-label{font-size:10px;color:var(--t3);margin-bottom:4px}
+.crit-item .crit-score{font-family:'JetBrains Mono',monospace;font-size:18px;font-weight:700}
+.crit-item .crit-max{font-size:10px;color:var(--t3)}
+.crit-item.active .crit-score{color:var(--gold)}
+.crit-item.inactive .crit-score{color:var(--t3)}
+
+/* ─── Watermark ─── */
+.wm{text-align:center;padding:20px;color:var(--t3);font-size:11px}
+.wm a{color:var(--cyan);text-decoration:none}
+
+/* ─── Share Bar ─── */
+.share-bar{display:flex;align-items:center;justify-content:space-between;padding:12px 20px;border-top:1px solid var(--border);background:var(--bg-card);border-radius:0 0 12px 12px}
+.share-bar-preview{font-size:.75rem;color:var(--t3);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:50%;line-height:1.4;font-family:'JetBrains Mono',monospace}
+.share-bar-preview span{color:var(--t2);font-weight:500}
+.share-bar-buttons{display:flex;align-items:center;gap:6px;flex-shrink:0}
+.share-btn{display:inline-flex;align-items:center;gap:6px;padding:7px 14px;border-radius:6px;font-size:.75rem;font-weight:600;font-family:'Noto Sans KR',sans-serif;cursor:pointer;transition:all .2s;border:1px solid var(--border-l);background:var(--bg-card);color:#999;white-space:nowrap}
+.share-btn:hover{transform:translateY(-1px);box-shadow:0 2px 8px rgba(0,0,0,.3);color:var(--t1)}
+.share-btn--x:hover{border-color:#fff;color:#fff;background:#111}
+.share-btn--kakao:hover{border-color:#FEE500;color:#191919;background:#FEE500}
+.share-btn--tg:hover{border-color:#26A5E4;color:#fff;background:rgba(38,165,228,.15)}
+.share-btn--copy:hover{border-color:var(--gold);color:var(--gold);background:rgba(245,200,66,.08)}
+
+/* ─── Loading ─── */
+.loading{text-align:center;padding:60px 20px;color:var(--t2);font-size:14px}
+.loading .spin{display:inline-block;width:20px;height:20px;border:2px solid var(--border-l);border-top-color:var(--gold);border-radius:50%;animation:sp .6s linear infinite;margin-right:8px}
+@keyframes sp{to{transform:rotate(360deg)}}
+
+/* ─── Toast ─── */
+.toast-wrap{position:fixed;bottom:20px;right:20px;z-index:200;display:flex;flex-direction:column;gap:8px}
+.toast{background:var(--bg-card);border:1px solid var(--border-l);border-radius:8px;padding:10px 18px;font-size:.788rem;color:var(--t1);box-shadow:0 4px 20px rgba(0,0,0,.4);animation:toastIn .3s ease;border-left:3px solid var(--gold)}
+@keyframes toastIn{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+
+/* ─── Responsive ─── */
+@media(max-width:768px){
+  .hdr h1{font-size:18px}
+  .sum-row{grid-template-columns:repeat(2,1fr);gap:8px}
+  .sum .vl{font-size:22px}
+  .criteria-grid{grid-template-columns:repeat(3,1fr)}
+  .nm{max-width:110px;font-size:12px}
+  table{font-size:11px}
+  thead th,tbody td{padding:8px 5px}
+  .hide-m{display:none !important}
+  .chart-wrap{height:380px}
+  .score-bar-wrap{width:80px}
+  .filter-bar input{width:140px}
+}
+@media(max-width:480px){
+  .hdr{padding:16px 12px 0}
+  .tab-row,.sum-row,.main,.quote-bar{padding-left:8px;padding-right:8px}
+  .sum{padding:12px 8px}
+  .sum .vl{font-size:18px}
+  .criteria-grid{grid-template-columns:repeat(2,1fr)}
+  .chart-wrap{height:300px}
+  .filter-bar{gap:8px}
+  .filter-bar input{width:120px}
+  .share-bar{flex-direction:column;gap:10px;align-items:stretch}
+  .share-bar-preview{max-width:100%}
+  .share-bar-buttons{justify-content:center;flex-wrap:wrap}
+  .share-btn span.label-text{display:none}
+  .share-btn{padding:8px 10px}
+}
+</style>
+</head>
+<body>
+
+<!-- Header -->
+<div class="hdr">
+  <div class="hdr-top">
+    <h1>⚡ Burry Style Screener</h1>
+  </div>
+  <span class="badge-up" id="updateDate">loading...</span>
+  <p class="hdr-sub">Russell 2000 종목 · Michael Burry 기준 6개 지표 스코어링 · 매일 자동 업데이트</p>
+</div>
+
+<!-- Burry Quote -->
+<div class="quote-bar">
+  <div class="quote-inner">
+    <div class="quote-text">"Buy hated value. Short euphoric fantasy. Survive long enough to be right."</div>
+    <div class="quote-author">— M. Burry</div>
+  </div>
+</div>
+
+<!-- Tabs -->
+<div class="tab-row">
+  <div class="tg" id="viewTabs">
+    <button class="tb on" data-v="burry">🔥 Burry Zone (60+)</button>
+    <button class="tb" data-v="watch">👀 Watchlist (45~59)</button>
+    <button class="tb" data-v="all">전체 보기</button>
+  </div>
+  <div class="tg" id="sectorTabs">
+    <button class="tb on-s" data-s="전체">전체 섹터</button>
+    <button class="tb" data-s="Industrials">산업재</button>
+    <button class="tb" data-s="Health Care">헬스케어</button>
+    <button class="tb" data-s="Financials">금융</button>
+    <button class="tb" data-s="Information Technology">IT</button>
+    <button class="tb" data-s="Energy">에너지</button>
+    <button class="tb" data-s="Materials">소재</button>
+  </div>
+</div>
+
+<!-- Summary Cards -->
+<div class="sum-row">
+  <div class="sum s-g"><div class="lb">총 스크리닝 종목</div><div class="vl" id="sTotal">-</div><div class="sb">Russell 2000 기준</div></div>
+  <div class="sum s-y"><div class="lb">🔥 Burry Zone</div><div class="vl" id="sBurry">-</div><div class="sb">60점 이상</div></div>
+  <div class="sum s-c"><div class="lb">👀 Watchlist</div><div class="vl" id="sWatch">-</div><div class="sb">45~59점</div></div>
+  <div class="sum s-o"><div class="lb">TOP 종목 점수</div><div class="vl" id="sTop">-</div><div class="sb">최고 Burry Score</div></div>
+</div>
+
+<!-- 스코어링 기준 카드 -->
+<div class="main">
+  <div class="criteria-grid">
+    <div class="crit-item"><div class="crit-label">P/B Ratio</div><div class="crit-score" style="color:var(--gold)">30</div><div class="crit-max">/ 30점</div></div>
+    <div class="crit-item"><div class="crit-label">52주 하락률</div><div class="crit-score" style="color:var(--gold)">20</div><div class="crit-max">/ 20점</div></div>
+    <div class="crit-item"><div class="crit-label">애널리스트 부정적</div><div class="crit-score" style="color:var(--gold)">15</div><div class="crit-max">/ 15점</div></div>
+    <div class="crit-item"><div class="crit-label">FCF 양수</div><div class="crit-score" style="color:var(--gold)">15</div><div class="crit-max">/ 15점</div></div>
+    <div class="crit-item"><div class="crit-label">낮은 D/E</div><div class="crit-score" style="color:var(--gold)">10</div><div class="crit-max">/ 10점</div></div>
+    <div class="crit-item"><div class="crit-label">주주 턴오버</div><div class="crit-score" style="color:var(--gold)">10</div><div class="crit-max">/ 10점</div></div>
+  </div>
+
+  <div id="loadingMsg" class="loading"><span class="spin"></span>데이터 로딩 중...</div>
+
+  <div id="content" style="display:none">
+
+    <!-- Top 30 Chart -->
+    <div class="chart-sec">
+      <h2>📊 Burry Score TOP 30</h2>
+      <div class="chart-wrap"><canvas id="barChart"></canvas></div>
+    </div>
+
+    <!-- Filter -->
+    <div class="filter-bar">
+      <span class="filter-label">검색</span>
+      <input type="text" id="searchInput" placeholder="티커 또는 종목명..." oninput="renderTable()">
+      <span class="filter-label">정렬</span>
+      <select id="sortSelect" onchange="renderTable()">
+        <option value="score">Burry Score 높은순</option>
+        <option value="pb">P/B 낮은순</option>
+        <option value="drop">낙폭 큰순</option>
+        <option value="mc">시총 큰순</option>
+      </select>
+      <div class="result-count" id="resultCount"></div>
+    </div>
+
+    <!-- Table -->
+    <div class="tbl-sec">
+      <h2 id="tableTitle">🔥 Burry Zone — 60점 이상 종목</h2>
+      <table>
+        <thead>
+          <tr>
+            <th class="c">#</th>
+            <th>티커</th>
+            <th>종목명</th>
+            <th class="hide-m">섹터</th>
+            <th class="c">Score</th>
+            <th class="r hide-m">P/B</th>
+            <th class="r hide-m">고점대비</th>
+            <th class="r hide-m">애널리스트</th>
+            <th class="r hide-m">D/E</th>
+            <th class="r">시가총액</th>
+            <th class="c">등급</th>
+          </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+      </table>
+    </div>
+
+  </div><!-- /content -->
+</div><!-- /main -->
+
+<!-- Share Bar -->
+<div style="max-width:1400px;margin:0 auto;padding:0 20px">
+  <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:12px;margin-top:4px;overflow:hidden">
+    <div class="share-bar" style="border-top:none">
+      <div class="share-bar-preview"><span>Burry Style Screener</span> — herdvibe.com</div>
+      <div class="share-bar-buttons">
+        <button class="share-btn share-btn--x" onclick="doShare('twitter')"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg><span class="label-text">트위터</span></button>
+        <button class="share-btn share-btn--kakao" onclick="doShare('kakao')"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 3C6.477 3 2 6.463 2 10.691c0 2.724 1.8 5.112 4.508 6.458l-1.148 4.265a.5.5 0 0 0 .764.533l4.94-3.26c.304.02.612.03.936.03 5.523 0 10-3.462 10-7.735C22 6.463 17.523 3 12 3z"/></svg><span class="label-text">카카오톡</span></button>
+        <button class="share-btn share-btn--tg" onclick="doShare('telegram')"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.479.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg><span class="label-text">텔레그램</span></button>
+        <button class="share-btn share-btn--copy" onclick="doShare('link',this)"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg><span class="label-text">링크 복사</span></button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="wm">데이터: yfinance · iShares IWM Russell 2000 · <a href="https://herdvibe.com" target="_blank">herdvibe.com</a> · 투자 참고용, 매매 추천 아님</div>
+
+<script src="https://t1.kakaocdn.net/kakao_js_sdk/2.6.0/kakao.min.js"></script>
+<script>
+/* ─── Share ─── */
+var SHARE_URL = 'https://herdvibe.com/134';
+function ensureKakao(){try{if(typeof Kakao!=='undefined'&&!Kakao.isInitialized())Kakao.init('a43ed7b39fac35458f4f9df925a279b5');return typeof Kakao!=='undefined'&&Kakao.isInitialized();}catch(e){return false;}}
+ensureKakao();
+function kakaoShare(){if(!ensureKakao()){copyToClipboard(SHARE_URL);toast('링크 복사완료! 카카오톡에 붙여넣기 하세요');return;}try{Kakao.Share.sendDefault({objectType:'feed',content:{title:'Burry Style Screener | HerdVibe',description:'Russell 2000 종목 중 Burry 기준 저평가 종목 스크리너',imageUrl:'https://raw.githubusercontent.com/kittycapital/kittycapital.github.io/main/assets/herdvibe-og.png',link:{mobileWebUrl:SHARE_URL,webUrl:SHARE_URL}},buttons:[{title:'스크리너 보기',link:{mobileWebUrl:SHARE_URL,webUrl:SHARE_URL}}]});}catch(e){copyToClipboard(SHARE_URL);toast('링크 복사완료!');}}
+function copyToClipboard(text){try{if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(text).catch(function(){fallbackCopy(text);});}else{fallbackCopy(text);}}catch(e){fallbackCopy(text);}}
+function fallbackCopy(text){try{window.parent.postMessage({type:'clipboard',text:text},'*');}catch(e){}try{var ta=document.createElement('textarea');ta.value=text;ta.style.cssText='position:fixed;left:-9999px';document.body.appendChild(ta);ta.select();document.execCommand('copy');document.body.removeChild(ta);}catch(e){}}
+function flashCopied(btn){if(!btn)return;var orig=btn.innerHTML;btn.style.background='#f5c842';btn.style.color='#000';btn.style.borderColor='#f5c842';btn.innerHTML='<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><path d="M5 13l4 4L19 7"/></svg><span class="label-text">복사됨!</span>';setTimeout(function(){btn.style.background='';btn.style.color='';btn.style.borderColor='';btn.innerHTML=orig;},2000);}
+function doShare(p,btn){var u=SHARE_URL;var t=encodeURIComponent('Burry Style Screener | herdvibe.com — Russell 2000 저평가 종목 스크리너');var eu=encodeURIComponent(u);switch(p){case'twitter':window.open('https://twitter.com/intent/tweet?text='+t+'&url='+eu,'_blank');break;case'telegram':window.open('https://t.me/share/url?url='+eu+'&text='+t,'_blank');break;case'kakao':kakaoShare();break;case'link':copyToClipboard(u);flashCopied(btn);toast('링크가 복사되었습니다 ✓');break;}}
+function toast(msg){var c=document.querySelector('.toast-wrap');if(!c){c=document.createElement('div');c.className='toast-wrap';document.body.appendChild(c);}var t=document.createElement('div');t.className='toast';t.textContent=msg;c.appendChild(t);setTimeout(function(){t.style.opacity='0';t.style.transform='translateY(12px)';t.style.transition='.3s';setTimeout(function(){t.remove();},300);},3000);}
+
+/* ─── State ─── */
+let DATA = null;
+let viewMode = 'burry';   // burry | watch | all
+let sectorFilter = '전체';
+let chart = null;
+
+/* ─── Helpers ─── */
+const fmtMC = n => {
+  if(!n) return '-';
+  if(n >= 1e9) return '$'+(n/1e9).toFixed(1)+'B';
+  if(n >= 1e6) return '$'+(n/1e6).toFixed(0)+'M';
+  return '$'+n.toLocaleString();
+};
+
+function scoreColor(s){
+  if(s >= 75) return '#f5c842';
+  if(s >= 60) return '#ff9100';
+  if(s >= 45) return '#00d4ff';
+  return '#555555';
+}
+
+function zoneLabel(s){
+  if(s >= 60) return '<span class="zone-bdg zone-burry">🔥 BURRY</span>';
+  if(s >= 45) return '<span class="zone-bdg zone-watch">👀 WATCH</span>';
+  return '<span class="zone-bdg zone-normal">—</span>';
+}
+
+function analystLabel(v){
+  if(!v && v !== 0) return '-';
+  const labels = ['','Strong Buy','Buy','Hold','Sell','Strong Sell'];
+  const idx = Math.round(v);
+  return `<span style="color:${v>=3.5?'#ff3d5a':v>=3?'#ff9100':'#00e676'}">${labels[idx]||v.toFixed(1)}</span>`;
+}
+
+/* ─── Get filtered data ─── */
+function getFiltered(){
+  if(!DATA) return [];
+  let arr;
+  if(viewMode === 'burry')     arr = DATA.burry_zone || [];
+  else if(viewMode === 'watch') arr = DATA.watchlist || [];
+  else                          arr = DATA.all_results || [];
+
+  // 섹터 필터
+  if(sectorFilter !== '전체'){
+    arr = arr.filter(r => r.sector === sectorFilter);
+  }
+
+  // 검색
+  const q = (document.getElementById('searchInput')?.value || '').toLowerCase();
+  if(q) arr = arr.filter(r => r.ticker.toLowerCase().includes(q) || r.name.toLowerCase().includes(q));
+
+  // 정렬
+  const sort = document.getElementById('sortSelect')?.value || 'score';
+  arr = [...arr];
+  if(sort === 'score') arr.sort((a,b) => b.score - a.score);
+  else if(sort === 'pb') arr.sort((a,b) => (a.details?.pb_ratio||999) - (b.details?.pb_ratio||999));
+  else if(sort === 'drop') arr.sort((a,b) => (a.details?.drop_from_high_pct||0) - (b.details?.drop_from_high_pct||0));
+  else if(sort === 'mc') arr.sort((a,b) => (b.market_cap||0) - (a.market_cap||0));
+
+  return arr;
+}
+
+/* ─── Render Chart ─── */
+function renderChart(){
+  const top30 = (DATA?.all_results || []).slice(0, 30);
+  if(!top30.length) return;
+
+  const labels = top30.map(r => r.ticker);
+  const vals   = top30.map(r => r.score);
+  const colors = top30.map(r => {
+    if(r.score >= 75) return 'rgba(245,200,66,.9)';
+    if(r.score >= 60) return 'rgba(255,145,0,.8)';
+    if(r.score >= 45) return 'rgba(0,212,255,.7)';
+    return 'rgba(100,100,100,.5)';
+  });
+
+  if(chart) chart.destroy();
+  chart = new Chart(document.getElementById('barChart').getContext('2d'),{
+    type:'bar',
+    data:{labels, datasets:[{data:vals, backgroundColor:colors, borderWidth:0, borderRadius:4, barThickness:16}]},
+    options:{
+      responsive:true, maintainAspectRatio:false,
+      plugins:{
+        legend:{display:false},
+        tooltip:{
+          backgroundColor:'#1a1a1a', titleColor:'#e8e8e8', bodyColor:'#aaa',
+          borderColor:'#333', borderWidth:1, padding:12,
+          titleFont:{family:'JetBrains Mono',weight:'700',size:13},
+          bodyFont:{family:'JetBrains Mono',size:11},
+          callbacks:{
+            title: t => top30[t[0].dataIndex].ticker + ' — ' + top30[t[0].dataIndex].name,
+            label: t => {
+              const r = top30[t.dataIndex];
+              const d = r.details || {};
+              return [
+                `Burry Score: ${r.score}/100`,
+                `P/B: ${d.pb_ratio ?? '-'} (${d.pb_score ?? 0}점)`,
+                `고점대비: ${d.drop_from_high_pct ?? '-'}% (${d.drop_score ?? 0}점)`,
+                `FCF: ${d.fcf_score ? '양수 ✓' : '음수/없음'} (${d.fcf_score ?? 0}점)`,
+                `D/E: ${d.debt_to_equity ?? '-'}% (${d.de_score ?? 0}점)`,
+              ];
+            }
+          }
+        },
+        annotation:{} // placeholder
+      },
+      scales:{
+        x:{grid:{color:'rgba(255,255,255,.04)'},ticks:{color:'#888',font:{family:'JetBrains Mono',size:10}}},
+        y:{
+          grid:{color:'rgba(255,255,255,.04)'},
+          ticks:{color:'#666',font:{family:'JetBrains Mono',size:10}},
+          min:0, max:100,
+          // 60점 기준선
+        }
+      }
+    }
+  });
+}
+
+/* ─── Render Table ─── */
+function renderTable(){
+  const arr = getFiltered();
+  document.getElementById('resultCount').textContent = `${arr.length}개 종목`;
+
+  // 테이블 타이틀
+  const titles = {burry:'🔥 Burry Zone — 60점 이상 종목', watch:'👀 Watchlist — 45~59점 종목', all:'전체 스크리닝 결과'};
+  document.getElementById('tableTitle').textContent = titles[viewMode] || '';
+
+  const tbody = document.getElementById('tbody');
+  tbody.innerHTML = arr.map((r, i) => {
+    const d = r.details || {};
+    const pb = d.pb_ratio != null ? d.pb_ratio.toFixed(2) : '-';
+    const drop = d.drop_from_high_pct != null ? d.drop_from_high_pct.toFixed(1)+'%' : '-';
+    const dropColor = d.drop_from_high_pct != null && d.drop_from_high_pct <= -40 ? 'var(--green)' : d.drop_from_high_pct != null && d.drop_from_high_pct <= -25 ? 'var(--orange)' : 'var(--t2)';
+
+    // Score bar
+    const barColor = scoreColor(r.score);
+    const barWidth = Math.min(r.score, 100);
+
+    return `<tr>
+      <td class="rk${i < 3 ? ' gold' : ''}">${i+1}</td>
+      <td class="tk">${r.ticker}</td>
+      <td class="nm" title="${r.name}">${r.name}</td>
+      <td class="hide-m"><span class="sector-bdg">${r.sector || '-'}</span></td>
+      <td>
+        <div class="score-bar-wrap">
+          <div class="score-bar-bg"><div class="score-bar-fill" style="width:${barWidth}%;background:${barColor}"></div></div>
+          <span class="score-num" style="color:${barColor}">${r.score}</span>
+        </div>
+      </td>
+      <td class="val hide-m" style="color:${d.pb_ratio != null && d.pb_ratio <= 1.5 ? 'var(--green)' : 'var(--t2)'}">${pb}</td>
+      <td class="val hide-m" style="color:${dropColor}">${drop}</td>
+      <td class="val hide-m">${analystLabel(d.analyst_mean)}</td>
+      <td class="val hide-m neutral">${d.debt_to_equity != null ? (d.debt_to_equity/100).toFixed(2) : '-'}</td>
+      <td class="val neutral">${fmtMC(r.market_cap)}</td>
+      <td class="c">${zoneLabel(r.score)}</td>
+    </tr>`;
+  }).join('');
+}
+
+/* ─── Tab Events ─── */
+document.querySelectorAll('#viewTabs .tb').forEach(b => b.addEventListener('click', () => {
+  document.querySelectorAll('#viewTabs .tb').forEach(x => x.classList.remove('on'));
+  b.classList.add('on');
+  viewMode = b.dataset.v;
+  renderTable();
+}));
+document.querySelectorAll('#sectorTabs .tb').forEach(b => b.addEventListener('click', () => {
+  document.querySelectorAll('#sectorTabs .tb').forEach(x => x.classList.remove('on-s'));
+  b.classList.add('on-s');
+  sectorFilter = b.dataset.s;
+  renderTable();
+}));
+
+/* ─── iframe 높이 ─── */
+var _lastH=0,_ht,_locked=false;
+function sendHeight(){
+  if(_locked)return;
+  clearTimeout(_ht);
+  _ht=setTimeout(function(){
+    var wm=document.querySelector('.wm');
+    var h=wm?(wm.offsetTop+wm.offsetHeight+20):document.body.scrollHeight;
+    if(Math.abs(h-_lastH)>10){_lastH=h;_locked=true;window.parent.postMessage({type:'resize',height:h},'*');setTimeout(function(){_locked=false;},500);}
+  },200);
+}
+window.addEventListener('message',function(e){if(e.data&&e.data.type==='requestResize'){_lastH=0;_locked=false;sendHeight();}});
+
+/* ─── Init ─── */
+async function init(){
+  try {
+    const r = await fetch('data/burry_scores.json');
+    if(!r.ok) throw new Error(`HTTP ${r.status}`);
+    DATA = await r.json();
+
+    // Summary
+    document.getElementById('sTotal').textContent  = (DATA.total_screened || 0).toLocaleString();
+    document.getElementById('sBurry').textContent  = (DATA.burry_zone_count || 0).toLocaleString();
+    document.getElementById('sWatch').textContent  = (DATA.watchlist_count || 0).toLocaleString();
+    const topScore = DATA.all_results?.[0]?.score ?? '-';
+    document.getElementById('sTop').textContent = topScore;
+
+    // Date
+    document.getElementById('updateDate').textContent = `updated: ${DATA.updated_kst || DATA.updated_at}`;
+
+    document.getElementById('loadingMsg').style.display = 'none';
+    document.getElementById('content').style.display = 'block';
+
+    renderChart();
+    renderTable();
+  } catch(e){
+    document.getElementById('loadingMsg').innerHTML =
+      `<span style="color:var(--red)">데이터 로딩 실패: ${e.message}</span><br><small style="color:var(--t3)">data/burry_scores.json 파일을 확인해주세요</small>`;
+  }
+  sendHeight();
+  window.addEventListener('resize', sendHeight);
+}
+
+document.addEventListener('DOMContentLoaded', init);
+</script>
+</body>
+</html>
