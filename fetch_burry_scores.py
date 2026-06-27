@@ -44,19 +44,23 @@ def load_iwm_tickers():
         return tickers[:MAX_TICKERS], sectors, names
     except Exception as e:
         print(f"[ERROR] IWM CSV 로드 실패: {e}")
-        # 폴백: 로컬 CSV
-        try:
-            df = pd.read_csv("data/iwm_holdings.csv", skiprows=9)
-            df = df[df['Asset Class'] == 'Equity']
-            df = df[df['Ticker'].notna()]
-            tickers = df['Ticker'].str.strip().tolist()
-            sectors = dict(zip(df['Ticker'].str.strip(), df['Sector'].fillna('Unknown')))
-            names   = dict(zip(df['Ticker'].str.strip(), df['Name'].fillna('')))
-            print(f"[OK] 로컬 CSV 폴백 {len(tickers)}개 로드")
-            return tickers[:MAX_TICKERS], sectors, names
-        except Exception as e2:
-            print(f"[ERROR] 로컬 CSV도 실패: {e2}")
-            return [], {}, {}
+        # 폴백: 로컬 CSV (대소문자 둘 다 시도)
+        for csv_path in ["data/IWM_holdings.csv", "data/iwm_holdings.csv"]:
+            try:
+                df = pd.read_csv(csv_path, skiprows=9, on_bad_lines='skip')
+                df = df[df['Asset Class'] == 'Equity']
+                df = df[df['Ticker'].notna()]
+                df = df[df['Ticker'].str.strip() != '-']
+                tickers = df['Ticker'].str.strip().tolist()
+                sectors = dict(zip(df['Ticker'].str.strip(), df['Sector'].fillna('Unknown')))
+                names   = dict(zip(df['Ticker'].str.strip(), df['Name'].fillna('')))
+                print(f"[OK] 로컬 CSV 폴백 ({csv_path}) {len(tickers)}개 로드")
+                return tickers[:MAX_TICKERS], sectors, names
+            except Exception as e2:
+                print(f"[ERROR] {csv_path} 실패: {e2}")
+                continue
+        print(f"[ERROR] 로컬 CSV도 모두 실패")
+        return [], {}, {}
 
 
 # ── 2. Hard Filter ─────────────────────────────────────
@@ -137,12 +141,11 @@ def calc_burry_score(info, history):
         details['drop_score'] = 0
 
     # 3) Analyst Consensus Negativity — 15점
-    # recommendationMean: 1=Strong Buy, 2=Buy, 3=Hold, 4=Sell, 5=Strong Sell
     rec = info.get('recommendationMean')
     if rec is not None:
-        if rec >= 3.5:      # 월가가 싫어함
+        if rec >= 3.5:
             s = 15
-        elif rec >= 3.0:    # Hold 이하
+        elif rec >= 3.0:
             s = 8
         else:
             s = 0
@@ -170,11 +173,11 @@ def calc_burry_score(info, history):
     # 5) Debt/Equity 낮음 (Balance Sheet Strength) — 10점
     de = info.get('debtToEquity')
     if de is not None:
-        if de < 30:         # D/E < 0.3
+        if de < 30:
             s = 10
-        elif de < 80:       # D/E < 0.8
+        elif de < 80:
             s = 6
-        elif de < 150:      # D/E < 1.5
+        elif de < 150:
             s = 3
         else:
             s = 0
@@ -189,7 +192,6 @@ def calc_burry_score(info, history):
     shares = info.get('floatShares') or info.get('sharesOutstanding')
     avg_vol = info.get('averageVolume3Month') or info.get('averageVolume')
     if shares and avg_vol and shares > 0:
-        # 3개월(63 거래일) 기준 turnover 배수
         turnover = (avg_vol * 63) / shares
         if turnover >= 10:
             s = 10
@@ -224,24 +226,18 @@ def process_tickers(tickers, sectors, names):
                 tk = yf.Ticker(ticker)
                 info = tk.info
 
-                # info가 비어있으면 스킵
                 if not info or info.get('quoteType') not in ('EQUITY', 'ETF', None):
                     continue
                 if info.get('quoteType') == 'ETF':
                     continue
 
-                # Hard Filter
                 ok, reason = passes_hard_filter(info)
                 if not ok:
                     continue
 
-                # 최근 3개월 히스토리 (turnover 계산용)
                 hist = tk.history(period="3mo")
-
-                # Burry Score
                 score, details = calc_burry_score(info, hist)
 
-                # 결과 저장
                 mc = info.get('marketCap', 0) or 0
                 result = {
                     "ticker":   ticker,
@@ -258,7 +254,6 @@ def process_tickers(tickers, sectors, names):
                 failed.append(ticker)
                 print(f"  [SKIP] {ticker}: {e}")
 
-        # Rate limit 방지
         time.sleep(SLEEP_BETWEEN + random.uniform(0, 0.5))
 
     return results, failed
@@ -270,23 +265,17 @@ def main():
     print(f"Burry Screener 실행: {datetime.datetime.utcnow().strftime('%Y-%m-%d %H:%M UTC')}")
     print("=" * 60)
 
-    # 티커 로드
     tickers, sectors, names = load_iwm_tickers()
     if not tickers:
         print("[ERROR] 티커 로드 실패. 종료.")
         return
 
-    # 처리
     results, failed = process_tickers(tickers, sectors, names)
-
-    # 점수 순 정렬
     results.sort(key=lambda x: x['score'], reverse=True)
 
-    # Burry Zone 판별 (60점 이상)
     burry_zone = [r for r in results if r['score'] >= 60]
     watchlist  = [r for r in results if 45 <= r['score'] < 60]
 
-    # 출력 JSON
     output = {
         "updated_at":  datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC"),
         "updated_kst": (datetime.datetime.utcnow() + datetime.timedelta(hours=9)).strftime("%Y-%m-%d %H:%M KST"),
@@ -294,13 +283,12 @@ def main():
         "burry_zone_count": len(burry_zone),
         "watchlist_count":  len(watchlist),
         "failed_count":     len(failed),
-        "all_results":  results,          # 전체 (점수순)
-        "burry_zone":   burry_zone,       # 60점 이상
-        "watchlist":    watchlist,        # 45~59점
-        "top30":        results[:30],     # 상위 30개
+        "all_results":  results,
+        "burry_zone":   burry_zone,
+        "watchlist":    watchlist,
+        "top30":        results[:30],
     }
 
-    # 저장
     os.makedirs("data", exist_ok=True)
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
