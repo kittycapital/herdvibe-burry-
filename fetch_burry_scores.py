@@ -1,7 +1,7 @@
 """
 fetch_burry_scores.py
 Burry Style Stock Screener — HerdVibe
-매일 GitHub Actions에서 실행: IWM 보유 종목 → yfinance → 스코어링 → JSON 저장
+매일 GitHub Actions에서 실행: IWV 보유 종목 → yfinance → 스코어링 → JSON 저장
 """
 
 import json
@@ -15,24 +15,22 @@ from io import StringIO
 
 # ── 설정 ──────────────────────────────────────────────
 OUTPUT_PATH = "data/burry_scores.json"
-IWM_CSV_URL = "https://www.ishares.com/us/products/239714/IWV/1467271812596.ajax?tab=holdings&fileType=csv"
-BATCH_SIZE = 10       # 한 번에 처리할 종목 수
-SLEEP_BETWEEN = 1.5   # 배치 간 대기(초)
-MAX_TICKERS = 2000    # 전체 처리 상한
+IWV_CSV_URL = "https://www.ishares.com/us/products/239714/IWV/1467271812596.ajax?tab=holdings&fileType=csv"
+BATCH_SIZE = 10
+SLEEP_BETWEEN = 1.5
+MAX_TICKERS = 3000
 
 
-# ── 1. IWM 티커 로드 ───────────────────────────────────
-def load_iwm_tickers():
-    """iShares IWM CSV에서 Russell 2000 구성 종목 티커 추출"""
+# ── 1. IWV 티커 로드 ───────────────────────────────────
+def load_iwv_tickers():
     try:
         import requests
         headers = {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
             "Referer": "https://www.ishares.com/"
         }
-        r = requests.get(IWM_CSV_URL, headers=headers, timeout=30)
+        r = requests.get(IWV_CSV_URL, headers=headers, timeout=30)
         r.raise_for_status()
-        # 앞 9행 메타데이터 스킵
         df = pd.read_csv(StringIO(r.text), skiprows=9, on_bad_lines='skip')
         df = df[df['Asset Class'] == 'Equity']
         df = df[df['Ticker'].notna()]
@@ -40,11 +38,10 @@ def load_iwm_tickers():
         tickers = df['Ticker'].str.strip().tolist()
         sectors = dict(zip(df['Ticker'].str.strip(), df['Sector'].fillna('Unknown')))
         names   = dict(zip(df['Ticker'].str.strip(), df['Name'].fillna('')))
-        print(f"[OK] IWM 구성 종목 {len(tickers)}개 로드")
+        print(f"[OK] IWV 구성 종목 {len(tickers)}개 로드")
         return tickers[:MAX_TICKERS], sectors, names
     except Exception as e:
-        print(f"[ERROR] IWM CSV 로드 실패: {e}")
-        # 폴백: 로컬 CSV (대소문자 둘 다 시도)
+        print(f"[ERROR] IWV CSV 로드 실패: {e}")
         for csv_path in ["data/IWV_holdings.csv", "data/iwv_holdings.csv"]:
             try:
                 df = pd.read_csv(csv_path, skiprows=9, on_bad_lines='skip')
@@ -63,22 +60,71 @@ def load_iwm_tickers():
         return [], {}, {}
 
 
-# ── 2. Hard Filter ─────────────────────────────────────
+# ── 2. 분기별 매출 성장 확인 ────────────────────────────
+def get_revenue_growth_quarters(tk):
+    """
+    분기별 매출 YoY 성장 연속 횟수 반환
+    - 최근 분기부터 역순으로 확인
+    - YoY: 같은 분기 전년 대비 비교
+    """
+    try:
+        # quarterly_financials: 컬럼=분기, 인덱스=항목
+        qf = tk.quarterly_financials
+        if qf is None or qf.empty:
+            return 0, []
+
+        # Total Revenue 행 찾기
+        revenue_row = None
+        for idx in qf.index:
+            if 'revenue' in str(idx).lower() or 'Revenue' in str(idx):
+                revenue_row = idx
+                break
+        if revenue_row is None:
+            return 0, []
+
+        rev = qf.loc[revenue_row].dropna().sort_index(ascending=False)
+        # 최소 5분기 필요 (현재 4분기 + 1년 전 비교용)
+        if len(rev) < 5:
+            return 0, []
+
+        quarters = list(rev.index)
+        values   = list(rev.values)
+
+        growth_quarters = []
+        consecutive = 0
+
+        for i in range(min(4, len(quarters) - 4)):
+            # 현재 분기 vs 1년 전(4분기 전) 비교
+            current = values[i]
+            prior   = values[i + 4]
+            if prior and prior != 0 and current and current > prior:
+                consecutive += 1
+                growth_quarters.append({
+                    "quarter": str(quarters[i])[:10],
+                    "yoy_growth_pct": round((current - prior) / abs(prior) * 100, 1)
+                })
+            else:
+                break  # 연속이 끊기면 중단
+
+        return consecutive, growth_quarters
+
+    except Exception as e:
+        return 0, []
+
+
+# ── 3. Hard Filter ─────────────────────────────────────
 def passes_hard_filter(info):
-    """
-    이것 중 하나라도 해당하면 탈락 (dying / 재무위험 종목 제거)
-    """
     # 시가총액 $50M 미만
     mc = info.get('marketCap', 0) or 0
     if mc < 50_000_000:
         return False, "시총 $50M 미만"
 
-    # Debt/Equity > 3 (과도한 부채)
+    # Debt/Equity > 3
     de = info.get('debtToEquity')
-    if de is not None and de > 300:   # yfinance는 %단위 반환 (300 = 3.0)
+    if de is not None and de > 300:
         return False, f"D/E {de:.0f}% 초과"
 
-    # 영업현금흐름 음수 (최근)
+    # 영업현금흐름 음수
     ocf = info.get('operatingCashflow')
     if ocf is not None and ocf < 0:
         return False, "영업현금흐름 음수"
@@ -86,33 +132,32 @@ def passes_hard_filter(info):
     return True, "OK"
 
 
-# ── 3. Burry Score 계산 ────────────────────────────────
-def calc_burry_score(info, history):
+# ── 4. Burry Score 계산 (120점 만점) ──────────────────
+def calc_burry_score(info, tk):
     """
-    100점 만점 Burry Long Score
-    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-    P/B ≤ 1.5                    → 30점
-    52주 고점 대비 -40% 이상 하락 → 20점
-    Analyst 매수 비율 낮음        → 15점
-    FCF 양수                      → 15점
-    Debt/Equity < 50%            → 10점
-    Shareholder Turnover 높음    → 10점
-    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    120점 만점 Burry Long Score
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    P/B ≤ 1.5                      → 30점
+    52주 고점 대비 -40% 이상 하락   → 20점
+    매출 분기 연속 성장 (YoY)       → 20점 (신규)
+    Analyst 부정적                  → 15점
+    FCF 양수                        → 15점
+    Debt/Equity 낮음                → 10점
+    Shareholder Turnover 높음       → 10점
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    Burry Zone: 75점 이상
+    Watchlist:  55~74점
     """
     score = 0
     details = {}
 
-    # 1) P/B Ratio (Tangible Book Value Anchor) — 30점
+    # 1) P/B Ratio — 30점
     pb = info.get('priceToBook')
     if pb is not None:
-        if pb <= 1.0:
-            s = 30
-        elif pb <= 1.5:
-            s = 20
-        elif pb <= 2.0:
-            s = 10
-        else:
-            s = 0
+        if pb <= 1.0:   s = 30
+        elif pb <= 1.5: s = 20
+        elif pb <= 2.0: s = 10
+        else:           s = 0
         score += s
         details['pb_ratio'] = round(pb, 2)
         details['pb_score'] = s
@@ -120,19 +165,15 @@ def calc_burry_score(info, history):
         details['pb_ratio'] = None
         details['pb_score'] = 0
 
-    # 2) 52주 고점 대비 하락률 (Capitulation) — 20점
-    high52 = info.get('fiftyTwoWeekHigh')
+    # 2) 52주 고점 대비 하락률 — 20점
+    high52    = info.get('fiftyTwoWeekHigh')
     cur_price = info.get('currentPrice') or info.get('regularMarketPrice')
     if high52 and cur_price and high52 > 0:
         drop_pct = (cur_price - high52) / high52 * 100
-        if drop_pct <= -60:
-            s = 20
-        elif drop_pct <= -40:
-            s = 15
-        elif drop_pct <= -25:
-            s = 8
-        else:
-            s = 0
+        if drop_pct <= -60:   s = 20
+        elif drop_pct <= -40: s = 15
+        elif drop_pct <= -25: s = 8
+        else:                 s = 0
         score += s
         details['drop_from_high_pct'] = round(drop_pct, 1)
         details['drop_score'] = s
@@ -140,82 +181,79 @@ def calc_burry_score(info, history):
         details['drop_from_high_pct'] = None
         details['drop_score'] = 0
 
-    # 3) Analyst Consensus Negativity — 15점
+    # 3) 매출 분기 연속 성장 (YoY) — 20점 ★신규★
+    consec, growth_qtrs = get_revenue_growth_quarters(tk)
+    if consec >= 3:   s = 20
+    elif consec == 2: s = 10
+    elif consec == 1: s = 5
+    else:             s = 0
+    score += s
+    details['revenue_growth_quarters'] = consec
+    details['revenue_growth_detail']   = growth_qtrs
+    details['revenue_score']           = s
+
+    # 4) Analyst Consensus Negativity — 15점
     rec = info.get('recommendationMean')
     if rec is not None:
-        if rec >= 3.5:
-            s = 15
-        elif rec >= 3.0:
-            s = 8
-        else:
-            s = 0
+        if rec >= 3.5:   s = 15
+        elif rec >= 3.0: s = 8
+        else:            s = 0
         score += s
-        details['analyst_mean'] = round(rec, 2)
+        details['analyst_mean']  = round(rec, 2)
         details['analyst_score'] = s
     else:
-        details['analyst_mean'] = None
+        details['analyst_mean']  = None
         details['analyst_score'] = 0
 
-    # 4) Free Cash Flow 양수 — 15점
+    # 5) FCF 양수 — 15점
     fcf = info.get('freeCashflow')
     if fcf is not None:
-        if fcf > 0:
-            s = 15
-        else:
-            s = 0
+        s = 15 if fcf > 0 else 0
         score += s
-        details['fcf'] = fcf
+        details['fcf']       = fcf
         details['fcf_score'] = s
     else:
-        details['fcf'] = None
+        details['fcf']       = None
         details['fcf_score'] = 0
 
-    # 5) Debt/Equity 낮음 (Balance Sheet Strength) — 10점
+    # 6) Debt/Equity — 10점
     de = info.get('debtToEquity')
     if de is not None:
-        if de < 30:
-            s = 10
-        elif de < 80:
-            s = 6
-        elif de < 150:
-            s = 3
-        else:
-            s = 0
+        if de < 30:    s = 10
+        elif de < 80:  s = 6
+        elif de < 150: s = 3
+        else:          s = 0
         score += s
         details['debt_to_equity'] = round(de, 1)
-        details['de_score'] = s
+        details['de_score']       = s
     else:
         details['debt_to_equity'] = None
-        details['de_score'] = 0
+        details['de_score']       = 0
 
-    # 6) Shareholder Turnover (3개월 거래량 / 유통주식수) — 10점
-    shares = info.get('floatShares') or info.get('sharesOutstanding')
+    # 7) Shareholder Turnover — 10점
+    shares  = info.get('floatShares') or info.get('sharesOutstanding')
     avg_vol = info.get('averageVolume3Month') or info.get('averageVolume')
     if shares and avg_vol and shares > 0:
         turnover = (avg_vol * 63) / shares
-        if turnover >= 10:
-            s = 10
-        elif turnover >= 5:
-            s = 6
-        elif turnover >= 3:
-            s = 3
-        else:
-            s = 0
+        if turnover >= 10:  s = 10
+        elif turnover >= 5: s = 6
+        elif turnover >= 3: s = 3
+        else:               s = 0
         score += s
         details['shareholder_turnover'] = round(turnover, 1)
-        details['turnover_score'] = s
+        details['turnover_score']       = s
     else:
         details['shareholder_turnover'] = None
-        details['turnover_score'] = 0
+        details['turnover_score']       = 0
 
     return score, details
 
 
-# ── 4. 배치 처리 ───────────────────────────────────────
+# ── 5. 배치 처리 ───────────────────────────────────────
 def process_tickers(tickers, sectors, names):
     results = []
     failed  = []
-    total = len(tickers)
+    total   = len(tickers)
 
     for i in range(0, total, BATCH_SIZE):
         batch = tickers[i:i+BATCH_SIZE]
@@ -223,32 +261,28 @@ def process_tickers(tickers, sectors, names):
 
         for ticker in batch:
             try:
-                tk = yf.Ticker(ticker)
+                tk   = yf.Ticker(ticker)
                 info = tk.info
 
-                if not info or info.get('quoteType') not in ('EQUITY', 'ETF', None):
-                    continue
-                if info.get('quoteType') == 'ETF':
+                if not info or info.get('quoteType') == 'ETF':
                     continue
 
                 ok, reason = passes_hard_filter(info)
                 if not ok:
                     continue
 
-                hist = tk.history(period="3mo")
-                score, details = calc_burry_score(info, hist)
+                score, details = calc_burry_score(info, tk)
 
                 mc = info.get('marketCap', 0) or 0
-                result = {
-                    "ticker":   ticker,
-                    "name":     names.get(ticker, info.get('longName', ticker)),
-                    "sector":   sectors.get(ticker, info.get('sector', 'Unknown')),
-                    "score":    score,
-                    "price":    info.get('currentPrice') or info.get('regularMarketPrice'),
+                results.append({
+                    "ticker":     ticker,
+                    "name":       names.get(ticker, info.get('longName', ticker)),
+                    "sector":     sectors.get(ticker, info.get('sector', 'Unknown')),
+                    "score":      score,
+                    "price":      info.get('currentPrice') or info.get('regularMarketPrice'),
                     "market_cap": mc,
-                    "details":  details,
-                }
-                results.append(result)
+                    "details":    details,
+                })
 
             except Exception as e:
                 failed.append(ticker)
@@ -259,13 +293,13 @@ def process_tickers(tickers, sectors, names):
     return results, failed
 
 
-# ── 5. 메인 ───────────────────────────────────────────
+# ── 6. 메인 ───────────────────────────────────────────
 def main():
     print("=" * 60)
     print(f"Burry Screener 실행: {datetime.datetime.utcnow().strftime('%Y-%m-%d %H:%M UTC')}")
     print("=" * 60)
 
-    tickers, sectors, names = load_iwm_tickers()
+    tickers, sectors, names = load_iwv_tickers()
     if not tickers:
         print("[ERROR] 티커 로드 실패. 종료.")
         return
@@ -273,20 +307,22 @@ def main():
     results, failed = process_tickers(tickers, sectors, names)
     results.sort(key=lambda x: x['score'], reverse=True)
 
-    burry_zone = [r for r in results if r['score'] >= 60]
-    watchlist  = [r for r in results if 45 <= r['score'] < 60]
+    # 75점 이상 = Burry Zone, 55~74점 = Watchlist
+    burry_zone = [r for r in results if r['score'] >= 75]
+    watchlist  = [r for r in results if 55 <= r['score'] < 75]
 
     output = {
-        "updated_at":  datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC"),
-        "updated_kst": (datetime.datetime.utcnow() + datetime.timedelta(hours=9)).strftime("%Y-%m-%d %H:%M KST"),
-        "total_screened": len(results),
+        "updated_at":       datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC"),
+        "updated_kst":      (datetime.datetime.utcnow() + datetime.timedelta(hours=9)).strftime("%Y-%m-%d %H:%M KST"),
+        "total_screened":   len(results),
         "burry_zone_count": len(burry_zone),
         "watchlist_count":  len(watchlist),
         "failed_count":     len(failed),
-        "all_results":  results,
-        "burry_zone":   burry_zone,
-        "watchlist":    watchlist,
-        "top30":        results[:30],
+        "scoring_note":     "120점 만점 / Burry Zone 75점+ / Watchlist 55~74점",
+        "all_results":      results,
+        "burry_zone":       burry_zone,
+        "watchlist":        watchlist,
+        "top30":            results[:30],
     }
 
     os.makedirs("data", exist_ok=True)
@@ -294,8 +330,8 @@ def main():
         json.dump(output, f, ensure_ascii=False, indent=2)
 
     print(f"\n[완료] 총 {len(results)}개 스크리닝 완료")
-    print(f"  Burry Zone (60+): {len(burry_zone)}개")
-    print(f"  Watchlist (45-59): {len(watchlist)}개")
+    print(f"  Burry Zone (75+): {len(burry_zone)}개")
+    print(f"  Watchlist (55-74): {len(watchlist)}개")
     print(f"  실패: {len(failed)}개")
     print(f"  저장: {OUTPUT_PATH}")
 
