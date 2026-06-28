@@ -15,7 +15,7 @@ from io import StringIO
 
 # ── 설정 ──────────────────────────────────────────────
 OUTPUT_PATH = "data/burry_scores.json"
-IWM_CSV_URL = "https://www.ishares.com/us/products/239710/IWM/1467271812596.ajax?tab=holdings&fileType=csv"
+IWM_CSV_URL = "https://www.ishares.com/us/products/239714/IWV/1467271812596.ajax?tab=holdings&fileType=csv"
 BATCH_SIZE = 10       # 한 번에 처리할 종목 수
 SLEEP_BETWEEN = 1.5   # 배치 간 대기(초)
 MAX_TICKERS = 2000    # 전체 처리 상한
@@ -45,7 +45,7 @@ def load_iwm_tickers():
     except Exception as e:
         print(f"[ERROR] IWM CSV 로드 실패: {e}")
         # 폴백: 로컬 CSV (대소문자 둘 다 시도)
-        for csv_path in ["data/IWM_holdings.csv", "data/iwm_holdings.csv"]:
+        for csv_path in ["data/IWV_holdings.csv", "data/iwv_holdings.csv"]:
             try:
                 df = pd.read_csv(csv_path, skiprows=9, on_bad_lines='skip')
                 df = df[df['Asset Class'] == 'Equity']
