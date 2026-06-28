@@ -194,7 +194,7 @@ tbody td{padding:10px 12px;vertical-align:middle}
     <h1>⚡ Burry Style Screener</h1>
   </div>
   <span class="badge-up" id="updateDate">loading...</span>
-  <p class="hdr-sub">Russell 2000 종목 · Michael Burry 기준 6개 지표 스코어링 · 매일 자동 업데이트</p>
+  <p class="hdr-sub">Russell 3000 종목 · Michael Burry 기준 7개 지표 스코어링 · 120점 만점 · 매일 자동 업데이트</p>
 </div>
 
 <!-- Burry Quote -->
@@ -208,8 +208,8 @@ tbody td{padding:10px 12px;vertical-align:middle}
 <!-- Tabs -->
 <div class="tab-row">
   <div class="tg" id="viewTabs">
-    <button class="tb on" data-v="burry">🔥 Burry Zone (60+)</button>
-    <button class="tb" data-v="watch">👀 Watchlist (45~59)</button>
+    <button class="tb on" data-v="burry">🔥 Burry Zone (75+)</button>
+    <button class="tb" data-v="watch">👀 Watchlist (55~74)</button>
     <button class="tb" data-v="all">전체 보기</button>
   </div>
   <div class="tg" id="sectorTabs">
@@ -226,8 +226,8 @@ tbody td{padding:10px 12px;vertical-align:middle}
 <!-- Summary Cards -->
 <div class="sum-row">
   <div class="sum s-g"><div class="lb">총 스크리닝 종목</div><div class="vl" id="sTotal">-</div><div class="sb">Russell 2000 기준</div></div>
-  <div class="sum s-y"><div class="lb">🔥 Burry Zone</div><div class="vl" id="sBurry">-</div><div class="sb">60점 이상</div></div>
-  <div class="sum s-c"><div class="lb">👀 Watchlist</div><div class="vl" id="sWatch">-</div><div class="sb">45~59점</div></div>
+  <div class="sum s-y"><div class="lb">🔥 Burry Zone</div><div class="vl" id="sBurry">-</div><div class="sb">75점 이상</div></div>
+  <div class="sum s-c"><div class="lb">👀 Watchlist</div><div class="vl" id="sWatch">-</div><div class="sb">55~74점</div></div>
   <div class="sum s-o"><div class="lb">TOP 종목 점수</div><div class="vl" id="sTop">-</div><div class="sb">최고 Burry Score</div></div>
 </div>
 
@@ -237,6 +237,7 @@ tbody td{padding:10px 12px;vertical-align:middle}
     <div class="crit-item"><div class="crit-label">P/B Ratio</div><div class="crit-score" style="color:var(--gold)">30</div><div class="crit-max">/ 30점</div></div>
     <div class="crit-item"><div class="crit-label">52주 하락률</div><div class="crit-score" style="color:var(--gold)">20</div><div class="crit-max">/ 20점</div></div>
     <div class="crit-item"><div class="crit-label">애널리스트 부정적</div><div class="crit-score" style="color:var(--gold)">15</div><div class="crit-max">/ 15점</div></div>
+    <div class="crit-item"><div class="crit-label">매출 연속 성장</div><div class="crit-score" style="color:var(--gold)">20</div><div class="crit-max">/20점</div></div>
     <div class="crit-item"><div class="crit-label">FCF 양수</div><div class="crit-score" style="color:var(--gold)">15</div><div class="crit-max">/ 15점</div></div>
     <div class="crit-item"><div class="crit-label">낮은 D/E</div><div class="crit-score" style="color:var(--gold)">10</div><div class="crit-max">/ 10점</div></div>
     <div class="crit-item"><div class="crit-label">주주 턴오버</div><div class="crit-score" style="color:var(--gold)">10</div><div class="crit-max">/ 10점</div></div>
@@ -268,7 +269,7 @@ tbody td{padding:10px 12px;vertical-align:middle}
 
     <!-- Table -->
     <div class="tbl-sec">
-      <h2 id="tableTitle">🔥 Burry Zone — 60점 이상 종목</h2>
+      <h2 id="tableTitle">🔥 Burry Zone — 75점 이상 종목</h2>
       <table>
         <thead>
           <tr>
@@ -338,14 +339,14 @@ const fmtMC = n => {
 
 function scoreColor(s){
   if(s >= 75) return '#f5c842';
-  if(s >= 60) return '#ff9100';
+  if(s >= 55) return '#ff9100';
   if(s >= 45) return '#00d4ff';
   return '#555555';
 }
 
 function zoneLabel(s){
-  if(s >= 60) return '<span class="zone-bdg zone-burry">🔥 BURRY</span>';
-  if(s >= 45) return '<span class="zone-bdg zone-watch">👀 WATCH</span>';
+  if(s >= 75) return '<span class="zone-bdg zone-burry">🔥 BURRY</span>';
+  if(s >= 55) return '<span class="zone-bdg zone-watch">👀 WATCH</span>';
   return '<span class="zone-bdg zone-normal">—</span>';
 }
 
@@ -393,7 +394,7 @@ function renderChart(){
   const vals   = top30.map(r => r.score);
   const colors = top30.map(r => {
     if(r.score >= 75) return 'rgba(245,200,66,.9)';
-    if(r.score >= 60) return 'rgba(255,145,0,.8)';
+    if(r.score >= 75) return 'rgba(255,145,0,.8)';
     if(r.score >= 45) return 'rgba(0,212,255,.7)';
     return 'rgba(100,100,100,.5)';
   });
@@ -417,7 +418,7 @@ function renderChart(){
               const r = top30[t.dataIndex];
               const d = r.details || {};
               return [
-                `Burry Score: ${r.score}/100`,
+                `Burry Score: ${r.score}/120`,
                 `P/B: ${d.pb_ratio ?? '-'} (${d.pb_score ?? 0}점)`,
                 `고점대비: ${d.drop_from_high_pct ?? '-'}% (${d.drop_score ?? 0}점)`,
                 `FCF: ${d.fcf_score ? '양수 ✓' : '음수/없음'} (${d.fcf_score ?? 0}점)`,
@@ -447,7 +448,7 @@ function renderTable(){
   document.getElementById('resultCount').textContent = `${arr.length}개 종목`;
 
   // 테이블 타이틀
-  const titles = {burry:'🔥 Burry Zone — 60점 이상 종목', watch:'👀 Watchlist — 45~59점 종목', all:'전체 스크리닝 결과'};
+  const titles = {burry:'🔥 Burry Zone — 75점 이상 종목', watch:'👀 Watchlist — 55~74점 종목', all:'전체 스크리닝 결과'};
   document.getElementById('tableTitle').textContent = titles[viewMode] || '';
 
   const tbody = document.getElementById('tbody');
