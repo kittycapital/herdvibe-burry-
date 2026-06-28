@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-28 01:01 UTC",
-  "updated_kst": "2026-06-28 10:01 KST",
+  "updated_at": "2026-06-28 20:45 UTC",
+  "updated_kst": "2026-06-29 05:45 KST",
   "total_screened": 1947,
   "burry_zone_count": 16,
   "watchlist_count": 172,
@@ -12398,7 +12398,7 @@
         "fcf_score": 15,
         "debt_to_equity": 7.5,
         "de_score": 10,
-        "shareholder_turnover": 0.7,
+        "shareholder_turnover": 0.8,
         "turnover_score": 0
       }
     },
@@ -19053,6 +19053,36 @@
       }
     },
     {
+      "ticker": "CMC",
+      "name": "COMMERCIAL METALS",
+      "sector": "Materials",
+      "score": 36,
+      "price": 69.2,
+      "market_cap": 7660125184,
+      "details": {
+        "pb_ratio": 1.74,
+        "pb_score": 10,
+        "drop_from_high_pct": -18.5,
+        "drop_score": 0,
+        "revenue_growth_quarters": 1,
+        "revenue_growth_detail": [
+          {
+            "quarter": "2026-02-28",
+            "yoy_growth_pct": 13.6
+          }
+        ],
+        "revenue_score": 5,
+        "analyst_mean": 2.0,
+        "analyst_score": 0,
+        "fcf": 154783744,
+        "fcf_score": 15,
+        "debt_to_equity": 75.0,
+        "de_score": 6,
+        "shareholder_turnover": 0.6,
+        "turnover_score": 0
+      }
+    },
+    {
       "ticker": "VOYA",
       "name": "VOYA FINANCIAL INC",
       "sector": "Financials",
@@ -19224,6 +19254,36 @@
         "debt_to_equity": 55.1,
         "de_score": 6,
         "shareholder_turnover": 2.5,
+        "turnover_score": 0
+      }
+    },
+    {
+      "ticker": "KFY",
+      "name": "KORN FERRY",
+      "sector": "Industrials",
+      "score": 36,
+      "price": 72.19,
+      "market_cap": 3625742848,
+      "details": {
+        "pb_ratio": 1.86,
+        "pb_score": 10,
+        "drop_from_high_pct": -8.0,
+        "drop_score": 0,
+        "revenue_growth_quarters": 1,
+        "revenue_growth_detail": [
+          {
+            "quarter": "2026-01-31",
+            "yoy_growth_pct": 2.8
+          }
+        ],
+        "revenue_score": 5,
+        "analyst_mean": 1.4,
+        "analyst_score": 0,
+        "fcf": 244188256,
+        "fcf_score": 15,
+        "debt_to_equity": 30.1,
+        "de_score": 6,
+        "shareholder_turnover": 0.7,
         "turnover_score": 0
       }
     },
@@ -19844,6 +19904,36 @@
         "debt_to_equity": 39.2,
         "de_score": 6,
         "shareholder_turnover": 1.2,
+        "turnover_score": 0
+      }
+    },
+    {
+      "ticker": "HON",
+      "name": "HONEYWELL INTERNATIONAL INC",
+      "sector": "Industrials",
+      "score": 35,
+      "price": 232.21,
+      "market_cap": 73570295808,
+      "details": {
+        "pb_ratio": 5.41,
+        "pb_score": 0,
+        "drop_from_high_pct": -53.2,
+        "drop_score": 15,
+        "revenue_growth_quarters": 1,
+        "revenue_growth_detail": [
+          {
+            "quarter": "2026-03-31",
+            "yoy_growth_pct": 2.6
+          }
+        ],
+        "revenue_score": 5,
+        "analyst_mean": 2.04,
+        "analyst_score": 0,
+        "fcf": 2936875008,
+        "fcf_score": 15,
+        "debt_to_equity": 257.4,
+        "de_score": 0,
+        "shareholder_turnover": 0.3,
         "turnover_score": 0
       }
     },
@@ -22150,7 +22240,7 @@
       "price": 37.07,
       "market_cap": 12356533248,
       "details": {
-        "pb_ratio": 5.63,
+        "pb_ratio": 5.61,
         "pb_score": 0,
         "drop_from_high_pct": -33.7,
         "drop_score": 8,
@@ -22693,7 +22783,7 @@
         "fcf_score": 15,
         "debt_to_equity": 75.3,
         "de_score": 6,
-        "shareholder_turnover": 0.8,
+        "shareholder_turnover": 0.7,
         "turnover_score": 0
       }
     },
@@ -23059,36 +23149,6 @@
         "debt_to_equity": 132.2,
         "de_score": 3,
         "shareholder_turnover": 1.6,
-        "turnover_score": 0
-      }
-    },
-    {
-      "ticker": "CMC",
-      "name": "COMMERCIAL METALS",
-      "sector": "Materials",
-      "score": 33,
-      "price": 69.2,
-      "market_cap": 7660125184,
-      "details": {
-        "pb_ratio": 1.74,
-        "pb_score": 10,
-        "drop_from_high_pct": -18.5,
-        "drop_score": 0,
-        "revenue_growth_quarters": 1,
-        "revenue_growth_detail": [
-          {
-            "quarter": "2026-02-28",
-            "yoy_growth_pct": 13.6
-          }
-        ],
-        "revenue_score": 5,
-        "analyst_mean": 2.0,
-        "analyst_score": 0,
-        "fcf": 144200128,
-        "fcf_score": 15,
-        "debt_to_equity": 81.6,
-        "de_score": 3,
-        "shareholder_turnover": 0.6,
         "turnover_score": 0
       }
     },
@@ -29864,7 +29924,7 @@
         "revenue_score": 5,
         "analyst_mean": null,
         "analyst_score": 0,
-        "fcf": 510268512,
+        "fcf": 510237888,
         "fcf_score": 15,
         "debt_to_equity": 27.4,
         "de_score": 10,
@@ -31702,12 +31762,12 @@
       "name": "INTUITIVE SURGICAL INC",
       "sector": "Health Care",
       "score": 28,
-      "price": 404.7,
-      "market_cap": 143329705984,
+      "price": 404.266,
+      "market_cap": 143175991296,
       "details": {
-        "pb_ratio": 8.21,
+        "pb_ratio": 8.2,
         "pb_score": 0,
-        "drop_from_high_pct": -33.0,
+        "drop_from_high_pct": -33.1,
         "drop_score": 8,
         "revenue_growth_quarters": 1,
         "revenue_growth_detail": [
@@ -35319,7 +35379,7 @@
         "revenue_score": 5,
         "analyst_mean": 1.38,
         "analyst_score": 0,
-        "fcf": 358500640,
+        "fcf": 358525632,
         "fcf_score": 15,
         "debt_to_equity": 47.6,
         "de_score": 6,
@@ -38005,7 +38065,7 @@
       "price": 48.92,
       "market_cap": 1044491072,
       "details": {
-        "pb_ratio": 2.03,
+        "pb_ratio": 2.01,
         "pb_score": 0,
         "drop_from_high_pct": -3.9,
         "drop_score": 0,
@@ -38019,7 +38079,7 @@
         "revenue_score": 5,
         "analyst_mean": 1.0,
         "analyst_score": 0,
-        "fcf": 105841376,
+        "fcf": 105850376,
         "fcf_score": 15,
         "debt_to_equity": 56.2,
         "de_score": 6,
@@ -39743,36 +39803,6 @@
         "fcf_score": 0,
         "debt_to_equity": null,
         "de_score": 0,
-        "shareholder_turnover": 0.7,
-        "turnover_score": 0
-      }
-    },
-    {
-      "ticker": "KFY",
-      "name": "KORN FERRY",
-      "sector": "Industrials",
-      "score": 25,
-      "price": 72.19,
-      "market_cap": 3625742848,
-      "details": {
-        "pb_ratio": 1.86,
-        "pb_score": 10,
-        "drop_from_high_pct": -8.0,
-        "drop_score": 0,
-        "revenue_growth_quarters": 1,
-        "revenue_growth_detail": [
-          {
-            "quarter": "2026-01-31",
-            "yoy_growth_pct": 2.8
-          }
-        ],
-        "revenue_score": 5,
-        "analyst_mean": 1.4,
-        "analyst_score": 0,
-        "fcf": null,
-        "fcf_score": 0,
-        "debt_to_equity": 29.9,
-        "de_score": 10,
         "shareholder_turnover": 0.7,
         "turnover_score": 0
       }
@@ -43040,7 +43070,7 @@
       "price": 318.53,
       "market_cap": 76003409920,
       "details": {
-        "pb_ratio": 2.55,
+        "pb_ratio": 2.43,
         "pb_score": 0,
         "drop_from_high_pct": -7.8,
         "drop_score": 0,
@@ -44969,7 +44999,7 @@
         "revenue_score": 5,
         "analyst_mean": 2.64,
         "analyst_score": 0,
-        "fcf": 105600000,
+        "fcf": 103850000,
         "fcf_score": 15,
         "debt_to_equity": 118.7,
         "de_score": 3,
@@ -47408,36 +47438,6 @@
       }
     },
     {
-      "ticker": "HON",
-      "name": "HONEYWELL INTERNATIONAL INC",
-      "sector": "Industrials",
-      "score": 20,
-      "price": 232.21,
-      "market_cap": 73570295808,
-      "details": {
-        "pb_ratio": 5.41,
-        "pb_score": 0,
-        "drop_from_high_pct": -6.4,
-        "drop_score": 0,
-        "revenue_growth_quarters": 1,
-        "revenue_growth_detail": [
-          {
-            "quarter": "2026-03-31",
-            "yoy_growth_pct": 2.6
-          }
-        ],
-        "revenue_score": 5,
-        "analyst_mean": 2.04,
-        "analyst_score": 0,
-        "fcf": 2936875008,
-        "fcf_score": 15,
-        "debt_to_equity": 257.4,
-        "de_score": 0,
-        "shareholder_turnover": 0.5,
-        "turnover_score": 0
-      }
-    },
-    {
       "ticker": "BMY",
       "name": "BRISTOL MYERS SQUIBB",
       "sector": "Health Care",
@@ -47764,6 +47764,36 @@
         "debt_to_equity": 293.3,
         "de_score": 0,
         "shareholder_turnover": 0.8,
+        "turnover_score": 0
+      }
+    },
+    {
+      "ticker": "CCL",
+      "name": "CARNIVAL CORP LTD",
+      "sector": "Consumer Discretionary",
+      "score": 20,
+      "price": 29.07,
+      "market_cap": 44132311040,
+      "details": {
+        "pb_ratio": 3.08,
+        "pb_score": 0,
+        "drop_from_high_pct": -14.6,
+        "drop_score": 0,
+        "revenue_growth_quarters": 1,
+        "revenue_growth_detail": [
+          {
+            "quarter": "2026-02-28",
+            "yoy_growth_pct": 4.6
+          }
+        ],
+        "revenue_score": 5,
+        "analyst_mean": 1.57,
+        "analyst_score": 0,
+        "fcf": 1899374976,
+        "fcf_score": 15,
+        "debt_to_equity": 201.6,
+        "de_score": 0,
+        "shareholder_turnover": 1.3,
         "turnover_score": 0
       }
     },
@@ -55283,36 +55313,6 @@
       }
     },
     {
-      "ticker": "CCL",
-      "name": "CARNIVAL CORP LTD",
-      "sector": "Consumer Discretionary",
-      "score": 5,
-      "price": 29.07,
-      "market_cap": 44132311040,
-      "details": {
-        "pb_ratio": 3.08,
-        "pb_score": 0,
-        "drop_from_high_pct": -14.6,
-        "drop_score": 0,
-        "revenue_growth_quarters": 1,
-        "revenue_growth_detail": [
-          {
-            "quarter": "2026-02-28",
-            "yoy_growth_pct": 4.6
-          }
-        ],
-        "revenue_score": 5,
-        "analyst_mean": 1.57,
-        "analyst_score": 0,
-        "fcf": null,
-        "fcf_score": 0,
-        "debt_to_equity": 201.6,
-        "de_score": 0,
-        "shareholder_turnover": 1.3,
-        "turnover_score": 0
-      }
-    },
-    {
       "ticker": "NTRS",
       "name": "NORTHERN TRUST CORP",
       "sector": "Financials",
@@ -55424,7 +55424,7 @@
         "revenue_score": 5,
         "analyst_mean": 2.25,
         "analyst_score": 0,
-        "fcf": -2156000000,
+        "fcf": -2161625088,
         "fcf_score": 0,
         "debt_to_equity": 189.8,
         "de_score": 0,
