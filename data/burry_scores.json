@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-07-04 21:04 UTC",
-  "updated_kst": "2026-07-05 06:04 KST",
-  "total_screened": 1947,
+  "updated_at": "2026-07-05 21:04 UTC",
+  "updated_kst": "2026-07-06 06:04 KST",
+  "total_screened": 1948,
   "burry_zone_count": 17,
-  "watchlist_count": 167,
-  "failed_count": 3,
+  "watchlist_count": 168,
+  "failed_count": 0,
   "scoring_note": "120점 만점 / Burry Zone 75점+ / Watchlist 55~74점",
   "all_results": [
     {
@@ -792,8 +792,8 @@
         "revenue_growth_quarters": 1,
         "revenue_growth_detail": [
           {
-            "quarter": "2026-02-28",
-            "yoy_growth_pct": 8.9
+            "quarter": "2026-05-31",
+            "yoy_growth_pct": 4.5
           }
         ],
         "revenue_score": 5,
@@ -859,6 +859,36 @@
         "debt_to_equity": 18.6,
         "de_score": 10,
         "shareholder_turnover": 1.7,
+        "turnover_score": 0
+      }
+    },
+    {
+      "ticker": "DOMO",
+      "name": "DOMO INC CLASS B",
+      "sector": "Information Technology",
+      "score": 70,
+      "price": 3.54,
+      "market_cap": 159832992,
+      "details": {
+        "pb_ratio": -0.86,
+        "pb_score": 30,
+        "drop_from_high_pct": -80.9,
+        "drop_score": 20,
+        "revenue_growth_quarters": 1,
+        "revenue_growth_detail": [
+          {
+            "quarter": "2026-04-30",
+            "yoy_growth_pct": 0.9
+          }
+        ],
+        "revenue_score": 5,
+        "analyst_mean": null,
+        "analyst_score": 0,
+        "fcf": 40616752,
+        "fcf_score": 15,
+        "debt_to_equity": null,
+        "de_score": 0,
+        "shareholder_turnover": 2.8,
         "turnover_score": 0
       }
     },
@@ -2105,7 +2135,7 @@
       "price": 9.12,
       "market_cap": 2549216256,
       "details": {
-        "pb_ratio": 0.91,
+        "pb_ratio": 0.9,
         "pb_score": 30,
         "drop_from_high_pct": -26.0,
         "drop_score": 8,
@@ -3832,7 +3862,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 2.8,
         "analyst_score": 0,
         "fcf": 239973744,
         "fcf_score": 15,
@@ -7032,7 +7062,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 2.0,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 1579875,
         "fcf_score": 15,
@@ -8897,8 +8927,8 @@
         "revenue_growth_quarters": 1,
         "revenue_growth_detail": [
           {
-            "quarter": "2026-02-28",
-            "yoy_growth_pct": 10.1
+            "quarter": "2026-05-31",
+            "yoy_growth_pct": 11.2
           }
         ],
         "revenue_score": 5,
@@ -11992,7 +12022,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 2.33,
         "analyst_score": 0,
         "fcf": 144004000,
         "fcf_score": 15,
@@ -16242,8 +16272,8 @@
         "revenue_growth_quarters": 1,
         "revenue_growth_detail": [
           {
-            "quarter": "2026-02-28",
-            "yoy_growth_pct": 4.4
+            "quarter": "2026-05-31",
+            "yoy_growth_pct": 0.8
           }
         ],
         "revenue_score": 5,
@@ -22200,7 +22230,7 @@
       "price": 36.83,
       "market_cap": 12276534272,
       "details": {
-        "pb_ratio": 5.55,
+        "pb_ratio": 5.53,
         "pb_score": 0,
         "drop_from_high_pct": -32.7,
         "drop_score": 8,
@@ -34382,8 +34412,8 @@
         "revenue_growth_quarters": 1,
         "revenue_growth_detail": [
           {
-            "quarter": "2026-02-28",
-            "yoy_growth_pct": 17.6
+            "quarter": "2026-05-31",
+            "yoy_growth_pct": 31.2
           }
         ],
         "revenue_score": 5,
@@ -36012,8 +36042,8 @@
         "revenue_growth_quarters": 1,
         "revenue_growth_detail": [
           {
-            "quarter": "2026-02-28",
-            "yoy_growth_pct": 2.6
+            "quarter": "2026-05-31",
+            "yoy_growth_pct": 7.5
           }
         ],
         "revenue_score": 5,
@@ -48542,7 +48572,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.78,
+        "analyst_mean": 1.82,
         "analyst_score": 0,
         "fcf": 479228000,
         "fcf_score": 15,
@@ -52727,7 +52757,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.5,
+        "analyst_mean": 1.8,
         "analyst_score": 0,
         "fcf": null,
         "fcf_score": 0,
@@ -57151,8 +57181,8 @@
         "revenue_growth_quarters": 1,
         "revenue_growth_detail": [
           {
-            "quarter": "2026-02-28",
-            "yoy_growth_pct": 8.9
+            "quarter": "2026-05-31",
+            "yoy_growth_pct": 4.5
           }
         ],
         "revenue_score": 5,
@@ -57218,6 +57248,36 @@
         "debt_to_equity": 18.6,
         "de_score": 10,
         "shareholder_turnover": 1.7,
+        "turnover_score": 0
+      }
+    },
+    {
+      "ticker": "DOMO",
+      "name": "DOMO INC CLASS B",
+      "sector": "Information Technology",
+      "score": 70,
+      "price": 3.54,
+      "market_cap": 159832992,
+      "details": {
+        "pb_ratio": -0.86,
+        "pb_score": 30,
+        "drop_from_high_pct": -80.9,
+        "drop_score": 20,
+        "revenue_growth_quarters": 1,
+        "revenue_growth_detail": [
+          {
+            "quarter": "2026-04-30",
+            "yoy_growth_pct": 0.9
+          }
+        ],
+        "revenue_score": 5,
+        "analyst_mean": null,
+        "analyst_score": 0,
+        "fcf": 40616752,
+        "fcf_score": 15,
+        "debt_to_equity": null,
+        "de_score": 0,
+        "shareholder_turnover": 2.8,
         "turnover_score": 0
       }
     },
@@ -58464,7 +58524,7 @@
       "price": 9.12,
       "market_cap": 2549216256,
       "details": {
-        "pb_ratio": 0.91,
+        "pb_ratio": 0.9,
         "pb_score": 30,
         "drop_from_high_pct": -26.0,
         "drop_score": 8,
@@ -60191,7 +60251,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 2.8,
         "analyst_score": 0,
         "fcf": 239973744,
         "fcf_score": 15,
@@ -62318,8 +62378,8 @@
         "revenue_growth_quarters": 1,
         "revenue_growth_detail": [
           {
-            "quarter": "2026-02-28",
-            "yoy_growth_pct": 8.9
+            "quarter": "2026-05-31",
+            "yoy_growth_pct": 4.5
           }
         ],
         "revenue_score": 5,
