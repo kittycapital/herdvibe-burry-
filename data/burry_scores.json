@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-08-29 22:23 UTC",
-  "updated_kst": "2026-08-30 07:23 KST",
-  "total_screened": 1938,
+  "updated_at": "2026-08-30 22:31 UTC",
+  "updated_kst": "2026-08-31 07:31 KST",
+  "total_screened": 1937,
   "burry_zone_count": 11,
-  "watchlist_count": 160,
+  "watchlist_count": 161,
   "failed_count": 0,
   "scoring_note": "120점 만점 / Burry Zone 75점+ / Watchlist 55~74점",
   "all_results": [
@@ -33,7 +33,7 @@
         "fcf_score": 15,
         "debt_to_equity": null,
         "de_score": 0,
-        "shareholder_turnover": 11.7,
+        "shareholder_turnover": 11.6,
         "turnover_score": 10
       }
     },
@@ -63,7 +63,7 @@
         "fcf_score": 15,
         "debt_to_equity": 1.6,
         "de_score": 10,
-        "shareholder_turnover": 2.0,
+        "shareholder_turnover": 2.1,
         "turnover_score": 0
       }
     },
@@ -117,7 +117,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.5,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 23506000,
         "fcf_score": 15,
@@ -348,7 +348,7 @@
         "fcf_score": 15,
         "debt_to_equity": 73.5,
         "de_score": 6,
-        "shareholder_turnover": 4.0,
+        "shareholder_turnover": 3.9,
         "turnover_score": 3
       }
     },
@@ -375,36 +375,6 @@
         "de_score": 6,
         "shareholder_turnover": 0.5,
         "turnover_score": 0
-      }
-    },
-    {
-      "ticker": "ALIT",
-      "name": "ALIGHT INC CLASS A",
-      "sector": "Industrials",
-      "score": 73,
-      "price": 14.02,
-      "market_cap": 519610592,
-      "details": {
-        "pb_ratio": 0.36,
-        "pb_score": 30,
-        "drop_from_high_pct": -83.1,
-        "drop_score": 20,
-        "revenue_growth_quarters": 1,
-        "revenue_growth_detail": [
-          {
-            "quarter": "2026-06-30",
-            "yoy_growth_pct": 3.7
-          }
-        ],
-        "revenue_score": 5,
-        "analyst_mean": 2.5,
-        "analyst_score": 0,
-        "fcf": 133250000,
-        "fcf_score": 15,
-        "debt_to_equity": 205.5,
-        "de_score": 0,
-        "shareholder_turnover": 3.0,
-        "turnover_score": 3
       }
     },
     {
@@ -452,7 +422,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 2.27,
+        "analyst_mean": 2.4,
         "analyst_score": 0,
         "fcf": 107168376,
         "fcf_score": 15,
@@ -512,7 +482,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 2.0,
         "analyst_score": 0,
         "fcf": 4103875,
         "fcf_score": 15,
@@ -628,7 +598,7 @@
         "fcf_score": 15,
         "debt_to_equity": null,
         "de_score": 0,
-        "shareholder_turnover": 3.0,
+        "shareholder_turnover": 2.9,
         "turnover_score": 0
       }
     },
@@ -684,6 +654,36 @@
         "debt_to_equity": 6.2,
         "de_score": 10,
         "shareholder_turnover": 0.8,
+        "turnover_score": 0
+      }
+    },
+    {
+      "ticker": "ALIT",
+      "name": "ALIGHT INC CLASS A",
+      "sector": "Industrials",
+      "score": 70,
+      "price": 14.02,
+      "market_cap": 519610592,
+      "details": {
+        "pb_ratio": 0.36,
+        "pb_score": 30,
+        "drop_from_high_pct": -83.1,
+        "drop_score": 20,
+        "revenue_growth_quarters": 1,
+        "revenue_growth_detail": [
+          {
+            "quarter": "2026-06-30",
+            "yoy_growth_pct": 3.7
+          }
+        ],
+        "revenue_score": 5,
+        "analyst_mean": 2.5,
+        "analyst_score": 0,
+        "fcf": 133250000,
+        "fcf_score": 15,
+        "debt_to_equity": 205.5,
+        "de_score": 0,
+        "shareholder_turnover": 3.0,
         "turnover_score": 0
       }
     },
@@ -803,36 +803,6 @@
       }
     },
     {
-      "ticker": "ZUMZ",
-      "name": "ZUMIEZ INC",
-      "sector": "Consumer Discretionary",
-      "score": 69,
-      "price": 18.18,
-      "market_cap": 306736896,
-      "details": {
-        "pb_ratio": 1.01,
-        "pb_score": 20,
-        "drop_from_high_pct": -42.6,
-        "drop_score": 15,
-        "revenue_growth_quarters": 1,
-        "revenue_growth_detail": [
-          {
-            "quarter": "2026-04-30",
-            "yoy_growth_pct": 2.3
-          }
-        ],
-        "revenue_score": 5,
-        "analyst_mean": 3.0,
-        "analyst_score": 8,
-        "fcf": 41457624,
-        "fcf_score": 15,
-        "debt_to_equity": 66.6,
-        "de_score": 6,
-        "shareholder_turnover": 1.2,
-        "turnover_score": 0
-      }
-    },
-    {
       "ticker": "AAL",
       "name": "AMERICAN AIRLINES GROUP INC",
       "sector": "Industrials",
@@ -858,7 +828,7 @@
         "fcf_score": 15,
         "debt_to_equity": null,
         "de_score": 0,
-        "shareholder_turnover": 10.3,
+        "shareholder_turnover": 10.2,
         "turnover_score": 10
       }
     },
@@ -1188,7 +1158,7 @@
         "fcf_score": 15,
         "debt_to_equity": 64.0,
         "de_score": 6,
-        "shareholder_turnover": 1.3,
+        "shareholder_turnover": 1.2,
         "turnover_score": 0
       }
     },
@@ -1443,7 +1413,7 @@
         "fcf_score": 15,
         "debt_to_equity": 265.0,
         "de_score": 0,
-        "shareholder_turnover": 2.2,
+        "shareholder_turnover": 2.1,
         "turnover_score": 0
       }
     },
@@ -1473,7 +1443,7 @@
         "fcf_score": 15,
         "debt_to_equity": 203.8,
         "de_score": 0,
-        "shareholder_turnover": 2.3,
+        "shareholder_turnover": 2.2,
         "turnover_score": 0
       }
     },
@@ -1503,7 +1473,7 @@
         "fcf_score": 15,
         "debt_to_equity": null,
         "de_score": 0,
-        "shareholder_turnover": 0.7,
+        "shareholder_turnover": 0.6,
         "turnover_score": 0
       }
     },
@@ -1612,7 +1582,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.2,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 86966248,
         "fcf_score": 15,
@@ -1762,7 +1732,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.33,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 6637250,
         "fcf_score": 15,
@@ -1787,7 +1757,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 1.17,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 15760875,
         "fcf_score": 15,
@@ -2282,7 +2252,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.6,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 1615874944,
         "fcf_score": 15,
@@ -2427,7 +2397,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.4,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 437212512,
         "fcf_score": 15,
@@ -2463,7 +2433,7 @@
         "fcf_score": 15,
         "debt_to_equity": 32.0,
         "de_score": 6,
-        "shareholder_turnover": 1.3,
+        "shareholder_turnover": 1.2,
         "turnover_score": 0
       }
     },
@@ -2494,6 +2464,36 @@
         "debt_to_equity": 82.4,
         "de_score": 3,
         "shareholder_turnover": 0.7,
+        "turnover_score": 0
+      }
+    },
+    {
+      "ticker": "ZUMZ",
+      "name": "ZUMIEZ INC",
+      "sector": "Consumer Discretionary",
+      "score": 61,
+      "price": 18.18,
+      "market_cap": 306736896,
+      "details": {
+        "pb_ratio": 1.01,
+        "pb_score": 20,
+        "drop_from_high_pct": -42.6,
+        "drop_score": 15,
+        "revenue_growth_quarters": 1,
+        "revenue_growth_detail": [
+          {
+            "quarter": "2026-04-30",
+            "yoy_growth_pct": 2.3
+          }
+        ],
+        "revenue_score": 5,
+        "analyst_mean": null,
+        "analyst_score": 0,
+        "fcf": 41457624,
+        "fcf_score": 15,
+        "debt_to_equity": 66.6,
+        "de_score": 6,
+        "shareholder_turnover": 1.2,
         "turnover_score": 0
       }
     },
@@ -2542,13 +2542,13 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 1.9,
+        "analyst_mean": 2.0,
         "analyst_score": 0,
         "fcf": 774413504,
         "fcf_score": 15,
         "debt_to_equity": null,
         "de_score": 0,
-        "shareholder_turnover": 1.0,
+        "shareholder_turnover": 0.9,
         "turnover_score": 0
       }
     },
@@ -2668,7 +2668,7 @@
         "fcf_score": 15,
         "debt_to_equity": 13.0,
         "de_score": 10,
-        "shareholder_turnover": 1.3,
+        "shareholder_turnover": 1.2,
         "turnover_score": 0
       }
     },
@@ -2717,7 +2717,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 2.22,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 303124992,
         "fcf_score": 15,
@@ -2773,7 +2773,7 @@
         "fcf_score": 15,
         "debt_to_equity": 273.7,
         "de_score": 0,
-        "shareholder_turnover": 2.3,
+        "shareholder_turnover": 2.2,
         "turnover_score": 0
       }
     },
@@ -2798,7 +2798,7 @@
         "fcf_score": 15,
         "debt_to_equity": null,
         "de_score": 0,
-        "shareholder_turnover": 2.4,
+        "shareholder_turnover": 2.3,
         "turnover_score": 0
       }
     },
@@ -2907,7 +2907,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 2.64,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 400500000,
         "fcf_score": 15,
@@ -3023,6 +3023,36 @@
       }
     },
     {
+      "ticker": "OXM",
+      "name": "OXFORD INDUSTRIES INC",
+      "sector": "Consumer Discretionary",
+      "score": 59,
+      "price": 38.31,
+      "market_cap": 572004032,
+      "details": {
+        "pb_ratio": 1.09,
+        "pb_score": 20,
+        "drop_from_high_pct": -25.8,
+        "drop_score": 8,
+        "revenue_growth_quarters": 1,
+        "revenue_growth_detail": [
+          {
+            "quarter": "2026-04-30",
+            "yoy_growth_pct": 4.9
+          }
+        ],
+        "revenue_score": 5,
+        "analyst_mean": 3.0,
+        "analyst_score": 8,
+        "fcf": 13258625,
+        "fcf_score": 15,
+        "debt_to_equity": 113.2,
+        "de_score": 3,
+        "shareholder_turnover": 1.9,
+        "turnover_score": 0
+      }
+    },
+    {
       "ticker": "FPI",
       "name": "FARMLAND PARTNERS INC",
       "sector": "Real Estate",
@@ -3128,7 +3158,7 @@
         "fcf_score": 15,
         "debt_to_equity": null,
         "de_score": 0,
-        "shareholder_turnover": 1.1,
+        "shareholder_turnover": 1.0,
         "turnover_score": 0
       }
     },
@@ -3363,7 +3393,7 @@
         "fcf_score": 15,
         "debt_to_equity": null,
         "de_score": 0,
-        "shareholder_turnover": 2.7,
+        "shareholder_turnover": 2.6,
         "turnover_score": 0
       }
     },
@@ -3507,7 +3537,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 1.58,
         "analyst_score": 0,
         "fcf": 183562496,
         "fcf_score": 15,
@@ -3802,7 +3832,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.4,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 155124992,
         "fcf_score": 15,
@@ -4133,7 +4163,7 @@
         "fcf_score": 15,
         "debt_to_equity": 92.6,
         "de_score": 3,
-        "shareholder_turnover": 1.4,
+        "shareholder_turnover": 1.3,
         "turnover_score": 0
       }
     },
@@ -4363,7 +4393,7 @@
         "fcf_score": 15,
         "debt_to_equity": 169.8,
         "de_score": 0,
-        "shareholder_turnover": 3.0,
+        "shareholder_turnover": 3.2,
         "turnover_score": 3
       }
     },
@@ -4552,7 +4582,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": null,
+        "analyst_mean": 1.67,
         "analyst_score": 0,
         "fcf": 128402376,
         "fcf_score": 15,
@@ -4893,36 +4923,6 @@
       }
     },
     {
-      "ticker": "VSH",
-      "name": "VISHAY INTERTECHNOLOGY INC",
-      "sector": "Information Technology",
-      "score": 54,
-      "price": 30.56,
-      "market_cap": 4687267328,
-      "details": {
-        "pb_ratio": 1.61,
-        "pb_score": 10,
-        "drop_from_high_pct": -56.0,
-        "drop_score": 15,
-        "revenue_growth_quarters": 1,
-        "revenue_growth_detail": [
-          {
-            "quarter": "2026-06-30",
-            "yoy_growth_pct": 11.0
-          }
-        ],
-        "revenue_score": 5,
-        "analyst_mean": null,
-        "analyst_score": 0,
-        "fcf": 14999875,
-        "fcf_score": 15,
-        "debt_to_equity": 37.7,
-        "de_score": 6,
-        "shareholder_turnover": 3.0,
-        "turnover_score": 3
-      }
-    },
-    {
       "ticker": "JBTM",
       "name": "JBT MAREL CORP",
       "sector": "Industrials",
@@ -5068,7 +5068,7 @@
         "fcf_score": 15,
         "debt_to_equity": 37.2,
         "de_score": 6,
-        "shareholder_turnover": 1.3,
+        "shareholder_turnover": 1.2,
         "turnover_score": 0
       }
     },
@@ -5152,13 +5152,13 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.33,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 62582376,
         "fcf_score": 15,
         "debt_to_equity": 31.2,
         "de_score": 6,
-        "shareholder_turnover": 2.3,
+        "shareholder_turnover": 2.2,
         "turnover_score": 0
       }
     },
@@ -5378,7 +5378,7 @@
         "fcf_score": 0,
         "debt_to_equity": 205.4,
         "de_score": 0,
-        "shareholder_turnover": 2.5,
+        "shareholder_turnover": 2.4,
         "turnover_score": 0
       }
     },
@@ -5613,7 +5613,7 @@
         "fcf_score": 15,
         "debt_to_equity": null,
         "de_score": 0,
-        "shareholder_turnover": 3.3,
+        "shareholder_turnover": 3.2,
         "turnover_score": 3
       }
     },
@@ -5707,7 +5707,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": null,
+        "analyst_mean": 2.0,
         "analyst_score": 0,
         "fcf": 250156624,
         "fcf_score": 15,
@@ -5737,7 +5737,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 2.5,
         "analyst_score": 0,
         "fcf": 79365248,
         "fcf_score": 15,
@@ -5797,13 +5797,13 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 2.25,
         "analyst_score": 0,
         "fcf": 65844376,
         "fcf_score": 15,
         "debt_to_equity": 136.0,
         "de_score": 3,
-        "shareholder_turnover": 0.6,
+        "shareholder_turnover": 0.7,
         "turnover_score": 0
       }
     },
@@ -5938,6 +5938,36 @@
       }
     },
     {
+      "ticker": "SEB",
+      "name": "SEABOARD CORP",
+      "sector": "Consumer Staples",
+      "score": 52,
+      "price": 3913.21,
+      "market_cap": 3748052992,
+      "details": {
+        "pb_ratio": 0.68,
+        "pb_score": 30,
+        "drop_from_high_pct": -34.7,
+        "drop_score": 8,
+        "revenue_growth_quarters": 1,
+        "revenue_growth_detail": [
+          {
+            "quarter": "2026-06-30",
+            "yoy_growth_pct": 16.5
+          }
+        ],
+        "revenue_score": 5,
+        "analyst_mean": null,
+        "analyst_score": 0,
+        "fcf": -274375008,
+        "fcf_score": 0,
+        "debt_to_equity": 35.8,
+        "de_score": 6,
+        "shareholder_turnover": 3.0,
+        "turnover_score": 3
+      }
+    },
+    {
       "ticker": "DOW",
       "name": "DOW INC",
       "sector": "Materials",
@@ -5989,6 +6019,36 @@
         "debt_to_equity": 11.9,
         "de_score": 10,
         "shareholder_turnover": 2.3,
+        "turnover_score": 0
+      }
+    },
+    {
+      "ticker": "VSH",
+      "name": "VISHAY INTERTECHNOLOGY INC",
+      "sector": "Information Technology",
+      "score": 51,
+      "price": 30.56,
+      "market_cap": 4687267328,
+      "details": {
+        "pb_ratio": 1.61,
+        "pb_score": 10,
+        "drop_from_high_pct": -56.0,
+        "drop_score": 15,
+        "revenue_growth_quarters": 1,
+        "revenue_growth_detail": [
+          {
+            "quarter": "2026-06-30",
+            "yoy_growth_pct": 11.0
+          }
+        ],
+        "revenue_score": 5,
+        "analyst_mean": null,
+        "analyst_score": 0,
+        "fcf": 14999875,
+        "fcf_score": 15,
+        "debt_to_equity": 37.7,
+        "de_score": 6,
+        "shareholder_turnover": 3.0,
         "turnover_score": 0
       }
     },
@@ -6063,7 +6123,7 @@
         "fcf_score": 15,
         "debt_to_equity": 61.2,
         "de_score": 6,
-        "shareholder_turnover": 2.7,
+        "shareholder_turnover": 2.6,
         "turnover_score": 0
       }
     },
@@ -6362,7 +6422,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.0,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 89847872,
         "fcf_score": 15,
@@ -6393,37 +6453,7 @@
         "fcf_score": 15,
         "debt_to_equity": 51.8,
         "de_score": 6,
-        "shareholder_turnover": 1.3,
-        "turnover_score": 0
-      }
-    },
-    {
-      "ticker": "OXM",
-      "name": "OXFORD INDUSTRIES INC",
-      "sector": "Consumer Discretionary",
-      "score": 51,
-      "price": 38.31,
-      "market_cap": 572004032,
-      "details": {
-        "pb_ratio": 1.09,
-        "pb_score": 20,
-        "drop_from_high_pct": -25.8,
-        "drop_score": 8,
-        "revenue_growth_quarters": 1,
-        "revenue_growth_detail": [
-          {
-            "quarter": "2026-04-30",
-            "yoy_growth_pct": 4.9
-          }
-        ],
-        "revenue_score": 5,
-        "analyst_mean": null,
-        "analyst_score": 0,
-        "fcf": 13258625,
-        "fcf_score": 15,
-        "debt_to_equity": 113.2,
-        "de_score": 3,
-        "shareholder_turnover": 2.0,
+        "shareholder_turnover": 1.4,
         "turnover_score": 0
       }
     },
@@ -6642,7 +6672,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 2.64,
         "analyst_score": 0,
         "fcf": 9035249664,
         "fcf_score": 15,
@@ -7062,7 +7092,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 2.0,
         "analyst_score": 0,
         "fcf": 832837504,
         "fcf_score": 15,
@@ -7154,7 +7184,7 @@
         "revenue_score": 5,
         "analyst_mean": 1.11,
         "analyst_score": 0,
-        "fcf": 440332128,
+        "fcf": 496508384,
         "fcf_score": 15,
         "debt_to_equity": null,
         "de_score": 0,
@@ -7172,7 +7202,7 @@
       "details": {
         "pb_ratio": 1.46,
         "pb_score": 20,
-        "drop_from_high_pct": -2.3,
+        "drop_from_high_pct": -2.4,
         "drop_score": 0,
         "revenue_growth_quarters": 1,
         "revenue_growth_detail": [
@@ -7218,7 +7248,7 @@
         "fcf_score": 15,
         "debt_to_equity": 22.9,
         "de_score": 10,
-        "shareholder_turnover": 0.7,
+        "shareholder_turnover": 0.6,
         "turnover_score": 0
       }
     },
@@ -7248,7 +7278,7 @@
         "fcf_score": 15,
         "debt_to_equity": null,
         "de_score": 0,
-        "shareholder_turnover": 2.4,
+        "shareholder_turnover": 2.3,
         "turnover_score": 0
       }
     },
@@ -7332,7 +7362,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.29,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 690249472,
         "fcf_score": 15,
@@ -7543,7 +7573,7 @@
         "fcf_score": 15,
         "debt_to_equity": null,
         "de_score": 0,
-        "shareholder_turnover": 1.4,
+        "shareholder_turnover": 1.3,
         "turnover_score": 0
       }
     },
@@ -7663,7 +7693,7 @@
         "fcf_score": 15,
         "debt_to_equity": null,
         "de_score": 0,
-        "shareholder_turnover": 1.2,
+        "shareholder_turnover": 1.3,
         "turnover_score": 0
       }
     },
@@ -7693,7 +7723,7 @@
         "fcf_score": 15,
         "debt_to_equity": 6.5,
         "de_score": 10,
-        "shareholder_turnover": 0.9,
+        "shareholder_turnover": 0.8,
         "turnover_score": 0
       }
     },
@@ -8107,7 +8137,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.86,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 109315872,
         "fcf_score": 15,
@@ -8342,7 +8372,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.6,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 127244752,
         "fcf_score": 15,
@@ -8548,7 +8578,7 @@
         "fcf_score": 15,
         "debt_to_equity": 44.3,
         "de_score": 6,
-        "shareholder_turnover": 2.0,
+        "shareholder_turnover": 2.1,
         "turnover_score": 0
       }
     },
@@ -8708,36 +8738,6 @@
       }
     },
     {
-      "ticker": "SEB",
-      "name": "SEABOARD CORP",
-      "sector": "Consumer Staples",
-      "score": 49,
-      "price": 3913.21,
-      "market_cap": 3748052992,
-      "details": {
-        "pb_ratio": 0.68,
-        "pb_score": 30,
-        "drop_from_high_pct": -34.7,
-        "drop_score": 8,
-        "revenue_growth_quarters": 1,
-        "revenue_growth_detail": [
-          {
-            "quarter": "2026-06-30",
-            "yoy_growth_pct": 16.5
-          }
-        ],
-        "revenue_score": 5,
-        "analyst_mean": null,
-        "analyst_score": 0,
-        "fcf": -274375008,
-        "fcf_score": 0,
-        "debt_to_equity": 35.8,
-        "de_score": 6,
-        "shareholder_turnover": 3.0,
-        "turnover_score": 0
-      }
-    },
-    {
       "ticker": "GPRE",
       "name": "GREEN PLAINS INC",
       "sector": "Energy",
@@ -8752,7 +8752,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 2.14,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 32913250,
         "fcf_score": 15,
@@ -8950,7 +8950,7 @@
       "price": 86.01,
       "market_cap": 4744439808,
       "details": {
-        "pb_ratio": 1.58,
+        "pb_ratio": 1.56,
         "pb_score": 10,
         "drop_from_high_pct": -27.1,
         "drop_score": 8,
@@ -8992,7 +8992,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.88,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 949875008,
         "fcf_score": 15,
@@ -9047,7 +9047,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.71,
+        "analyst_mean": 1.79,
         "analyst_score": 0,
         "fcf": 358259008,
         "fcf_score": 15,
@@ -9055,36 +9055,6 @@
         "de_score": 10,
         "shareholder_turnover": 3.3,
         "turnover_score": 3
-      }
-    },
-    {
-      "ticker": "CHWY",
-      "name": "CHEWY INC CLASS A",
-      "sector": "Consumer Discretionary",
-      "score": 48,
-      "price": 23.26,
-      "market_cap": 9523207168,
-      "details": {
-        "pb_ratio": 22.47,
-        "pb_score": 0,
-        "drop_from_high_pct": -46.5,
-        "drop_score": 15,
-        "revenue_growth_quarters": 1,
-        "revenue_growth_detail": [
-          {
-            "quarter": "2026-04-30",
-            "yoy_growth_pct": 7.0
-          }
-        ],
-        "revenue_score": 5,
-        "analyst_mean": 1.77,
-        "analyst_score": 0,
-        "fcf": 463275008,
-        "fcf_score": 15,
-        "debt_to_equity": 123.4,
-        "de_score": 3,
-        "shareholder_turnover": 10.1,
-        "turnover_score": 10
       }
     },
     {
@@ -9273,7 +9243,7 @@
         "fcf_score": 0,
         "debt_to_equity": 29.6,
         "de_score": 10,
-        "shareholder_turnover": 2.7,
+        "shareholder_turnover": 2.9,
         "turnover_score": 0
       }
     },
@@ -9618,7 +9588,7 @@
         "fcf_score": 15,
         "debt_to_equity": 41.4,
         "de_score": 6,
-        "shareholder_turnover": 0.4,
+        "shareholder_turnover": 0.3,
         "turnover_score": 0
       }
     },
@@ -9678,7 +9648,7 @@
         "fcf_score": 0,
         "debt_to_equity": 57.0,
         "de_score": 6,
-        "shareholder_turnover": 1.4,
+        "shareholder_turnover": 1.3,
         "turnover_score": 0
       }
     },
@@ -9817,7 +9787,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 1.78,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 724124992,
         "fcf_score": 15,
@@ -9997,7 +9967,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.64,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 186066880,
         "fcf_score": 15,
@@ -10552,7 +10522,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.0,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 63388732,
         "fcf_score": 15,
@@ -10953,7 +10923,7 @@
         "fcf_score": 15,
         "debt_to_equity": 0.6,
         "de_score": 10,
-        "shareholder_turnover": 2.6,
+        "shareholder_turnover": 2.5,
         "turnover_score": 0
       }
     },
@@ -12193,7 +12163,7 @@
         "fcf_score": 15,
         "debt_to_equity": null,
         "de_score": 0,
-        "shareholder_turnover": 1.1,
+        "shareholder_turnover": 1.0,
         "turnover_score": 0
       }
     },
@@ -12315,6 +12285,36 @@
         "de_score": 6,
         "shareholder_turnover": 1.0,
         "turnover_score": 0
+      }
+    },
+    {
+      "ticker": "CHWY",
+      "name": "CHEWY INC CLASS A",
+      "sector": "Consumer Discretionary",
+      "score": 44,
+      "price": 23.26,
+      "market_cap": 9523207168,
+      "details": {
+        "pb_ratio": 22.47,
+        "pb_score": 0,
+        "drop_from_high_pct": -46.5,
+        "drop_score": 15,
+        "revenue_growth_quarters": 1,
+        "revenue_growth_detail": [
+          {
+            "quarter": "2026-04-30",
+            "yoy_growth_pct": 7.0
+          }
+        ],
+        "revenue_score": 5,
+        "analyst_mean": 1.77,
+        "analyst_score": 0,
+        "fcf": 463275008,
+        "fcf_score": 15,
+        "debt_to_equity": 123.4,
+        "de_score": 3,
+        "shareholder_turnover": 10.0,
+        "turnover_score": 6
       }
     },
     {
@@ -12513,36 +12513,6 @@
       }
     },
     {
-      "ticker": "MKL",
-      "name": "MARKEL GROUP INC",
-      "sector": "Financials",
-      "score": 43,
-      "price": 1818.69,
-      "market_cap": 22533492736,
-      "details": {
-        "pb_ratio": 1.19,
-        "pb_score": 20,
-        "drop_from_high_pct": -17.6,
-        "drop_score": 0,
-        "revenue_growth_quarters": 1,
-        "revenue_growth_detail": [
-          {
-            "quarter": "2026-06-30",
-            "yoy_growth_pct": 17.8
-          }
-        ],
-        "revenue_score": 5,
-        "analyst_mean": 3.29,
-        "analyst_score": 8,
-        "fcf": -1715150720,
-        "fcf_score": 0,
-        "debt_to_equity": 22.4,
-        "de_score": 10,
-        "shareholder_turnover": 0.4,
-        "turnover_score": 0
-      }
-    },
-    {
       "ticker": "VTRS",
       "name": "VIATRIS INC",
       "sector": "Health Care",
@@ -12647,7 +12617,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.0,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 544625024,
         "fcf_score": 15,
@@ -12708,7 +12678,7 @@
         "fcf_score": 15,
         "debt_to_equity": 127.2,
         "de_score": 3,
-        "shareholder_turnover": 1.1,
+        "shareholder_turnover": 1.0,
         "turnover_score": 0
       }
     },
@@ -12768,7 +12738,7 @@
         "fcf_score": 15,
         "debt_to_equity": 105.6,
         "de_score": 3,
-        "shareholder_turnover": 1.5,
+        "shareholder_turnover": 1.4,
         "turnover_score": 0
       }
     },
@@ -12847,7 +12817,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 2.52,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 781847872,
         "fcf_score": 15,
@@ -12872,7 +12842,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": null,
+        "analyst_mean": 1.86,
         "analyst_score": 0,
         "fcf": 394649984,
         "fcf_score": 15,
@@ -12968,7 +12938,7 @@
         "fcf_score": 15,
         "debt_to_equity": 142.6,
         "de_score": 3,
-        "shareholder_turnover": 1.0,
+        "shareholder_turnover": 0.9,
         "turnover_score": 0
       }
     },
@@ -13072,7 +13042,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.8,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 270770112,
         "fcf_score": 15,
@@ -13338,7 +13308,7 @@
         "fcf_score": 15,
         "debt_to_equity": 128.2,
         "de_score": 3,
-        "shareholder_turnover": 0.8,
+        "shareholder_turnover": 0.7,
         "turnover_score": 0
       }
     },
@@ -13387,7 +13357,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 1.0,
         "analyst_score": 0,
         "fcf": 82574872,
         "fcf_score": 15,
@@ -13997,13 +13967,13 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.82,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 14404875,
         "fcf_score": 15,
         "debt_to_equity": 30.6,
         "de_score": 6,
-        "shareholder_turnover": 2.7,
+        "shareholder_turnover": 2.6,
         "turnover_score": 0
       }
     },
@@ -14168,7 +14138,7 @@
         "fcf_score": 15,
         "debt_to_equity": 79.6,
         "de_score": 6,
-        "shareholder_turnover": 2.2,
+        "shareholder_turnover": 2.1,
         "turnover_score": 0
       }
     },
@@ -14278,7 +14248,7 @@
         "fcf_score": 15,
         "debt_to_equity": 182.0,
         "de_score": 0,
-        "shareholder_turnover": 2.7,
+        "shareholder_turnover": 2.6,
         "turnover_score": 0
       }
     },
@@ -14777,7 +14747,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 2.83,
         "analyst_score": 0,
         "fcf": 125075000,
         "fcf_score": 15,
@@ -14863,7 +14833,7 @@
         "fcf_score": 0,
         "debt_to_equity": null,
         "de_score": 0,
-        "shareholder_turnover": 4.9,
+        "shareholder_turnover": 4.8,
         "turnover_score": 3
       }
     },
@@ -14917,7 +14887,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 1.0,
         "analyst_score": 0,
         "fcf": 20378750,
         "fcf_score": 15,
@@ -15037,7 +15007,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 2.5,
         "analyst_score": 0,
         "fcf": 2984875008,
         "fcf_score": 15,
@@ -15099,11 +15069,11 @@
         "revenue_score": 5,
         "analyst_mean": 2.6,
         "analyst_score": 0,
-        "fcf": 621645632,
+        "fcf": 621551616,
         "fcf_score": 15,
         "debt_to_equity": 4.2,
         "de_score": 10,
-        "shareholder_turnover": 0.9,
+        "shareholder_turnover": 1.0,
         "turnover_score": 0
       }
     },
@@ -15182,7 +15152,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 1.78,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 111837128,
         "fcf_score": 15,
@@ -15212,7 +15182,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.8,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 511553632,
         "fcf_score": 15,
@@ -15357,7 +15327,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.83,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 372919360,
         "fcf_score": 15,
@@ -15628,7 +15598,7 @@
         "fcf_score": 15,
         "debt_to_equity": 6.8,
         "de_score": 10,
-        "shareholder_turnover": 1.0,
+        "shareholder_turnover": 0.9,
         "turnover_score": 0
       }
     },
@@ -15882,13 +15852,13 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.0,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 74809872,
         "fcf_score": 15,
         "debt_to_equity": null,
         "de_score": 0,
-        "shareholder_turnover": 2.2,
+        "shareholder_turnover": 2.3,
         "turnover_score": 0
       }
     },
@@ -16058,7 +16028,7 @@
         "fcf_score": 15,
         "debt_to_equity": 6.3,
         "de_score": 10,
-        "shareholder_turnover": 2.6,
+        "shareholder_turnover": 2.5,
         "turnover_score": 0
       }
     },
@@ -16172,9 +16142,9 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.43,
+        "analyst_mean": 1.41,
         "analyst_score": 0,
-        "fcf": 2229250048,
+        "fcf": 2469100032,
         "fcf_score": 15,
         "debt_to_equity": 26.8,
         "de_score": 10,
@@ -16477,36 +16447,6 @@
         "fcf": 2023912448,
         "fcf_score": 15,
         "debt_to_equity": 3.7,
-        "de_score": 10,
-        "shareholder_turnover": 0.6,
-        "turnover_score": 0
-      }
-    },
-    {
-      "ticker": "EXPD",
-      "name": "EXPEDITORS INTERNATIONAL OF WASHIN",
-      "sector": "Industrials",
-      "score": 38,
-      "price": 190.97,
-      "market_cap": 24824309760,
-      "details": {
-        "pb_ratio": 11.72,
-        "pb_score": 0,
-        "drop_from_high_pct": -0.7,
-        "drop_score": 0,
-        "revenue_growth_quarters": 1,
-        "revenue_growth_detail": [
-          {
-            "quarter": "2026-06-30",
-            "yoy_growth_pct": 33.3
-          }
-        ],
-        "revenue_score": 5,
-        "analyst_mean": 3.18,
-        "analyst_score": 8,
-        "fcf": 797562240,
-        "fcf_score": 15,
-        "debt_to_equity": 26.7,
         "de_score": 10,
         "shareholder_turnover": 0.6,
         "turnover_score": 0
@@ -16954,36 +16894,6 @@
         "debt_to_equity": 140.3,
         "de_score": 3,
         "shareholder_turnover": 1.4,
-        "turnover_score": 0
-      }
-    },
-    {
-      "ticker": "IESC",
-      "name": "IES INC",
-      "sector": "Industrials",
-      "score": 38,
-      "price": 309.8,
-      "market_cap": 12345129984,
-      "details": {
-        "pb_ratio": 10.04,
-        "pb_score": 0,
-        "drop_from_high_pct": -24.1,
-        "drop_score": 0,
-        "revenue_growth_quarters": 1,
-        "revenue_growth_detail": [
-          {
-            "quarter": "2026-06-30",
-            "yoy_growth_pct": 38.7
-          }
-        ],
-        "revenue_score": 5,
-        "analyst_mean": 3.0,
-        "analyst_score": 8,
-        "fcf": 329443360,
-        "fcf_score": 15,
-        "debt_to_equity": 6.2,
-        "de_score": 10,
-        "shareholder_turnover": 1.6,
         "turnover_score": 0
       }
     },
@@ -17482,7 +17392,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 1.57,
         "analyst_score": 0,
         "fcf": 231402752,
         "fcf_score": 15,
@@ -17542,13 +17452,13 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 1.37,
         "analyst_score": 0,
         "fcf": 95646496,
         "fcf_score": 15,
         "debt_to_equity": 1.0,
         "de_score": 10,
-        "shareholder_turnover": 0.7,
+        "shareholder_turnover": 0.6,
         "turnover_score": 0
       }
     },
@@ -17578,7 +17488,7 @@
         "fcf_score": 0,
         "debt_to_equity": 136.6,
         "de_score": 3,
-        "shareholder_turnover": 1.1,
+        "shareholder_turnover": 1.0,
         "turnover_score": 0
       }
     },
@@ -17983,7 +17893,7 @@
         "fcf_score": 15,
         "debt_to_equity": 3.6,
         "de_score": 10,
-        "shareholder_turnover": 0.8,
+        "shareholder_turnover": 0.7,
         "turnover_score": 0
       }
     },
@@ -18007,7 +17917,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 1.0,
         "analyst_score": 0,
         "fcf": 4488500,
         "fcf_score": 15,
@@ -18172,7 +18082,7 @@
       "details": {
         "pb_ratio": 1.47,
         "pb_score": 20,
-        "drop_from_high_pct": -1.9,
+        "drop_from_high_pct": -2.3,
         "drop_score": 0,
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
@@ -18448,7 +18358,7 @@
         "fcf_score": 15,
         "debt_to_equity": 196.6,
         "de_score": 0,
-        "shareholder_turnover": 0.7,
+        "shareholder_turnover": 0.6,
         "turnover_score": 0
       }
     },
@@ -18557,7 +18467,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.2,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 22892500,
         "fcf_score": 15,
@@ -18938,7 +18848,7 @@
         "fcf_score": 15,
         "debt_to_equity": 60.2,
         "de_score": 6,
-        "shareholder_turnover": 0.8,
+        "shareholder_turnover": 0.7,
         "turnover_score": 0
       }
     },
@@ -19058,7 +18968,7 @@
         "fcf_score": 15,
         "debt_to_equity": 33.1,
         "de_score": 6,
-        "shareholder_turnover": 0.9,
+        "shareholder_turnover": 0.8,
         "turnover_score": 0
       }
     },
@@ -19137,7 +19047,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 1.55,
         "analyst_score": 0,
         "fcf": 491255488,
         "fcf_score": 15,
@@ -19197,7 +19107,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.41,
+        "analyst_mean": 1.47,
         "analyst_score": 0,
         "fcf": 826875008,
         "fcf_score": 15,
@@ -19728,7 +19638,7 @@
         "fcf_score": 15,
         "debt_to_equity": 50.5,
         "de_score": 6,
-        "shareholder_turnover": 1.7,
+        "shareholder_turnover": 1.6,
         "turnover_score": 0
       }
     },
@@ -19938,31 +19848,6 @@
       }
     },
     {
-      "ticker": "FDP",
-      "name": "DEL MONTE CORP",
-      "sector": "Consumer Staples",
-      "score": 36,
-      "price": 29.22,
-      "market_cap": 1390188416,
-      "details": {
-        "pb_ratio": 0.69,
-        "pb_score": 30,
-        "drop_from_high_pct": -3.1,
-        "drop_score": 0,
-        "revenue_growth_quarters": 0,
-        "revenue_growth_detail": [],
-        "revenue_score": 0,
-        "analyst_mean": null,
-        "analyst_score": 0,
-        "fcf": -47950000,
-        "fcf_score": 0,
-        "debt_to_equity": 31.0,
-        "de_score": 6,
-        "shareholder_turnover": 0.8,
-        "turnover_score": 0
-      }
-    },
-    {
       "ticker": "MCS",
       "name": "THE MARCUS CORP",
       "sector": "Communication",
@@ -20012,7 +19897,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.9,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 103200000,
         "fcf_score": 15,
@@ -20189,6 +20074,36 @@
         "debt_to_equity": 19.1,
         "de_score": 10,
         "shareholder_turnover": 0.6,
+        "turnover_score": 0
+      }
+    },
+    {
+      "ticker": "MKL",
+      "name": "MARKEL GROUP INC",
+      "sector": "Financials",
+      "score": 35,
+      "price": 1818.69,
+      "market_cap": 22533492736,
+      "details": {
+        "pb_ratio": 1.19,
+        "pb_score": 20,
+        "drop_from_high_pct": -17.6,
+        "drop_score": 0,
+        "revenue_growth_quarters": 1,
+        "revenue_growth_detail": [
+          {
+            "quarter": "2026-06-30",
+            "yoy_growth_pct": 17.8
+          }
+        ],
+        "revenue_score": 5,
+        "analyst_mean": null,
+        "analyst_score": 0,
+        "fcf": -1715150720,
+        "fcf_score": 0,
+        "debt_to_equity": 22.4,
+        "de_score": 10,
+        "shareholder_turnover": 0.4,
         "turnover_score": 0
       }
     },
@@ -20558,7 +20473,7 @@
         "fcf_score": 15,
         "debt_to_equity": 79.5,
         "de_score": 6,
-        "shareholder_turnover": 8.6,
+        "shareholder_turnover": 8.5,
         "turnover_score": 6
       }
     },
@@ -20783,7 +20698,7 @@
         "fcf_score": 0,
         "debt_to_equity": 282.8,
         "de_score": 0,
-        "shareholder_turnover": 11.8,
+        "shareholder_turnover": 11.7,
         "turnover_score": 10
       }
     },
@@ -20892,7 +20807,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": null,
+        "analyst_mean": 2.75,
         "analyst_score": 0,
         "fcf": 94402000,
         "fcf_score": 15,
@@ -20917,7 +20832,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": null,
+        "analyst_mean": 1.0,
         "analyst_score": 0,
         "fcf": 57647500,
         "fcf_score": 15,
@@ -20947,7 +20862,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.57,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": null,
         "fcf_score": 0,
@@ -21237,7 +21152,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.33,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": null,
         "fcf_score": 0,
@@ -21287,7 +21202,7 @@
       "details": {
         "pb_ratio": 0.81,
         "pb_score": 30,
-        "drop_from_high_pct": -2.4,
+        "drop_from_high_pct": -2.6,
         "drop_score": 0,
         "revenue_growth_quarters": 1,
         "revenue_growth_detail": [
@@ -21775,7 +21690,7 @@
       "price": 442.61,
       "market_cap": 84820287488,
       "details": {
-        "pb_ratio": 2.91,
+        "pb_ratio": 2.72,
         "pb_score": 0,
         "drop_from_high_pct": -28.1,
         "drop_score": 8,
@@ -21787,7 +21702,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.71,
+        "analyst_mean": 1.64,
         "analyst_score": 0,
         "fcf": 3425542400,
         "fcf_score": 15,
@@ -21943,7 +21858,7 @@
         "fcf_score": 15,
         "debt_to_equity": 54.9,
         "de_score": 6,
-        "shareholder_turnover": 0.6,
+        "shareholder_turnover": 0.7,
         "turnover_score": 0
       }
     },
@@ -22093,7 +22008,7 @@
         "fcf_score": 15,
         "debt_to_equity": 49.0,
         "de_score": 6,
-        "shareholder_turnover": 1.1,
+        "shareholder_turnover": 1.2,
         "turnover_score": 0
       }
     },
@@ -22147,7 +22062,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.33,
+        "analyst_mean": 1.2,
         "analyst_score": 0,
         "fcf": 132654752,
         "fcf_score": 15,
@@ -22483,7 +22398,7 @@
         "fcf_score": 15,
         "debt_to_equity": 59.3,
         "de_score": 6,
-        "shareholder_turnover": 1.5,
+        "shareholder_turnover": 1.4,
         "turnover_score": 0
       }
     },
@@ -22638,36 +22553,6 @@
       }
     },
     {
-      "ticker": "ITGR",
-      "name": "INTEGER HOLDINGS CORP",
-      "sector": "Health Care",
-      "score": 34,
-      "price": 125.33,
-      "market_cap": 4260223488,
-      "details": {
-        "pb_ratio": 2.48,
-        "pb_score": 0,
-        "drop_from_high_pct": -0.6,
-        "drop_score": 0,
-        "revenue_growth_quarters": 1,
-        "revenue_growth_detail": [
-          {
-            "quarter": "2026-06-30",
-            "yoy_growth_pct": 0.5
-          }
-        ],
-        "revenue_score": 5,
-        "analyst_mean": 3.0,
-        "analyst_score": 8,
-        "fcf": 107673376,
-        "fcf_score": 15,
-        "debt_to_equity": 79.4,
-        "de_score": 6,
-        "shareholder_turnover": 1.6,
-        "turnover_score": 0
-      }
-    },
-    {
       "ticker": "ARQT",
       "name": "ARCUTIS BIOTHERAPEUTICS INC",
       "sector": "Health Care",
@@ -22723,7 +22608,7 @@
         "fcf_score": 15,
         "debt_to_equity": 42.8,
         "de_score": 6,
-        "shareholder_turnover": 1.8,
+        "shareholder_turnover": 1.7,
         "turnover_score": 0
       }
     },
@@ -22777,13 +22662,13 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.43,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 71000248,
         "fcf_score": 15,
         "debt_to_equity": 36.1,
         "de_score": 6,
-        "shareholder_turnover": 1.3,
+        "shareholder_turnover": 1.2,
         "turnover_score": 0
       }
     },
@@ -22837,7 +22722,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.25,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 49263624,
         "fcf_score": 15,
@@ -23007,7 +22892,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 1.97,
+        "analyst_mean": 1.91,
         "analyst_score": 0,
         "fcf": 1598684800,
         "fcf_score": 15,
@@ -23413,7 +23298,7 @@
         "fcf_score": 15,
         "debt_to_equity": 146.0,
         "de_score": 3,
-        "shareholder_turnover": 1.3,
+        "shareholder_turnover": 1.2,
         "turnover_score": 0
       }
     },
@@ -23693,7 +23578,7 @@
         "fcf_score": 15,
         "debt_to_equity": 3.9,
         "de_score": 10,
-        "shareholder_turnover": 4.8,
+        "shareholder_turnover": 4.7,
         "turnover_score": 3
       }
     },
@@ -23767,7 +23652,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.64,
+        "analyst_mean": 1.82,
         "analyst_score": 0,
         "fcf": 113123624,
         "fcf_score": 15,
@@ -23847,13 +23732,43 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 1.71,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 1568163200,
         "fcf_score": 15,
         "debt_to_equity": 232.9,
         "de_score": 0,
         "shareholder_turnover": 1.1,
+        "turnover_score": 0
+      }
+    },
+    {
+      "ticker": "UVSP",
+      "name": "UNIVEST FINANCIAL CORP",
+      "sector": "Financials",
+      "score": 33,
+      "price": 41.57,
+      "market_cap": 1146532480,
+      "details": {
+        "pb_ratio": 1.22,
+        "pb_score": 20,
+        "drop_from_high_pct": -8.6,
+        "drop_score": 0,
+        "revenue_growth_quarters": 1,
+        "revenue_growth_detail": [
+          {
+            "quarter": "2026-03-31",
+            "yoy_growth_pct": 10.4
+          }
+        ],
+        "revenue_score": 5,
+        "analyst_mean": 3.0,
+        "analyst_score": 8,
+        "fcf": null,
+        "fcf_score": 0,
+        "debt_to_equity": null,
+        "de_score": 0,
+        "shareholder_turnover": 0.6,
         "turnover_score": 0
       }
     },
@@ -24107,7 +24022,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.09,
+        "analyst_mean": 2.04,
         "analyst_score": 0,
         "fcf": 2478000128,
         "fcf_score": 15,
@@ -24257,9 +24172,9 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.85,
+        "analyst_mean": 1.81,
         "analyst_score": 0,
-        "fcf": 918357376,
+        "fcf": 914087360,
         "fcf_score": 15,
         "debt_to_equity": 95.5,
         "de_score": 3,
@@ -24282,7 +24197,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 1.67,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 13625000,
         "fcf_score": 15,
@@ -24408,7 +24323,7 @@
         "fcf_score": 15,
         "debt_to_equity": 129.4,
         "de_score": 3,
-        "shareholder_turnover": 1.5,
+        "shareholder_turnover": 1.4,
         "turnover_score": 0
       }
     },
@@ -24487,7 +24402,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.35,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 1146625024,
         "fcf_score": 15,
@@ -25052,7 +24967,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": null,
+        "analyst_mean": 2.38,
         "analyst_score": 0,
         "fcf": 183396368,
         "fcf_score": 15,
@@ -25112,7 +25027,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.83,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 61384500,
         "fcf_score": 15,
@@ -25167,7 +25082,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.0,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": -533750016,
         "fcf_score": 0,
@@ -25323,7 +25238,37 @@
         "fcf_score": 15,
         "debt_to_equity": 146.6,
         "de_score": 3,
-        "shareholder_turnover": 2.8,
+        "shareholder_turnover": 2.7,
+        "turnover_score": 0
+      }
+    },
+    {
+      "ticker": "NAT",
+      "name": "NORDIC AMERICAN TANKERS LTD",
+      "sector": "Energy",
+      "score": 31,
+      "price": 6.77,
+      "market_cap": 1433552000,
+      "details": {
+        "pb_ratio": 3.0,
+        "pb_score": 0,
+        "drop_from_high_pct": -6.0,
+        "drop_score": 0,
+        "revenue_growth_quarters": 1,
+        "revenue_growth_detail": [
+          {
+            "quarter": "2026-03-31",
+            "yoy_growth_pct": 0.4
+          }
+        ],
+        "revenue_score": 5,
+        "analyst_mean": 3.0,
+        "analyst_score": 8,
+        "fcf": 72565376,
+        "fcf_score": 15,
+        "debt_to_equity": 85.1,
+        "de_score": 3,
+        "shareholder_turnover": 1.2,
         "turnover_score": 0
       }
     },
@@ -25342,7 +25287,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 1.6,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 82740872,
         "fcf_score": 15,
@@ -25482,13 +25427,13 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": null,
+        "analyst_mean": 1.0,
         "analyst_score": 0,
         "fcf": 33287500,
         "fcf_score": 15,
         "debt_to_equity": 35.6,
         "de_score": 6,
-        "shareholder_turnover": 1.7,
+        "shareholder_turnover": 1.6,
         "turnover_score": 0
       }
     },
@@ -25958,7 +25903,7 @@
         "fcf_score": 15,
         "debt_to_equity": 28.4,
         "de_score": 10,
-        "shareholder_turnover": 0.7,
+        "shareholder_turnover": 0.6,
         "turnover_score": 0
       }
     },
@@ -25988,7 +25933,7 @@
         "fcf_score": 15,
         "debt_to_equity": 2.1,
         "de_score": 10,
-        "shareholder_turnover": 1.3,
+        "shareholder_turnover": 1.2,
         "turnover_score": 0
       }
     },
@@ -26012,7 +25957,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.64,
+        "analyst_mean": 1.65,
         "analyst_score": 0,
         "fcf": 3579375104,
         "fcf_score": 15,
@@ -26072,7 +26017,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.7,
+        "analyst_mean": 1.75,
         "analyst_score": 0,
         "fcf": 1995385472,
         "fcf_score": 15,
@@ -26222,7 +26167,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.56,
+        "analyst_mean": 2.62,
         "analyst_score": 0,
         "fcf": 2909012480,
         "fcf_score": 15,
@@ -26282,7 +26227,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.97,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 14775124992,
         "fcf_score": 15,
@@ -26318,7 +26263,7 @@
         "fcf_score": 15,
         "debt_to_equity": 29.3,
         "de_score": 10,
-        "shareholder_turnover": 1.0,
+        "shareholder_turnover": 0.9,
         "turnover_score": 0
       }
     },
@@ -26402,7 +26347,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.52,
+        "analyst_mean": 2.6,
         "analyst_score": 0,
         "fcf": 15158625280,
         "fcf_score": 15,
@@ -26852,13 +26797,13 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.97,
+        "analyst_mean": 2.0,
         "analyst_score": 0,
         "fcf": 1257709824,
         "fcf_score": 15,
         "debt_to_equity": 2.0,
         "de_score": 10,
-        "shareholder_turnover": 0.9,
+        "shareholder_turnover": 1.0,
         "turnover_score": 0
       }
     },
@@ -26923,6 +26868,36 @@
       }
     },
     {
+      "ticker": "EXPD",
+      "name": "EXPEDITORS INTERNATIONAL OF WASHIN",
+      "sector": "Industrials",
+      "score": 30,
+      "price": 190.97,
+      "market_cap": 24824309760,
+      "details": {
+        "pb_ratio": 11.72,
+        "pb_score": 0,
+        "drop_from_high_pct": -0.7,
+        "drop_score": 0,
+        "revenue_growth_quarters": 1,
+        "revenue_growth_detail": [
+          {
+            "quarter": "2026-06-30",
+            "yoy_growth_pct": 33.3
+          }
+        ],
+        "revenue_score": 5,
+        "analyst_mean": null,
+        "analyst_score": 0,
+        "fcf": 797562240,
+        "fcf_score": 15,
+        "debt_to_equity": 26.7,
+        "de_score": 10,
+        "shareholder_turnover": 0.6,
+        "turnover_score": 0
+      }
+    },
+    {
       "ticker": "RS",
       "name": "RELIANCE STEEL & ALUMINUM",
       "sector": "Materials",
@@ -26972,7 +26947,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 2.55,
         "analyst_score": 0,
         "fcf": 1109474944,
         "fcf_score": 15,
@@ -27038,7 +27013,7 @@
         "fcf_score": 0,
         "debt_to_equity": 0.2,
         "de_score": 10,
-        "shareholder_turnover": 1.8,
+        "shareholder_turnover": 1.7,
         "turnover_score": 0
       }
     },
@@ -27062,7 +27037,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.64,
+        "analyst_mean": 1.59,
         "analyst_score": 0,
         "fcf": 1037625024,
         "fcf_score": 15,
@@ -27272,7 +27247,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.5,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 362843616,
         "fcf_score": 15,
@@ -27470,7 +27445,7 @@
       "price": 72.35,
       "market_cap": 11345799168,
       "details": {
-        "pb_ratio": 5.43,
+        "pb_ratio": 5.36,
         "pb_score": 0,
         "drop_from_high_pct": -0.4,
         "drop_score": 0,
@@ -27722,13 +27697,13 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.8,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 20809250,
         "fcf_score": 15,
         "debt_to_equity": 20.1,
         "de_score": 10,
-        "shareholder_turnover": 0.8,
+        "shareholder_turnover": 0.7,
         "turnover_score": 0
       }
     },
@@ -27842,7 +27817,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.83,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 96691872,
         "fcf_score": 15,
@@ -27883,6 +27858,36 @@
       }
     },
     {
+      "ticker": "IESC",
+      "name": "IES INC",
+      "sector": "Industrials",
+      "score": 30,
+      "price": 309.8,
+      "market_cap": 12345129984,
+      "details": {
+        "pb_ratio": 10.04,
+        "pb_score": 0,
+        "drop_from_high_pct": -24.1,
+        "drop_score": 0,
+        "revenue_growth_quarters": 1,
+        "revenue_growth_detail": [
+          {
+            "quarter": "2026-06-30",
+            "yoy_growth_pct": 38.7
+          }
+        ],
+        "revenue_score": 5,
+        "analyst_mean": null,
+        "analyst_score": 0,
+        "fcf": 329443360,
+        "fcf_score": 15,
+        "debt_to_equity": 6.2,
+        "de_score": 10,
+        "shareholder_turnover": 1.6,
+        "turnover_score": 0
+      }
+    },
+    {
       "ticker": "NOVT",
       "name": "NOVANTA INC",
       "sector": "Information Technology",
@@ -27902,7 +27907,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 1.33,
         "analyst_score": 0,
         "fcf": 118383248,
         "fcf_score": 15,
@@ -27992,7 +27997,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.33,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 58311500,
         "fcf_score": 15,
@@ -28028,7 +28033,7 @@
         "fcf_score": 15,
         "debt_to_equity": 175.7,
         "de_score": 0,
-        "shareholder_turnover": 0.6,
+        "shareholder_turnover": 0.5,
         "turnover_score": 0
       }
     },
@@ -28142,13 +28147,13 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 1.7,
         "analyst_score": 0,
         "fcf": 304718112,
         "fcf_score": 15,
         "debt_to_equity": 5.3,
         "de_score": 10,
-        "shareholder_turnover": 1.6,
+        "shareholder_turnover": 1.5,
         "turnover_score": 0
       }
     },
@@ -28388,7 +28393,7 @@
         "fcf_score": 15,
         "debt_to_equity": 3.9,
         "de_score": 10,
-        "shareholder_turnover": 0.9,
+        "shareholder_turnover": 1.0,
         "turnover_score": 0
       }
     },
@@ -28658,7 +28663,7 @@
         "fcf_score": 15,
         "debt_to_equity": 19.9,
         "de_score": 10,
-        "shareholder_turnover": 1.7,
+        "shareholder_turnover": 1.6,
         "turnover_score": 0
       }
     },
@@ -28808,7 +28813,7 @@
         "fcf_score": 15,
         "debt_to_equity": 6.4,
         "de_score": 10,
-        "shareholder_turnover": 0.9,
+        "shareholder_turnover": 0.8,
         "turnover_score": 0
       }
     },
@@ -29097,7 +29102,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.67,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 156940496,
         "fcf_score": 15,
@@ -29283,7 +29288,7 @@
         "fcf_score": 15,
         "debt_to_equity": 0.2,
         "de_score": 10,
-        "shareholder_turnover": 1.5,
+        "shareholder_turnover": 1.4,
         "turnover_score": 0
       }
     },
@@ -29763,7 +29768,7 @@
         "fcf_score": 15,
         "debt_to_equity": 14.4,
         "de_score": 10,
-        "shareholder_turnover": 1.2,
+        "shareholder_turnover": 1.1,
         "turnover_score": 0
       }
     },
@@ -29835,7 +29840,7 @@
       "price": 40.01,
       "market_cap": 1775028224,
       "details": {
-        "pb_ratio": 2.41,
+        "pb_ratio": 2.25,
         "pb_score": 0,
         "drop_from_high_pct": -45.9,
         "drop_score": 15,
@@ -29847,7 +29852,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.67,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": -21074000,
         "fcf_score": 0,
@@ -30353,7 +30358,7 @@
         "fcf_score": 15,
         "debt_to_equity": 3.8,
         "de_score": 10,
-        "shareholder_turnover": 0.6,
+        "shareholder_turnover": 0.5,
         "turnover_score": 0
       }
     },
@@ -30672,7 +30677,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 1.67,
         "analyst_score": 0,
         "fcf": 43808124,
         "fcf_score": 15,
@@ -30793,7 +30798,7 @@
         "fcf_score": 15,
         "debt_to_equity": 3.4,
         "de_score": 10,
-        "shareholder_turnover": 0.8,
+        "shareholder_turnover": 0.9,
         "turnover_score": 0
       }
     },
@@ -30853,7 +30858,7 @@
         "fcf_score": 15,
         "debt_to_equity": 36.0,
         "de_score": 6,
-        "shareholder_turnover": 3.7,
+        "shareholder_turnover": 3.6,
         "turnover_score": 3
       }
     },
@@ -31008,7 +31013,7 @@
         "fcf_score": 15,
         "debt_to_equity": 40.2,
         "de_score": 6,
-        "shareholder_turnover": 2.6,
+        "shareholder_turnover": 2.5,
         "turnover_score": 0
       }
     },
@@ -31277,7 +31282,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.7,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 11335999488,
         "fcf_score": 15,
@@ -31373,7 +31378,7 @@
         "fcf_score": 15,
         "debt_to_equity": 295.0,
         "de_score": 0,
-        "shareholder_turnover": 0.8,
+        "shareholder_turnover": 0.9,
         "turnover_score": 0
       }
     },
@@ -31517,7 +31522,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.56,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": -6475375104,
         "fcf_score": 0,
@@ -31767,7 +31772,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.6,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 103862496,
         "fcf_score": 15,
@@ -31833,7 +31838,7 @@
         "fcf_score": 0,
         "debt_to_equity": 88.0,
         "de_score": 3,
-        "shareholder_turnover": 0.5,
+        "shareholder_turnover": 0.4,
         "turnover_score": 0
       }
     },
@@ -31887,7 +31892,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.38,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 81449504,
         "fcf_score": 15,
@@ -31953,7 +31958,7 @@
         "fcf_score": 15,
         "debt_to_equity": 217.8,
         "de_score": 0,
-        "shareholder_turnover": 1.3,
+        "shareholder_turnover": 1.2,
         "turnover_score": 0
       }
     },
@@ -32462,7 +32467,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.32,
+        "analyst_mean": 1.31,
         "analyst_score": 0,
         "fcf": 3219124992,
         "fcf_score": 15,
@@ -32552,7 +32557,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.58,
+        "analyst_mean": 1.53,
         "analyst_score": 0,
         "fcf": 8984500224,
         "fcf_score": 15,
@@ -33182,7 +33187,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 2.68,
         "analyst_score": 0,
         "fcf": 2265587456,
         "fcf_score": 15,
@@ -33548,7 +33553,7 @@
         "fcf_score": 15,
         "debt_to_equity": 41.8,
         "de_score": 6,
-        "shareholder_turnover": 0.5,
+        "shareholder_turnover": 0.6,
         "turnover_score": 0
       }
     },
@@ -34437,7 +34442,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.2,
+        "analyst_mean": 2.21,
         "analyst_score": 0,
         "fcf": 3023875072,
         "fcf_score": 15,
@@ -34498,7 +34503,7 @@
         "fcf_score": 15,
         "debt_to_equity": 121.2,
         "de_score": 3,
-        "shareholder_turnover": 1.0,
+        "shareholder_turnover": 0.9,
         "turnover_score": 0
       }
     },
@@ -34822,9 +34827,9 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.86,
+        "analyst_mean": 1.91,
         "analyst_score": 0,
-        "fcf": 846012352,
+        "fcf": 845386752,
         "fcf_score": 15,
         "debt_to_equity": 45.0,
         "de_score": 6,
@@ -35123,7 +35128,7 @@
         "fcf_score": 15,
         "debt_to_equity": 33.2,
         "de_score": 6,
-        "shareholder_turnover": 0.9,
+        "shareholder_turnover": 0.8,
         "turnover_score": 0
       }
     },
@@ -35352,7 +35357,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.25,
+        "analyst_mean": 2.5,
         "analyst_score": 0,
         "fcf": 1038982144,
         "fcf_score": 15,
@@ -35557,7 +35562,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.8,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 614659776,
         "fcf_score": 15,
@@ -35593,7 +35598,7 @@
         "fcf_score": 15,
         "debt_to_equity": 37.1,
         "de_score": 6,
-        "shareholder_turnover": 0.8,
+        "shareholder_turnover": 0.7,
         "turnover_score": 0
       }
     },
@@ -35623,7 +35628,7 @@
         "fcf_score": 15,
         "debt_to_equity": 79.8,
         "de_score": 6,
-        "shareholder_turnover": 1.0,
+        "shareholder_turnover": 0.9,
         "turnover_score": 0
       }
     },
@@ -36123,7 +36128,7 @@
         "fcf_score": 15,
         "debt_to_equity": 45.9,
         "de_score": 6,
-        "shareholder_turnover": 1.5,
+        "shareholder_turnover": 1.6,
         "turnover_score": 0
       }
     },
@@ -36537,7 +36542,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.25,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 105733624,
         "fcf_score": 15,
@@ -36657,7 +36662,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 1.4,
         "analyst_score": 0,
         "fcf": 244188256,
         "fcf_score": 15,
@@ -36688,7 +36693,7 @@
         "fcf_score": 15,
         "debt_to_equity": 97.8,
         "de_score": 3,
-        "shareholder_turnover": 1.2,
+        "shareholder_turnover": 1.1,
         "turnover_score": 0
       }
     },
@@ -36778,7 +36783,7 @@
         "fcf_score": 15,
         "debt_to_equity": 36.3,
         "de_score": 6,
-        "shareholder_turnover": 1.2,
+        "shareholder_turnover": 1.1,
         "turnover_score": 0
       }
     },
@@ -36802,7 +36807,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.83,
+        "analyst_mean": 2.57,
         "analyst_score": 0,
         "fcf": 520321760,
         "fcf_score": 15,
@@ -36899,6 +36904,36 @@
         "debt_to_equity": 30.2,
         "de_score": 6,
         "shareholder_turnover": 0.7,
+        "turnover_score": 0
+      }
+    },
+    {
+      "ticker": "ITGR",
+      "name": "INTEGER HOLDINGS CORP",
+      "sector": "Health Care",
+      "score": 26,
+      "price": 125.33,
+      "market_cap": 4260223488,
+      "details": {
+        "pb_ratio": 2.48,
+        "pb_score": 0,
+        "drop_from_high_pct": -0.6,
+        "drop_score": 0,
+        "revenue_growth_quarters": 1,
+        "revenue_growth_detail": [
+          {
+            "quarter": "2026-06-30",
+            "yoy_growth_pct": 0.5
+          }
+        ],
+        "revenue_score": 5,
+        "analyst_mean": null,
+        "analyst_score": 0,
+        "fcf": 107673376,
+        "fcf_score": 15,
+        "debt_to_equity": 79.4,
+        "de_score": 6,
+        "shareholder_turnover": 1.6,
         "turnover_score": 0
       }
     },
@@ -37552,7 +37587,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.0,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 6581250,
         "fcf_score": 15,
@@ -37733,7 +37768,7 @@
         "fcf_score": 0,
         "debt_to_equity": 78.9,
         "de_score": 6,
-        "shareholder_turnover": 2.5,
+        "shareholder_turnover": 2.6,
         "turnover_score": 0
       }
     },
@@ -37845,36 +37880,6 @@
         "de_score": 3,
         "shareholder_turnover": 1.2,
         "turnover_score": 0
-      }
-    },
-    {
-      "ticker": "KRUS",
-      "name": "KURA SUSHI USA INC",
-      "sector": "Consumer Discretionary",
-      "score": 26,
-      "price": 47.46,
-      "market_cap": 576631232,
-      "details": {
-        "pb_ratio": 2.5,
-        "pb_score": 0,
-        "drop_from_high_pct": -46.1,
-        "drop_score": 15,
-        "revenue_growth_quarters": 1,
-        "revenue_growth_detail": [
-          {
-            "quarter": "2026-05-31",
-            "yoy_growth_pct": 15.5
-          }
-        ],
-        "revenue_score": 5,
-        "analyst_mean": null,
-        "analyst_score": 0,
-        "fcf": -32445124,
-        "fcf_score": 0,
-        "debt_to_equity": 90.1,
-        "de_score": 3,
-        "shareholder_turnover": 3.0,
-        "turnover_score": 3
       }
     },
     {
@@ -38347,7 +38352,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 2.12,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 467275008,
         "fcf_score": 15,
@@ -38377,7 +38382,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.71,
+        "analyst_mean": 1.73,
         "analyst_score": 0,
         "fcf": null,
         "fcf_score": 0,
@@ -38577,7 +38582,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 1.27,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 151739744,
         "fcf_score": 15,
@@ -38637,7 +38642,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.83,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": null,
         "fcf_score": 0,
@@ -39167,7 +39172,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 2.31,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 179656000,
         "fcf_score": 15,
@@ -39518,7 +39523,7 @@
         "fcf_score": 0,
         "debt_to_equity": 207.9,
         "de_score": 0,
-        "shareholder_turnover": 2.1,
+        "shareholder_turnover": 2.0,
         "turnover_score": 0
       }
     },
@@ -39633,7 +39638,7 @@
         "fcf_score": 15,
         "debt_to_equity": 197.2,
         "de_score": 0,
-        "shareholder_turnover": 0.7,
+        "shareholder_turnover": 0.6,
         "turnover_score": 0
       }
     },
@@ -39862,7 +39867,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 2.75,
         "analyst_score": 0,
         "fcf": null,
         "fcf_score": 0,
@@ -40038,7 +40043,7 @@
         "fcf_score": 15,
         "debt_to_equity": 14.1,
         "de_score": 10,
-        "shareholder_turnover": 1.3,
+        "shareholder_turnover": 1.2,
         "turnover_score": 0
       }
     },
@@ -40443,36 +40448,6 @@
       }
     },
     {
-      "ticker": "UVSP",
-      "name": "UNIVEST FINANCIAL CORP",
-      "sector": "Financials",
-      "score": 25,
-      "price": 41.57,
-      "market_cap": 1146532480,
-      "details": {
-        "pb_ratio": 1.22,
-        "pb_score": 20,
-        "drop_from_high_pct": -8.6,
-        "drop_score": 0,
-        "revenue_growth_quarters": 1,
-        "revenue_growth_detail": [
-          {
-            "quarter": "2026-03-31",
-            "yoy_growth_pct": 10.4
-          }
-        ],
-        "revenue_score": 5,
-        "analyst_mean": null,
-        "analyst_score": 0,
-        "fcf": null,
-        "fcf_score": 0,
-        "debt_to_equity": null,
-        "de_score": 0,
-        "shareholder_turnover": 0.6,
-        "turnover_score": 0
-      }
-    },
-    {
       "ticker": "TRST",
       "name": "TRUSTCO BANK CORP",
       "sector": "Financials",
@@ -40812,7 +40787,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.33,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": -5991125,
         "fcf_score": 0,
@@ -40927,7 +40902,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 2.2,
         "analyst_score": 0,
         "fcf": null,
         "fcf_score": 0,
@@ -41048,7 +41023,7 @@
         "fcf_score": 0,
         "debt_to_equity": null,
         "de_score": 0,
-        "shareholder_turnover": 0.5,
+        "shareholder_turnover": 0.4,
         "turnover_score": 0
       }
     },
@@ -41553,7 +41528,7 @@
         "fcf_score": 0,
         "debt_to_equity": null,
         "de_score": 0,
-        "shareholder_turnover": 1.2,
+        "shareholder_turnover": 1.1,
         "turnover_score": 0
       }
     },
@@ -41607,7 +41582,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 2.8,
         "analyst_score": 0,
         "fcf": null,
         "fcf_score": 0,
@@ -42522,7 +42497,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.54,
+        "analyst_mean": 1.57,
         "analyst_score": 0,
         "fcf": 6237250048,
         "fcf_score": 15,
@@ -42582,7 +42557,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.56,
+        "analyst_mean": 1.59,
         "analyst_score": 0,
         "fcf": 3106125056,
         "fcf_score": 15,
@@ -42612,7 +42587,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.7,
+        "analyst_mean": 1.72,
         "analyst_score": 0,
         "fcf": 17731874816,
         "fcf_score": 15,
@@ -43212,7 +43187,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.0,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 1942625024,
         "fcf_score": 15,
@@ -43422,7 +43397,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.38,
+        "analyst_mean": 2.29,
         "analyst_score": 0,
         "fcf": 1499437568,
         "fcf_score": 15,
@@ -43458,7 +43433,7 @@
         "fcf_score": 15,
         "debt_to_equity": 94.0,
         "de_score": 3,
-        "shareholder_turnover": 0.7,
+        "shareholder_turnover": 0.6,
         "turnover_score": 0
       }
     },
@@ -43752,7 +43727,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.0,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 432950016,
         "fcf_score": 15,
@@ -44012,13 +43987,13 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": null,
+        "analyst_mean": 1.4,
         "analyst_score": 0,
         "fcf": 687912512,
         "fcf_score": 15,
         "debt_to_equity": 198.1,
         "de_score": 0,
-        "shareholder_turnover": 0.9,
+        "shareholder_turnover": 1.0,
         "turnover_score": 0
       }
     },
@@ -44072,13 +44047,13 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.15,
+        "analyst_mean": 2.12,
         "analyst_score": 0,
         "fcf": -823210368,
         "fcf_score": 0,
         "debt_to_equity": 139.1,
         "de_score": 3,
-        "shareholder_turnover": 2.3,
+        "shareholder_turnover": 2.4,
         "turnover_score": 0
       }
     },
@@ -44378,7 +44353,7 @@
         "fcf_score": 15,
         "debt_to_equity": 125.6,
         "de_score": 3,
-        "shareholder_turnover": 0.7,
+        "shareholder_turnover": 0.6,
         "turnover_score": 0
       }
     },
@@ -44762,7 +44737,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.17,
+        "analyst_mean": 1.18,
         "analyst_score": 0,
         "fcf": 1028438976,
         "fcf_score": 15,
@@ -44978,7 +44953,7 @@
         "fcf_score": 15,
         "debt_to_equity": 124.9,
         "de_score": 3,
-        "shareholder_turnover": 1.2,
+        "shareholder_turnover": 1.1,
         "turnover_score": 0
       }
     },
@@ -45147,13 +45122,13 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.77,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 445744128,
         "fcf_score": 15,
         "debt_to_equity": 122.3,
         "de_score": 3,
-        "shareholder_turnover": 0.7,
+        "shareholder_turnover": 0.6,
         "turnover_score": 0
       }
     },
@@ -45273,7 +45248,7 @@
         "fcf_score": 15,
         "debt_to_equity": 91.6,
         "de_score": 3,
-        "shareholder_turnover": 0.7,
+        "shareholder_turnover": 0.6,
         "turnover_score": 0
       }
     },
@@ -45549,11 +45524,11 @@
         "revenue_score": 5,
         "analyst_mean": 2.25,
         "analyst_score": 0,
-        "fcf": 679875008,
+        "fcf": 419249984,
         "fcf_score": 15,
         "debt_to_equity": 144.8,
         "de_score": 3,
-        "shareholder_turnover": 2.5,
+        "shareholder_turnover": 2.6,
         "turnover_score": 0
       }
     },
@@ -45913,6 +45888,36 @@
       }
     },
     {
+      "ticker": "SYBT",
+      "name": "STOCK YARDS BANCORP INC",
+      "sector": "Financials",
+      "score": 23,
+      "price": 79.84,
+      "market_cap": 2480360704,
+      "details": {
+        "pb_ratio": 1.99,
+        "pb_score": 10,
+        "drop_from_high_pct": -10.5,
+        "drop_score": 0,
+        "revenue_growth_quarters": 1,
+        "revenue_growth_detail": [
+          {
+            "quarter": "2026-06-30",
+            "yoy_growth_pct": 17.4
+          }
+        ],
+        "revenue_score": 5,
+        "analyst_mean": 3.0,
+        "analyst_score": 8,
+        "fcf": null,
+        "fcf_score": 0,
+        "debt_to_equity": null,
+        "de_score": 0,
+        "shareholder_turnover": 0.4,
+        "turnover_score": 0
+      }
+    },
+    {
       "ticker": "UTI",
       "name": "UNIVERSAL TECHNICAL INSTITUTE INC",
       "sector": "Consumer Discretionary",
@@ -46052,7 +46057,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.75,
+        "analyst_mean": 2.5,
         "analyst_score": 0,
         "fcf": 256029248,
         "fcf_score": 15,
@@ -46119,36 +46124,6 @@
         "debt_to_equity": 109.4,
         "de_score": 3,
         "shareholder_turnover": 1.6,
-        "turnover_score": 0
-      }
-    },
-    {
-      "ticker": "NAT",
-      "name": "NORDIC AMERICAN TANKERS LTD",
-      "sector": "Energy",
-      "score": 23,
-      "price": 6.77,
-      "market_cap": 1433552000,
-      "details": {
-        "pb_ratio": 3.0,
-        "pb_score": 0,
-        "drop_from_high_pct": -6.0,
-        "drop_score": 0,
-        "revenue_growth_quarters": 1,
-        "revenue_growth_detail": [
-          {
-            "quarter": "2026-03-31",
-            "yoy_growth_pct": 0.4
-          }
-        ],
-        "revenue_score": 5,
-        "analyst_mean": null,
-        "analyst_score": 0,
-        "fcf": 82844752,
-        "fcf_score": 15,
-        "debt_to_equity": 85.1,
-        "de_score": 3,
-        "shareholder_turnover": 1.2,
         "turnover_score": 0
       }
     },
@@ -46603,6 +46578,36 @@
       }
     },
     {
+      "ticker": "KRUS",
+      "name": "KURA SUSHI USA INC",
+      "sector": "Consumer Discretionary",
+      "score": 23,
+      "price": 47.46,
+      "market_cap": 576631232,
+      "details": {
+        "pb_ratio": 2.5,
+        "pb_score": 0,
+        "drop_from_high_pct": -46.1,
+        "drop_score": 15,
+        "revenue_growth_quarters": 1,
+        "revenue_growth_detail": [
+          {
+            "quarter": "2026-05-31",
+            "yoy_growth_pct": 15.5
+          }
+        ],
+        "revenue_score": 5,
+        "analyst_mean": null,
+        "analyst_score": 0,
+        "fcf": -32445124,
+        "fcf_score": 0,
+        "debt_to_equity": 90.1,
+        "de_score": 3,
+        "shareholder_turnover": 3.0,
+        "turnover_score": 0
+      }
+    },
+    {
       "ticker": "SYK",
       "name": "STRYKER CORP",
       "sector": "Health Care",
@@ -46667,7 +46672,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 2.42,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 1943650048,
         "fcf_score": 15,
@@ -46747,7 +46752,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 1.44,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 654249984,
         "fcf_score": 15,
@@ -46822,7 +46827,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 1.79,
+        "analyst_mean": 1.84,
         "analyst_score": 0,
         "fcf": 1873449984,
         "fcf_score": 15,
@@ -46897,7 +46902,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 2.85,
+        "analyst_mean": 2.95,
         "analyst_score": 0,
         "fcf": 476142016,
         "fcf_score": 15,
@@ -46974,9 +46979,9 @@
         "revenue_score": 0,
         "analyst_mean": 1.33,
         "analyst_score": 0,
-        "fcf": 370328512,
+        "fcf": 397510624,
         "fcf_score": 15,
-        "debt_to_equity": 48.1,
+        "debt_to_equity": 48.8,
         "de_score": 6,
         "shareholder_turnover": 0.7,
         "turnover_score": 0
@@ -47197,7 +47202,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 1.0,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 654249984,
         "fcf_score": 15,
@@ -47822,7 +47827,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.73,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 1706249984,
         "fcf_score": 15,
@@ -48297,9 +48302,9 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.63,
+        "analyst_mean": 2.54,
         "analyst_score": 0,
-        "fcf": 1270925056,
+        "fcf": 1049587520,
         "fcf_score": 15,
         "debt_to_equity": 223.9,
         "de_score": 0,
@@ -48689,7 +48694,7 @@
         "revenue_score": 5,
         "analyst_mean": 1.8,
         "analyst_score": 0,
-        "fcf": 480500000,
+        "fcf": 474249984,
         "fcf_score": 15,
         "debt_to_equity": null,
         "de_score": 0,
@@ -48807,7 +48812,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 1.53,
         "analyst_score": 0,
         "fcf": -23832624,
         "fcf_score": 0,
@@ -49017,7 +49022,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.06,
+        "analyst_mean": 2.0,
         "analyst_score": 0,
         "fcf": 388895136,
         "fcf_score": 15,
@@ -49137,9 +49142,9 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.91,
+        "analyst_mean": 1.89,
         "analyst_score": 0,
-        "fcf": 269541632,
+        "fcf": 297298752,
         "fcf_score": 15,
         "debt_to_equity": null,
         "de_score": 0,
@@ -49347,7 +49352,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.78,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 277100000,
         "fcf_score": 15,
@@ -49498,7 +49503,7 @@
         "fcf_score": 15,
         "debt_to_equity": 212.5,
         "de_score": 0,
-        "shareholder_turnover": 2.0,
+        "shareholder_turnover": 2.2,
         "turnover_score": 0
       }
     },
@@ -49668,7 +49673,7 @@
         "fcf_score": 15,
         "debt_to_equity": 180.5,
         "de_score": 0,
-        "shareholder_turnover": 1.3,
+        "shareholder_turnover": 1.2,
         "turnover_score": 0
       }
     },
@@ -49687,7 +49692,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": null,
+        "analyst_mean": 2.0,
         "analyst_score": 0,
         "fcf": -268720128,
         "fcf_score": 0,
@@ -49838,7 +49843,7 @@
         "fcf_score": 15,
         "debt_to_equity": 224.9,
         "de_score": 0,
-        "shareholder_turnover": 1.4,
+        "shareholder_turnover": 1.3,
         "turnover_score": 0
       }
     },
@@ -49893,7 +49898,7 @@
         "fcf_score": 15,
         "debt_to_equity": 157.7,
         "de_score": 0,
-        "shareholder_turnover": 1.5,
+        "shareholder_turnover": 1.4,
         "turnover_score": 0
       }
     },
@@ -50087,7 +50092,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.75,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 11915250,
         "fcf_score": 15,
@@ -50288,7 +50293,7 @@
         "fcf_score": 15,
         "debt_to_equity": 262.2,
         "de_score": 0,
-        "shareholder_turnover": 0.7,
+        "shareholder_turnover": 0.6,
         "turnover_score": 0
       }
     },
@@ -50343,7 +50348,7 @@
         "fcf_score": 15,
         "debt_to_equity": null,
         "de_score": 0,
-        "shareholder_turnover": 1.2,
+        "shareholder_turnover": 2.1,
         "turnover_score": 0
       }
     },
@@ -50613,6 +50618,36 @@
       }
     },
     {
+      "ticker": "OTTR",
+      "name": "OTTER TAIL CORP",
+      "sector": "Utilities",
+      "score": 19,
+      "price": 90.84,
+      "market_cap": 3813969920,
+      "details": {
+        "pb_ratio": 2.03,
+        "pb_score": 0,
+        "drop_from_high_pct": -4.5,
+        "drop_score": 0,
+        "revenue_growth_quarters": 1,
+        "revenue_growth_detail": [
+          {
+            "quarter": "2026-06-30",
+            "yoy_growth_pct": 6.7
+          }
+        ],
+        "revenue_score": 5,
+        "analyst_mean": 3.0,
+        "analyst_score": 8,
+        "fcf": -165230496,
+        "fcf_score": 0,
+        "debt_to_equity": 67.5,
+        "de_score": 6,
+        "shareholder_turnover": 0.4,
+        "turnover_score": 0
+      }
+    },
+    {
       "ticker": "MGEE",
       "name": "MGE ENERGY INC",
       "sector": "Utilities",
@@ -50827,7 +50862,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": null,
+        "analyst_mean": 2.04,
         "analyst_score": 0,
         "fcf": 2210487552,
         "fcf_score": 15,
@@ -50933,7 +50968,7 @@
         "fcf_score": 15,
         "debt_to_equity": 82.1,
         "de_score": 3,
-        "shareholder_turnover": 0.7,
+        "shareholder_turnover": 0.6,
         "turnover_score": 0
       }
     },
@@ -51027,7 +51062,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 2.07,
+        "analyst_mean": 2.21,
         "analyst_score": 0,
         "fcf": 413247872,
         "fcf_score": 15,
@@ -51272,7 +51307,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 2.33,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 53380124,
         "fcf_score": 15,
@@ -51443,7 +51478,7 @@
         "fcf_score": 0,
         "debt_to_equity": 88.2,
         "de_score": 3,
-        "shareholder_turnover": 1.3,
+        "shareholder_turnover": 1.2,
         "turnover_score": 0
       }
     },
@@ -51528,7 +51563,7 @@
         "fcf_score": 0,
         "debt_to_equity": 66.3,
         "de_score": 6,
-        "shareholder_turnover": 0.7,
+        "shareholder_turnover": 0.6,
         "turnover_score": 0
       }
     },
@@ -51607,7 +51642,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.54,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": null,
         "fcf_score": 0,
@@ -51662,7 +51697,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 2.27,
+        "analyst_mean": 2.31,
         "analyst_score": 0,
         "fcf": 17466624000,
         "fcf_score": 15,
@@ -51972,7 +52007,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 2.36,
+        "analyst_mean": 2.39,
         "analyst_score": 0,
         "fcf": 1812125056,
         "fcf_score": 15,
@@ -52227,7 +52262,7 @@
       "details": {
         "pb_ratio": 3.81,
         "pb_score": 0,
-        "drop_from_high_pct": -3.7,
+        "drop_from_high_pct": -3.8,
         "drop_score": 0,
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
@@ -52508,36 +52543,6 @@
       }
     },
     {
-      "ticker": "SYBT",
-      "name": "STOCK YARDS BANCORP INC",
-      "sector": "Financials",
-      "score": 15,
-      "price": 79.84,
-      "market_cap": 2480360704,
-      "details": {
-        "pb_ratio": 1.99,
-        "pb_score": 10,
-        "drop_from_high_pct": -10.5,
-        "drop_score": 0,
-        "revenue_growth_quarters": 1,
-        "revenue_growth_detail": [
-          {
-            "quarter": "2026-06-30",
-            "yoy_growth_pct": 17.4
-          }
-        ],
-        "revenue_score": 5,
-        "analyst_mean": null,
-        "analyst_score": 0,
-        "fcf": null,
-        "fcf_score": 0,
-        "debt_to_equity": null,
-        "de_score": 0,
-        "shareholder_turnover": 0.4,
-        "turnover_score": 0
-      }
-    },
-    {
       "ticker": "OFG",
       "name": "OFG BANCORP",
       "sector": "Financials",
@@ -52672,7 +52677,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 2.33,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 278862496,
         "fcf_score": 15,
@@ -52763,7 +52768,7 @@
         "fcf_score": 0,
         "debt_to_equity": null,
         "de_score": 0,
-        "shareholder_turnover": 0.5,
+        "shareholder_turnover": 0.4,
         "turnover_score": 0
       }
     },
@@ -52967,7 +52972,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 2.0,
         "analyst_score": 0,
         "fcf": null,
         "fcf_score": 0,
@@ -53144,7 +53149,7 @@
         "revenue_score": 0,
         "analyst_mean": 2.67,
         "analyst_score": 0,
-        "fcf": 134062128,
+        "fcf": 116991624,
         "fcf_score": 15,
         "debt_to_equity": 167.2,
         "de_score": 0,
@@ -53292,7 +53297,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.0,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": null,
         "fcf_score": 0,
@@ -53358,7 +53363,7 @@
         "fcf_score": 0,
         "debt_to_equity": null,
         "de_score": 0,
-        "shareholder_turnover": 1.1,
+        "shareholder_turnover": 1.0,
         "turnover_score": 0
       }
     },
@@ -53618,6 +53623,36 @@
       }
     },
     {
+      "ticker": "NTRS",
+      "name": "NORTHERN TRUST CORP",
+      "sector": "Financials",
+      "score": 13,
+      "price": 186.79,
+      "market_cap": 34174283776,
+      "details": {
+        "pb_ratio": 2.73,
+        "pb_score": 0,
+        "drop_from_high_pct": -4.6,
+        "drop_score": 0,
+        "revenue_growth_quarters": 1,
+        "revenue_growth_detail": [
+          {
+            "quarter": "2026-06-30",
+            "yoy_growth_pct": 35.0
+          }
+        ],
+        "revenue_score": 5,
+        "analyst_mean": 3.0,
+        "analyst_score": 8,
+        "fcf": null,
+        "fcf_score": 0,
+        "debt_to_equity": null,
+        "de_score": 0,
+        "shareholder_turnover": 0.4,
+        "turnover_score": 0
+      }
+    },
+    {
       "ticker": "SOLS",
       "name": "SOLSTICE ADVANCED MATERIALS INC",
       "sector": "Materials",
@@ -53643,7 +53678,7 @@
         "fcf_score": 0,
         "debt_to_equity": 152.8,
         "de_score": 0,
-        "shareholder_turnover": 1.2,
+        "shareholder_turnover": 1.3,
         "turnover_score": 0
       }
     },
@@ -53857,7 +53892,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.75,
+        "analyst_mean": 1.71,
         "analyst_score": 0,
         "fcf": -142067632,
         "fcf_score": 0,
@@ -54043,7 +54078,7 @@
         "fcf_score": 0,
         "debt_to_equity": 59.4,
         "de_score": 6,
-        "shareholder_turnover": 0.8,
+        "shareholder_turnover": 0.7,
         "turnover_score": 0
       }
     },
@@ -54138,36 +54173,6 @@
       }
     },
     {
-      "ticker": "OTTR",
-      "name": "OTTER TAIL CORP",
-      "sector": "Utilities",
-      "score": 11,
-      "price": 90.84,
-      "market_cap": 3813969920,
-      "details": {
-        "pb_ratio": 2.03,
-        "pb_score": 0,
-        "drop_from_high_pct": -4.5,
-        "drop_score": 0,
-        "revenue_growth_quarters": 1,
-        "revenue_growth_detail": [
-          {
-            "quarter": "2026-06-30",
-            "yoy_growth_pct": 6.7
-          }
-        ],
-        "revenue_score": 5,
-        "analyst_mean": null,
-        "analyst_score": 0,
-        "fcf": -165230496,
-        "fcf_score": 0,
-        "debt_to_equity": 67.5,
-        "de_score": 6,
-        "shareholder_turnover": 0.4,
-        "turnover_score": 0
-      }
-    },
-    {
       "ticker": "SKWD",
       "name": "SKYWARD SPECIALTY INSURANCE GROUP",
       "sector": "Financials",
@@ -54193,7 +54198,7 @@
         "fcf_score": 0,
         "debt_to_equity": 34.5,
         "de_score": 6,
-        "shareholder_turnover": 0.9,
+        "shareholder_turnover": 0.8,
         "turnover_score": 0
       }
     },
@@ -54272,7 +54277,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 2.0,
+        "analyst_mean": 1.5,
         "analyst_score": 0,
         "fcf": -12694000,
         "fcf_score": 0,
@@ -54328,7 +54333,7 @@
         "fcf_score": 0,
         "debt_to_equity": 13.2,
         "de_score": 10,
-        "shareholder_turnover": 1.7,
+        "shareholder_turnover": 1.6,
         "turnover_score": 0
       }
     },
@@ -54577,7 +54582,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.65,
+        "analyst_mean": 1.55,
         "analyst_score": 0,
         "fcf": -115806128,
         "fcf_score": 0,
@@ -54637,7 +54642,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 2.0,
         "analyst_score": 0,
         "fcf": -24765500,
         "fcf_score": 0,
@@ -54903,7 +54908,7 @@
         "fcf_score": 0,
         "debt_to_equity": 172.4,
         "de_score": 0,
-        "shareholder_turnover": 0.4,
+        "shareholder_turnover": 0.3,
         "turnover_score": 0
       }
     },
@@ -55268,36 +55273,6 @@
       }
     },
     {
-      "ticker": "NTRS",
-      "name": "NORTHERN TRUST CORP",
-      "sector": "Financials",
-      "score": 5,
-      "price": 186.79,
-      "market_cap": 34174283776,
-      "details": {
-        "pb_ratio": 2.73,
-        "pb_score": 0,
-        "drop_from_high_pct": -4.6,
-        "drop_score": 0,
-        "revenue_growth_quarters": 1,
-        "revenue_growth_detail": [
-          {
-            "quarter": "2026-06-30",
-            "yoy_growth_pct": 35.0
-          }
-        ],
-        "revenue_score": 5,
-        "analyst_mean": null,
-        "analyst_score": 0,
-        "fcf": null,
-        "fcf_score": 0,
-        "debt_to_equity": null,
-        "de_score": 0,
-        "shareholder_turnover": 0.4,
-        "turnover_score": 0
-      }
-    },
-    {
       "ticker": "DTE",
       "name": "DTE ENERGY",
       "sector": "Utilities",
@@ -55557,7 +55532,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.6,
+        "analyst_mean": 2.67,
         "analyst_score": 0,
         "fcf": null,
         "fcf_score": 0,
@@ -55773,7 +55748,7 @@
         "fcf_score": 0,
         "debt_to_equity": null,
         "de_score": 0,
-        "shareholder_turnover": 1.2,
+        "shareholder_turnover": 1.1,
         "turnover_score": 0
       }
     },
@@ -55817,7 +55792,7 @@
       "details": {
         "pb_ratio": 6.24,
         "pb_score": 0,
-        "drop_from_high_pct": -2.0,
+        "drop_from_high_pct": -2.5,
         "drop_score": 0,
         "revenue_growth_quarters": 1,
         "revenue_growth_detail": [
@@ -56090,7 +56065,7 @@
         "fcf_score": 15,
         "debt_to_equity": null,
         "de_score": 0,
-        "shareholder_turnover": 11.7,
+        "shareholder_turnover": 11.6,
         "turnover_score": 10
       }
     },
@@ -56120,7 +56095,7 @@
         "fcf_score": 15,
         "debt_to_equity": 1.6,
         "de_score": 10,
-        "shareholder_turnover": 2.0,
+        "shareholder_turnover": 2.1,
         "turnover_score": 0
       }
     },
@@ -56174,7 +56149,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.5,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 23506000,
         "fcf_score": 15,
@@ -56407,7 +56382,7 @@
         "fcf_score": 15,
         "debt_to_equity": 73.5,
         "de_score": 6,
-        "shareholder_turnover": 4.0,
+        "shareholder_turnover": 3.9,
         "turnover_score": 3
       }
     },
@@ -56434,36 +56409,6 @@
         "de_score": 6,
         "shareholder_turnover": 0.5,
         "turnover_score": 0
-      }
-    },
-    {
-      "ticker": "ALIT",
-      "name": "ALIGHT INC CLASS A",
-      "sector": "Industrials",
-      "score": 73,
-      "price": 14.02,
-      "market_cap": 519610592,
-      "details": {
-        "pb_ratio": 0.36,
-        "pb_score": 30,
-        "drop_from_high_pct": -83.1,
-        "drop_score": 20,
-        "revenue_growth_quarters": 1,
-        "revenue_growth_detail": [
-          {
-            "quarter": "2026-06-30",
-            "yoy_growth_pct": 3.7
-          }
-        ],
-        "revenue_score": 5,
-        "analyst_mean": 2.5,
-        "analyst_score": 0,
-        "fcf": 133250000,
-        "fcf_score": 15,
-        "debt_to_equity": 205.5,
-        "de_score": 0,
-        "shareholder_turnover": 3.0,
-        "turnover_score": 3
       }
     },
     {
@@ -56511,7 +56456,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 2.27,
+        "analyst_mean": 2.4,
         "analyst_score": 0,
         "fcf": 107168376,
         "fcf_score": 15,
@@ -56571,7 +56516,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 2.0,
         "analyst_score": 0,
         "fcf": 4103875,
         "fcf_score": 15,
@@ -56687,7 +56632,7 @@
         "fcf_score": 15,
         "debt_to_equity": null,
         "de_score": 0,
-        "shareholder_turnover": 3.0,
+        "shareholder_turnover": 2.9,
         "turnover_score": 0
       }
     },
@@ -56743,6 +56688,36 @@
         "debt_to_equity": 6.2,
         "de_score": 10,
         "shareholder_turnover": 0.8,
+        "turnover_score": 0
+      }
+    },
+    {
+      "ticker": "ALIT",
+      "name": "ALIGHT INC CLASS A",
+      "sector": "Industrials",
+      "score": 70,
+      "price": 14.02,
+      "market_cap": 519610592,
+      "details": {
+        "pb_ratio": 0.36,
+        "pb_score": 30,
+        "drop_from_high_pct": -83.1,
+        "drop_score": 20,
+        "revenue_growth_quarters": 1,
+        "revenue_growth_detail": [
+          {
+            "quarter": "2026-06-30",
+            "yoy_growth_pct": 3.7
+          }
+        ],
+        "revenue_score": 5,
+        "analyst_mean": 2.5,
+        "analyst_score": 0,
+        "fcf": 133250000,
+        "fcf_score": 15,
+        "debt_to_equity": 205.5,
+        "de_score": 0,
+        "shareholder_turnover": 3.0,
         "turnover_score": 0
       }
     },
@@ -56862,36 +56837,6 @@
       }
     },
     {
-      "ticker": "ZUMZ",
-      "name": "ZUMIEZ INC",
-      "sector": "Consumer Discretionary",
-      "score": 69,
-      "price": 18.18,
-      "market_cap": 306736896,
-      "details": {
-        "pb_ratio": 1.01,
-        "pb_score": 20,
-        "drop_from_high_pct": -42.6,
-        "drop_score": 15,
-        "revenue_growth_quarters": 1,
-        "revenue_growth_detail": [
-          {
-            "quarter": "2026-04-30",
-            "yoy_growth_pct": 2.3
-          }
-        ],
-        "revenue_score": 5,
-        "analyst_mean": 3.0,
-        "analyst_score": 8,
-        "fcf": 41457624,
-        "fcf_score": 15,
-        "debt_to_equity": 66.6,
-        "de_score": 6,
-        "shareholder_turnover": 1.2,
-        "turnover_score": 0
-      }
-    },
-    {
       "ticker": "AAL",
       "name": "AMERICAN AIRLINES GROUP INC",
       "sector": "Industrials",
@@ -56917,7 +56862,7 @@
         "fcf_score": 15,
         "debt_to_equity": null,
         "de_score": 0,
-        "shareholder_turnover": 10.3,
+        "shareholder_turnover": 10.2,
         "turnover_score": 10
       }
     },
@@ -57247,7 +57192,7 @@
         "fcf_score": 15,
         "debt_to_equity": 64.0,
         "de_score": 6,
-        "shareholder_turnover": 1.3,
+        "shareholder_turnover": 1.2,
         "turnover_score": 0
       }
     },
@@ -57502,7 +57447,7 @@
         "fcf_score": 15,
         "debt_to_equity": 265.0,
         "de_score": 0,
-        "shareholder_turnover": 2.2,
+        "shareholder_turnover": 2.1,
         "turnover_score": 0
       }
     },
@@ -57532,7 +57477,7 @@
         "fcf_score": 15,
         "debt_to_equity": 203.8,
         "de_score": 0,
-        "shareholder_turnover": 2.3,
+        "shareholder_turnover": 2.2,
         "turnover_score": 0
       }
     },
@@ -57562,7 +57507,7 @@
         "fcf_score": 15,
         "debt_to_equity": null,
         "de_score": 0,
-        "shareholder_turnover": 0.7,
+        "shareholder_turnover": 0.6,
         "turnover_score": 0
       }
     },
@@ -57671,7 +57616,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.2,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 86966248,
         "fcf_score": 15,
@@ -57821,7 +57766,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.33,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 6637250,
         "fcf_score": 15,
@@ -57846,7 +57791,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 1.17,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 15760875,
         "fcf_score": 15,
@@ -58341,7 +58286,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.6,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 1615874944,
         "fcf_score": 15,
@@ -58486,7 +58431,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.4,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 437212512,
         "fcf_score": 15,
@@ -58522,7 +58467,7 @@
         "fcf_score": 15,
         "debt_to_equity": 32.0,
         "de_score": 6,
-        "shareholder_turnover": 1.3,
+        "shareholder_turnover": 1.2,
         "turnover_score": 0
       }
     },
@@ -58553,6 +58498,36 @@
         "debt_to_equity": 82.4,
         "de_score": 3,
         "shareholder_turnover": 0.7,
+        "turnover_score": 0
+      }
+    },
+    {
+      "ticker": "ZUMZ",
+      "name": "ZUMIEZ INC",
+      "sector": "Consumer Discretionary",
+      "score": 61,
+      "price": 18.18,
+      "market_cap": 306736896,
+      "details": {
+        "pb_ratio": 1.01,
+        "pb_score": 20,
+        "drop_from_high_pct": -42.6,
+        "drop_score": 15,
+        "revenue_growth_quarters": 1,
+        "revenue_growth_detail": [
+          {
+            "quarter": "2026-04-30",
+            "yoy_growth_pct": 2.3
+          }
+        ],
+        "revenue_score": 5,
+        "analyst_mean": null,
+        "analyst_score": 0,
+        "fcf": 41457624,
+        "fcf_score": 15,
+        "debt_to_equity": 66.6,
+        "de_score": 6,
+        "shareholder_turnover": 1.2,
         "turnover_score": 0
       }
     },
@@ -58601,13 +58576,13 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 1.9,
+        "analyst_mean": 2.0,
         "analyst_score": 0,
         "fcf": 774413504,
         "fcf_score": 15,
         "debt_to_equity": null,
         "de_score": 0,
-        "shareholder_turnover": 1.0,
+        "shareholder_turnover": 0.9,
         "turnover_score": 0
       }
     },
@@ -58727,7 +58702,7 @@
         "fcf_score": 15,
         "debt_to_equity": 13.0,
         "de_score": 10,
-        "shareholder_turnover": 1.3,
+        "shareholder_turnover": 1.2,
         "turnover_score": 0
       }
     },
@@ -58776,7 +58751,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 2.22,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 303124992,
         "fcf_score": 15,
@@ -58832,7 +58807,7 @@
         "fcf_score": 15,
         "debt_to_equity": 273.7,
         "de_score": 0,
-        "shareholder_turnover": 2.3,
+        "shareholder_turnover": 2.2,
         "turnover_score": 0
       }
     },
@@ -58857,7 +58832,7 @@
         "fcf_score": 15,
         "debt_to_equity": null,
         "de_score": 0,
-        "shareholder_turnover": 2.4,
+        "shareholder_turnover": 2.3,
         "turnover_score": 0
       }
     },
@@ -58966,7 +58941,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 2.64,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 400500000,
         "fcf_score": 15,
@@ -59082,6 +59057,36 @@
       }
     },
     {
+      "ticker": "OXM",
+      "name": "OXFORD INDUSTRIES INC",
+      "sector": "Consumer Discretionary",
+      "score": 59,
+      "price": 38.31,
+      "market_cap": 572004032,
+      "details": {
+        "pb_ratio": 1.09,
+        "pb_score": 20,
+        "drop_from_high_pct": -25.8,
+        "drop_score": 8,
+        "revenue_growth_quarters": 1,
+        "revenue_growth_detail": [
+          {
+            "quarter": "2026-04-30",
+            "yoy_growth_pct": 4.9
+          }
+        ],
+        "revenue_score": 5,
+        "analyst_mean": 3.0,
+        "analyst_score": 8,
+        "fcf": 13258625,
+        "fcf_score": 15,
+        "debt_to_equity": 113.2,
+        "de_score": 3,
+        "shareholder_turnover": 1.9,
+        "turnover_score": 0
+      }
+    },
+    {
       "ticker": "FPI",
       "name": "FARMLAND PARTNERS INC",
       "sector": "Real Estate",
@@ -59187,7 +59192,7 @@
         "fcf_score": 15,
         "debt_to_equity": null,
         "de_score": 0,
-        "shareholder_turnover": 1.1,
+        "shareholder_turnover": 1.0,
         "turnover_score": 0
       }
     },
@@ -59422,7 +59427,7 @@
         "fcf_score": 15,
         "debt_to_equity": null,
         "de_score": 0,
-        "shareholder_turnover": 2.7,
+        "shareholder_turnover": 2.6,
         "turnover_score": 0
       }
     },
@@ -59566,7 +59571,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 1.58,
         "analyst_score": 0,
         "fcf": 183562496,
         "fcf_score": 15,
@@ -59861,7 +59866,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.4,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 155124992,
         "fcf_score": 15,
@@ -60192,7 +60197,7 @@
         "fcf_score": 15,
         "debt_to_equity": 92.6,
         "de_score": 3,
-        "shareholder_turnover": 1.4,
+        "shareholder_turnover": 1.3,
         "turnover_score": 0
       }
     },
@@ -60422,7 +60427,7 @@
         "fcf_score": 15,
         "debt_to_equity": 169.8,
         "de_score": 0,
-        "shareholder_turnover": 3.0,
+        "shareholder_turnover": 3.2,
         "turnover_score": 3
       }
     },
@@ -60611,7 +60616,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": null,
+        "analyst_mean": 1.67,
         "analyst_score": 0,
         "fcf": 128402376,
         "fcf_score": 15,
@@ -60949,7 +60954,7 @@
         "fcf_score": 15,
         "debt_to_equity": null,
         "de_score": 0,
-        "shareholder_turnover": 11.7,
+        "shareholder_turnover": 11.6,
         "turnover_score": 10
       }
     },
@@ -60979,7 +60984,7 @@
         "fcf_score": 15,
         "debt_to_equity": 1.6,
         "de_score": 10,
-        "shareholder_turnover": 2.0,
+        "shareholder_turnover": 2.1,
         "turnover_score": 0
       }
     },
@@ -61033,7 +61038,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.5,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 23506000,
         "fcf_score": 15,
@@ -61264,7 +61269,7 @@
         "fcf_score": 15,
         "debt_to_equity": 73.5,
         "de_score": 6,
-        "shareholder_turnover": 4.0,
+        "shareholder_turnover": 3.9,
         "turnover_score": 3
       }
     },
@@ -61291,36 +61296,6 @@
         "de_score": 6,
         "shareholder_turnover": 0.5,
         "turnover_score": 0
-      }
-    },
-    {
-      "ticker": "ALIT",
-      "name": "ALIGHT INC CLASS A",
-      "sector": "Industrials",
-      "score": 73,
-      "price": 14.02,
-      "market_cap": 519610592,
-      "details": {
-        "pb_ratio": 0.36,
-        "pb_score": 30,
-        "drop_from_high_pct": -83.1,
-        "drop_score": 20,
-        "revenue_growth_quarters": 1,
-        "revenue_growth_detail": [
-          {
-            "quarter": "2026-06-30",
-            "yoy_growth_pct": 3.7
-          }
-        ],
-        "revenue_score": 5,
-        "analyst_mean": 2.5,
-        "analyst_score": 0,
-        "fcf": 133250000,
-        "fcf_score": 15,
-        "debt_to_equity": 205.5,
-        "de_score": 0,
-        "shareholder_turnover": 3.0,
-        "turnover_score": 3
       }
     },
     {
@@ -61368,7 +61343,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 2.27,
+        "analyst_mean": 2.4,
         "analyst_score": 0,
         "fcf": 107168376,
         "fcf_score": 15,
@@ -61428,7 +61403,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 2.0,
         "analyst_score": 0,
         "fcf": 4103875,
         "fcf_score": 15,
@@ -61544,7 +61519,7 @@
         "fcf_score": 15,
         "debt_to_equity": null,
         "de_score": 0,
-        "shareholder_turnover": 3.0,
+        "shareholder_turnover": 2.9,
         "turnover_score": 0
       }
     },
@@ -61600,6 +61575,36 @@
         "debt_to_equity": 6.2,
         "de_score": 10,
         "shareholder_turnover": 0.8,
+        "turnover_score": 0
+      }
+    },
+    {
+      "ticker": "ALIT",
+      "name": "ALIGHT INC CLASS A",
+      "sector": "Industrials",
+      "score": 70,
+      "price": 14.02,
+      "market_cap": 519610592,
+      "details": {
+        "pb_ratio": 0.36,
+        "pb_score": 30,
+        "drop_from_high_pct": -83.1,
+        "drop_score": 20,
+        "revenue_growth_quarters": 1,
+        "revenue_growth_detail": [
+          {
+            "quarter": "2026-06-30",
+            "yoy_growth_pct": 3.7
+          }
+        ],
+        "revenue_score": 5,
+        "analyst_mean": 2.5,
+        "analyst_score": 0,
+        "fcf": 133250000,
+        "fcf_score": 15,
+        "debt_to_equity": 205.5,
+        "de_score": 0,
+        "shareholder_turnover": 3.0,
         "turnover_score": 0
       }
     },
@@ -61719,36 +61724,6 @@
       }
     },
     {
-      "ticker": "ZUMZ",
-      "name": "ZUMIEZ INC",
-      "sector": "Consumer Discretionary",
-      "score": 69,
-      "price": 18.18,
-      "market_cap": 306736896,
-      "details": {
-        "pb_ratio": 1.01,
-        "pb_score": 20,
-        "drop_from_high_pct": -42.6,
-        "drop_score": 15,
-        "revenue_growth_quarters": 1,
-        "revenue_growth_detail": [
-          {
-            "quarter": "2026-04-30",
-            "yoy_growth_pct": 2.3
-          }
-        ],
-        "revenue_score": 5,
-        "analyst_mean": 3.0,
-        "analyst_score": 8,
-        "fcf": 41457624,
-        "fcf_score": 15,
-        "debt_to_equity": 66.6,
-        "de_score": 6,
-        "shareholder_turnover": 1.2,
-        "turnover_score": 0
-      }
-    },
-    {
       "ticker": "AAL",
       "name": "AMERICAN AIRLINES GROUP INC",
       "sector": "Industrials",
@@ -61774,8 +61749,33 @@
         "fcf_score": 15,
         "debt_to_equity": null,
         "de_score": 0,
-        "shareholder_turnover": 10.3,
+        "shareholder_turnover": 10.2,
         "turnover_score": 10
+      }
+    },
+    {
+      "ticker": "LUMN",
+      "name": "LUMEN TECHNOLOGIES INC",
+      "sector": "Communication",
+      "score": 68,
+      "price": 6.04,
+      "market_cap": 6229929984,
+      "details": {
+        "pb_ratio": -4.18,
+        "pb_score": 30,
+        "drop_from_high_pct": -49.5,
+        "drop_score": 15,
+        "revenue_growth_quarters": 0,
+        "revenue_growth_detail": [],
+        "revenue_score": 0,
+        "analyst_mean": 3.0,
+        "analyst_score": 8,
+        "fcf": 2116249984,
+        "fcf_score": 15,
+        "debt_to_equity": null,
+        "de_score": 0,
+        "shareholder_turnover": 0.9,
+        "turnover_score": 0
       }
     }
   ]
