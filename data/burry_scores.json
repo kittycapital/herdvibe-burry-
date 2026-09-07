@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-06 22:07 UTC",
-  "updated_kst": "2026-09-07 07:07 KST",
+  "updated_at": "2026-09-07 22:42 UTC",
+  "updated_kst": "2026-09-08 07:42 KST",
   "total_screened": 1934,
   "burry_zone_count": 8,
   "watchlist_count": 157,
@@ -137,7 +137,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 3.44,
+        "analyst_mean": 3.42,
         "analyst_score": 8,
         "fcf": 1077926016,
         "fcf_score": 15,
@@ -1163,36 +1163,6 @@
       }
     },
     {
-      "ticker": "DBX",
-      "name": "DROPBOX INC CLASS A",
-      "sector": "Information Technology",
-      "score": 65,
-      "price": 34.83,
-      "market_cap": 7573527040,
-      "details": {
-        "pb_ratio": -3.5,
-        "pb_score": 30,
-        "drop_from_high_pct": -4.2,
-        "drop_score": 0,
-        "revenue_growth_quarters": 1,
-        "revenue_growth_detail": [
-          {
-            "quarter": "2026-06-30",
-            "yoy_growth_pct": 1.1
-          }
-        ],
-        "revenue_score": 5,
-        "analyst_mean": 3.5,
-        "analyst_score": 15,
-        "fcf": 783075008,
-        "fcf_score": 15,
-        "debt_to_equity": null,
-        "de_score": 0,
-        "shareholder_turnover": 1.9,
-        "turnover_score": 0
-      }
-    },
-    {
       "ticker": "PLNT",
       "name": "PLANET FITNESS INC CLASS A",
       "sector": "Consumer Discretionary",
@@ -2042,7 +2012,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": null,
+        "analyst_mean": 2.56,
         "analyst_score": 0,
         "fcf": 148253872,
         "fcf_score": 15,
@@ -2567,7 +2537,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 2.33,
         "analyst_score": 0,
         "fcf": 62582376,
         "fcf_score": 15,
@@ -2827,7 +2797,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": null,
+        "analyst_mean": 2.22,
         "analyst_score": 0,
         "fcf": 303124992,
         "fcf_score": 15,
@@ -3483,6 +3453,36 @@
       }
     },
     {
+      "ticker": "DBX",
+      "name": "DROPBOX INC CLASS A",
+      "sector": "Information Technology",
+      "score": 58,
+      "price": 34.83,
+      "market_cap": 7573527040,
+      "details": {
+        "pb_ratio": -3.5,
+        "pb_score": 30,
+        "drop_from_high_pct": -4.2,
+        "drop_score": 0,
+        "revenue_growth_quarters": 1,
+        "revenue_growth_detail": [
+          {
+            "quarter": "2026-06-30",
+            "yoy_growth_pct": 1.1
+          }
+        ],
+        "revenue_score": 5,
+        "analyst_mean": 3.29,
+        "analyst_score": 8,
+        "fcf": 783075008,
+        "fcf_score": 15,
+        "debt_to_equity": null,
+        "de_score": 0,
+        "shareholder_turnover": 1.9,
+        "turnover_score": 0
+      }
+    },
+    {
       "ticker": "OLN",
       "name": "OLIN CORP",
       "sector": "Materials",
@@ -4092,7 +4092,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 2.5,
         "analyst_score": 0,
         "fcf": 208319248,
         "fcf_score": 15,
@@ -5027,7 +5027,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": null,
+        "analyst_mean": 2.5,
         "analyst_score": 0,
         "fcf": 59145876,
         "fcf_score": 15,
@@ -5222,7 +5222,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 2.29,
         "analyst_score": 0,
         "fcf": 241862496,
         "fcf_score": 15,
@@ -5484,6 +5484,31 @@
         "debt_to_equity": 0.7,
         "de_score": 10,
         "shareholder_turnover": 1.6,
+        "turnover_score": 0
+      }
+    },
+    {
+      "ticker": "ETD",
+      "name": "ETHAN ALLEN INTERIORS INC",
+      "sector": "Consumer Discretionary",
+      "score": 53,
+      "price": 22.49,
+      "market_cap": 566804288,
+      "details": {
+        "pb_ratio": 1.22,
+        "pb_score": 20,
+        "drop_from_high_pct": -25.9,
+        "drop_score": 8,
+        "revenue_growth_quarters": 0,
+        "revenue_growth_detail": [],
+        "revenue_score": 0,
+        "analyst_mean": null,
+        "analyst_score": 0,
+        "fcf": 31900000,
+        "fcf_score": 15,
+        "debt_to_equity": 25.6,
+        "de_score": 10,
+        "shareholder_turnover": 1.7,
         "turnover_score": 0
       }
     },
@@ -5944,6 +5969,31 @@
         "debt_to_equity": 30.6,
         "de_score": 6,
         "shareholder_turnover": 0.6,
+        "turnover_score": 0
+      }
+    },
+    {
+      "ticker": "CALM",
+      "name": "CAL MAINE FOODS INC",
+      "sector": "Consumer Staples",
+      "score": 51,
+      "price": 74.63,
+      "market_cap": 3485668096,
+      "details": {
+        "pb_ratio": 1.33,
+        "pb_score": 20,
+        "drop_from_high_pct": -35.3,
+        "drop_score": 8,
+        "revenue_growth_quarters": 0,
+        "revenue_growth_detail": [],
+        "revenue_score": 0,
+        "analyst_mean": 3.0,
+        "analyst_score": 8,
+        "fcf": 8796500,
+        "fcf_score": 15,
+        "debt_to_equity": null,
+        "de_score": 0,
+        "shareholder_turnover": 1.4,
         "turnover_score": 0
       }
     },
@@ -7520,7 +7570,7 @@
       "price": 35.6,
       "market_cap": 3510671872,
       "details": {
-        "pb_ratio": 1.3,
+        "pb_ratio": 1.23,
         "pb_score": 20,
         "drop_from_high_pct": -4.6,
         "drop_score": 0,
@@ -7797,7 +7847,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 2.58,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": -132067000,
         "fcf_score": 0,
@@ -8927,7 +8977,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 1.0,
         "analyst_score": 0,
         "fcf": 73930624,
         "fcf_score": 15,
@@ -10307,7 +10357,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 1.54,
         "analyst_score": 0,
         "fcf": 2268750080,
         "fcf_score": 15,
@@ -10442,7 +10492,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.0,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 349384384,
         "fcf_score": 15,
@@ -10527,7 +10577,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 1.58,
+        "analyst_mean": 1.56,
         "analyst_score": 0,
         "fcf": 1466249984,
         "fcf_score": 15,
@@ -10552,7 +10602,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 2.48,
+        "analyst_mean": 2.43,
         "analyst_score": 0,
         "fcf": 897124992,
         "fcf_score": 15,
@@ -10637,7 +10687,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.44,
+        "analyst_mean": 1.5,
         "analyst_score": 0,
         "fcf": 202302368,
         "fcf_score": 15,
@@ -10685,7 +10735,7 @@
       "price": 417.99,
       "market_cap": 5864333312,
       "details": {
-        "pb_ratio": 12.38,
+        "pb_ratio": 11.57,
         "pb_score": 0,
         "drop_from_high_pct": -48.1,
         "drop_score": 15,
@@ -10697,7 +10747,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.0,
+        "analyst_mean": 1.6,
         "analyst_score": 0,
         "fcf": 467822016,
         "fcf_score": 15,
@@ -12272,7 +12322,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 2.26,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 464577120,
         "fcf_score": 15,
@@ -12594,31 +12644,6 @@
         "debt_to_equity": 106.3,
         "de_score": 3,
         "shareholder_turnover": 0.9,
-        "turnover_score": 0
-      }
-    },
-    {
-      "ticker": "CALM",
-      "name": "CAL MAINE FOODS INC",
-      "sector": "Consumer Staples",
-      "score": 43,
-      "price": 74.63,
-      "market_cap": 3485668096,
-      "details": {
-        "pb_ratio": 1.33,
-        "pb_score": 20,
-        "drop_from_high_pct": -35.3,
-        "drop_score": 8,
-        "revenue_growth_quarters": 0,
-        "revenue_growth_detail": [],
-        "revenue_score": 0,
-        "analyst_mean": null,
-        "analyst_score": 0,
-        "fcf": 8796500,
-        "fcf_score": 15,
-        "debt_to_equity": null,
-        "de_score": 0,
-        "shareholder_turnover": 1.4,
         "turnover_score": 0
       }
     },
@@ -13047,7 +13072,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.67,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 25091376,
         "fcf_score": 15,
@@ -14372,7 +14397,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 2.0,
         "analyst_score": 0,
         "fcf": 89847872,
         "fcf_score": 15,
@@ -14722,7 +14747,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.7,
+        "analyst_mean": 1.73,
         "analyst_score": 0,
         "fcf": 21933750272,
         "fcf_score": 15,
@@ -14782,7 +14807,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 2.3,
         "analyst_score": 0,
         "fcf": 5507500032,
         "fcf_score": 15,
@@ -14842,7 +14867,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.26,
+        "analyst_mean": 1.25,
         "analyst_score": 0,
         "fcf": 46000000,
         "fcf_score": 15,
@@ -14957,7 +14982,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.8,
+        "analyst_mean": 2.9,
         "analyst_score": 0,
         "fcf": 484752736,
         "fcf_score": 15,
@@ -15424,6 +15449,31 @@
         "debt_to_equity": 6.8,
         "de_score": 10,
         "shareholder_turnover": 0.9,
+        "turnover_score": 0
+      }
+    },
+    {
+      "ticker": "FIZZ",
+      "name": "NATIONAL BEVERAGE CORP",
+      "sector": "Consumer Staples",
+      "score": 40,
+      "price": 32.24,
+      "market_cap": 3018157568,
+      "details": {
+        "pb_ratio": 4.71,
+        "pb_score": 0,
+        "drop_from_high_pct": -20.7,
+        "drop_score": 0,
+        "revenue_growth_quarters": 0,
+        "revenue_growth_detail": [],
+        "revenue_score": 0,
+        "analyst_mean": 5.0,
+        "analyst_score": 15,
+        "fcf": 106155752,
+        "fcf_score": 15,
+        "debt_to_equity": 9.3,
+        "de_score": 10,
+        "shareholder_turnover": 1.2,
         "turnover_score": 0
       }
     },
@@ -16173,7 +16223,7 @@
         "fcf_score": 0,
         "debt_to_equity": 189.4,
         "de_score": 0,
-        "shareholder_turnover": 0.8,
+        "shareholder_turnover": 0.9,
         "turnover_score": 0
       }
     },
@@ -17147,7 +17197,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.44,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 198919872,
         "fcf_score": 15,
@@ -17177,7 +17227,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 1.5,
         "analyst_score": 0,
         "fcf": 327875008,
         "fcf_score": 15,
@@ -17267,7 +17317,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.14,
+        "analyst_mean": 2.29,
         "analyst_score": 0,
         "fcf": 32831624,
         "fcf_score": 15,
@@ -17642,7 +17692,7 @@
       "details": {
         "pb_ratio": 0.3,
         "pb_score": 30,
-        "drop_from_high_pct": -4.8,
+        "drop_from_high_pct": -1.4,
         "drop_score": 0,
         "revenue_growth_quarters": 1,
         "revenue_growth_detail": [
@@ -17822,7 +17872,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 1.12,
         "analyst_score": 0,
         "fcf": 12943625,
         "fcf_score": 15,
@@ -18250,7 +18300,7 @@
       "price": 5.91,
       "market_cap": 1372132608,
       "details": {
-        "pb_ratio": 2.68,
+        "pb_ratio": 2.7,
         "pb_score": 0,
         "drop_from_high_pct": -28.6,
         "drop_score": 8,
@@ -18363,31 +18413,6 @@
       }
     },
     {
-      "ticker": "ETD",
-      "name": "ETHAN ALLEN INTERIORS INC",
-      "sector": "Consumer Discretionary",
-      "score": 38,
-      "price": 22.49,
-      "market_cap": 566804288,
-      "details": {
-        "pb_ratio": 1.22,
-        "pb_score": 20,
-        "drop_from_high_pct": -25.9,
-        "drop_score": 8,
-        "revenue_growth_quarters": 0,
-        "revenue_growth_detail": [],
-        "revenue_score": 0,
-        "analyst_mean": null,
-        "analyst_score": 0,
-        "fcf": null,
-        "fcf_score": 0,
-        "debt_to_equity": 25.5,
-        "de_score": 10,
-        "shareholder_turnover": 1.7,
-        "turnover_score": 0
-      }
-    },
-    {
       "ticker": "ASAN",
       "name": "ASANA INC CLASS A",
       "sector": "Information Technology",
@@ -18413,7 +18438,7 @@
         "fcf_score": 15,
         "debt_to_equity": 247.6,
         "de_score": 0,
-        "shareholder_turnover": 3.7,
+        "shareholder_turnover": 3.8,
         "turnover_score": 3
       }
     },
@@ -18577,7 +18602,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.33,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 71902000,
         "fcf_score": 15,
@@ -18727,7 +18752,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.77,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 4306375168,
         "fcf_score": 15,
@@ -18862,7 +18887,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 2.0,
+        "analyst_mean": 2.03,
         "analyst_score": 0,
         "fcf": 2668452864,
         "fcf_score": 15,
@@ -19187,7 +19212,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.5,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 1045124992,
         "fcf_score": 15,
@@ -20947,7 +20972,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 1.57,
         "analyst_score": 0,
         "fcf": null,
         "fcf_score": 0,
@@ -21752,7 +21777,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.64,
+        "analyst_mean": 1.6,
         "analyst_score": 0,
         "fcf": 3425542400,
         "fcf_score": 15,
@@ -21842,7 +21867,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.62,
+        "analyst_mean": 1.64,
         "analyst_score": 0,
         "fcf": 5147500032,
         "fcf_score": 15,
@@ -21932,7 +21957,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.0,
+        "analyst_mean": 1.96,
         "analyst_score": 0,
         "fcf": 593374976,
         "fcf_score": 15,
@@ -23092,7 +23117,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.43,
+        "analyst_mean": 2.36,
         "analyst_score": 0,
         "fcf": 1096111872,
         "fcf_score": 15,
@@ -23317,7 +23342,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 2.17,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 128289624,
         "fcf_score": 15,
@@ -23597,7 +23622,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 2.12,
         "analyst_score": 0,
         "fcf": 260802752,
         "fcf_score": 15,
@@ -24172,7 +24197,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.5,
+        "analyst_mean": 1.47,
         "analyst_score": 0,
         "fcf": 3157499904,
         "fcf_score": 15,
@@ -24452,7 +24477,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": null,
+        "analyst_mean": 2.47,
         "analyst_score": 0,
         "fcf": 1419049984,
         "fcf_score": 15,
@@ -25347,7 +25372,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.2,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 66178248,
         "fcf_score": 15,
@@ -25499,36 +25524,6 @@
         "debt_to_equity": 108.6,
         "de_score": 3,
         "shareholder_turnover": 0.8,
-        "turnover_score": 0
-      }
-    },
-    {
-      "ticker": "BWMN",
-      "name": "BOWMAN CONSULTING GROUP LTD",
-      "sector": "Industrials",
-      "score": 31,
-      "price": 42.43,
-      "market_cap": 735471104,
-      "details": {
-        "pb_ratio": 2.85,
-        "pb_score": 0,
-        "drop_from_high_pct": -7.4,
-        "drop_score": 0,
-        "revenue_growth_quarters": 1,
-        "revenue_growth_detail": [
-          {
-            "quarter": "2026-06-30",
-            "yoy_growth_pct": 21.0
-          }
-        ],
-        "revenue_score": 5,
-        "analyst_mean": 3.2,
-        "analyst_score": 8,
-        "fcf": 29109500,
-        "fcf_score": 15,
-        "debt_to_equity": 111.0,
-        "de_score": 3,
-        "shareholder_turnover": 1.3,
         "turnover_score": 0
       }
     },
@@ -26027,7 +26022,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.53,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 7578124800,
         "fcf_score": 15,
@@ -26657,7 +26652,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.55,
+        "analyst_mean": 1.57,
         "analyst_score": 0,
         "fcf": 954675392,
         "fcf_score": 15,
@@ -26717,7 +26712,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.0,
+        "analyst_mean": 1.97,
         "analyst_score": 0,
         "fcf": 1257709824,
         "fcf_score": 15,
@@ -26957,7 +26952,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.78,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": -57873500,
         "fcf_score": 0,
@@ -27575,7 +27570,7 @@
       "price": 68.41,
       "market_cap": 13062520832,
       "details": {
-        "pb_ratio": 7.26,
+        "pb_ratio": 7.49,
         "pb_score": 0,
         "drop_from_high_pct": -21.1,
         "drop_score": 0,
@@ -27587,7 +27582,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.76,
+        "analyst_mean": 2.75,
         "analyst_score": 0,
         "fcf": 1312730880,
         "fcf_score": 15,
@@ -28505,7 +28500,7 @@
       "price": 104.5,
       "market_cap": 5176022016,
       "details": {
-        "pb_ratio": 2.36,
+        "pb_ratio": 2.28,
         "pb_score": 0,
         "drop_from_high_pct": -0.9,
         "drop_score": 0,
@@ -28637,7 +28632,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.75,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 76945872,
         "fcf_score": 15,
@@ -29370,7 +29365,7 @@
       "price": 34.75,
       "market_cap": 3504598272,
       "details": {
-        "pb_ratio": 3.52,
+        "pb_ratio": 3.36,
         "pb_score": 0,
         "drop_from_high_pct": -5.9,
         "drop_score": 0,
@@ -29472,7 +29467,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.71,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 81431248,
         "fcf_score": 15,
@@ -30152,7 +30147,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.5,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 29046376,
         "fcf_score": 15,
@@ -31732,7 +31727,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.71,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": -250611632,
         "fcf_score": 0,
@@ -32102,7 +32097,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.2,
+        "analyst_mean": 2.23,
         "analyst_score": 0,
         "fcf": 107721875456,
         "fcf_score": 15,
@@ -33152,7 +33147,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 1.58,
         "analyst_score": 0,
         "fcf": 1867124992,
         "fcf_score": 15,
@@ -33422,7 +33417,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.5,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 2903124992,
         "fcf_score": 15,
@@ -33452,7 +33447,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.83,
+        "analyst_mean": 1.79,
         "analyst_score": 0,
         "fcf": 843600000,
         "fcf_score": 15,
@@ -34342,7 +34337,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.91,
+        "analyst_mean": 1.87,
         "analyst_score": 0,
         "fcf": 845386752,
         "fcf_score": 15,
@@ -34402,7 +34397,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.92,
+        "analyst_mean": 1.83,
         "analyst_score": 0,
         "fcf": 1500125056,
         "fcf_score": 15,
@@ -35437,7 +35432,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 1.47,
+        "analyst_mean": 1.45,
         "analyst_score": 0,
         "fcf": -907763968,
         "fcf_score": 0,
@@ -35467,7 +35462,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.43,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 316457248,
         "fcf_score": 15,
@@ -35540,7 +35535,7 @@
       "price": 91.81,
       "market_cap": 9639248896,
       "details": {
-        "pb_ratio": 7.53,
+        "pb_ratio": 7.44,
         "pb_score": 0,
         "drop_from_high_pct": -15.0,
         "drop_score": 0,
@@ -35612,7 +35607,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.5,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 258250000,
         "fcf_score": 15,
@@ -36112,7 +36107,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 1.58,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 295262240,
         "fcf_score": 15,
@@ -36220,7 +36215,7 @@
       "price": 113.73,
       "market_cap": 6995483648,
       "details": {
-        "pb_ratio": 3.01,
+        "pb_ratio": 2.95,
         "pb_score": 0,
         "drop_from_high_pct": -7.9,
         "drop_score": 0,
@@ -36262,7 +36257,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.5,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 1045124992,
         "fcf_score": 15,
@@ -36532,7 +36527,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.33,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 118462496,
         "fcf_score": 15,
@@ -37467,7 +37462,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 2.75,
         "analyst_score": 0,
         "fcf": null,
         "fcf_score": 0,
@@ -37497,7 +37492,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.8,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": null,
         "fcf_score": 0,
@@ -37642,7 +37637,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.67,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": null,
         "fcf_score": 0,
@@ -38422,7 +38417,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.9,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": -319812512,
         "fcf_score": 0,
@@ -39322,7 +39317,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 2.83,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 141624992,
         "fcf_score": 15,
@@ -40469,31 +40464,6 @@
         "debt_to_equity": null,
         "de_score": 0,
         "shareholder_turnover": 0.8,
-        "turnover_score": 0
-      }
-    },
-    {
-      "ticker": "FIZZ",
-      "name": "NATIONAL BEVERAGE CORP",
-      "sector": "Consumer Staples",
-      "score": 25,
-      "price": 32.24,
-      "market_cap": 3018157568,
-      "details": {
-        "pb_ratio": 4.71,
-        "pb_score": 0,
-        "drop_from_high_pct": -20.7,
-        "drop_score": 0,
-        "revenue_growth_quarters": 0,
-        "revenue_growth_detail": [],
-        "revenue_score": 0,
-        "analyst_mean": null,
-        "analyst_score": 0,
-        "fcf": 106155752,
-        "fcf_score": 15,
-        "debt_to_equity": 9.3,
-        "de_score": 10,
-        "shareholder_turnover": 1.2,
         "turnover_score": 0
       }
     },
@@ -41872,7 +41842,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.45,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 6594625024,
         "fcf_score": 15,
@@ -42280,7 +42250,7 @@
       "price": 337.18,
       "market_cap": 116866588672,
       "details": {
-        "pb_ratio": 54.78,
+        "pb_ratio": 55.28,
         "pb_score": 0,
         "drop_from_high_pct": -12.3,
         "drop_score": 0,
@@ -42502,7 +42472,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.24,
+        "analyst_mean": 2.3,
         "analyst_score": 0,
         "fcf": 899875008,
         "fcf_score": 15,
@@ -42682,7 +42652,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.32,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 107750000,
         "fcf_score": 15,
@@ -42892,7 +42862,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 2.17,
         "analyst_score": 0,
         "fcf": 1104625024,
         "fcf_score": 15,
@@ -42982,7 +42952,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.2,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": -57898876,
         "fcf_score": 0,
@@ -43595,7 +43565,7 @@
       "price": 90.27,
       "market_cap": 19025946624,
       "details": {
-        "pb_ratio": 5.99,
+        "pb_ratio": 5.97,
         "pb_score": 0,
         "drop_from_high_pct": -1.1,
         "drop_score": 0,
@@ -43925,7 +43895,7 @@
       "price": 252.2,
       "market_cap": 13884627968,
       "details": {
-        "pb_ratio": 6.03,
+        "pb_ratio": 5.61,
         "pb_score": 0,
         "drop_from_high_pct": -4.4,
         "drop_score": 0,
@@ -45292,7 +45262,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.14,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 226218256,
         "fcf_score": 15,
@@ -45652,7 +45622,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.14,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 2736375,
         "fcf_score": 15,
@@ -46044,6 +46014,36 @@
         "debt_to_equity": 129.1,
         "de_score": 3,
         "shareholder_turnover": 0.3,
+        "turnover_score": 0
+      }
+    },
+    {
+      "ticker": "BWMN",
+      "name": "BOWMAN CONSULTING GROUP LTD",
+      "sector": "Industrials",
+      "score": 23,
+      "price": 42.43,
+      "market_cap": 735471104,
+      "details": {
+        "pb_ratio": 2.85,
+        "pb_score": 0,
+        "drop_from_high_pct": -7.4,
+        "drop_score": 0,
+        "revenue_growth_quarters": 1,
+        "revenue_growth_detail": [
+          {
+            "quarter": "2026-06-30",
+            "yoy_growth_pct": 21.0
+          }
+        ],
+        "revenue_score": 5,
+        "analyst_mean": null,
+        "analyst_score": 0,
+        "fcf": 29109500,
+        "fcf_score": 15,
+        "debt_to_equity": 111.0,
+        "de_score": 3,
+        "shareholder_turnover": 1.3,
         "turnover_score": 0
       }
     },
@@ -47067,7 +47067,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": null,
+        "analyst_mean": 1.2,
         "analyst_score": 0,
         "fcf": 130745376,
         "fcf_score": 15,
@@ -47382,7 +47382,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.92,
+        "analyst_mean": 1.96,
         "analyst_score": 0,
         "fcf": 2610374912,
         "fcf_score": 15,
@@ -47622,7 +47622,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.75,
+        "analyst_mean": 1.71,
         "analyst_score": 0,
         "fcf": 2579124992,
         "fcf_score": 15,
@@ -47760,7 +47760,7 @@
       "price": 185.59,
       "market_cap": 36453404672,
       "details": {
-        "pb_ratio": 26.92,
+        "pb_ratio": 24.33,
         "pb_score": 0,
         "drop_from_high_pct": -11.2,
         "drop_score": 0,
@@ -47922,7 +47922,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 1.72,
         "analyst_score": 0,
         "fcf": 473750016,
         "fcf_score": 15,
@@ -48372,7 +48372,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.8,
+        "analyst_mean": 1.83,
         "analyst_score": 0,
         "fcf": 474249984,
         "fcf_score": 15,
@@ -48402,7 +48402,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.12,
+        "analyst_mean": 2.07,
         "analyst_score": 0,
         "fcf": 746317888,
         "fcf_score": 15,
@@ -48462,7 +48462,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 1.9,
         "analyst_score": 0,
         "fcf": 459932128,
         "fcf_score": 15,
@@ -48582,7 +48582,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.5,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 211000000,
         "fcf_score": 15,
@@ -48822,7 +48822,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.67,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 227820992,
         "fcf_score": 15,
@@ -48942,7 +48942,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.52,
+        "analyst_mean": 2.48,
         "analyst_score": 0,
         "fcf": 286033984,
         "fcf_score": 15,
@@ -49002,7 +49002,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.7,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 218100000,
         "fcf_score": 15,
@@ -50702,7 +50702,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.29,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": -242985632,
         "fcf_score": 0,
@@ -50977,7 +50977,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 2.64,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": -2220956928,
         "fcf_score": 0,
@@ -51182,7 +51182,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.0,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": -6649625,
         "fcf_score": 0,
@@ -51347,7 +51347,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.09,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": -4477374976,
         "fcf_score": 0,
@@ -51565,7 +51565,7 @@
       "price": 131.42,
       "market_cap": 24658374656,
       "details": {
-        "pb_ratio": 7.25,
+        "pb_ratio": 7.2,
         "pb_score": 0,
         "drop_from_high_pct": -7.7,
         "drop_score": 0,
@@ -51657,7 +51657,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 1.62,
         "analyst_score": 0,
         "fcf": null,
         "fcf_score": 0,
@@ -51977,7 +51977,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.5,
+        "analyst_mean": 1.62,
         "analyst_score": 0,
         "fcf": null,
         "fcf_score": 0,
@@ -52522,7 +52522,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 2.4,
         "analyst_score": 0,
         "fcf": null,
         "fcf_score": 0,
@@ -54887,7 +54887,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.52,
+        "analyst_mean": 1.45,
         "analyst_score": 0,
         "fcf": -1516749952,
         "fcf_score": 0,
@@ -55187,7 +55187,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.12,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": -5191875072,
         "fcf_score": 0,
@@ -55217,7 +55217,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.19,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": -2014625024,
         "fcf_score": 0,
@@ -55722,7 +55722,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 1.67,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": -1221291392,
         "fcf_score": 0,
@@ -55797,7 +55797,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 1.81,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": -1786249984,
         "fcf_score": 0,
@@ -55989,7 +55989,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 3.44,
+        "analyst_mean": 3.42,
         "analyst_score": 8,
         "fcf": 1077926016,
         "fcf_score": 15,
@@ -57017,36 +57017,6 @@
       }
     },
     {
-      "ticker": "DBX",
-      "name": "DROPBOX INC CLASS A",
-      "sector": "Information Technology",
-      "score": 65,
-      "price": 34.83,
-      "market_cap": 7573527040,
-      "details": {
-        "pb_ratio": -3.5,
-        "pb_score": 30,
-        "drop_from_high_pct": -4.2,
-        "drop_score": 0,
-        "revenue_growth_quarters": 1,
-        "revenue_growth_detail": [
-          {
-            "quarter": "2026-06-30",
-            "yoy_growth_pct": 1.1
-          }
-        ],
-        "revenue_score": 5,
-        "analyst_mean": 3.5,
-        "analyst_score": 15,
-        "fcf": 783075008,
-        "fcf_score": 15,
-        "debt_to_equity": null,
-        "de_score": 0,
-        "shareholder_turnover": 1.9,
-        "turnover_score": 0
-      }
-    },
-    {
       "ticker": "PLNT",
       "name": "PLANET FITNESS INC CLASS A",
       "sector": "Consumer Discretionary",
@@ -57896,7 +57866,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": null,
+        "analyst_mean": 2.56,
         "analyst_score": 0,
         "fcf": 148253872,
         "fcf_score": 15,
@@ -58421,7 +58391,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 2.33,
         "analyst_score": 0,
         "fcf": 62582376,
         "fcf_score": 15,
@@ -58681,7 +58651,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": null,
+        "analyst_mean": 2.22,
         "analyst_score": 0,
         "fcf": 303124992,
         "fcf_score": 15,
@@ -59337,6 +59307,36 @@
       }
     },
     {
+      "ticker": "DBX",
+      "name": "DROPBOX INC CLASS A",
+      "sector": "Information Technology",
+      "score": 58,
+      "price": 34.83,
+      "market_cap": 7573527040,
+      "details": {
+        "pb_ratio": -3.5,
+        "pb_score": 30,
+        "drop_from_high_pct": -4.2,
+        "drop_score": 0,
+        "revenue_growth_quarters": 1,
+        "revenue_growth_detail": [
+          {
+            "quarter": "2026-06-30",
+            "yoy_growth_pct": 1.1
+          }
+        ],
+        "revenue_score": 5,
+        "analyst_mean": 3.29,
+        "analyst_score": 8,
+        "fcf": 783075008,
+        "fcf_score": 15,
+        "debt_to_equity": null,
+        "de_score": 0,
+        "shareholder_turnover": 1.9,
+        "turnover_score": 0
+      }
+    },
+    {
       "ticker": "OLN",
       "name": "OLIN CORP",
       "sector": "Materials",
@@ -59946,7 +59946,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 2.5,
         "analyst_score": 0,
         "fcf": 208319248,
         "fcf_score": 15,
@@ -60683,7 +60683,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 3.44,
+        "analyst_mean": 3.42,
         "analyst_score": 8,
         "fcf": 1077926016,
         "fcf_score": 15,
