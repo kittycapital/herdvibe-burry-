@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-09-12 22:02 UTC",
-  "updated_kst": "2026-09-13 07:02 KST",
-  "total_screened": 1949,
+  "updated_at": "2026-09-13 22:14 UTC",
+  "updated_kst": "2026-09-14 07:14 KST",
+  "total_screened": 1950,
   "burry_zone_count": 7,
-  "watchlist_count": 181,
+  "watchlist_count": 182,
   "failed_count": 0,
   "scoring_note": "120점 만점 / Burry Zone 75점+ / Watchlist 55~74점",
   "all_results": [
@@ -483,7 +483,7 @@
         "fcf_score": 15,
         "debt_to_equity": 81.4,
         "de_score": 3,
-        "shareholder_turnover": 1.3,
+        "shareholder_turnover": 1.4,
         "turnover_score": 0
       }
     },
@@ -617,7 +617,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": null,
+        "analyst_mean": 2.62,
         "analyst_score": 0,
         "fcf": 13588000,
         "fcf_score": 15,
@@ -1359,11 +1359,11 @@
         "revenue_score": 5,
         "analyst_mean": null,
         "analyst_score": 0,
-        "fcf": 29452250,
+        "fcf": 29464124,
         "fcf_score": 15,
         "debt_to_equity": 0.2,
         "de_score": 10,
-        "shareholder_turnover": 1.5,
+        "shareholder_turnover": 1.4,
         "turnover_score": 0
       }
     },
@@ -1442,7 +1442,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 1.44,
         "analyst_score": 0,
         "fcf": 35174876,
         "fcf_score": 15,
@@ -1582,7 +1582,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 1.75,
         "analyst_score": 0,
         "fcf": 775551744,
         "fcf_score": 15,
@@ -2517,7 +2517,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": null,
+        "analyst_mean": 2.2,
         "analyst_score": 0,
         "fcf": 33529124,
         "fcf_score": 15,
@@ -2838,7 +2838,7 @@
         "fcf_score": 15,
         "debt_to_equity": 0.5,
         "de_score": 10,
-        "shareholder_turnover": 3.5,
+        "shareholder_turnover": 3.4,
         "turnover_score": 3
       }
     },
@@ -3477,7 +3477,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 2.43,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 1979750016,
         "fcf_score": 15,
@@ -3712,7 +3712,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.25,
+        "analyst_mean": 2.28,
         "analyst_score": 0,
         "fcf": 2653125120,
         "fcf_score": 15,
@@ -3742,7 +3742,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.17,
+        "analyst_mean": 2.13,
         "analyst_score": 0,
         "fcf": 531496512,
         "fcf_score": 15,
@@ -4277,7 +4277,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 2.25,
         "analyst_score": 0,
         "fcf": 121834752,
         "fcf_score": 15,
@@ -4557,7 +4557,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 2.17,
         "analyst_score": 0,
         "fcf": 519709248,
         "fcf_score": 15,
@@ -4624,6 +4624,36 @@
         "debt_to_equity": 30.3,
         "de_score": 6,
         "shareholder_turnover": 1.0,
+        "turnover_score": 0
+      }
+    },
+    {
+      "ticker": "YELP",
+      "name": "YELP INC",
+      "sector": "Communication",
+      "score": 56,
+      "price": 21.28,
+      "market_cap": 1154729856,
+      "details": {
+        "pb_ratio": 1.89,
+        "pb_score": 10,
+        "drop_from_high_pct": -38.3,
+        "drop_score": 8,
+        "revenue_growth_quarters": 1,
+        "revenue_growth_detail": [
+          {
+            "quarter": "2026-06-30",
+            "yoy_growth_pct": 25.8
+          }
+        ],
+        "revenue_score": 5,
+        "analyst_mean": 3.0,
+        "analyst_score": 8,
+        "fcf": 283744640,
+        "fcf_score": 15,
+        "debt_to_equity": 19.1,
+        "de_score": 10,
+        "shareholder_turnover": 1.4,
         "turnover_score": 0
       }
     },
@@ -4858,7 +4888,7 @@
         "fcf_score": 15,
         "debt_to_equity": 91.0,
         "de_score": 3,
-        "shareholder_turnover": 1.4,
+        "shareholder_turnover": 1.5,
         "turnover_score": 0
       }
     },
@@ -5017,7 +5047,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 1.82,
+        "analyst_mean": 1.83,
         "analyst_score": 0,
         "fcf": 76441128,
         "fcf_score": 15,
@@ -6217,7 +6247,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 2.86,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 23412876,
         "fcf_score": 15,
@@ -6747,7 +6777,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.58,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 183562496,
         "fcf_score": 15,
@@ -7052,7 +7082,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.64,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 9014625280,
         "fcf_score": 15,
@@ -7322,7 +7352,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.15,
+        "analyst_mean": 2.12,
         "analyst_score": 0,
         "fcf": 833249984,
         "fcf_score": 15,
@@ -7622,7 +7652,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.52,
+        "analyst_mean": 2.5,
         "analyst_score": 0,
         "fcf": 169665376,
         "fcf_score": 15,
@@ -8477,7 +8507,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 2.67,
         "analyst_score": 0,
         "fcf": 100824752,
         "fcf_score": 15,
@@ -8932,7 +8962,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 1.75,
+        "analyst_mean": 1.58,
         "analyst_score": 0,
         "fcf": 1646499968,
         "fcf_score": 15,
@@ -9215,31 +9245,6 @@
         "de_score": 6,
         "shareholder_turnover": 3.0,
         "turnover_score": 3
-      }
-    },
-    {
-      "ticker": "FPI",
-      "name": "FARMLAND PARTNERS INC",
-      "sector": "Real Estate",
-      "score": 49,
-      "price": 10.7,
-      "market_cap": 469983968,
-      "details": {
-        "pb_ratio": 1.01,
-        "pb_score": 20,
-        "drop_from_high_pct": -19.1,
-        "drop_score": 0,
-        "revenue_growth_quarters": 0,
-        "revenue_growth_detail": [],
-        "revenue_score": 0,
-        "analyst_mean": 3.0,
-        "analyst_score": 8,
-        "fcf": 16627500,
-        "fcf_score": 15,
-        "debt_to_equity": 48.4,
-        "de_score": 6,
-        "shareholder_turnover": 0.8,
-        "turnover_score": 0
       }
     },
     {
@@ -9583,36 +9588,6 @@
       }
     },
     {
-      "ticker": "YELP",
-      "name": "YELP INC",
-      "sector": "Communication",
-      "score": 48,
-      "price": 21.28,
-      "market_cap": 1154729856,
-      "details": {
-        "pb_ratio": 1.89,
-        "pb_score": 10,
-        "drop_from_high_pct": -38.3,
-        "drop_score": 8,
-        "revenue_growth_quarters": 1,
-        "revenue_growth_detail": [
-          {
-            "quarter": "2026-06-30",
-            "yoy_growth_pct": 25.8
-          }
-        ],
-        "revenue_score": 5,
-        "analyst_mean": null,
-        "analyst_score": 0,
-        "fcf": 283744640,
-        "fcf_score": 15,
-        "debt_to_equity": 19.1,
-        "de_score": 10,
-        "shareholder_turnover": 1.4,
-        "turnover_score": 0
-      }
-    },
-    {
       "ticker": "UVV",
       "name": "UNIVERSAL CORP",
       "sector": "Consumer Staples",
@@ -9827,7 +9802,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.33,
+        "analyst_mean": 2.38,
         "analyst_score": 0,
         "fcf": 9639624704,
         "fcf_score": 15,
@@ -10627,7 +10602,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 1.67,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 216250000,
         "fcf_score": 15,
@@ -11052,7 +11027,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 1.81,
         "analyst_score": 0,
         "fcf": 91913128,
         "fcf_score": 15,
@@ -11107,7 +11082,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 2.05,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 1036249984,
         "fcf_score": 15,
@@ -11562,7 +11537,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 2.6,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 621551616,
         "fcf_score": 15,
@@ -12097,7 +12072,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.56,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 5611125,
         "fcf_score": 15,
@@ -12159,9 +12134,9 @@
         "revenue_score": 5,
         "analyst_mean": 5.0,
         "analyst_score": 15,
-        "fcf": 106155752,
+        "fcf": 131415752,
         "fcf_score": 15,
-        "debt_to_equity": 9.3,
+        "debt_to_equity": 16.0,
         "de_score": 10,
         "shareholder_turnover": 1.3,
         "turnover_score": 0
@@ -12217,7 +12192,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.25,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 14467875,
         "fcf_score": 15,
@@ -13067,7 +13042,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": null,
+        "analyst_mean": 2.26,
         "analyst_score": 0,
         "fcf": 464577120,
         "fcf_score": 15,
@@ -13752,7 +13727,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 1.71,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 1568163200,
         "fcf_score": 15,
@@ -14314,9 +14289,9 @@
         "revenue_score": 5,
         "analyst_mean": 1.69,
         "analyst_score": 0,
-        "fcf": 330620736,
+        "fcf": 343031744,
         "fcf_score": 15,
-        "debt_to_equity": 58.9,
+        "debt_to_equity": 59.9,
         "de_score": 6,
         "shareholder_turnover": 1.3,
         "turnover_score": 0
@@ -15293,6 +15268,31 @@
       }
     },
     {
+      "ticker": "FPI",
+      "name": "FARMLAND PARTNERS INC",
+      "sector": "Real Estate",
+      "score": 41,
+      "price": 10.7,
+      "market_cap": 469983968,
+      "details": {
+        "pb_ratio": 1.01,
+        "pb_score": 20,
+        "drop_from_high_pct": -19.1,
+        "drop_score": 0,
+        "revenue_growth_quarters": 0,
+        "revenue_growth_detail": [],
+        "revenue_score": 0,
+        "analyst_mean": null,
+        "analyst_score": 0,
+        "fcf": 16627500,
+        "fcf_score": 15,
+        "debt_to_equity": 48.4,
+        "de_score": 6,
+        "shareholder_turnover": 0.8,
+        "turnover_score": 0
+      }
+    },
+    {
       "ticker": "RMR",
       "name": "RMR GROUP INC CLASS A",
       "sector": "Real Estate",
@@ -15337,7 +15337,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 2.75,
         "analyst_score": 0,
         "fcf": -9825000,
         "fcf_score": 0,
@@ -15427,7 +15427,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.0,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 20378750,
         "fcf_score": 15,
@@ -16387,7 +16387,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": null,
+        "analyst_mean": 2.5,
         "analyst_score": 0,
         "fcf": 124770128,
         "fcf_score": 15,
@@ -16787,7 +16787,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.38,
+        "analyst_mean": 2.41,
         "analyst_score": 0,
         "fcf": 4835999744,
         "fcf_score": 15,
@@ -16907,7 +16907,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.61,
+        "analyst_mean": 1.58,
         "analyst_score": 0,
         "fcf": 3179956224,
         "fcf_score": 15,
@@ -17142,7 +17142,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.15,
+        "analyst_mean": 2.08,
         "analyst_score": 0,
         "fcf": 999977152,
         "fcf_score": 15,
@@ -17557,7 +17557,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 2.0,
         "analyst_score": 0,
         "fcf": 114850000,
         "fcf_score": 15,
@@ -17907,7 +17907,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.25,
+        "analyst_mean": 1.32,
         "analyst_score": 0,
         "fcf": 547687488,
         "fcf_score": 15,
@@ -18087,7 +18087,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 2.77,
         "analyst_score": 0,
         "fcf": 244382624,
         "fcf_score": 15,
@@ -19162,7 +19162,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 1.2,
         "analyst_score": 0,
         "fcf": 66178248,
         "fcf_score": 15,
@@ -19327,7 +19327,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.4,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 38868876,
         "fcf_score": 15,
@@ -20547,7 +20547,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 2.56,
         "analyst_score": 0,
         "fcf": 69455872,
         "fcf_score": 15,
@@ -20637,7 +20637,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 1.29,
         "analyst_score": 0,
         "fcf": 129911624,
         "fcf_score": 15,
@@ -21442,7 +21442,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.0,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 73703504,
         "fcf_score": 15,
@@ -22727,7 +22727,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.54,
+        "analyst_mean": 1.52,
         "analyst_score": 0,
         "fcf": 7209124864,
         "fcf_score": 15,
@@ -22817,7 +22817,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.4,
+        "analyst_mean": 1.38,
         "analyst_score": 0,
         "fcf": 1609676544,
         "fcf_score": 15,
@@ -22895,7 +22895,7 @@
       "price": 252.23,
       "market_cap": 100261421056,
       "details": {
-        "pb_ratio": 8.74,
+        "pb_ratio": 8.47,
         "pb_score": 0,
         "drop_from_high_pct": -32.0,
         "drop_score": 8,
@@ -22937,7 +22937,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.27,
+        "analyst_mean": 1.3,
         "analyst_score": 0,
         "fcf": 2019124992,
         "fcf_score": 15,
@@ -23207,7 +23207,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.65,
+        "analyst_mean": 1.6,
         "analyst_score": 0,
         "fcf": 503306880,
         "fcf_score": 15,
@@ -23567,7 +23567,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.38,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 158712496,
         "fcf_score": 15,
@@ -23597,7 +23597,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.3,
+        "analyst_mean": 1.27,
         "analyst_score": 0,
         "fcf": 50812500,
         "fcf_score": 15,
@@ -23627,7 +23627,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 1.57,
         "analyst_score": 0,
         "fcf": 184378496,
         "fcf_score": 15,
@@ -23807,7 +23807,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 2.33,
         "analyst_score": 0,
         "fcf": 418440384,
         "fcf_score": 15,
@@ -24947,7 +24947,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": null,
+        "analyst_mean": 2.75,
         "analyst_score": 0,
         "fcf": 176569376,
         "fcf_score": 15,
@@ -25172,7 +25172,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 2.56,
         "analyst_score": 0,
         "fcf": 445770624,
         "fcf_score": 15,
@@ -25257,7 +25257,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 1.09,
         "analyst_score": 0,
         "fcf": -42843376,
         "fcf_score": 0,
@@ -25344,7 +25344,7 @@
         "revenue_score": 0,
         "analyst_mean": 2.0,
         "analyst_score": 0,
-        "fcf": -20362624,
+        "fcf": -18497750,
         "fcf_score": 0,
         "debt_to_equity": 128.7,
         "de_score": 3,
@@ -25572,7 +25572,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 1.54,
         "analyst_score": 0,
         "fcf": 1364762496,
         "fcf_score": 15,
@@ -25669,6 +25669,36 @@
         "debt_to_equity": 94.0,
         "de_score": 3,
         "shareholder_turnover": 0.6,
+        "turnover_score": 0
+      }
+    },
+    {
+      "ticker": "TPL",
+      "name": "TEXAS PACIFIC LAND CORP",
+      "sector": "Energy",
+      "score": 31,
+      "price": 369.1,
+      "market_cap": 25458554880,
+      "details": {
+        "pb_ratio": 16.36,
+        "pb_score": 0,
+        "drop_from_high_pct": -32.5,
+        "drop_score": 8,
+        "revenue_growth_quarters": 1,
+        "revenue_growth_detail": [
+          {
+            "quarter": "2026-06-30",
+            "yoy_growth_pct": 27.4
+          }
+        ],
+        "revenue_score": 5,
+        "analyst_mean": 3.0,
+        "analyst_score": 8,
+        "fcf": -32836124,
+        "fcf_score": 0,
+        "debt_to_equity": 1.1,
+        "de_score": 10,
+        "shareholder_turnover": 0.4,
         "turnover_score": 0
       }
     },
@@ -25772,7 +25802,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.33,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 1194499968,
         "fcf_score": 15,
@@ -26557,7 +26587,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.0,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": -533750016,
         "fcf_score": 0,
@@ -27012,7 +27042,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.0,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 875250,
         "fcf_score": 15,
@@ -27424,9 +27454,9 @@
         "revenue_score": 5,
         "analyst_mean": 1.65,
         "analyst_score": 0,
-        "fcf": 4469550080,
+        "fcf": 4240624896,
         "fcf_score": 15,
-        "debt_to_equity": 9.1,
+        "debt_to_equity": 9.3,
         "de_score": 10,
         "shareholder_turnover": 0.5,
         "turnover_score": 0
@@ -27482,7 +27512,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.71,
+        "analyst_mean": 1.7,
         "analyst_score": 0,
         "fcf": 1995385472,
         "fcf_score": 15,
@@ -27572,7 +27602,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.67,
+        "analyst_mean": 1.68,
         "analyst_score": 0,
         "fcf": 2627887616,
         "fcf_score": 15,
@@ -27722,7 +27752,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 2.97,
         "analyst_score": 0,
         "fcf": 14775124992,
         "fcf_score": 15,
@@ -28142,7 +28172,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 1.75,
         "analyst_score": 0,
         "fcf": 912675008,
         "fcf_score": 15,
@@ -28412,7 +28442,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.55,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 1109474944,
         "fcf_score": 15,
@@ -28622,7 +28652,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 1.0,
         "analyst_score": 0,
         "fcf": 524939744,
         "fcf_score": 15,
@@ -28682,7 +28712,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 1.5,
         "analyst_score": 0,
         "fcf": 362843616,
         "fcf_score": 15,
@@ -28802,7 +28832,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 1.25,
         "analyst_score": 0,
         "fcf": 234024992,
         "fcf_score": 15,
@@ -28952,7 +28982,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.76,
+        "analyst_mean": 1.83,
         "analyst_score": 0,
         "fcf": 352223744,
         "fcf_score": 15,
@@ -29132,7 +29162,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.8,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 20809250,
         "fcf_score": 15,
@@ -29312,7 +29342,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 1.0,
         "analyst_score": 0,
         "fcf": 329443360,
         "fcf_score": 15,
@@ -29342,7 +29372,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.33,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 118383248,
         "fcf_score": 15,
@@ -29402,7 +29432,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 2.82,
         "analyst_score": 0,
         "fcf": 692531392,
         "fcf_score": 15,
@@ -30297,7 +30327,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.0,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 39345124,
         "fcf_score": 15,
@@ -30987,7 +31017,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 1.0,
         "analyst_score": 0,
         "fcf": 19503500,
         "fcf_score": 15,
@@ -31227,7 +31257,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 1.1,
         "analyst_score": 0,
         "fcf": 29544876,
         "fcf_score": 15,
@@ -32322,7 +32352,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.82,
+        "analyst_mean": 1.78,
         "analyst_score": 0,
         "fcf": 2615200000,
         "fcf_score": 15,
@@ -33202,7 +33232,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.4,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 231191248,
         "fcf_score": 15,
@@ -33932,7 +33962,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 2.08,
         "analyst_score": 0,
         "fcf": 3545250048,
         "fcf_score": 15,
@@ -34292,7 +34322,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.87,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 2229374976,
         "fcf_score": 15,
@@ -34742,7 +34772,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 2.79,
         "analyst_score": 0,
         "fcf": 1247750016,
         "fcf_score": 15,
@@ -34982,7 +35012,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.88,
+        "analyst_mean": 1.91,
         "analyst_score": 0,
         "fcf": 843600000,
         "fcf_score": 15,
@@ -35362,7 +35392,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 1.72,
+        "analyst_mean": 1.76,
         "analyst_score": 0,
         "fcf": 480618368,
         "fcf_score": 15,
@@ -35422,7 +35452,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.08,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 903028352,
         "fcf_score": 15,
@@ -36287,7 +36317,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.36,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": -4961438720,
         "fcf_score": 0,
@@ -36882,7 +36912,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.67,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 60250000,
         "fcf_score": 15,
@@ -36967,7 +36997,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 1.45,
+        "analyst_mean": 1.43,
         "analyst_score": 0,
         "fcf": -907763968,
         "fcf_score": 0,
@@ -37502,7 +37532,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 2.25,
         "analyst_score": 0,
         "fcf": 105733624,
         "fcf_score": 15,
@@ -38032,7 +38062,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 1.12,
         "analyst_score": 0,
         "fcf": 66293124,
         "fcf_score": 15,
@@ -38392,7 +38422,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.23,
+        "analyst_mean": 2.36,
         "analyst_score": 0,
         "fcf": 857375,
         "fcf_score": 15,
@@ -39227,7 +39257,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 2.86,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 229653120,
         "fcf_score": 15,
@@ -39407,7 +39437,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.83,
+        "analyst_mean": 1.85,
         "analyst_score": 0,
         "fcf": null,
         "fcf_score": 0,
@@ -39432,7 +39462,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": null,
+        "analyst_mean": 1.27,
         "analyst_score": 0,
         "fcf": 151739744,
         "fcf_score": 15,
@@ -39847,7 +39877,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 2.29,
         "analyst_score": 0,
         "fcf": null,
         "fcf_score": 0,
@@ -39937,7 +39967,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.06,
+        "analyst_mean": 2.11,
         "analyst_score": 0,
         "fcf": null,
         "fcf_score": 0,
@@ -40197,7 +40227,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.8,
+        "analyst_mean": 2.82,
         "analyst_score": 0,
         "fcf": null,
         "fcf_score": 0,
@@ -42623,7 +42653,7 @@
         "fcf_score": 0,
         "debt_to_equity": null,
         "de_score": 0,
-        "shareholder_turnover": 1.6,
+        "shareholder_turnover": 1.7,
         "turnover_score": 0
       }
     },
@@ -43667,7 +43697,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.33,
+        "analyst_mean": 2.37,
         "analyst_score": 0,
         "fcf": 899875008,
         "fcf_score": 15,
@@ -43877,7 +43907,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.54,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 1637624960,
         "fcf_score": 15,
@@ -44218,36 +44248,6 @@
       }
     },
     {
-      "ticker": "TPL",
-      "name": "TEXAS PACIFIC LAND CORP",
-      "sector": "Energy",
-      "score": 23,
-      "price": 369.1,
-      "market_cap": 25458554880,
-      "details": {
-        "pb_ratio": 16.36,
-        "pb_score": 0,
-        "drop_from_high_pct": -32.5,
-        "drop_score": 8,
-        "revenue_growth_quarters": 1,
-        "revenue_growth_detail": [
-          {
-            "quarter": "2026-06-30",
-            "yoy_growth_pct": 27.4
-          }
-        ],
-        "revenue_score": 5,
-        "analyst_mean": null,
-        "analyst_score": 0,
-        "fcf": -32836124,
-        "fcf_score": 0,
-        "debt_to_equity": 1.1,
-        "de_score": 10,
-        "shareholder_turnover": 0.4,
-        "turnover_score": 0
-      }
-    },
-    {
       "ticker": "VLTO",
       "name": "VERALTO CORP",
       "sector": "Industrials",
@@ -44357,7 +44357,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 1.62,
         "analyst_score": 0,
         "fcf": 805124992,
         "fcf_score": 15,
@@ -45222,7 +45222,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.18,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 1028438976,
         "fcf_score": 15,
@@ -46122,7 +46122,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 1.0,
         "analyst_score": 0,
         "fcf": 24545250,
         "fcf_score": 15,
@@ -46537,7 +46537,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.75,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 260481504,
         "fcf_score": 15,
@@ -46567,7 +46567,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 2.2,
         "analyst_score": 0,
         "fcf": 49461376,
         "fcf_score": 15,
@@ -46963,7 +46963,7 @@
         "fcf_score": 0,
         "debt_to_equity": null,
         "de_score": 0,
-        "shareholder_turnover": 0.9,
+        "shareholder_turnover": 0.8,
         "turnover_score": 0
       }
     },
@@ -46987,7 +46987,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.0,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": -7256375,
         "fcf_score": 0,
@@ -47132,7 +47132,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 1.8,
         "analyst_score": 0,
         "fcf": -32445124,
         "fcf_score": 0,
@@ -47282,7 +47282,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 2.24,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 939262528,
         "fcf_score": 15,
@@ -47387,7 +47387,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": null,
+        "analyst_mean": 1.79,
         "analyst_score": 0,
         "fcf": 1873449984,
         "fcf_score": 15,
@@ -47623,7 +47623,7 @@
         "fcf_score": 0,
         "debt_to_equity": 35.0,
         "de_score": 6,
-        "shareholder_turnover": 1.0,
+        "shareholder_turnover": 1.3,
         "turnover_score": 0
       }
     },
@@ -48248,6 +48248,36 @@
       }
     },
     {
+      "ticker": "ORCL",
+      "name": "ORACLE CORP",
+      "sector": "Information Technology",
+      "score": 20,
+      "price": 150.28,
+      "market_cap": 432877174784,
+      "details": {
+        "pb_ratio": 11.52,
+        "pb_score": 0,
+        "drop_from_high_pct": -54.4,
+        "drop_score": 15,
+        "revenue_growth_quarters": 1,
+        "revenue_growth_detail": [
+          {
+            "quarter": "2026-05-31",
+            "yoy_growth_pct": 18.6
+          }
+        ],
+        "revenue_score": 5,
+        "analyst_mean": 1.6,
+        "analyst_score": 0,
+        "fcf": -45853626368,
+        "fcf_score": 0,
+        "debt_to_equity": 251.7,
+        "de_score": 0,
+        "shareholder_turnover": 1.1,
+        "turnover_score": 0
+      }
+    },
+    {
       "ticker": "PEP",
       "name": "PEPSICO INC",
       "sector": "Consumer Staples",
@@ -48417,7 +48447,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.53,
+        "analyst_mean": 1.52,
         "analyst_score": 0,
         "fcf": 3776000000,
         "fcf_score": 15,
@@ -49017,7 +49047,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.57,
+        "analyst_mean": 1.5,
         "analyst_score": 0,
         "fcf": 713825024,
         "fcf_score": 15,
@@ -49107,7 +49137,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.5,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 2247875072,
         "fcf_score": 15,
@@ -49257,7 +49287,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 1.89,
         "analyst_score": 0,
         "fcf": 603528512,
         "fcf_score": 15,
@@ -49737,7 +49767,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.25,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 157737248,
         "fcf_score": 15,
@@ -50872,7 +50902,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.55,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": -6625124864,
         "fcf_score": 0,
@@ -51257,7 +51287,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 2.11,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 1464337536,
         "fcf_score": 15,
@@ -51597,7 +51627,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 2.0,
         "analyst_score": 0,
         "fcf": -220775008,
         "fcf_score": 0,
@@ -51787,7 +51817,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 2.64,
+        "analyst_mean": 2.71,
         "analyst_score": 0,
         "fcf": -2220956928,
         "fcf_score": 0,
@@ -51847,7 +51877,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 2.5,
         "analyst_score": 0,
         "fcf": -222215744,
         "fcf_score": 0,
@@ -52352,7 +52382,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 2.34,
+        "analyst_mean": 2.31,
         "analyst_score": 0,
         "fcf": 1812125056,
         "fcf_score": 15,
@@ -54152,7 +54182,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": null,
+        "analyst_mean": 1.12,
         "analyst_score": 0,
         "fcf": -390807360,
         "fcf_score": 0,
@@ -54977,7 +55007,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 2.0,
         "analyst_score": 0,
         "fcf": -259436368,
         "fcf_score": 0,
@@ -55322,7 +55352,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 2.0,
         "analyst_score": 0,
         "fcf": -17766875136,
         "fcf_score": 0,
@@ -55472,7 +55502,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.67,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": -9181124608,
         "fcf_score": 0,
@@ -55622,7 +55652,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 2.37,
         "analyst_score": 0,
         "fcf": -2353637376,
         "fcf_score": 0,
@@ -55772,7 +55802,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 1.92,
         "analyst_score": 0,
         "fcf": -1138625024,
         "fcf_score": 0,
@@ -55862,7 +55892,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.67,
+        "analyst_mean": 2.71,
         "analyst_score": 0,
         "fcf": null,
         "fcf_score": 0,
@@ -56752,7 +56782,7 @@
         "fcf_score": 15,
         "debt_to_equity": 81.4,
         "de_score": 3,
-        "shareholder_turnover": 1.3,
+        "shareholder_turnover": 1.4,
         "turnover_score": 0
       }
     },
@@ -56886,7 +56916,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": null,
+        "analyst_mean": 2.62,
         "analyst_score": 0,
         "fcf": 13588000,
         "fcf_score": 15,
@@ -57628,11 +57658,11 @@
         "revenue_score": 5,
         "analyst_mean": null,
         "analyst_score": 0,
-        "fcf": 29452250,
+        "fcf": 29464124,
         "fcf_score": 15,
         "debt_to_equity": 0.2,
         "de_score": 10,
-        "shareholder_turnover": 1.5,
+        "shareholder_turnover": 1.4,
         "turnover_score": 0
       }
     },
@@ -57711,7 +57741,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 1.44,
         "analyst_score": 0,
         "fcf": 35174876,
         "fcf_score": 15,
@@ -57851,7 +57881,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 1.75,
         "analyst_score": 0,
         "fcf": 775551744,
         "fcf_score": 15,
@@ -58786,7 +58816,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": null,
+        "analyst_mean": 2.2,
         "analyst_score": 0,
         "fcf": 33529124,
         "fcf_score": 15,
@@ -59107,7 +59137,7 @@
         "fcf_score": 15,
         "debt_to_equity": 0.5,
         "de_score": 10,
-        "shareholder_turnover": 3.5,
+        "shareholder_turnover": 3.4,
         "turnover_score": 3
       }
     },
@@ -59746,7 +59776,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 2.43,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 1979750016,
         "fcf_score": 15,
@@ -59981,7 +60011,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.25,
+        "analyst_mean": 2.28,
         "analyst_score": 0,
         "fcf": 2653125120,
         "fcf_score": 15,
@@ -60011,7 +60041,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.17,
+        "analyst_mean": 2.13,
         "analyst_score": 0,
         "fcf": 531496512,
         "fcf_score": 15,
@@ -60546,7 +60576,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 2.25,
         "analyst_score": 0,
         "fcf": 121834752,
         "fcf_score": 15,
@@ -60826,7 +60856,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 2.17,
         "analyst_score": 0,
         "fcf": 519709248,
         "fcf_score": 15,
@@ -60893,6 +60923,36 @@
         "debt_to_equity": 30.3,
         "de_score": 6,
         "shareholder_turnover": 1.0,
+        "turnover_score": 0
+      }
+    },
+    {
+      "ticker": "YELP",
+      "name": "YELP INC",
+      "sector": "Communication",
+      "score": 56,
+      "price": 21.28,
+      "market_cap": 1154729856,
+      "details": {
+        "pb_ratio": 1.89,
+        "pb_score": 10,
+        "drop_from_high_pct": -38.3,
+        "drop_score": 8,
+        "revenue_growth_quarters": 1,
+        "revenue_growth_detail": [
+          {
+            "quarter": "2026-06-30",
+            "yoy_growth_pct": 25.8
+          }
+        ],
+        "revenue_score": 5,
+        "analyst_mean": 3.0,
+        "analyst_score": 8,
+        "fcf": 283744640,
+        "fcf_score": 15,
+        "debt_to_equity": 19.1,
+        "de_score": 10,
+        "shareholder_turnover": 1.4,
         "turnover_score": 0
       }
     },
@@ -61127,7 +61187,7 @@
         "fcf_score": 15,
         "debt_to_equity": 91.0,
         "de_score": 3,
-        "shareholder_turnover": 1.4,
+        "shareholder_turnover": 1.5,
         "turnover_score": 0
       }
     },
@@ -61286,7 +61346,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 1.82,
+        "analyst_mean": 1.83,
         "analyst_score": 0,
         "fcf": 76441128,
         "fcf_score": 15,
@@ -62079,7 +62139,7 @@
         "fcf_score": 15,
         "debt_to_equity": 81.4,
         "de_score": 3,
-        "shareholder_turnover": 1.3,
+        "shareholder_turnover": 1.4,
         "turnover_score": 0
       }
     },
@@ -62213,7 +62273,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": null,
+        "analyst_mean": 2.62,
         "analyst_score": 0,
         "fcf": 13588000,
         "fcf_score": 15,
