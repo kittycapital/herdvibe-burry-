@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-09-19 22:11 UTC",
-  "updated_kst": "2026-09-20 07:11 KST",
+  "updated_at": "2026-09-20 22:18 UTC",
+  "updated_kst": "2026-09-21 07:18 KST",
   "total_screened": 1935,
   "burry_zone_count": 7,
-  "watchlist_count": 201,
+  "watchlist_count": 202,
   "failed_count": 0,
   "scoring_note": "120점 만점 / Burry Zone 75점+ / Watchlist 55~74점",
   "all_results": [
@@ -467,7 +467,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.43,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 25774750,
         "fcf_score": 15,
@@ -1222,7 +1222,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 2.0,
         "analyst_score": 0,
         "fcf": 21590624,
         "fcf_score": 15,
@@ -1627,7 +1627,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 2.09,
+        "analyst_mean": 2.17,
         "analyst_score": 0,
         "fcf": 132193248,
         "fcf_score": 15,
@@ -3702,7 +3702,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 2.92,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 160643248,
         "fcf_score": 15,
@@ -4307,7 +4307,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.86,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 1036374976,
         "fcf_score": 15,
@@ -5350,6 +5350,36 @@
         "de_score": 3,
         "shareholder_turnover": 0.4,
         "turnover_score": 0
+      }
+    },
+    {
+      "ticker": "ACDC",
+      "name": "PROFRAC HOLDING CLASS A CORP",
+      "sector": "Energy",
+      "score": 56,
+      "price": 5.17,
+      "market_cap": 941574720,
+      "details": {
+        "pb_ratio": 1.74,
+        "pb_score": 10,
+        "drop_from_high_pct": -37.1,
+        "drop_score": 8,
+        "revenue_growth_quarters": 1,
+        "revenue_growth_detail": [
+          {
+            "quarter": "2026-06-30",
+            "yoy_growth_pct": 1.2
+          }
+        ],
+        "revenue_score": 5,
+        "analyst_mean": 3.75,
+        "analyst_score": 15,
+        "fcf": 67137504,
+        "fcf_score": 15,
+        "debt_to_equity": 169.8,
+        "de_score": 0,
+        "shareholder_turnover": 3.1,
+        "turnover_score": 3
       }
     },
     {
@@ -9027,12 +9057,12 @@
       "name": "APPIAN CORP CLASS A",
       "sector": "Information Technology",
       "score": 50,
-      "price": 37.52,
-      "market_cap": 2687467520,
+      "price": 37.492,
+      "market_cap": 2685462016,
       "details": {
-        "pb_ratio": -25.61,
+        "pb_ratio": -25.59,
         "pb_score": 30,
-        "drop_from_high_pct": -18.5,
+        "drop_from_high_pct": -18.6,
         "drop_score": 0,
         "revenue_growth_quarters": 1,
         "revenue_growth_detail": [
@@ -10013,7 +10043,7 @@
         "fcf_score": 15,
         "debt_to_equity": 22.8,
         "de_score": 10,
-        "shareholder_turnover": 3.0,
+        "shareholder_turnover": 3.1,
         "turnover_score": 3
       }
     },
@@ -11657,7 +11687,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.22,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 5484625,
         "fcf_score": 15,
@@ -13647,7 +13677,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 1.67,
         "analyst_score": 0,
         "fcf": 50243500,
         "fcf_score": 15,
@@ -14332,7 +14362,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 1.5,
         "analyst_score": 0,
         "fcf": 133447376,
         "fcf_score": 15,
@@ -14652,7 +14682,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 2.25,
         "analyst_score": 0,
         "fcf": 153470128,
         "fcf_score": 15,
@@ -15667,7 +15697,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 1.33,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 187720752,
         "fcf_score": 15,
@@ -16275,36 +16305,6 @@
         "de_score": 6,
         "shareholder_turnover": 0.7,
         "turnover_score": 0
-      }
-    },
-    {
-      "ticker": "ACDC",
-      "name": "PROFRAC HOLDING CLASS A CORP",
-      "sector": "Energy",
-      "score": 41,
-      "price": 5.17,
-      "market_cap": 941574720,
-      "details": {
-        "pb_ratio": 1.74,
-        "pb_score": 10,
-        "drop_from_high_pct": -37.1,
-        "drop_score": 8,
-        "revenue_growth_quarters": 1,
-        "revenue_growth_detail": [
-          {
-            "quarter": "2026-06-30",
-            "yoy_growth_pct": 1.2
-          }
-        ],
-        "revenue_score": 5,
-        "analyst_mean": null,
-        "analyst_score": 0,
-        "fcf": 67137504,
-        "fcf_score": 15,
-        "debt_to_equity": 169.8,
-        "de_score": 0,
-        "shareholder_turnover": 3.1,
-        "turnover_score": 3
       }
     },
     {
@@ -19312,7 +19312,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 1.8,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 342347872,
         "fcf_score": 15,
@@ -19408,7 +19408,7 @@
         "fcf_score": 15,
         "debt_to_equity": 16.0,
         "de_score": 10,
-        "shareholder_turnover": 1.8,
+        "shareholder_turnover": 1.7,
         "turnover_score": 0
       }
     },
@@ -19997,7 +19997,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 1.6,
+        "analyst_mean": 2.0,
         "analyst_score": 0,
         "fcf": null,
         "fcf_score": 0,
@@ -20197,7 +20197,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 1.8,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 342347872,
         "fcf_score": 15,
@@ -22582,7 +22582,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 2.64,
         "analyst_score": 0,
         "fcf": -317175872,
         "fcf_score": 0,
@@ -24242,7 +24242,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.5,
+        "analyst_mean": 2.67,
         "analyst_score": 0,
         "fcf": 130712496,
         "fcf_score": 15,
@@ -25513,7 +25513,7 @@
         "fcf_score": 0,
         "debt_to_equity": 258.6,
         "de_score": 0,
-        "shareholder_turnover": 1.4,
+        "shareholder_turnover": 1.5,
         "turnover_score": 0
       }
     },
@@ -26637,7 +26637,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 1.75,
         "analyst_score": 0,
         "fcf": 668174976,
         "fcf_score": 15,
@@ -26727,7 +26727,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 1.0,
         "analyst_score": 0,
         "fcf": 99734624,
         "fcf_score": 15,
@@ -28240,7 +28240,7 @@
       "price": 1651.37,
       "market_cap": 58118856704,
       "details": {
-        "pb_ratio": 89.97,
+        "pb_ratio": 18.04,
         "pb_score": 0,
         "drop_from_high_pct": -20.4,
         "drop_score": 0,
@@ -28357,8 +28357,8 @@
       "name": "REGENERON PHARMACEUTICALS INC",
       "sector": "Health Care",
       "score": 30,
-      "price": 784.85,
-      "market_cap": 80804225024,
+      "price": 784.668,
+      "market_cap": 80785489920,
       "details": {
         "pb_ratio": 2.48,
         "pb_score": 0,
@@ -30927,12 +30927,12 @@
       "name": "DIGI INTERNATIONAL INC",
       "sector": "Information Technology",
       "score": 30,
-      "price": 72.13,
-      "market_cap": 2737198080,
+      "price": 72.082,
+      "market_cap": 2735376640,
       "details": {
         "pb_ratio": 3.99,
         "pb_score": 0,
-        "drop_from_high_pct": -16.9,
+        "drop_from_high_pct": -17.0,
         "drop_score": 0,
         "revenue_growth_quarters": 1,
         "revenue_growth_detail": [
@@ -39872,7 +39872,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.8,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": null,
         "fcf_score": 0,
@@ -42182,12 +42182,12 @@
       "name": "ARROW FINANCIAL CORP",
       "sector": "Financials",
       "score": 25,
-      "price": 37.92,
-      "market_cap": 702419584,
+      "price": 37.84,
+      "market_cap": 700937728,
       "details": {
-        "pb_ratio": 1.41,
+        "pb_ratio": 1.4,
         "pb_score": 20,
-        "drop_from_high_pct": -11.2,
+        "drop_from_high_pct": -11.4,
         "drop_score": 0,
         "revenue_growth_quarters": 1,
         "revenue_growth_detail": [
@@ -43382,7 +43382,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 1.0,
         "analyst_score": 0,
         "fcf": null,
         "fcf_score": 0,
@@ -46392,7 +46392,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 1.25,
         "analyst_score": 0,
         "fcf": -10407500,
         "fcf_score": 0,
@@ -46993,7 +46993,7 @@
         "fcf_score": 15,
         "debt_to_equity": 134.8,
         "de_score": 3,
-        "shareholder_turnover": 0.9,
+        "shareholder_turnover": 1.0,
         "turnover_score": 0
       }
     },
@@ -47767,7 +47767,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": null,
+        "analyst_mean": 1.0,
         "analyst_score": 0,
         "fcf": -46287500,
         "fcf_score": 0,
@@ -49763,7 +49763,7 @@
         "fcf_score": 15,
         "debt_to_equity": null,
         "de_score": 0,
-        "shareholder_turnover": 2.2,
+        "shareholder_turnover": 2.3,
         "turnover_score": 0
       }
     },
@@ -50107,7 +50107,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 1.2,
         "analyst_score": 0,
         "fcf": 151043120,
         "fcf_score": 15,
@@ -51624,6 +51624,31 @@
         "debt_to_equity": 66.3,
         "de_score": 6,
         "shareholder_turnover": 0.7,
+        "turnover_score": 0
+      }
+    },
+    {
+      "ticker": "CBRL",
+      "name": "CRACKER BARREL OLD COUNTRY STORE I",
+      "sector": "Consumer Discretionary",
+      "score": 16,
+      "price": 45.06,
+      "market_cap": 1007156800,
+      "details": {
+        "pb_ratio": 2.16,
+        "pb_score": 0,
+        "drop_from_high_pct": -25.2,
+        "drop_score": 8,
+        "revenue_growth_quarters": 0,
+        "revenue_growth_detail": [],
+        "revenue_score": 0,
+        "analyst_mean": 3.1,
+        "analyst_score": 8,
+        "fcf": -3550125,
+        "fcf_score": 0,
+        "debt_to_equity": 246.7,
+        "de_score": 0,
+        "shareholder_turnover": 2.8,
         "turnover_score": 0
       }
     },
@@ -53152,7 +53177,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.33,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": null,
         "fcf_score": 0,
@@ -54823,31 +54848,6 @@
       }
     },
     {
-      "ticker": "CBRL",
-      "name": "CRACKER BARREL OLD COUNTRY STORE I",
-      "sector": "Consumer Discretionary",
-      "score": 8,
-      "price": 45.06,
-      "market_cap": 1007156800,
-      "details": {
-        "pb_ratio": 2.16,
-        "pb_score": 0,
-        "drop_from_high_pct": -25.2,
-        "drop_score": 8,
-        "revenue_growth_quarters": 0,
-        "revenue_growth_detail": [],
-        "revenue_score": 0,
-        "analyst_mean": null,
-        "analyst_score": 0,
-        "fcf": -3550125,
-        "fcf_score": 0,
-        "debt_to_equity": 246.7,
-        "de_score": 0,
-        "shareholder_turnover": 2.8,
-        "turnover_score": 0
-      }
-    },
-    {
       "ticker": "EPM",
       "name": "EVOLUTION PETROLEUM CORP",
       "sector": "Energy",
@@ -56341,7 +56341,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.43,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 25774750,
         "fcf_score": 15,
@@ -57096,7 +57096,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 2.0,
         "analyst_score": 0,
         "fcf": 21590624,
         "fcf_score": 15,
@@ -57501,7 +57501,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 2.09,
+        "analyst_mean": 2.17,
         "analyst_score": 0,
         "fcf": 132193248,
         "fcf_score": 15,
@@ -59576,7 +59576,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 2.92,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 160643248,
         "fcf_score": 15,
@@ -60181,7 +60181,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.86,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 1036374976,
         "fcf_score": 15,
@@ -61227,6 +61227,36 @@
       }
     },
     {
+      "ticker": "ACDC",
+      "name": "PROFRAC HOLDING CLASS A CORP",
+      "sector": "Energy",
+      "score": 56,
+      "price": 5.17,
+      "market_cap": 941574720,
+      "details": {
+        "pb_ratio": 1.74,
+        "pb_score": 10,
+        "drop_from_high_pct": -37.1,
+        "drop_score": 8,
+        "revenue_growth_quarters": 1,
+        "revenue_growth_detail": [
+          {
+            "quarter": "2026-06-30",
+            "yoy_growth_pct": 1.2
+          }
+        ],
+        "revenue_score": 5,
+        "analyst_mean": 3.75,
+        "analyst_score": 15,
+        "fcf": 67137504,
+        "fcf_score": 15,
+        "debt_to_equity": 169.8,
+        "de_score": 0,
+        "shareholder_turnover": 3.1,
+        "turnover_score": 3
+      }
+    },
+    {
       "ticker": "IMMR",
       "name": "IMMERSION CORP",
       "sector": "Information Technology",
@@ -62223,7 +62253,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.43,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 25774750,
         "fcf_score": 15,
