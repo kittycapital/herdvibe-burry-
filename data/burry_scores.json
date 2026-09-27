@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-09-26 22:36 UTC",
-  "updated_kst": "2026-09-27 07:36 KST",
-  "total_screened": 1943,
+  "updated_at": "2026-09-27 22:58 UTC",
+  "updated_kst": "2026-09-28 07:58 KST",
+  "total_screened": 1930,
   "burry_zone_count": 7,
-  "watchlist_count": 208,
+  "watchlist_count": 206,
   "failed_count": 0,
   "scoring_note": "120점 만점 / Burry Zone 75점+ / Watchlist 55~74점",
   "all_results": [
@@ -280,7 +280,7 @@
       "price": 2.155,
       "market_cap": 287915936,
       "details": {
-        "pb_ratio": 1.43,
+        "pb_ratio": 1.46,
         "pb_score": 20,
         "drop_from_high_pct": -62.5,
         "drop_score": 20,
@@ -368,7 +368,7 @@
       "sector": "Materials",
       "score": 73,
       "price": 9.38,
-      "market_cap": 2775423744,
+      "market_cap": 2777151488,
       "details": {
         "pb_ratio": 0.86,
         "pb_score": 30,
@@ -418,36 +418,6 @@
       }
     },
     {
-      "ticker": "DH",
-      "name": "DEFINITIVE HEALTHCARE CORP CLASS A",
-      "sector": "Health Care",
-      "score": 73,
-      "price": 0.945,
-      "market_cap": 100873752,
-      "details": {
-        "pb_ratio": 0.7,
-        "pb_score": 30,
-        "drop_from_high_pct": -76.8,
-        "drop_score": 20,
-        "revenue_growth_quarters": 1,
-        "revenue_growth_detail": [
-          {
-            "quarter": "2026-06-30",
-            "yoy_growth_pct": 7.0
-          }
-        ],
-        "revenue_score": 5,
-        "analyst_mean": null,
-        "analyst_score": 0,
-        "fcf": 50353248,
-        "fcf_score": 15,
-        "debt_to_equity": 88.9,
-        "de_score": 3,
-        "shareholder_turnover": 1.0,
-        "turnover_score": 0
-      }
-    },
-    {
       "ticker": "SMPL",
       "name": "THE SIMPLY GOOD FOODS COMPANY",
       "sector": "Consumer Staples",
@@ -462,7 +432,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 2.4,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 107168376,
         "fcf_score": 15,
@@ -538,7 +508,7 @@
       "sector": "Health Care",
       "score": 71,
       "price": 9.44,
-      "market_cap": 384515808,
+      "market_cap": 381580384,
       "details": {
         "pb_ratio": 0.9,
         "pb_score": 30,
@@ -623,7 +593,7 @@
       "sector": "Communication",
       "score": 71,
       "price": 5.42,
-      "market_cap": 219228256,
+      "market_cap": 219814896,
       "details": {
         "pb_ratio": 0.32,
         "pb_score": 30,
@@ -735,7 +705,7 @@
       "price": 28.43,
       "market_cap": 6393195008,
       "details": {
-        "pb_ratio": 1.4,
+        "pb_ratio": 1.48,
         "pb_score": 20,
         "drop_from_high_pct": -65.1,
         "drop_score": 20,
@@ -983,37 +953,12 @@
       }
     },
     {
-      "ticker": "MYPS",
-      "name": "PLAYSTUDIOS INC CLASS A",
-      "sector": "Communication",
-      "score": 70,
-      "price": 0.4763,
-      "market_cap": 57213816,
-      "details": {
-        "pb_ratio": 0.29,
-        "pb_score": 30,
-        "drop_from_high_pct": -52.8,
-        "drop_score": 15,
-        "revenue_growth_quarters": 0,
-        "revenue_growth_detail": [],
-        "revenue_score": 0,
-        "analyst_mean": null,
-        "analyst_score": 0,
-        "fcf": 27444500,
-        "fcf_score": 15,
-        "debt_to_equity": 2.6,
-        "de_score": 10,
-        "shareholder_turnover": 0.3,
-        "turnover_score": 0
-      }
-    },
-    {
       "ticker": "LUMN",
       "name": "LUMEN TECHNOLOGIES INC",
       "sector": "Communication",
       "score": 68,
       "price": 5.71,
-      "market_cap": 5883076096,
+      "market_cap": 5889552896,
       "details": {
         "pb_ratio": -3.95,
         "pb_score": 30,
@@ -1068,7 +1013,7 @@
       "sector": "Industrials",
       "score": 68,
       "price": 4.03,
-      "market_cap": 620651072,
+      "market_cap": 619920384,
       "details": {
         "pb_ratio": -3.07,
         "pb_score": 30,
@@ -1258,6 +1203,31 @@
       }
     },
     {
+      "ticker": "SCHL",
+      "name": "SCHOLASTIC CORP",
+      "sector": "Communication",
+      "score": 67,
+      "price": 32.35,
+      "market_cap": 595545472,
+      "details": {
+        "pb_ratio": 0.81,
+        "pb_score": 30,
+        "drop_from_high_pct": -32.7,
+        "drop_score": 8,
+        "revenue_growth_quarters": 0,
+        "revenue_growth_detail": [],
+        "revenue_score": 0,
+        "analyst_mean": 3.0,
+        "analyst_score": 8,
+        "fcf": 35037500,
+        "fcf_score": 15,
+        "debt_to_equity": 77.6,
+        "de_score": 6,
+        "shareholder_turnover": 1.6,
+        "turnover_score": 0
+      }
+    },
+    {
       "ticker": "VSNT",
       "name": "VERSANT MEDIA GROUP INC",
       "sector": "Communication",
@@ -1338,7 +1308,7 @@
       "sector": "Financials",
       "score": 66,
       "price": 25.32,
-      "market_cap": 1491934208,
+      "market_cap": 1490695552,
       "details": {
         "pb_ratio": 0.68,
         "pb_score": 30,
@@ -1698,7 +1668,7 @@
       "sector": "Consumer Discretionary",
       "score": 65,
       "price": 5.05,
-      "market_cap": 1335220096,
+      "market_cap": 1446111104,
       "details": {
         "pb_ratio": 1.19,
         "pb_score": 20,
@@ -2375,7 +2345,7 @@
       "price": 18.03,
       "market_cap": 978373120,
       "details": {
-        "pb_ratio": 1.54,
+        "pb_ratio": 1.6,
         "pb_score": 10,
         "drop_from_high_pct": -47.7,
         "drop_score": 15,
@@ -2453,7 +2423,7 @@
       "sector": "Industrials",
       "score": 63,
       "price": 1.78,
-      "market_cap": 1137805312,
+      "market_cap": 1138601856,
       "details": {
         "pb_ratio": 0.25,
         "pb_score": 30,
@@ -2588,7 +2558,7 @@
       "sector": "Consumer Discretionary",
       "score": 63,
       "price": 13.74,
-      "market_cap": 429332064,
+      "market_cap": 429568192,
       "details": {
         "pb_ratio": 0.74,
         "pb_score": 30,
@@ -2640,7 +2610,7 @@
       "price": 13.31,
       "market_cap": 204050464,
       "details": {
-        "pb_ratio": 0.74,
+        "pb_ratio": 0.76,
         "pb_score": 30,
         "drop_from_high_pct": -58.0,
         "drop_score": 15,
@@ -2773,7 +2743,7 @@
       "sector": "Consumer Discretionary",
       "score": 61,
       "price": 44.79,
-      "market_cap": 9478483968,
+      "market_cap": 9299897344,
       "details": {
         "pb_ratio": 1.07,
         "pb_score": 20,
@@ -2883,37 +2853,12 @@
       }
     },
     {
-      "ticker": "AMR",
-      "name": "ALPHA METALLURGICAL RESOURCE INC",
-      "sector": "Materials",
-      "score": 61,
-      "price": 174.43,
-      "market_cap": 2211605760,
-      "details": {
-        "pb_ratio": 1.48,
-        "pb_score": 20,
-        "drop_from_high_pct": -31.3,
-        "drop_score": 8,
-        "revenue_growth_quarters": 0,
-        "revenue_growth_detail": [],
-        "revenue_score": 0,
-        "analyst_mean": 3.0,
-        "analyst_score": 8,
-        "fcf": 52462248,
-        "fcf_score": 15,
-        "debt_to_equity": 0.8,
-        "de_score": 10,
-        "shareholder_turnover": 1.9,
-        "turnover_score": 0
-      }
-    },
-    {
       "ticker": "ADNT",
       "name": "ADIENT PLC",
       "sector": "Consumer Discretionary",
       "score": 61,
       "price": 17.63,
-      "market_cap": 1359218816,
+      "market_cap": 1382427904,
       "details": {
         "pb_ratio": 0.79,
         "pb_score": 30,
@@ -3003,7 +2948,7 @@
       "sector": "Health Care",
       "score": 61,
       "price": 15.42,
-      "market_cap": 2139821824,
+      "market_cap": 2133631104,
       "details": {
         "pb_ratio": 0.85,
         "pb_score": 30,
@@ -3122,8 +3067,8 @@
         "revenue_growth_quarters": 1,
         "revenue_growth_detail": [
           {
-            "quarter": "2026-03-31",
-            "yoy_growth_pct": 1.8
+            "quarter": "2026-06-30",
+            "yoy_growth_pct": 3.9
           }
         ],
         "revenue_score": 5,
@@ -3267,8 +3212,8 @@
         "revenue_growth_quarters": 1,
         "revenue_growth_detail": [
           {
-            "quarter": "2026-03-31",
-            "yoy_growth_pct": 7.4
+            "quarter": "2026-06-30",
+            "yoy_growth_pct": 5.2
           }
         ],
         "revenue_score": 5,
@@ -3530,7 +3475,7 @@
       "price": 29.3,
       "market_cap": 6588836352,
       "details": {
-        "pb_ratio": 1.52,
+        "pb_ratio": 1.53,
         "pb_score": 10,
         "drop_from_high_pct": -62.8,
         "drop_score": 20,
@@ -3778,7 +3723,7 @@
       "sector": "Consumer Discretionary",
       "score": 60,
       "price": 4.57,
-      "market_cap": 120457768,
+      "market_cap": 121906384,
       "details": {
         "pb_ratio": -7.67,
         "pb_score": 30,
@@ -3943,7 +3888,7 @@
       "sector": "Consumer Discretionary",
       "score": 58,
       "price": 163.95,
-      "market_cap": 127041323008,
+      "market_cap": 123188830208,
       "details": {
         "pb_ratio": -11.52,
         "pb_score": 30,
@@ -4063,7 +4008,7 @@
       "sector": "Industrials",
       "score": 58,
       "price": 169.21,
-      "market_cap": 22170206208,
+      "market_cap": 22023700480,
       "details": {
         "pb_ratio": -18.98,
         "pb_score": 30,
@@ -4093,7 +4038,7 @@
       "sector": "Financials",
       "score": 58,
       "price": 35.41,
-      "market_cap": 18302689280,
+      "market_cap": 18261145600,
       "details": {
         "pb_ratio": 1.14,
         "pb_score": 20,
@@ -4213,7 +4158,7 @@
       "sector": "Consumer Discretionary",
       "score": 58,
       "price": 25.72,
-      "market_cap": 4814488064,
+      "market_cap": 4796610560,
       "details": {
         "pb_ratio": -7.12,
         "pb_score": 30,
@@ -4363,7 +4308,7 @@
       "sector": "Information Technology",
       "score": 58,
       "price": 69.64,
-      "market_cap": 3908150528,
+      "market_cap": 3789564160,
       "details": {
         "pb_ratio": -310.89,
         "pb_score": 30,
@@ -4478,7 +4423,7 @@
       "sector": "Consumer Staples",
       "score": 58,
       "price": 12.55,
-      "market_cap": 1315282432,
+      "market_cap": 1301051136,
       "details": {
         "pb_ratio": -2.77,
         "pb_score": 30,
@@ -4568,7 +4513,7 @@
       "sector": "Information Technology",
       "score": 58,
       "price": 9.51,
-      "market_cap": 931094464,
+      "market_cap": 931028992,
       "details": {
         "pb_ratio": 1.49,
         "pb_score": 20,
@@ -4780,7 +4725,7 @@
       "price": 3.51,
       "market_cap": 288613824,
       "details": {
-        "pb_ratio": -8.54,
+        "pb_ratio": -3.42,
         "pb_score": 30,
         "drop_from_high_pct": -37.4,
         "drop_score": 8,
@@ -4870,7 +4815,7 @@
       "price": 82.15,
       "market_cap": 19789535232,
       "details": {
-        "pb_ratio": 0.92,
+        "pb_ratio": 0.91,
         "pb_score": 30,
         "drop_from_high_pct": -38.6,
         "drop_score": 8,
@@ -5019,7 +4964,7 @@
         "revenue_score": 5,
         "analyst_mean": 2.17,
         "analyst_score": 0,
-        "fcf": 519709248,
+        "fcf": 529455264,
         "fcf_score": 15,
         "debt_to_equity": 40.0,
         "de_score": 6,
@@ -5108,7 +5053,7 @@
         "fcf_score": 0,
         "debt_to_equity": 108.7,
         "de_score": 3,
-        "shareholder_turnover": 1.0,
+        "shareholder_turnover": 0.9,
         "turnover_score": 0
       }
     },
@@ -5148,7 +5093,7 @@
       "sector": "Consumer Discretionary",
       "score": 56,
       "price": 49.99,
-      "market_cap": 1161381760,
+      "market_cap": 1162181120,
       "details": {
         "pb_ratio": 0.54,
         "pb_score": 30,
@@ -5288,7 +5233,7 @@
       "sector": "Real Estate",
       "score": 56,
       "price": 26.49,
-      "market_cap": 1351221248,
+      "market_cap": 1351456896,
       "details": {
         "pb_ratio": 0.73,
         "pb_score": 30,
@@ -5318,7 +5263,7 @@
       "sector": "Real Estate",
       "score": 56,
       "price": 13.35,
-      "market_cap": 655221568,
+      "market_cap": 653678208,
       "details": {
         "pb_ratio": 0.86,
         "pb_score": 30,
@@ -5378,7 +5323,7 @@
       "sector": "Real Estate",
       "score": 56,
       "price": 21.11,
-      "market_cap": 404684544,
+      "market_cap": 405276128,
       "details": {
         "pb_ratio": 0.94,
         "pb_score": 30,
@@ -5693,7 +5638,7 @@
       "sector": "Information Technology",
       "score": 55,
       "price": 78.12,
-      "market_cap": 3315695360,
+      "market_cap": 3322798336,
       "details": {
         "pb_ratio": 1.56,
         "pb_score": 10,
@@ -5723,7 +5668,7 @@
       "sector": "Financials",
       "score": 55,
       "price": 6.24,
-      "market_cap": 800043456,
+      "market_cap": 802116736,
       "details": {
         "pb_ratio": 0.64,
         "pb_score": 30,
@@ -5738,7 +5683,7 @@
         "fcf_score": 0,
         "debt_to_equity": 29.6,
         "de_score": 10,
-        "shareholder_turnover": 2.7,
+        "shareholder_turnover": 2.6,
         "turnover_score": 0
       }
     },
@@ -5748,7 +5693,7 @@
       "sector": "Industrials",
       "score": 55,
       "price": 40.56,
-      "market_cap": 1203978496,
+      "market_cap": 1203087488,
       "details": {
         "pb_ratio": 1.35,
         "pb_score": 20,
@@ -5778,7 +5723,7 @@
       "sector": "Real Estate",
       "score": 55,
       "price": 21.58,
-      "market_cap": 1674013952,
+      "market_cap": 1674300544,
       "details": {
         "pb_ratio": 1.18,
         "pb_score": 20,
@@ -5833,7 +5778,7 @@
       "sector": "Financials",
       "score": 55,
       "price": 14.89,
-      "market_cap": 493848416,
+      "market_cap": 486029632,
       "details": {
         "pb_ratio": 0.7,
         "pb_score": 30,
@@ -6258,7 +6203,7 @@
       "sector": "Energy",
       "score": 54,
       "price": 73.69,
-      "market_cap": 8734980096,
+      "market_cap": 8734981120,
       "details": {
         "pb_ratio": 1.36,
         "pb_score": 20,
@@ -6318,7 +6263,7 @@
       "sector": "Industrials",
       "score": 54,
       "price": 32.89,
-      "market_cap": 1971759232,
+      "market_cap": 1972648576,
       "details": {
         "pb_ratio": 1.45,
         "pb_score": 20,
@@ -6348,7 +6293,7 @@
       "sector": "Energy",
       "score": 54,
       "price": 154.62,
-      "market_cap": 2778465536,
+      "market_cap": 2734279168,
       "details": {
         "pb_ratio": 1.5,
         "pb_score": 20,
@@ -6528,7 +6473,7 @@
       "sector": "Real Estate",
       "score": 53,
       "price": 67.84,
-      "market_cap": 28862894080,
+      "market_cap": 29646077952,
       "details": {
         "pb_ratio": -8.84,
         "pb_score": 30,
@@ -6553,7 +6498,7 @@
       "sector": "Energy",
       "score": 53,
       "price": 86.84,
-      "market_cap": 20774631424,
+      "market_cap": 20103788544,
       "details": {
         "pb_ratio": 1.05,
         "pb_score": 20,
@@ -6633,7 +6578,7 @@
       "sector": "Health Care",
       "score": 53,
       "price": 381.0,
-      "market_cap": 10196168704,
+      "market_cap": 10187245568,
       "details": {
         "pb_ratio": 1.42,
         "pb_score": 20,
@@ -6768,7 +6713,7 @@
       "sector": "Energy",
       "score": 53,
       "price": 13.15,
-      "market_cap": 4344808448,
+      "market_cap": 5173250560,
       "details": {
         "pb_ratio": 0.84,
         "pb_score": 30,
@@ -6798,7 +6743,7 @@
       "sector": "Consumer Discretionary",
       "score": 53,
       "price": 14.44,
-      "market_cap": 2595699200,
+      "market_cap": 2577691904,
       "details": {
         "pb_ratio": 1.2,
         "pb_score": 20,
@@ -6873,12 +6818,37 @@
       }
     },
     {
+      "ticker": "AMR",
+      "name": "ALPHA METALLURGICAL RESOURCE INC",
+      "sector": "Materials",
+      "score": 53,
+      "price": 174.43,
+      "market_cap": 2211605760,
+      "details": {
+        "pb_ratio": 1.48,
+        "pb_score": 20,
+        "drop_from_high_pct": -31.3,
+        "drop_score": 8,
+        "revenue_growth_quarters": 0,
+        "revenue_growth_detail": [],
+        "revenue_score": 0,
+        "analyst_mean": null,
+        "analyst_score": 0,
+        "fcf": 52462248,
+        "fcf_score": 15,
+        "debt_to_equity": 0.8,
+        "de_score": 10,
+        "shareholder_turnover": 1.9,
+        "turnover_score": 0
+      }
+    },
+    {
       "ticker": "OMCL",
       "name": "OMNICELL INC",
       "sector": "Health Care",
       "score": 53,
       "price": 33.66,
-      "market_cap": 1535396992,
+      "market_cap": 1530820096,
       "details": {
         "pb_ratio": 1.19,
         "pb_score": 20,
@@ -7048,7 +7018,7 @@
       "sector": "Health Care",
       "score": 53,
       "price": 5.64,
-      "market_cap": 767345344,
+      "market_cap": 752427648,
       "details": {
         "pb_ratio": 0.55,
         "pb_score": 30,
@@ -7188,7 +7158,7 @@
       "sector": "Industrials",
       "score": 53,
       "price": 76.35,
-      "market_cap": 594185856,
+      "market_cap": 600127552,
       "details": {
         "pb_ratio": 0.97,
         "pb_score": 30,
@@ -7273,7 +7243,7 @@
       "sector": "Real Estate",
       "score": 53,
       "price": 14.41,
-      "market_cap": 411719520,
+      "market_cap": 412901856,
       "details": {
         "pb_ratio": 0.94,
         "pb_score": 30,
@@ -7333,7 +7303,7 @@
       "sector": "Consumer Discretionary",
       "score": 53,
       "price": 27.56,
-      "market_cap": 210875328,
+      "market_cap": 210682416,
       "details": {
         "pb_ratio": 0.9,
         "pb_score": 30,
@@ -7528,31 +7498,6 @@
       }
     },
     {
-      "ticker": "SCHL",
-      "name": "SCHOLASTIC CORP",
-      "sector": "Communication",
-      "score": 52,
-      "price": 32.35,
-      "market_cap": 595545472,
-      "details": {
-        "pb_ratio": 0.81,
-        "pb_score": 30,
-        "drop_from_high_pct": -32.7,
-        "drop_score": 8,
-        "revenue_growth_quarters": 0,
-        "revenue_growth_detail": [],
-        "revenue_score": 0,
-        "analyst_mean": 3.0,
-        "analyst_score": 8,
-        "fcf": null,
-        "fcf_score": 0,
-        "debt_to_equity": 55.9,
-        "de_score": 6,
-        "shareholder_turnover": 1.6,
-        "turnover_score": 0
-      }
-    },
-    {
       "ticker": "EIX",
       "name": "EDISON INTERNATIONAL",
       "sector": "Utilities",
@@ -7638,7 +7583,7 @@
       "sector": "Energy",
       "score": 51,
       "price": 36.33,
-      "market_cap": 5209036288,
+      "market_cap": 5207889920,
       "details": {
         "pb_ratio": 0.99,
         "pb_score": 30,
@@ -7888,7 +7833,7 @@
       "sector": "Consumer Discretionary",
       "score": 51,
       "price": 62.66,
-      "market_cap": 1781587968,
+      "market_cap": 1781605504,
       "details": {
         "pb_ratio": 0.69,
         "pb_score": 30,
@@ -8283,7 +8228,7 @@
       "sector": "Industrials",
       "score": 50,
       "price": 1116.2,
-      "market_cap": 62433062912,
+      "market_cap": 61699653632,
       "details": {
         "pb_ratio": -6.65,
         "pb_score": 30,
@@ -8343,7 +8288,7 @@
       "sector": "Health Care",
       "score": 50,
       "price": 435.61,
-      "market_cap": 96635633664,
+      "market_cap": 94310219776,
       "details": {
         "pb_ratio": -14.29,
         "pb_score": 30,
@@ -8435,7 +8380,7 @@
       "price": 138.63,
       "market_cap": 37832278016,
       "details": {
-        "pb_ratio": -5.25,
+        "pb_ratio": -5.24,
         "pb_score": 30,
         "drop_from_high_pct": -18.5,
         "drop_score": 0,
@@ -8493,7 +8438,7 @@
       "sector": "Energy",
       "score": 50,
       "price": 186.67,
-      "market_cap": 52512755712,
+      "market_cap": 52271292416,
       "details": {
         "pb_ratio": 1.38,
         "pb_score": 20,
@@ -8638,7 +8583,7 @@
       "sector": "Materials",
       "score": 50,
       "price": 131.71,
-      "market_cap": 17783406592,
+      "market_cap": 17786511360,
       "details": {
         "pb_ratio": 1.29,
         "pb_score": 20,
@@ -8647,8 +8592,8 @@
         "revenue_growth_quarters": 1,
         "revenue_growth_detail": [
           {
-            "quarter": "2026-03-31",
-            "yoy_growth_pct": 0.8
+            "quarter": "2026-06-30",
+            "yoy_growth_pct": 4.1
           }
         ],
         "revenue_score": 5,
@@ -8753,42 +8698,12 @@
       }
     },
     {
-      "ticker": "W",
-      "name": "WAYFAIR INC CLASS A",
-      "sector": "Consumer Discretionary",
-      "score": 50,
-      "price": 98.15,
-      "market_cap": 12955456512,
-      "details": {
-        "pb_ratio": -4.8,
-        "pb_score": 30,
-        "drop_from_high_pct": -18.2,
-        "drop_score": 0,
-        "revenue_growth_quarters": 1,
-        "revenue_growth_detail": [
-          {
-            "quarter": "2026-06-30",
-            "yoy_growth_pct": 7.7
-          }
-        ],
-        "revenue_score": 5,
-        "analyst_mean": 1.94,
-        "analyst_score": 0,
-        "fcf": 471624992,
-        "fcf_score": 15,
-        "debt_to_equity": null,
-        "de_score": 0,
-        "shareholder_turnover": 1.6,
-        "turnover_score": 0
-      }
-    },
-    {
       "ticker": "AXS",
       "name": "AXIS CAPITAL HOLDINGS LTD",
       "sector": "Financials",
       "score": 50,
       "price": 94.45,
-      "market_cap": 6963159040,
+      "market_cap": 6891668480,
       "details": {
         "pb_ratio": 1.16,
         "pb_score": 20,
@@ -8908,7 +8823,7 @@
       "sector": "Financials",
       "score": 50,
       "price": 86.12,
-      "market_cap": 5132752384,
+      "market_cap": 5130092544,
       "details": {
         "pb_ratio": 1.48,
         "pb_score": 20,
@@ -9200,7 +9115,7 @@
       "price": 6.18,
       "market_cap": 1927411968,
       "details": {
-        "pb_ratio": 2.12,
+        "pb_ratio": 2.11,
         "pb_score": 0,
         "drop_from_high_pct": -40.3,
         "drop_score": 15,
@@ -9258,9 +9173,9 @@
       "sector": "Energy",
       "score": 50,
       "price": 94.07,
-      "market_cap": 3258947584,
+      "market_cap": 3262358016,
       "details": {
-        "pb_ratio": 1.49,
+        "pb_ratio": 1.37,
         "pb_score": 20,
         "drop_from_high_pct": -8.8,
         "drop_score": 0,
@@ -9339,36 +9254,6 @@
         "debt_to_equity": 13.8,
         "de_score": 10,
         "shareholder_turnover": 0.9,
-        "turnover_score": 0
-      }
-    },
-    {
-      "ticker": "WMK",
-      "name": "WEIS MARKETS INC",
-      "sector": "Consumer Staples",
-      "score": 50,
-      "price": 72.02,
-      "market_cap": 1782105728,
-      "details": {
-        "pb_ratio": 1.29,
-        "pb_score": 20,
-        "drop_from_high_pct": -14.0,
-        "drop_score": 0,
-        "revenue_growth_quarters": 1,
-        "revenue_growth_detail": [
-          {
-            "quarter": "2026-06-30",
-            "yoy_growth_pct": 3.8
-          }
-        ],
-        "revenue_score": 5,
-        "analyst_mean": null,
-        "analyst_score": 0,
-        "fcf": 9721000,
-        "fcf_score": 15,
-        "debt_to_equity": 12.3,
-        "de_score": 10,
-        "shareholder_turnover": 0.8,
         "turnover_score": 0
       }
     },
@@ -9498,7 +9383,7 @@
       "sector": "Financials",
       "score": 50,
       "price": 53.33,
-      "market_cap": 1368243328,
+      "market_cap": 1370871168,
       "details": {
         "pb_ratio": 1.4,
         "pb_score": 20,
@@ -10313,7 +10198,7 @@
       "sector": "Information Technology",
       "score": 48,
       "price": 57.33,
-      "market_cap": 27117090816,
+      "market_cap": 25823967232,
       "details": {
         "pb_ratio": 1.79,
         "pb_score": 10,
@@ -10373,7 +10258,7 @@
       "sector": "Materials",
       "score": 48,
       "price": 18.19,
-      "market_cap": 12200258560,
+      "market_cap": 12219468800,
       "details": {
         "pb_ratio": 4.56,
         "pb_score": 0,
@@ -10382,8 +10267,8 @@
         "revenue_growth_quarters": 1,
         "revenue_growth_detail": [
           {
-            "quarter": "2026-03-31",
-            "yoy_growth_pct": 15.8
+            "quarter": "2026-06-30",
+            "yoy_growth_pct": 15.2
           }
         ],
         "revenue_score": 5,
@@ -10403,7 +10288,7 @@
       "sector": "Industrials",
       "score": 48,
       "price": 132.75,
-      "market_cap": 8277136384,
+      "market_cap": 8195951616,
       "details": {
         "pb_ratio": 1.81,
         "pb_score": 10,
@@ -10433,7 +10318,7 @@
       "sector": "Industrials",
       "score": 48,
       "price": 71.91,
-      "market_cap": 4470487552,
+      "market_cap": 4468197888,
       "details": {
         "pb_ratio": 1.89,
         "pb_score": 10,
@@ -10502,7 +10387,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 2.71,
+        "analyst_mean": 2.64,
         "analyst_score": 0,
         "fcf": 1186000000,
         "fcf_score": 15,
@@ -10663,7 +10548,7 @@
       "sector": "Consumer Discretionary",
       "score": 48,
       "price": 90.46,
-      "market_cap": 2414740992,
+      "market_cap": 2414868480,
       "details": {
         "pb_ratio": 1.55,
         "pb_score": 10,
@@ -10693,7 +10578,7 @@
       "sector": "Real Estate",
       "score": 48,
       "price": 18.42,
-      "market_cap": 2071362944,
+      "market_cap": 2078562944,
       "details": {
         "pb_ratio": 0.86,
         "pb_score": 30,
@@ -10773,7 +10658,7 @@
       "sector": "Information Technology",
       "score": 48,
       "price": 71.63,
-      "market_cap": 954142336,
+      "market_cap": 952750592,
       "details": {
         "pb_ratio": 2.87,
         "pb_score": 0,
@@ -10895,7 +10780,7 @@
       "price": 34.54,
       "market_cap": 373728064,
       "details": {
-        "pb_ratio": 0.65,
+        "pb_ratio": 0.69,
         "pb_score": 30,
         "drop_from_high_pct": -20.8,
         "drop_score": 0,
@@ -11308,7 +11193,7 @@
       "sector": "Real Estate",
       "score": 46,
       "price": 67.48,
-      "market_cap": 8416701952,
+      "market_cap": 8416573440,
       "details": {
         "pb_ratio": 1.32,
         "pb_score": 20,
@@ -11557,7 +11442,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 2.45,
         "analyst_score": 0,
         "fcf": 360905376,
         "fcf_score": 15,
@@ -11573,7 +11458,7 @@
       "sector": "Real Estate",
       "score": 46,
       "price": 14.63,
-      "market_cap": 3535431936,
+      "market_cap": 3535869184,
       "details": {
         "pb_ratio": 1.02,
         "pb_score": 20,
@@ -11723,7 +11608,7 @@
       "sector": "Financials",
       "score": 46,
       "price": 59.19,
-      "market_cap": 1802335488,
+      "market_cap": 1806609024,
       "details": {
         "pb_ratio": 1.08,
         "pb_score": 20,
@@ -11813,7 +11698,7 @@
       "sector": "Materials",
       "score": 46,
       "price": 64.53,
-      "market_cap": 1466930816,
+      "market_cap": 1465690752,
       "details": {
         "pb_ratio": 1.21,
         "pb_score": 20,
@@ -11868,7 +11753,7 @@
       "sector": "Health Care",
       "score": 46,
       "price": 25.12,
-      "market_cap": 988419904,
+      "market_cap": 1001330688,
       "details": {
         "pb_ratio": 1.49,
         "pb_score": 20,
@@ -12123,7 +12008,7 @@
       "sector": "Consumer Discretionary",
       "score": 46,
       "price": 27.95,
-      "market_cap": 449865120,
+      "market_cap": 435841856,
       "details": {
         "pb_ratio": 1.48,
         "pb_score": 20,
@@ -12132,8 +12017,8 @@
         "revenue_growth_quarters": 1,
         "revenue_growth_detail": [
           {
-            "quarter": "2026-03-31",
-            "yoy_growth_pct": 3.3
+            "quarter": "2026-06-30",
+            "yoy_growth_pct": 6.0
           }
         ],
         "revenue_score": 5,
@@ -12153,7 +12038,7 @@
       "sector": "Energy",
       "score": 46,
       "price": 40.55,
-      "market_cap": 898335936,
+      "market_cap": 879770688,
       "details": {
         "pb_ratio": 1.42,
         "pb_score": 20,
@@ -12208,7 +12093,7 @@
       "sector": "Industrials",
       "score": 46,
       "price": 30.97,
-      "market_cap": 554855488,
+      "market_cap": 555304128,
       "details": {
         "pb_ratio": 1.42,
         "pb_score": 20,
@@ -12315,7 +12200,7 @@
       "price": 456.81,
       "market_cap": 164698701824,
       "details": {
-        "pb_ratio": 21.84,
+        "pb_ratio": null,
         "pb_score": 0,
         "drop_from_high_pct": -42.9,
         "drop_score": 15,
@@ -12368,7 +12253,7 @@
       "sector": "Financials",
       "score": 45,
       "price": 94.66,
-      "market_cap": 32279060480,
+      "market_cap": 32300748800,
       "details": {
         "pb_ratio": 1.39,
         "pb_score": 20,
@@ -12395,7 +12280,7 @@
       "price": 512.29,
       "market_cap": 15670191104,
       "details": {
-        "pb_ratio": 11.55,
+        "pb_ratio": 11.58,
         "pb_score": 0,
         "drop_from_high_pct": -49.1,
         "drop_score": 15,
@@ -12643,7 +12528,7 @@
       "sector": "Industrials",
       "score": 45,
       "price": 189.53,
-      "market_cap": 6904890368,
+      "market_cap": 6905063936,
       "details": {
         "pb_ratio": 9.13,
         "pb_score": 0,
@@ -12673,7 +12558,7 @@
       "sector": "Information Technology",
       "score": 45,
       "price": 213.74,
-      "market_cap": 10658402304,
+      "market_cap": 10941502464,
       "details": {
         "pb_ratio": 6.41,
         "pb_score": 0,
@@ -12703,7 +12588,7 @@
       "sector": "Communication",
       "score": 45,
       "price": 40.55,
-      "market_cap": 9308292096,
+      "market_cap": 9458957312,
       "details": {
         "pb_ratio": -39.33,
         "pb_score": 30,
@@ -12868,7 +12753,7 @@
       "sector": "Consumer Discretionary",
       "score": 45,
       "price": 143.51,
-      "market_cap": 6714296832,
+      "market_cap": 6686577664,
       "details": {
         "pb_ratio": 4.76,
         "pb_score": 0,
@@ -12898,7 +12783,7 @@
       "sector": "Information Technology",
       "score": 45,
       "price": 49.67,
-      "market_cap": 3036308992,
+      "market_cap": 3031533056,
       "details": {
         "pb_ratio": 3.36,
         "pb_score": 0,
@@ -12930,7 +12815,7 @@
       "price": 81.49,
       "market_cap": 4081129216,
       "details": {
-        "pb_ratio": 1.2,
+        "pb_ratio": 1.02,
         "pb_score": 20,
         "drop_from_high_pct": -9.5,
         "drop_score": 0,
@@ -12983,7 +12868,7 @@
       "sector": "Consumer Discretionary",
       "score": 45,
       "price": 19.87,
-      "market_cap": 4601380864,
+      "market_cap": 4853188608,
       "details": {
         "pb_ratio": 12.4,
         "pb_score": 0,
@@ -13100,7 +12985,7 @@
       "price": 560.67,
       "market_cap": 33936445440,
       "details": {
-        "pb_ratio": 23.56,
+        "pb_ratio": 28.23,
         "pb_score": 0,
         "drop_from_high_pct": -49.0,
         "drop_score": 15,
@@ -13218,9 +13103,9 @@
       "sector": "Energy",
       "score": 45,
       "price": 16.33,
-      "market_cap": 1851757824,
+      "market_cap": 1834661632,
       "details": {
-        "pb_ratio": 1.22,
+        "pb_ratio": 1.21,
         "pb_score": 20,
         "drop_from_high_pct": -15.1,
         "drop_score": 0,
@@ -13245,7 +13130,7 @@
       "price": 78.9,
       "market_cap": 1201811968,
       "details": {
-        "pb_ratio": 3.82,
+        "pb_ratio": 3.8,
         "pb_score": 0,
         "drop_from_high_pct": -42.4,
         "drop_score": 15,
@@ -13298,7 +13183,7 @@
       "sector": "Financials",
       "score": 45,
       "price": 23.16,
-      "market_cap": 1016089664,
+      "market_cap": 1010250112,
       "details": {
         "pb_ratio": 2.48,
         "pb_score": 0,
@@ -13328,7 +13213,7 @@
       "sector": "Consumer Staples",
       "score": 45,
       "price": 29.67,
-      "market_cap": 2777471232,
+      "market_cap": 2777565952,
       "details": {
         "pb_ratio": 7.45,
         "pb_score": 0,
@@ -13388,7 +13273,7 @@
       "sector": "Industrials",
       "score": 45,
       "price": 51.48,
-      "market_cap": 613696512,
+      "market_cap": 613898624,
       "details": {
         "pb_ratio": 3.02,
         "pb_score": 0,
@@ -13470,7 +13355,7 @@
       "price": 16.45,
       "market_cap": 444502784,
       "details": {
-        "pb_ratio": 0.94,
+        "pb_ratio": 0.93,
         "pb_score": 30,
         "drop_from_high_pct": -22.8,
         "drop_score": 0,
@@ -13498,7 +13383,7 @@
       "sector": "Financials",
       "score": 45,
       "price": 23.51,
-      "market_cap": 439725696,
+      "market_cap": 435782720,
       "details": {
         "pb_ratio": 1.74,
         "pb_score": 10,
@@ -13613,7 +13498,7 @@
       "sector": "Financials",
       "score": 45,
       "price": 18.09,
-      "market_cap": 670227328,
+      "market_cap": 671487808,
       "details": {
         "pb_ratio": 1.01,
         "pb_score": 20,
@@ -13688,7 +13573,7 @@
       "sector": "Consumer Staples",
       "score": 45,
       "price": 3.05,
-      "market_cap": 242915200,
+      "market_cap": 241334304,
       "details": {
         "pb_ratio": 2.92,
         "pb_score": 0,
@@ -13788,37 +13673,12 @@
       }
     },
     {
-      "ticker": "PBI",
-      "name": "PITNEY BOWES INC",
-      "sector": "Industrials",
-      "score": 45,
-      "price": 16.38,
-      "market_cap": 2245537536,
-      "details": {
-        "pb_ratio": -2.6,
-        "pb_score": 30,
-        "drop_from_high_pct": -14.1,
-        "drop_score": 0,
-        "revenue_growth_quarters": 0,
-        "revenue_growth_detail": [],
-        "revenue_score": 0,
-        "analyst_mean": null,
-        "analyst_score": 0,
-        "fcf": 233828128,
-        "fcf_score": 15,
-        "debt_to_equity": null,
-        "de_score": 0,
-        "shareholder_turnover": 0.8,
-        "turnover_score": 0
-      }
-    },
-    {
       "ticker": "ADM",
       "name": "ARCHER DANIELS MIDLAND",
       "sector": "Consumer Staples",
       "score": 44,
       "price": 81.12,
-      "market_cap": 39096311808,
+      "market_cap": 39096561664,
       "details": {
         "pb_ratio": 1.66,
         "pb_score": 10,
@@ -13908,7 +13768,7 @@
       "sector": "Industrials",
       "score": 44,
       "price": 156.18,
-      "market_cap": 10400317440,
+      "market_cap": 10396834816,
       "details": {
         "pb_ratio": 1.5,
         "pb_score": 10,
@@ -14145,7 +14005,7 @@
       "price": 2872.16,
       "market_cap": 46451441664,
       "details": {
-        "pb_ratio": -16.88,
+        "pb_ratio": -18.56,
         "pb_score": 30,
         "drop_from_high_pct": -33.7,
         "drop_score": 8,
@@ -14398,36 +14258,6 @@
       }
     },
     {
-      "ticker": "VNO",
-      "name": "VORNADO REALTY TRUST REIT",
-      "sector": "Real Estate",
-      "score": 43,
-      "price": 34.73,
-      "market_cap": 7112426496,
-      "details": {
-        "pb_ratio": 1.41,
-        "pb_score": 20,
-        "drop_from_high_pct": -17.0,
-        "drop_score": 0,
-        "revenue_growth_quarters": 1,
-        "revenue_growth_detail": [
-          {
-            "quarter": "2026-06-30",
-            "yoy_growth_pct": 4.7
-          }
-        ],
-        "revenue_score": 5,
-        "analyst_mean": 2.77,
-        "analyst_score": 0,
-        "fcf": 445744128,
-        "fcf_score": 15,
-        "debt_to_equity": 122.3,
-        "de_score": 3,
-        "shareholder_turnover": 0.6,
-        "turnover_score": 0
-      }
-    },
-    {
       "ticker": "VFC",
       "name": "VF CORP",
       "sector": "Consumer Discretionary",
@@ -14538,7 +14368,7 @@
       "sector": "Industrials",
       "score": 43,
       "price": 102.29,
-      "market_cap": 4056850176,
+      "market_cap": 3971749376,
       "details": {
         "pb_ratio": 1.44,
         "pb_score": 20,
@@ -14678,7 +14508,7 @@
       "sector": "Real Estate",
       "score": 43,
       "price": 30.09,
-      "market_cap": 3379611136,
+      "market_cap": 3379812864,
       "details": {
         "pb_ratio": 1.4,
         "pb_score": 20,
@@ -14793,7 +14623,7 @@
       "sector": "Real Estate",
       "score": 43,
       "price": 36.15,
-      "market_cap": 8991937536,
+      "market_cap": 9064535040,
       "details": {
         "pb_ratio": 1.04,
         "pb_score": 20,
@@ -14903,7 +14733,7 @@
       "sector": "Real Estate",
       "score": 43,
       "price": 18.21,
-      "market_cap": 1778620672,
+      "market_cap": 1856148352,
       "details": {
         "pb_ratio": 1.18,
         "pb_score": 20,
@@ -14988,7 +14818,7 @@
       "sector": "Industrials",
       "score": 43,
       "price": 12.87,
-      "market_cap": 1050052160,
+      "market_cap": 1050985728,
       "details": {
         "pb_ratio": 1.37,
         "pb_score": 20,
@@ -15348,7 +15178,7 @@
       "sector": "Information Technology",
       "score": 41,
       "price": 156.74,
-      "market_cap": 134739640320,
+      "market_cap": 135014014976,
       "details": {
         "pb_ratio": 11.31,
         "pb_score": 0,
@@ -15367,36 +15197,6 @@
         "fcf": 734499968,
         "fcf_score": 15,
         "debt_to_equity": 71.4,
-        "de_score": 6,
-        "shareholder_turnover": 0.9,
-        "turnover_score": 0
-      }
-    },
-    {
-      "ticker": "BSX",
-      "name": "BOSTON SCIENTIFIC CORP",
-      "sector": "Health Care",
-      "score": 41,
-      "price": 43.92,
-      "market_cap": 63650160640,
-      "details": {
-        "pb_ratio": 2.55,
-        "pb_score": 0,
-        "drop_from_high_pct": -58.4,
-        "drop_score": 15,
-        "revenue_growth_quarters": 1,
-        "revenue_growth_detail": [
-          {
-            "quarter": "2026-03-31",
-            "yoy_growth_pct": 9.2
-          }
-        ],
-        "revenue_score": 5,
-        "analyst_mean": 1.65,
-        "analyst_score": 0,
-        "fcf": 2451375104,
-        "fcf_score": 15,
-        "debt_to_equity": 50.2,
         "de_score": 6,
         "shareholder_turnover": 0.9,
         "turnover_score": 0
@@ -15613,7 +15413,7 @@
       "sector": "Communication",
       "score": 41,
       "price": 18.9,
-      "market_cap": 10586973184,
+      "market_cap": 10703315968,
       "details": {
         "pb_ratio": 3.69,
         "pb_score": 0,
@@ -15673,7 +15473,7 @@
       "sector": "Real Estate",
       "score": 41,
       "price": 37.47,
-      "market_cap": 8566968320,
+      "market_cap": 8566933504,
       "details": {
         "pb_ratio": 1.13,
         "pb_score": 20,
@@ -15753,7 +15553,7 @@
       "sector": "Real Estate",
       "score": 41,
       "price": 26.53,
-      "market_cap": 5752201216,
+      "market_cap": 5752919040,
       "details": {
         "pb_ratio": 1.3,
         "pb_score": 20,
@@ -15808,7 +15608,7 @@
       "sector": "Industrials",
       "score": 41,
       "price": 91.31,
-      "market_cap": 4045784064,
+      "market_cap": 3986173696,
       "details": {
         "pb_ratio": 2.37,
         "pb_score": 0,
@@ -15868,7 +15668,7 @@
       "sector": "Industrials",
       "score": 41,
       "price": 72.65,
-      "market_cap": 3910918656,
+      "market_cap": 3941621248,
       "details": {
         "pb_ratio": 2.43,
         "pb_score": 0,
@@ -16008,7 +15808,7 @@
       "sector": "Energy",
       "score": 41,
       "price": 10.91,
-      "market_cap": 4141628672,
+      "market_cap": 4160908800,
       "details": {
         "pb_ratio": 1.34,
         "pb_score": 20,
@@ -16088,7 +15888,7 @@
       "sector": "Information Technology",
       "score": 41,
       "price": 44.25,
-      "market_cap": 4407155200,
+      "market_cap": 3773497600,
       "details": {
         "pb_ratio": 1.15,
         "pb_score": 20,
@@ -16138,7 +15938,7 @@
       "sector": "Real Estate",
       "score": 41,
       "price": 19.24,
-      "market_cap": 2805059072,
+      "market_cap": 2805113344,
       "details": {
         "pb_ratio": 1.13,
         "pb_score": 20,
@@ -16250,7 +16050,7 @@
       "price": 16.47,
       "market_cap": 2749921280,
       "details": {
-        "pb_ratio": 1.47,
+        "pb_ratio": 1.35,
         "pb_score": 20,
         "drop_from_high_pct": -12.0,
         "drop_score": 0,
@@ -16323,7 +16123,7 @@
       "sector": "Consumer Staples",
       "score": 41,
       "price": 163.77,
-      "market_cap": 1705409408,
+      "market_cap": 1685468672,
       "details": {
         "pb_ratio": 2.31,
         "pb_score": 0,
@@ -16338,7 +16138,7 @@
         "fcf_score": 15,
         "debt_to_equity": 4.4,
         "de_score": 10,
-        "shareholder_turnover": 2.5,
+        "shareholder_turnover": 2.4,
         "turnover_score": 0
       }
     },
@@ -16658,7 +16458,7 @@
       "sector": "Materials",
       "score": 41,
       "price": 20.34,
-      "market_cap": 327987648,
+      "market_cap": 328038720,
       "details": {
         "pb_ratio": 0.41,
         "pb_score": 30,
@@ -17013,7 +16813,7 @@
       "sector": "Real Estate",
       "score": 40,
       "price": 28.46,
-      "market_cap": 3245511424,
+      "market_cap": 3273981952,
       "details": {
         "pb_ratio": 1.56,
         "pb_score": 10,
@@ -17273,7 +17073,7 @@
       "sector": "Health Care",
       "score": 40,
       "price": 113.19,
-      "market_cap": 2112665984,
+      "market_cap": 2113744000,
       "details": {
         "pb_ratio": 1.8,
         "pb_score": 10,
@@ -17553,7 +17353,7 @@
         "fcf_score": 15,
         "debt_to_equity": 3.0,
         "de_score": 10,
-        "shareholder_turnover": 2.7,
+        "shareholder_turnover": 2.6,
         "turnover_score": 0
       }
     },
@@ -17588,36 +17388,6 @@
       }
     },
     {
-      "ticker": "EBF",
-      "name": "ENNIS INC",
-      "sector": "Industrials",
-      "score": 40,
-      "price": 22.13,
-      "market_cap": 559850752,
-      "details": {
-        "pb_ratio": 1.8,
-        "pb_score": 10,
-        "drop_from_high_pct": -3.5,
-        "drop_score": 0,
-        "revenue_growth_quarters": 1,
-        "revenue_growth_detail": [
-          {
-            "quarter": "2026-05-31",
-            "yoy_growth_pct": 0.8
-          }
-        ],
-        "revenue_score": 5,
-        "analyst_mean": null,
-        "analyst_score": 0,
-        "fcf": 52467752,
-        "fcf_score": 15,
-        "debt_to_equity": 1.0,
-        "de_score": 10,
-        "shareholder_turnover": 0.4,
-        "turnover_score": 0
-      }
-    },
-    {
       "ticker": "TIPT",
       "name": "TIPTREE INC",
       "sector": "Financials",
@@ -17648,7 +17418,7 @@
       "sector": "Real Estate",
       "score": 40,
       "price": 3.63,
-      "market_cap": 596495872,
+      "market_cap": 606638144,
       "details": {
         "pb_ratio": 2.16,
         "pb_score": 0,
@@ -17843,7 +17613,7 @@
       "sector": "Industrials",
       "score": 39,
       "price": 41.28,
-      "market_cap": 950487168,
+      "market_cap": 949135744,
       "details": {
         "pb_ratio": 1.38,
         "pb_score": 20,
@@ -18013,7 +17783,7 @@
       "sector": "Information Technology",
       "score": 38,
       "price": 310.75,
-      "market_cap": 103992647680,
+      "market_cap": 104393203712,
       "details": {
         "pb_ratio": 32.94,
         "pb_score": 0,
@@ -18103,9 +17873,9 @@
       "sector": "Communication",
       "score": 38,
       "price": 510.01,
-      "market_cap": 104868290560,
+      "market_cap": 104850006016,
       "details": {
-        "pb_ratio": 10.92,
+        "pb_ratio": 10.7,
         "pb_score": 0,
         "drop_from_high_pct": -31.1,
         "drop_score": 8,
@@ -18193,7 +17963,7 @@
       "sector": "Industrials",
       "score": 38,
       "price": 173.3,
-      "market_cap": 35934904320,
+      "market_cap": 36040904704,
       "details": {
         "pb_ratio": 7.91,
         "pb_score": 0,
@@ -18278,7 +18048,7 @@
       "sector": "Industrials",
       "score": 38,
       "price": 27.59,
-      "market_cap": 26577678336,
+      "market_cap": 25543137280,
       "details": {
         "pb_ratio": 2.81,
         "pb_score": 0,
@@ -18548,7 +18318,7 @@
       "sector": "Information Technology",
       "score": 38,
       "price": 105.16,
-      "market_cap": 11371683840,
+      "market_cap": 11405821952,
       "details": {
         "pb_ratio": 7.78,
         "pb_score": 0,
@@ -18903,7 +18673,7 @@
       "sector": "Real Estate",
       "score": 38,
       "price": 18.05,
-      "market_cap": 6331073536,
+      "market_cap": 6263309824,
       "details": {
         "pb_ratio": 1.47,
         "pb_score": 20,
@@ -19018,7 +18788,7 @@
       "sector": "Materials",
       "score": 38,
       "price": 50.06,
-      "market_cap": 4949366784,
+      "market_cap": 4949682688,
       "details": {
         "pb_ratio": 1.38,
         "pb_score": 20,
@@ -19423,7 +19193,7 @@
       "sector": "Health Care",
       "score": 38,
       "price": 20.68,
-      "market_cap": 3541157888,
+      "market_cap": 3563278080,
       "details": {
         "pb_ratio": 2.72,
         "pb_score": 0,
@@ -19453,7 +19223,7 @@
       "sector": "Financials",
       "score": 38,
       "price": 65.61,
-      "market_cap": 2498107136,
+      "market_cap": 2454050048,
       "details": {
         "pb_ratio": 2.0,
         "pb_score": 10,
@@ -19462,8 +19232,8 @@
         "revenue_growth_quarters": 1,
         "revenue_growth_detail": [
           {
-            "quarter": "2026-03-31",
-            "yoy_growth_pct": 10.1
+            "quarter": "2026-06-30",
+            "yoy_growth_pct": 3.1
           }
         ],
         "revenue_score": 5,
@@ -19748,7 +19518,7 @@
       "sector": "Communication",
       "score": 38,
       "price": 8.41,
-      "market_cap": 985646464,
+      "market_cap": 978597376,
       "details": {
         "pb_ratio": 1.47,
         "pb_score": 20,
@@ -20208,7 +19978,7 @@
       "sector": "Consumer Discretionary",
       "score": 38,
       "price": 21.2,
-      "market_cap": 1516977536,
+      "market_cap": 1507011072,
       "details": {
         "pb_ratio": 2.8,
         "pb_score": 0,
@@ -20263,7 +20033,7 @@
       "sector": "Information Technology",
       "score": 38,
       "price": 11.37,
-      "market_cap": 1839858432,
+      "market_cap": 1844418432,
       "details": {
         "pb_ratio": 7.44,
         "pb_score": 0,
@@ -20323,7 +20093,7 @@
       "sector": "Consumer Discretionary",
       "score": 38,
       "price": 37.69,
-      "market_cap": 839102976,
+      "market_cap": 842005568,
       "details": {
         "pb_ratio": 1.17,
         "pb_score": 20,
@@ -20773,7 +20543,7 @@
       "sector": "Communication",
       "score": 38,
       "price": 2.51,
-      "market_cap": 957283136,
+      "market_cap": 970989504,
       "details": {
         "pb_ratio": 2.34,
         "pb_score": 0,
@@ -21028,6 +20798,31 @@
       }
     },
     {
+      "ticker": "BSX",
+      "name": "BOSTON SCIENTIFIC CORP",
+      "sector": "Health Care",
+      "score": 36,
+      "price": 43.92,
+      "market_cap": 63650160640,
+      "details": {
+        "pb_ratio": 2.55,
+        "pb_score": 0,
+        "drop_from_high_pct": -58.4,
+        "drop_score": 15,
+        "revenue_growth_quarters": 0,
+        "revenue_growth_detail": [],
+        "revenue_score": 0,
+        "analyst_mean": 1.65,
+        "analyst_score": 0,
+        "fcf": 2451375104,
+        "fcf_score": 15,
+        "debt_to_equity": 50.2,
+        "de_score": 6,
+        "shareholder_turnover": 0.9,
+        "turnover_score": 0
+      }
+    },
+    {
       "ticker": "NKE",
       "name": "NIKE INC CLASS B",
       "sector": "Consumer Discretionary",
@@ -21173,7 +20968,7 @@
       "sector": "Industrials",
       "score": 36,
       "price": 76.59,
-      "market_cap": 13318156288,
+      "market_cap": 13172476928,
       "details": {
         "pb_ratio": 1.64,
         "pb_score": 10,
@@ -21233,7 +21028,7 @@
       "sector": "Industrials",
       "score": 36,
       "price": 53.66,
-      "market_cap": 8671753216,
+      "market_cap": 8564135936,
       "details": {
         "pb_ratio": 2.28,
         "pb_score": 0,
@@ -21288,7 +21083,7 @@
       "sector": "Health Care",
       "score": 36,
       "price": 22.31,
-      "market_cap": 11146562560,
+      "market_cap": 11142719488,
       "details": {
         "pb_ratio": 1.69,
         "pb_score": 10,
@@ -21429,36 +21224,6 @@
         "debt_to_equity": 31.6,
         "de_score": 6,
         "shareholder_turnover": 0.5,
-        "turnover_score": 0
-      }
-    },
-    {
-      "ticker": "CMC",
-      "name": "COMMERCIAL METALS",
-      "sector": "Materials",
-      "score": 36,
-      "price": 65.73,
-      "market_cap": 7271337984,
-      "details": {
-        "pb_ratio": 1.61,
-        "pb_score": 10,
-        "drop_from_high_pct": -22.6,
-        "drop_score": 0,
-        "revenue_growth_quarters": 1,
-        "revenue_growth_detail": [
-          {
-            "quarter": "2026-05-31",
-            "yoy_growth_pct": 17.9
-          }
-        ],
-        "revenue_score": 5,
-        "analyst_mean": null,
-        "analyst_score": 0,
-        "fcf": 134061248,
-        "fcf_score": 15,
-        "debt_to_equity": 80.0,
-        "de_score": 6,
-        "shareholder_turnover": 0.7,
         "turnover_score": 0
       }
     },
@@ -21618,7 +21383,7 @@
       "sector": "Information Technology",
       "score": 36,
       "price": 32.4,
-      "market_cap": 4270262784,
+      "market_cap": 4281486848,
       "details": {
         "pb_ratio": 3.62,
         "pb_score": 0,
@@ -21748,36 +21513,6 @@
       }
     },
     {
-      "ticker": "MCY",
-      "name": "MERCURY GENERAL CORP",
-      "sector": "Financials",
-      "score": 36,
-      "price": 99.41,
-      "market_cap": 5506183680,
-      "details": {
-        "pb_ratio": 1.94,
-        "pb_score": 10,
-        "drop_from_high_pct": -12.1,
-        "drop_score": 0,
-        "revenue_growth_quarters": 1,
-        "revenue_growth_detail": [
-          {
-            "quarter": "2026-06-30",
-            "yoy_growth_pct": 13.8
-          }
-        ],
-        "revenue_score": 5,
-        "analyst_mean": null,
-        "analyst_score": 0,
-        "fcf": 1143784576,
-        "fcf_score": 15,
-        "debt_to_equity": 33.9,
-        "de_score": 6,
-        "shareholder_turnover": 0.4,
-        "turnover_score": 0
-      }
-    },
-    {
       "ticker": "PARR",
       "name": "PAR PACIFIC HOLDINGS INC",
       "sector": "Energy",
@@ -21804,6 +21539,36 @@
         "debt_to_equity": 56.2,
         "de_score": 6,
         "shareholder_turnover": 1.3,
+        "turnover_score": 0
+      }
+    },
+    {
+      "ticker": "FCPT",
+      "name": "FOUR CORNERS PROPERTY INC TRUST",
+      "sector": "Real Estate",
+      "score": 36,
+      "price": 22.2,
+      "market_cap": 2436592384,
+      "details": {
+        "pb_ratio": 1.5,
+        "pb_score": 10,
+        "drop_from_high_pct": -17.3,
+        "drop_score": 0,
+        "revenue_growth_quarters": 1,
+        "revenue_growth_detail": [
+          {
+            "quarter": "2026-06-30",
+            "yoy_growth_pct": 6.3
+          }
+        ],
+        "revenue_score": 5,
+        "analyst_mean": 2.33,
+        "analyst_score": 0,
+        "fcf": 189772992,
+        "fcf_score": 15,
+        "debt_to_equity": 77.6,
+        "de_score": 6,
+        "shareholder_turnover": 0.5,
         "turnover_score": 0
       }
     },
@@ -21858,7 +21623,7 @@
         "fcf_score": 15,
         "debt_to_equity": 49.9,
         "de_score": 6,
-        "shareholder_turnover": 0.7,
+        "shareholder_turnover": 0.8,
         "turnover_score": 0
       }
     },
@@ -21983,7 +21748,7 @@
       "sector": "Energy",
       "score": 36,
       "price": 12.47,
-      "market_cap": 1558793088,
+      "market_cap": 1557572608,
       "details": {
         "pb_ratio": 1.4,
         "pb_score": 20,
@@ -22015,7 +21780,7 @@
       "price": 50.98,
       "market_cap": 929705664,
       "details": {
-        "pb_ratio": 1.44,
+        "pb_ratio": 1.5,
         "pb_score": 20,
         "drop_from_high_pct": -11.0,
         "drop_score": 0,
@@ -22103,7 +21868,7 @@
       "sector": "Consumer Staples",
       "score": 36,
       "price": 14.24,
-      "market_cap": 1261852160,
+      "market_cap": 2050021760,
       "details": {
         "pb_ratio": 1.81,
         "pb_score": 10,
@@ -22360,7 +22125,7 @@
       "price": 71.05,
       "market_cap": 29359538176,
       "details": {
-        "pb_ratio": 9.06,
+        "pb_ratio": null,
         "pb_score": 0,
         "drop_from_high_pct": -52.2,
         "drop_score": 15,
@@ -22512,8 +22277,8 @@
         "revenue_growth_quarters": 1,
         "revenue_growth_detail": [
           {
-            "quarter": "2026-03-31",
-            "yoy_growth_pct": 3.1
+            "quarter": "2026-06-30",
+            "yoy_growth_pct": 4.6
           }
         ],
         "revenue_score": 5,
@@ -22535,7 +22300,7 @@
       "price": 13.08,
       "market_cap": 7228076544,
       "details": {
-        "pb_ratio": 0.96,
+        "pb_ratio": 0.97,
         "pb_score": 30,
         "drop_from_high_pct": -13.9,
         "drop_score": 0,
@@ -22623,7 +22388,7 @@
       "sector": "Consumer Discretionary",
       "score": 35,
       "price": 22.58,
-      "market_cap": 4808452608,
+      "market_cap": 4757229568,
       "details": {
         "pb_ratio": 1.87,
         "pb_score": 10,
@@ -22830,7 +22595,7 @@
       "price": 38.66,
       "market_cap": 3707721728,
       "details": {
-        "pb_ratio": 0.95,
+        "pb_ratio": 0.98,
         "pb_score": 30,
         "drop_from_high_pct": -10.1,
         "drop_score": 0,
@@ -22918,7 +22683,7 @@
       "sector": "Health Care",
       "score": 35,
       "price": 85.29,
-      "market_cap": 2947700224,
+      "market_cap": 2957443072,
       "details": {
         "pb_ratio": 5.7,
         "pb_score": 0,
@@ -23152,7 +22917,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": null,
+        "analyst_mean": 1.0,
         "analyst_score": 0,
         "fcf": 57647500,
         "fcf_score": 15,
@@ -23228,7 +22993,7 @@
       "sector": "Energy",
       "score": 35,
       "price": 28.5,
-      "market_cap": 1989881216,
+      "market_cap": 1993170944,
       "details": {
         "pb_ratio": 1.85,
         "pb_score": 10,
@@ -23273,42 +23038,12 @@
       }
     },
     {
-      "ticker": "FLNG",
-      "name": "FLEX LNG LTD",
-      "sector": "Energy",
-      "score": 35,
-      "price": 30.88,
-      "market_cap": 1670372480,
-      "details": {
-        "pb_ratio": 2.38,
-        "pb_score": 0,
-        "drop_from_high_pct": -7.5,
-        "drop_score": 0,
-        "revenue_growth_quarters": 1,
-        "revenue_growth_detail": [
-          {
-            "quarter": "2026-06-30",
-            "yoy_growth_pct": 13.2
-          }
-        ],
-        "revenue_score": 5,
-        "analyst_mean": 4.2,
-        "analyst_score": 15,
-        "fcf": 143191744,
-        "fcf_score": 15,
-        "debt_to_equity": 255.3,
-        "de_score": 0,
-        "shareholder_turnover": 0.8,
-        "turnover_score": 0
-      }
-    },
-    {
       "ticker": "ASC",
       "name": "ARDMORE SHIPPING CORP",
       "sector": "Energy",
       "score": 35,
       "price": 17.85,
-      "market_cap": 728326720,
+      "market_cap": 729205952,
       "details": {
         "pb_ratio": 1.04,
         "pb_score": 20,
@@ -23368,7 +23103,7 @@
       "sector": "Materials",
       "score": 35,
       "price": 18.84,
-      "market_cap": 784267904,
+      "market_cap": 780904512,
       "details": {
         "pb_ratio": 1.13,
         "pb_score": 20,
@@ -23788,7 +23523,7 @@
       "sector": "Health Care",
       "score": 34,
       "price": 101.29,
-      "market_cap": 176428253184,
+      "market_cap": 175270526976,
       "details": {
         "pb_ratio": 3.43,
         "pb_score": 0,
@@ -23878,7 +23613,7 @@
       "sector": "Industrials",
       "score": 34,
       "price": 525.06,
-      "market_cap": 72452538368,
+      "market_cap": 72282112000,
       "details": {
         "pb_ratio": 5.63,
         "pb_score": 0,
@@ -23887,8 +23622,8 @@
         "revenue_growth_quarters": 1,
         "revenue_growth_detail": [
           {
-            "quarter": "2026-03-31",
-            "yoy_growth_pct": 2.1
+            "quarter": "2026-06-30",
+            "yoy_growth_pct": 9.9
           }
         ],
         "revenue_score": 5,
@@ -24088,7 +23823,7 @@
       "sector": "Health Care",
       "score": 34,
       "price": 519.26,
-      "market_cap": 40960786432,
+      "market_cap": 40907886592,
       "details": {
         "pb_ratio": 25.4,
         "pb_score": 0,
@@ -24148,7 +23883,7 @@
       "sector": "Financials",
       "score": 34,
       "price": 55.04,
-      "market_cap": 47444480000,
+      "market_cap": 47084568576,
       "details": {
         "pb_ratio": 2.39,
         "pb_score": 0,
@@ -24208,7 +23943,7 @@
       "sector": "Information Technology",
       "score": 34,
       "price": 124.69,
-      "market_cap": 26102505472,
+      "market_cap": 26086213632,
       "details": {
         "pb_ratio": 3.6,
         "pb_score": 0,
@@ -24358,7 +24093,7 @@
       "sector": "Industrials",
       "score": 34,
       "price": 82.49,
-      "market_cap": 15367886848,
+      "market_cap": 15277147136,
       "details": {
         "pb_ratio": 2.74,
         "pb_score": 0,
@@ -24450,7 +24185,7 @@
       "price": 66.82,
       "market_cap": 24805423104,
       "details": {
-        "pb_ratio": 2.68,
+        "pb_ratio": null,
         "pb_score": 0,
         "drop_from_high_pct": -15.4,
         "drop_score": 0,
@@ -24628,7 +24363,7 @@
       "sector": "Materials",
       "score": 34,
       "price": 35.71,
-      "market_cap": 8702028800,
+      "market_cap": 8702201856,
       "details": {
         "pb_ratio": 3.09,
         "pb_score": 0,
@@ -24688,7 +24423,7 @@
       "sector": "Industrials",
       "score": 34,
       "price": 116.94,
-      "market_cap": 5971405312,
+      "market_cap": 5968805888,
       "details": {
         "pb_ratio": 7.72,
         "pb_score": 0,
@@ -25258,7 +24993,7 @@
       "sector": "Utilities",
       "score": 33,
       "price": 67.02,
-      "market_cap": 33397499904,
+      "market_cap": 33404108800,
       "details": {
         "pb_ratio": 1.93,
         "pb_score": 10,
@@ -25458,7 +25193,7 @@
       "sector": "Information Technology",
       "score": 33,
       "price": 89.34,
-      "market_cap": 13437268992,
+      "market_cap": 13443237888,
       "details": {
         "pb_ratio": 2.34,
         "pb_score": 0,
@@ -25533,7 +25268,7 @@
       "sector": "Financials",
       "score": 33,
       "price": 34.87,
-      "market_cap": 15544086528,
+      "market_cap": 15543951360,
       "details": {
         "pb_ratio": 1.53,
         "pb_score": 10,
@@ -25563,7 +25298,7 @@
       "sector": "Real Estate",
       "score": 33,
       "price": 36.79,
-      "market_cap": 7240368640,
+      "market_cap": 7240554496,
       "details": {
         "pb_ratio": 1.95,
         "pb_score": 10,
@@ -25593,7 +25328,7 @@
       "sector": "Industrials",
       "score": 33,
       "price": 40.94,
-      "market_cap": 4567551488,
+      "market_cap": 4569031680,
       "details": {
         "pb_ratio": 1.24,
         "pb_score": 20,
@@ -25653,7 +25388,7 @@
       "sector": "Materials",
       "score": 33,
       "price": 54.58,
-      "market_cap": 3097625600,
+      "market_cap": 3098147584,
       "details": {
         "pb_ratio": 1.93,
         "pb_score": 10,
@@ -26053,7 +25788,7 @@
       "sector": "Financials",
       "score": 33,
       "price": 31.09,
-      "market_cap": 924980736,
+      "market_cap": 926730112,
       "details": {
         "pb_ratio": 1.05,
         "pb_score": 20,
@@ -26085,7 +25820,7 @@
       "price": 42.16,
       "market_cap": 1162805120,
       "details": {
-        "pb_ratio": 1.22,
+        "pb_ratio": 1.24,
         "pb_score": 20,
         "drop_from_high_pct": -7.3,
         "drop_score": 0,
@@ -26237,13 +25972,38 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": null,
+        "analyst_mean": 1.22,
         "analyst_score": 0,
         "fcf": 48381124,
         "fcf_score": 15,
         "debt_to_equity": 0.7,
         "de_score": 10,
         "shareholder_turnover": 1.4,
+        "turnover_score": 0
+      }
+    },
+    {
+      "ticker": "HOV",
+      "name": "HOVNANIAN ENTERPRISES INC CLASS A",
+      "sector": "Consumer Discretionary",
+      "score": 33,
+      "price": 115.15,
+      "market_cap": 686281344,
+      "details": {
+        "pb_ratio": 0.98,
+        "pb_score": 30,
+        "drop_from_high_pct": -22.4,
+        "drop_score": 0,
+        "revenue_growth_quarters": 0,
+        "revenue_growth_detail": [],
+        "revenue_score": 0,
+        "analyst_mean": null,
+        "analyst_score": 0,
+        "fcf": -93522496,
+        "fcf_score": 0,
+        "debt_to_equity": 131.1,
+        "de_score": 3,
+        "shareholder_turnover": 1.9,
         "turnover_score": 0
       }
     },
@@ -26255,7 +26015,7 @@
       "price": 75.56,
       "market_cap": 898551616,
       "details": {
-        "pb_ratio": 1.33,
+        "pb_ratio": 1.37,
         "pb_score": 20,
         "drop_from_high_pct": -10.2,
         "drop_score": 0,
@@ -26313,7 +26073,7 @@
       "sector": "Communication",
       "score": 33,
       "price": 18.64,
-      "market_cap": 659357888,
+      "market_cap": 656868928,
       "details": {
         "pb_ratio": 2.56,
         "pb_score": 0,
@@ -26558,7 +26318,7 @@
       "sector": "Industrials",
       "score": 31,
       "price": 56.37,
-      "market_cap": 46819815424,
+      "market_cap": 46467203072,
       "details": {
         "pb_ratio": 3.54,
         "pb_score": 0,
@@ -26738,7 +26498,7 @@
       "sector": "Health Care",
       "score": 31,
       "price": 66.63,
-      "market_cap": 30309437440,
+      "market_cap": 30095853568,
       "details": {
         "pb_ratio": 2.74,
         "pb_score": 0,
@@ -26770,7 +26530,7 @@
       "price": 341.07,
       "market_cap": 23525193728,
       "details": {
-        "pb_ratio": 15.12,
+        "pb_ratio": 14.07,
         "pb_score": 0,
         "drop_from_high_pct": -37.7,
         "drop_score": 8,
@@ -26823,7 +26583,7 @@
       "sector": "Industrials",
       "score": 31,
       "price": 163.77,
-      "market_cap": 18941360128,
+      "market_cap": 18673350656,
       "details": {
         "pb_ratio": 6.57,
         "pb_score": 0,
@@ -26883,7 +26643,7 @@
       "sector": "Information Technology",
       "score": 31,
       "price": 662.27,
-      "market_cap": 19915145216,
+      "market_cap": 19838642176,
       "details": {
         "pb_ratio": 17.13,
         "pb_score": 0,
@@ -26968,7 +26728,7 @@
       "sector": "Industrials",
       "score": 31,
       "price": 123.61,
-      "market_cap": 15548341248,
+      "market_cap": 15512091648,
       "details": {
         "pb_ratio": 2.94,
         "pb_score": 0,
@@ -27110,7 +26870,7 @@
       "price": 23.39,
       "market_cap": 11800278016,
       "details": {
-        "pb_ratio": 1.8,
+        "pb_ratio": 1.71,
         "pb_score": 10,
         "drop_from_high_pct": -16.8,
         "drop_score": 0,
@@ -27833,7 +27593,7 @@
       "sector": "Information Technology",
       "score": 31,
       "price": 3.78,
-      "market_cap": 1113121152,
+      "market_cap": 1113312384,
       "details": {
         "pb_ratio": 5.26,
         "pb_score": 0,
@@ -27863,7 +27623,7 @@
       "sector": "Consumer Staples",
       "score": 31,
       "price": 21.67,
-      "market_cap": 4567329280,
+      "market_cap": 4567840256,
       "details": {
         "pb_ratio": 1.98,
         "pb_score": 10,
@@ -28420,7 +28180,7 @@
       "price": 261.935,
       "market_cap": 235402199040,
       "details": {
-        "pb_ratio": 12.39,
+        "pb_ratio": 12.59,
         "pb_score": 0,
         "drop_from_high_pct": -20.6,
         "drop_score": 0,
@@ -28628,7 +28388,7 @@
       "sector": "Health Care",
       "score": 30,
       "price": 526.19,
-      "market_cap": 133283930112,
+      "market_cap": 133368602624,
       "details": {
         "pb_ratio": 6.58,
         "pb_score": 0,
@@ -28720,7 +28480,7 @@
       "price": 398.38,
       "market_cap": 62283030528,
       "details": {
-        "pb_ratio": 18.14,
+        "pb_ratio": 19.84,
         "pb_score": 0,
         "drop_from_high_pct": -18.3,
         "drop_score": 0,
@@ -28748,7 +28508,7 @@
       "sector": "Energy",
       "score": 30,
       "price": 140.35,
-      "market_cap": 74754416640,
+      "market_cap": 73617670144,
       "details": {
         "pb_ratio": 2.31,
         "pb_score": 0,
@@ -28757,8 +28517,8 @@
         "revenue_growth_quarters": 1,
         "revenue_growth_detail": [
           {
-            "quarter": "2026-03-31",
-            "yoy_growth_pct": 24.5
+            "quarter": "2026-06-30",
+            "yoy_growth_pct": 26.2
           }
         ],
         "revenue_score": 5,
@@ -28958,7 +28718,7 @@
       "sector": "Industrials",
       "score": 30,
       "price": 250.74,
-      "market_cap": 57470361600,
+      "market_cap": 57484967936,
       "details": {
         "pb_ratio": 5.1,
         "pb_score": 0,
@@ -29048,7 +28808,7 @@
       "sector": "Health Care",
       "score": 30,
       "price": 86.29,
-      "market_cap": 49685782528,
+      "market_cap": 49737555968,
       "details": {
         "pb_ratio": 4.69,
         "pb_score": 0,
@@ -29057,8 +28817,8 @@
         "revenue_growth_quarters": 1,
         "revenue_growth_detail": [
           {
-            "quarter": "2026-03-31",
-            "yoy_growth_pct": 20.2
+            "quarter": "2026-06-30",
+            "yoy_growth_pct": 13.9
           }
         ],
         "revenue_score": 5,
@@ -29108,7 +28868,7 @@
       "sector": "Consumer Discretionary",
       "score": 30,
       "price": 294.14,
-      "market_cap": 56726728704,
+      "market_cap": 56725651456,
       "details": {
         "pb_ratio": 6.28,
         "pb_score": 0,
@@ -29228,7 +28988,7 @@
       "sector": "Information Technology",
       "score": 30,
       "price": 614.15,
-      "market_cap": 28453040128,
+      "market_cap": 28469338112,
       "details": {
         "pb_ratio": 2.61,
         "pb_score": 0,
@@ -29348,7 +29108,7 @@
       "sector": "Information Technology",
       "score": 30,
       "price": 410.44,
-      "market_cap": 33063546880,
+      "market_cap": 33012480000,
       "details": {
         "pb_ratio": 11.11,
         "pb_score": 0,
@@ -29468,7 +29228,7 @@
       "sector": "Materials",
       "score": 30,
       "price": 387.28,
-      "market_cap": 19771805696,
+      "market_cap": 19772407808,
       "details": {
         "pb_ratio": 2.67,
         "pb_score": 0,
@@ -29618,7 +29378,7 @@
       "sector": "Information Technology",
       "score": 30,
       "price": 128.05,
-      "market_cap": 18150987776,
+      "market_cap": 18186977280,
       "details": {
         "pb_ratio": 22.3,
         "pb_score": 0,
@@ -29648,7 +29408,7 @@
       "sector": "Communication",
       "score": 30,
       "price": 152.68,
-      "market_cap": 22660608000,
+      "market_cap": 22674604032,
       "details": {
         "pb_ratio": 8.02,
         "pb_score": 0,
@@ -29858,7 +29618,7 @@
       "sector": "Information Technology",
       "score": 30,
       "price": 57.95,
-      "market_cap": 16747672576,
+      "market_cap": 16818762752,
       "details": {
         "pb_ratio": 6.87,
         "pb_score": 0,
@@ -29888,7 +29648,7 @@
       "sector": "Information Technology",
       "score": 30,
       "price": 129.69,
-      "market_cap": 10109954048,
+      "market_cap": 10131477504,
       "details": {
         "pb_ratio": 9.12,
         "pb_score": 0,
@@ -29897,8 +29657,8 @@
         "revenue_growth_quarters": 1,
         "revenue_growth_detail": [
           {
-            "quarter": "2026-03-31",
-            "yoy_growth_pct": 30.4
+            "quarter": "2026-06-30",
+            "yoy_growth_pct": 3.6
           }
         ],
         "revenue_score": 5,
@@ -30428,7 +30188,7 @@
       "sector": "Materials",
       "score": 30,
       "price": 35.68,
-      "market_cap": 7403281408,
+      "market_cap": 7275484160,
       "details": {
         "pb_ratio": 2.17,
         "pb_score": 0,
@@ -30502,7 +30262,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.33,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 58311500,
         "fcf_score": 15,
@@ -30698,9 +30458,9 @@
       "sector": "Financials",
       "score": 30,
       "price": 55.69,
-      "market_cap": 5110838272,
+      "market_cap": 5110836224,
       "details": {
-        "pb_ratio": 2.85,
+        "pb_ratio": 2.92,
         "pb_score": 0,
         "drop_from_high_pct": -17.0,
         "drop_score": 0,
@@ -30758,7 +30518,7 @@
       "sector": "Industrials",
       "score": 30,
       "price": 143.35,
-      "market_cap": 7605715968,
+      "market_cap": 7936716288,
       "details": {
         "pb_ratio": 6.5,
         "pb_score": 0,
@@ -30788,7 +30548,7 @@
       "sector": "Information Technology",
       "score": 30,
       "price": 172.43,
-      "market_cap": 6072468480,
+      "market_cap": 5965215744,
       "details": {
         "pb_ratio": 10.63,
         "pb_score": 0,
@@ -30838,7 +30598,7 @@
         "fcf_score": 15,
         "debt_to_equity": 188.6,
         "de_score": 0,
-        "shareholder_turnover": 0.9,
+        "shareholder_turnover": 0.8,
         "turnover_score": 0
       }
     },
@@ -30848,7 +30608,7 @@
       "sector": "Health Care",
       "score": 30,
       "price": 76.63,
-      "market_cap": 4221815296,
+      "market_cap": 4209556736,
       "details": {
         "pb_ratio": 3.18,
         "pb_score": 0,
@@ -30968,7 +30728,7 @@
       "sector": "Information Technology",
       "score": 30,
       "price": 29.45,
-      "market_cap": 7392350720,
+      "market_cap": 7340637184,
       "details": {
         "pb_ratio": 7.96,
         "pb_score": 0,
@@ -31088,7 +30848,7 @@
       "sector": "Information Technology",
       "score": 30,
       "price": 252.69,
-      "market_cap": 3593935872,
+      "market_cap": 3648704768,
       "details": {
         "pb_ratio": 4.01,
         "pb_score": 0,
@@ -31118,9 +30878,9 @@
       "sector": "Industrials",
       "score": 30,
       "price": 36.89,
-      "market_cap": 3773610496,
+      "market_cap": 3776127744,
       "details": {
-        "pb_ratio": 3.01,
+        "pb_ratio": 3.07,
         "pb_score": 0,
         "drop_from_high_pct": -21.0,
         "drop_score": 0,
@@ -31148,7 +30908,7 @@
       "sector": "Information Technology",
       "score": 30,
       "price": 137.76,
-      "market_cap": 2458814208,
+      "market_cap": 2461541888,
       "details": {
         "pb_ratio": 2.05,
         "pb_score": 0,
@@ -31270,7 +31030,7 @@
       "price": 102.82,
       "market_cap": 3536526848,
       "details": {
-        "pb_ratio": 1.77,
+        "pb_ratio": 1.72,
         "pb_score": 10,
         "drop_from_high_pct": -21.7,
         "drop_score": 0,
@@ -31438,7 +31198,7 @@
       "sector": "Information Technology",
       "score": 30,
       "price": 90.51,
-      "market_cap": 2366979840,
+      "market_cap": 2361443840,
       "details": {
         "pb_ratio": 2.19,
         "pb_score": 0,
@@ -31447,8 +31207,8 @@
         "revenue_growth_quarters": 1,
         "revenue_growth_detail": [
           {
-            "quarter": "2026-03-31",
-            "yoy_growth_pct": 23.7
+            "quarter": "2026-06-30",
+            "yoy_growth_pct": 1.8
           }
         ],
         "revenue_score": 5,
@@ -31828,7 +31588,7 @@
       "sector": "Financials",
       "score": 30,
       "price": 7.19,
-      "market_cap": 3809006080,
+      "market_cap": 3879870720,
       "details": {
         "pb_ratio": 3.65,
         "pb_score": 0,
@@ -31978,7 +31738,7 @@
       "sector": "Financials",
       "score": 30,
       "price": 16.96,
-      "market_cap": 1784226688,
+      "market_cap": 1765516032,
       "details": {
         "pb_ratio": 2.47,
         "pb_score": 0,
@@ -32033,36 +31793,6 @@
       }
     },
     {
-      "ticker": "ODC",
-      "name": "OIL DRI CORPORATION OF AMERICA",
-      "sector": "Consumer Staples",
-      "score": 30,
-      "price": 88.6,
-      "market_cap": 1282928640,
-      "details": {
-        "pb_ratio": 4.5,
-        "pb_score": 0,
-        "drop_from_high_pct": -17.2,
-        "drop_score": 0,
-        "revenue_growth_quarters": 1,
-        "revenue_growth_detail": [
-          {
-            "quarter": "2026-04-30",
-            "yoy_growth_pct": 12.3
-          }
-        ],
-        "revenue_score": 5,
-        "analyst_mean": null,
-        "analyst_score": 0,
-        "fcf": 35177752,
-        "fcf_score": 15,
-        "debt_to_equity": 19.0,
-        "de_score": 10,
-        "shareholder_turnover": 0.8,
-        "turnover_score": 0
-      }
-    },
-    {
       "ticker": "USLM",
       "name": "UNITED STATES LIME AND MINERALS IN",
       "sector": "Materials",
@@ -32070,7 +31800,7 @@
       "price": 111.4,
       "market_cap": 3195883776,
       "details": {
-        "pb_ratio": 4.82,
+        "pb_ratio": 4.58,
         "pb_score": 0,
         "drop_from_high_pct": -21.2,
         "drop_score": 0,
@@ -32243,36 +31973,6 @@
       }
     },
     {
-      "ticker": "IDT",
-      "name": "IDT CORP CLASS B",
-      "sector": "Communication",
-      "score": 30,
-      "price": 67.46,
-      "market_cap": 1677633408,
-      "details": {
-        "pb_ratio": 4.69,
-        "pb_score": 0,
-        "drop_from_high_pct": -6.5,
-        "drop_score": 0,
-        "revenue_growth_quarters": 1,
-        "revenue_growth_detail": [
-          {
-            "quarter": "2026-04-30",
-            "yoy_growth_pct": 1.4
-          }
-        ],
-        "revenue_score": 5,
-        "analyst_mean": null,
-        "analyst_score": 0,
-        "fcf": 34545624,
-        "fcf_score": 15,
-        "debt_to_equity": 0.4,
-        "de_score": 10,
-        "shareholder_turnover": 0.6,
-        "turnover_score": 0
-      }
-    },
-    {
       "ticker": "BLFS",
       "name": "BIOLIFE SOLUTIONS INC",
       "sector": "Health Care",
@@ -32298,7 +31998,7 @@
         "fcf_score": 15,
         "debt_to_equity": 3.7,
         "de_score": 10,
-        "shareholder_turnover": 1.6,
+        "shareholder_turnover": 1.7,
         "turnover_score": 0
       }
     },
@@ -32688,7 +32388,7 @@
       "sector": "Industrials",
       "score": 30,
       "price": 41.5,
-      "market_cap": 1587835648,
+      "market_cap": 1581496064,
       "details": {
         "pb_ratio": 4.61,
         "pb_score": 0,
@@ -32773,7 +32473,7 @@
       "sector": "Information Technology",
       "score": 30,
       "price": 13.3,
-      "market_cap": 1661383680,
+      "market_cap": 1763836032,
       "details": {
         "pb_ratio": 12.19,
         "pb_score": 0,
@@ -32787,7 +32487,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.75,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 71186872,
         "fcf_score": 15,
@@ -32863,7 +32563,7 @@
       "sector": "Materials",
       "score": 30,
       "price": 23.21,
-      "market_cap": 198754160,
+      "market_cap": 205386064,
       "details": {
         "pb_ratio": 1.19,
         "pb_score": 20,
@@ -33058,7 +32758,7 @@
       "sector": "Information Technology",
       "score": 29,
       "price": 117.97,
-      "market_cap": 10407078912,
+      "market_cap": 10407505920,
       "details": {
         "pb_ratio": 3.0,
         "pb_score": 0,
@@ -33085,7 +32785,7 @@
       "price": 180.77,
       "market_cap": 5073305088,
       "details": {
-        "pb_ratio": 1.73,
+        "pb_ratio": 1.94,
         "pb_score": 10,
         "drop_from_high_pct": -27.1,
         "drop_score": 8,
@@ -33153,7 +32853,7 @@
         "fcf_score": 15,
         "debt_to_equity": 40.2,
         "de_score": 6,
-        "shareholder_turnover": 2.6,
+        "shareholder_turnover": 2.7,
         "turnover_score": 0
       }
     },
@@ -33588,7 +33288,7 @@
         "fcf_score": 15,
         "debt_to_equity": 196.7,
         "de_score": 0,
-        "shareholder_turnover": 1.6,
+        "shareholder_turnover": 1.8,
         "turnover_score": 0
       }
     },
@@ -33658,7 +33358,7 @@
       "sector": "Utilities",
       "score": 28,
       "price": 44.81,
-      "market_cap": 9247633408,
+      "market_cap": 9256907776,
       "details": {
         "pb_ratio": 1.86,
         "pb_score": 10,
@@ -33773,7 +33473,7 @@
       "sector": "Real Estate",
       "score": 28,
       "price": 24.78,
-      "market_cap": 5152162304,
+      "market_cap": 5084770304,
       "details": {
         "pb_ratio": 1.73,
         "pb_score": 10,
@@ -34300,7 +34000,7 @@
       "price": 19.07,
       "market_cap": 1565005056,
       "details": {
-        "pb_ratio": 3.76,
+        "pb_ratio": 3.48,
         "pb_score": 0,
         "drop_from_high_pct": -33.5,
         "drop_score": 8,
@@ -34499,36 +34199,6 @@
         "debt_to_equity": 178.1,
         "de_score": 0,
         "shareholder_turnover": 0.1,
-        "turnover_score": 0
-      }
-    },
-    {
-      "ticker": "FC",
-      "name": "FRANKLIN COVEY",
-      "sector": "Industrials",
-      "score": 28,
-      "price": 17.31,
-      "market_cap": 195496928,
-      "details": {
-        "pb_ratio": 4.56,
-        "pb_score": 0,
-        "drop_from_high_pct": -35.4,
-        "drop_score": 8,
-        "revenue_growth_quarters": 1,
-        "revenue_growth_detail": [
-          {
-            "quarter": "2026-05-31",
-            "yoy_growth_pct": 11.6
-          }
-        ],
-        "revenue_score": 5,
-        "analyst_mean": null,
-        "analyst_score": 0,
-        "fcf": 24626000,
-        "fcf_score": 15,
-        "debt_to_equity": null,
-        "de_score": 0,
-        "shareholder_turnover": 0.6,
         "turnover_score": 0
       }
     },
@@ -34773,7 +34443,7 @@
       "sector": "Consumer Staples",
       "score": 26,
       "price": 107.98,
-      "market_cap": 856685936640,
+      "market_cap": 859313405952,
       "details": {
         "pb_ratio": 9.11,
         "pb_score": 0,
@@ -34833,7 +34503,7 @@
       "sector": "Consumer Staples",
       "score": 26,
       "price": 146.23,
-      "market_cap": 339901841408,
+      "market_cap": 339644383232,
       "details": {
         "pb_ratio": 6.37,
         "pb_score": 0,
@@ -35253,7 +34923,7 @@
       "sector": "Information Technology",
       "score": 26,
       "price": 326.13,
-      "market_cap": 89951870976,
+      "market_cap": 89813917696,
       "details": {
         "pb_ratio": 13.1,
         "pb_score": 0,
@@ -35403,7 +35073,7 @@
       "sector": "Industrials",
       "score": 26,
       "price": 158.23,
-      "market_cap": 88624619520,
+      "market_cap": 88260689920,
       "details": {
         "pb_ratio": 4.33,
         "pb_score": 0,
@@ -35412,8 +35082,8 @@
         "revenue_growth_quarters": 1,
         "revenue_growth_detail": [
           {
-            "quarter": "2026-03-31",
-            "yoy_growth_pct": 3.7
+            "quarter": "2026-06-30",
+            "yoy_growth_pct": 1.9
           }
         ],
         "revenue_score": 5,
@@ -35523,7 +35193,7 @@
       "sector": "Energy",
       "score": 26,
       "price": 255.75,
-      "market_cap": 102049603584,
+      "market_cap": 102539124736,
       "details": {
         "pb_ratio": 3.24,
         "pb_score": 0,
@@ -35553,7 +35223,7 @@
       "sector": "Consumer Discretionary",
       "score": 26,
       "price": 236.12,
-      "market_cap": 75429265408,
+      "market_cap": 75742830592,
       "details": {
         "pb_ratio": 11.19,
         "pb_score": 0,
@@ -35673,7 +35343,7 @@
       "sector": "Industrials",
       "score": 26,
       "price": 1243.07,
-      "market_cap": 58689212416,
+      "market_cap": 58549768192,
       "details": {
         "pb_ratio": 14.17,
         "pb_score": 0,
@@ -35687,7 +35357,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.79,
+        "analyst_mean": 2.74,
         "analyst_score": 0,
         "fcf": 1247750016,
         "fcf_score": 15,
@@ -35735,7 +35405,7 @@
       "price": 199.91,
       "market_cap": 79867445248,
       "details": {
-        "pb_ratio": 15.56,
+        "pb_ratio": 15.35,
         "pb_score": 0,
         "drop_from_high_pct": -8.8,
         "drop_score": 0,
@@ -35883,7 +35553,7 @@
       "sector": "Financials",
       "score": 26,
       "price": 493.0,
-      "market_cap": 43581198336,
+      "market_cap": 43548274688,
       "details": {
         "pb_ratio": 6.85,
         "pb_score": 0,
@@ -36033,7 +35703,7 @@
       "sector": "Energy",
       "score": 26,
       "price": 32.76,
-      "market_cap": 27367628800,
+      "market_cap": 27293349888,
       "details": {
         "pb_ratio": 2.48,
         "pb_score": 0,
@@ -36183,7 +35853,7 @@
       "sector": "Real Estate",
       "score": 26,
       "price": 63.66,
-      "market_cap": 24609972224,
+      "market_cap": 24611481600,
       "details": {
         "pb_ratio": 2.27,
         "pb_score": 0,
@@ -36240,7 +35910,7 @@
       "price": 189.45,
       "market_cap": 45657448448,
       "details": {
-        "pb_ratio": 7.06,
+        "pb_ratio": 7.07,
         "pb_score": 0,
         "drop_from_high_pct": -24.2,
         "drop_score": 0,
@@ -36355,7 +36025,7 @@
       "price": 129.17,
       "market_cap": 13607912448,
       "details": {
-        "pb_ratio": 7.03,
+        "pb_ratio": 7.3,
         "pb_score": 0,
         "drop_from_high_pct": -42.3,
         "drop_score": 15,
@@ -36383,7 +36053,7 @@
       "sector": "Industrials",
       "score": 26,
       "price": 225.46,
-      "market_cap": 21170694144,
+      "market_cap": 21174063104,
       "details": {
         "pb_ratio": 5.79,
         "pb_score": 0,
@@ -36438,7 +36108,7 @@
       "sector": "Industrials",
       "score": 26,
       "price": 56.09,
-      "market_cap": 17099655168,
+      "market_cap": 16940136448,
       "details": {
         "pb_ratio": 2.8,
         "pb_score": 0,
@@ -36523,42 +36193,12 @@
       }
     },
     {
-      "ticker": "ITT",
-      "name": "ITT INC",
-      "sector": "Industrials",
-      "score": 26,
-      "price": 206.26,
-      "market_cap": 18530361344,
-      "details": {
-        "pb_ratio": 3.84,
-        "pb_score": 0,
-        "drop_from_high_pct": -10.4,
-        "drop_score": 0,
-        "revenue_growth_quarters": 1,
-        "revenue_growth_detail": [
-          {
-            "quarter": "2026-06-30",
-            "yoy_growth_pct": 55.6
-          }
-        ],
-        "revenue_score": 5,
-        "analyst_mean": 1.36,
-        "analyst_score": 0,
-        "fcf": 307212512,
-        "fcf_score": 15,
-        "debt_to_equity": 79.7,
-        "de_score": 6,
-        "shareholder_turnover": 0.6,
-        "turnover_score": 0
-      }
-    },
-    {
       "ticker": "NDSN",
       "name": "NORDSON CORP",
       "sector": "Industrials",
       "score": 26,
       "price": 325.77,
-      "market_cap": 18151235584,
+      "market_cap": 18145181696,
       "details": {
         "pb_ratio": 5.55,
         "pb_score": 0,
@@ -36828,7 +36468,7 @@
       "sector": "Real Estate",
       "score": 26,
       "price": 46.28,
-      "market_cap": 14596492288,
+      "market_cap": 14777077760,
       "details": {
         "pb_ratio": 2.57,
         "pb_score": 0,
@@ -36888,7 +36528,7 @@
       "sector": "Industrials",
       "score": 26,
       "price": 466.83,
-      "market_cap": 9062875136,
+      "market_cap": 9012086784,
       "details": {
         "pb_ratio": 5.22,
         "pb_score": 0,
@@ -36948,7 +36588,7 @@
       "sector": "Consumer Discretionary",
       "score": 26,
       "price": 177.74,
-      "market_cap": 25038510080,
+      "market_cap": 25153832960,
       "details": {
         "pb_ratio": 8.81,
         "pb_score": 0,
@@ -37024,9 +36664,9 @@
         "revenue_score": 5,
         "analyst_mean": null,
         "analyst_score": 0,
-        "fcf": 347024992,
+        "fcf": 321849984,
         "fcf_score": 15,
-        "debt_to_equity": 75.1,
+        "debt_to_equity": 78.4,
         "de_score": 6,
         "shareholder_turnover": 0.4,
         "turnover_score": 0
@@ -37068,7 +36708,7 @@
       "sector": "Information Technology",
       "score": 26,
       "price": 53.61,
-      "market_cap": 13288445952,
+      "market_cap": 13319537664,
       "details": {
         "pb_ratio": 2.86,
         "pb_score": 0,
@@ -37248,7 +36888,7 @@
       "sector": "Industrials",
       "score": 26,
       "price": 117.45,
-      "market_cap": 8162130432,
+      "market_cap": 8138913792,
       "details": {
         "pb_ratio": 2.55,
         "pb_score": 0,
@@ -37292,7 +36932,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": null,
+        "analyst_mean": 2.43,
         "analyst_score": 0,
         "fcf": 142250000,
         "fcf_score": 15,
@@ -37347,8 +36987,8 @@
         "revenue_growth_quarters": 1,
         "revenue_growth_detail": [
           {
-            "quarter": "2026-03-31",
-            "yoy_growth_pct": 11.6
+            "quarter": "2026-06-30",
+            "yoy_growth_pct": 16.2
           }
         ],
         "revenue_score": 5,
@@ -37792,7 +37432,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": null,
+        "analyst_mean": 2.61,
         "analyst_score": 0,
         "fcf": 140193248,
         "fcf_score": 15,
@@ -37817,8 +37457,8 @@
         "revenue_growth_quarters": 1,
         "revenue_growth_detail": [
           {
-            "quarter": "2026-03-31",
-            "yoy_growth_pct": 7.1
+            "quarter": "2026-06-30",
+            "yoy_growth_pct": 0.2
           }
         ],
         "revenue_score": 5,
@@ -37838,7 +37478,7 @@
       "sector": "Industrials",
       "score": 26,
       "price": 39.38,
-      "market_cap": 4700849152,
+      "market_cap": 4697775104,
       "details": {
         "pb_ratio": 2.04,
         "pb_score": 0,
@@ -37858,42 +37498,12 @@
       }
     },
     {
-      "ticker": "MSM",
-      "name": "MSC INDUSTRIAL INC CLASS A",
-      "sector": "Industrials",
-      "score": 26,
-      "price": 121.22,
-      "market_cap": 6769688064,
-      "details": {
-        "pb_ratio": 4.77,
-        "pb_score": 0,
-        "drop_from_high_pct": -7.1,
-        "drop_score": 0,
-        "revenue_growth_quarters": 1,
-        "revenue_growth_detail": [
-          {
-            "quarter": "2026-05-31",
-            "yoy_growth_pct": 7.5
-          }
-        ],
-        "revenue_score": 5,
-        "analyst_mean": 2.6,
-        "analyst_score": 0,
-        "fcf": 195171120,
-        "fcf_score": 15,
-        "debt_to_equity": 39.1,
-        "de_score": 6,
-        "shareholder_turnover": 1.1,
-        "turnover_score": 0
-      }
-    },
-    {
       "ticker": "TREX",
       "name": "TREX INC",
       "sector": "Industrials",
       "score": 26,
       "price": 44.79,
-      "market_cap": 4653624320,
+      "market_cap": 4562542080,
       "details": {
         "pb_ratio": 4.67,
         "pb_score": 0,
@@ -38013,7 +37623,7 @@
       "sector": "Materials",
       "score": 26,
       "price": 78.76,
-      "market_cap": 4065702912,
+      "market_cap": 4066458368,
       "details": {
         "pb_ratio": 2.53,
         "pb_score": 0,
@@ -38253,9 +37863,9 @@
       "sector": "Industrials",
       "score": 26,
       "price": 83.97,
-      "market_cap": 4414228480,
+      "market_cap": 4418056704,
       "details": {
-        "pb_ratio": 3.64,
+        "pb_ratio": null,
         "pb_score": 0,
         "drop_from_high_pct": -17.9,
         "drop_score": 0,
@@ -38373,7 +37983,7 @@
       "sector": "Industrials",
       "score": 26,
       "price": 34.75,
-      "market_cap": 5309206528,
+      "market_cap": 5268534272,
       "details": {
         "pb_ratio": 6.09,
         "pb_score": 0,
@@ -38568,7 +38178,7 @@
       "sector": "Financials",
       "score": 26,
       "price": 123.99,
-      "market_cap": 3263129600,
+      "market_cap": 3286214912,
       "details": {
         "pb_ratio": 3.31,
         "pb_score": 0,
@@ -38607,8 +38217,8 @@
         "revenue_growth_quarters": 1,
         "revenue_growth_detail": [
           {
-            "quarter": "2026-03-31",
-            "yoy_growth_pct": 3.1
+            "quarter": "2026-06-30",
+            "yoy_growth_pct": 0.5
           }
         ],
         "revenue_score": 5,
@@ -38690,7 +38300,7 @@
       "price": 31.3,
       "market_cap": 2787999744,
       "details": {
-        "pb_ratio": 10.58,
+        "pb_ratio": 11.87,
         "pb_score": 0,
         "drop_from_high_pct": -24.1,
         "drop_score": 0,
@@ -38702,7 +38312,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.93,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 241320752,
         "fcf_score": 15,
@@ -38803,42 +38413,12 @@
       }
     },
     {
-      "ticker": "FCPT",
-      "name": "FOUR CORNERS PROPERTY INC TRUST",
-      "sector": "Real Estate",
-      "score": 26,
-      "price": 22.2,
-      "market_cap": 2436432384,
-      "details": {
-        "pb_ratio": 2.14,
-        "pb_score": 0,
-        "drop_from_high_pct": -17.3,
-        "drop_score": 0,
-        "revenue_growth_quarters": 1,
-        "revenue_growth_detail": [
-          {
-            "quarter": "2026-06-30",
-            "yoy_growth_pct": 6.3
-          }
-        ],
-        "revenue_score": 5,
-        "analyst_mean": 2.33,
-        "analyst_score": 0,
-        "fcf": 189772992,
-        "fcf_score": 15,
-        "debt_to_equity": 77.6,
-        "de_score": 6,
-        "shareholder_turnover": 0.5,
-        "turnover_score": 0
-      }
-    },
-    {
       "ticker": "AIN",
       "name": "ALBANY INTERNATIONAL CORP CLASS A",
       "sector": "Industrials",
       "score": 26,
       "price": 60.98,
-      "market_cap": 1729085696,
+      "market_cap": 1730072576,
       "details": {
         "pb_ratio": 2.32,
         "pb_score": 0,
@@ -38988,7 +38568,7 @@
       "sector": "Health Care",
       "score": 26,
       "price": 19.33,
-      "market_cap": 2516993536,
+      "market_cap": 2483430144,
       "details": {
         "pb_ratio": 3.15,
         "pb_score": 0,
@@ -39018,7 +38598,7 @@
       "sector": "Health Care",
       "score": 26,
       "price": 31.98,
-      "market_cap": 9037393920,
+      "market_cap": 9040129024,
       "details": {
         "pb_ratio": 15.27,
         "pb_score": 0,
@@ -39198,7 +38778,7 @@
       "sector": "Industrials",
       "score": 26,
       "price": 116.01,
-      "market_cap": 1972461440,
+      "market_cap": 1971765376,
       "details": {
         "pb_ratio": 6.31,
         "pb_score": 0,
@@ -39258,7 +38838,7 @@
       "sector": "Industrials",
       "score": 26,
       "price": 10.46,
-      "market_cap": 1826158080,
+      "market_cap": 1776191488,
       "details": {
         "pb_ratio": 4.54,
         "pb_score": 0,
@@ -39288,7 +38868,7 @@
       "sector": "Industrials",
       "score": 26,
       "price": 87.73,
-      "market_cap": 821136192,
+      "market_cap": 821136448,
       "details": {
         "pb_ratio": 2.72,
         "pb_score": 0,
@@ -39378,7 +38958,7 @@
       "sector": "Financials",
       "score": 26,
       "price": 54.13,
-      "market_cap": 693196864,
+      "market_cap": 691564864,
       "details": {
         "pb_ratio": 2.83,
         "pb_score": 0,
@@ -39438,7 +39018,7 @@
       "sector": "Energy",
       "score": 26,
       "price": 82.83,
-      "market_cap": 931530624,
+      "market_cap": 950283648,
       "details": {
         "pb_ratio": 3.22,
         "pb_score": 0,
@@ -39638,7 +39218,7 @@
       "sector": "Financials",
       "score": 25,
       "price": 200.2,
-      "market_cap": 122822705152,
+      "market_cap": 122819665920,
       "details": {
         "pb_ratio": 1.19,
         "pb_score": 20,
@@ -39693,7 +39273,7 @@
       "sector": "Financials",
       "score": 25,
       "price": 52.1,
-      "market_cap": 47232450560,
+      "market_cap": 47249100800,
       "details": {
         "pb_ratio": 1.46,
         "pb_score": 20,
@@ -39753,7 +39333,7 @@
       "sector": "Financials",
       "score": 25,
       "price": 221.19,
-      "market_cap": 32057729024,
+      "market_cap": 31943432192,
       "details": {
         "pb_ratio": 1.26,
         "pb_score": 20,
@@ -40100,7 +39680,7 @@
       "price": 135.82,
       "market_cap": 10315534336,
       "details": {
-        "pb_ratio": 1.37,
+        "pb_ratio": 1.39,
         "pb_score": 20,
         "drop_from_high_pct": -11.4,
         "drop_score": 0,
@@ -40128,7 +39708,7 @@
       "sector": "Financials",
       "score": 25,
       "price": 146.11,
-      "market_cap": 9857453056,
+      "market_cap": 9855910912,
       "details": {
         "pb_ratio": 1.39,
         "pb_score": 20,
@@ -40218,7 +39798,7 @@
       "sector": "Financials",
       "score": 25,
       "price": 29.64,
-      "market_cap": 8382695424,
+      "market_cap": 8385223168,
       "details": {
         "pb_ratio": 1.11,
         "pb_score": 20,
@@ -40333,7 +39913,7 @@
       "sector": "Financials",
       "score": 25,
       "price": 44.75,
-      "market_cap": 5826542080,
+      "market_cap": 5826984960,
       "details": {
         "pb_ratio": 1.35,
         "pb_score": 20,
@@ -40423,7 +40003,7 @@
       "sector": "Financials",
       "score": 25,
       "price": 46.86,
-      "market_cap": 6382921216,
+      "market_cap": 6381083136,
       "details": {
         "pb_ratio": 1.16,
         "pb_score": 20,
@@ -40540,7 +40120,7 @@
       "price": 95.82,
       "market_cap": 4165713920,
       "details": {
-        "pb_ratio": 1.27,
+        "pb_ratio": 1.24,
         "pb_score": 20,
         "drop_from_high_pct": -12.0,
         "drop_score": 0,
@@ -40568,7 +40148,7 @@
       "sector": "Financials",
       "score": 25,
       "price": 29.37,
-      "market_cap": 5542647808,
+      "market_cap": 5546514944,
       "details": {
         "pb_ratio": 1.01,
         "pb_score": 20,
@@ -40628,7 +40208,7 @@
       "sector": "Financials",
       "score": 25,
       "price": 77.76,
-      "market_cap": 3972805376,
+      "market_cap": 3995930880,
       "details": {
         "pb_ratio": 1.49,
         "pb_score": 20,
@@ -40808,9 +40388,9 @@
       "sector": "Financials",
       "score": 25,
       "price": 34.23,
-      "market_cap": 4127299328,
+      "market_cap": 4099515648,
       "details": {
-        "pb_ratio": 1.12,
+        "pb_ratio": 1.09,
         "pb_score": 20,
         "drop_from_high_pct": -7.9,
         "drop_score": 0,
@@ -40828,7 +40408,7 @@
         "fcf_score": 0,
         "debt_to_equity": null,
         "de_score": 0,
-        "shareholder_turnover": 0.4,
+        "shareholder_turnover": 0.5,
         "turnover_score": 0
       }
     },
@@ -40983,7 +40563,7 @@
       "sector": "Financials",
       "score": 25,
       "price": 131.77,
-      "market_cap": 8006344192,
+      "market_cap": 8007250432,
       "details": {
         "pb_ratio": 1.32,
         "pb_score": 20,
@@ -41128,7 +40708,7 @@
       "sector": "Financials",
       "score": 25,
       "price": 46.04,
-      "market_cap": 2673569280,
+      "market_cap": 2680710656,
       "details": {
         "pb_ratio": 1.25,
         "pb_score": 20,
@@ -41158,7 +40738,7 @@
       "sector": "Financials",
       "score": 25,
       "price": 33.03,
-      "market_cap": 3198063616,
+      "market_cap": 3198056960,
       "details": {
         "pb_ratio": 1.16,
         "pb_score": 20,
@@ -41213,7 +40793,7 @@
       "sector": "Financials",
       "score": 25,
       "price": 69.03,
-      "market_cap": 2345978112,
+      "market_cap": 2529222656,
       "details": {
         "pb_ratio": 1.17,
         "pb_score": 20,
@@ -41388,7 +40968,7 @@
       "sector": "Financials",
       "score": 25,
       "price": 15.31,
-      "market_cap": 2242289152,
+      "market_cap": 2241330688,
       "details": {
         "pb_ratio": 1.16,
         "pb_score": 20,
@@ -42448,7 +42028,7 @@
       "sector": "Financials",
       "score": 25,
       "price": 43.25,
-      "market_cap": 719642240,
+      "market_cap": 720327424,
       "details": {
         "pb_ratio": 1.07,
         "pb_score": 20,
@@ -42828,7 +42408,7 @@
       "sector": "Financials",
       "score": 25,
       "price": 26.77,
-      "market_cap": 726382720,
+      "market_cap": 726298944,
       "details": {
         "pb_ratio": 1.19,
         "pb_score": 20,
@@ -42948,7 +42528,7 @@
       "sector": "Financials",
       "score": 25,
       "price": 35.83,
-      "market_cap": 795400832,
+      "market_cap": 738188928,
       "details": {
         "pb_ratio": 1.4,
         "pb_score": 20,
@@ -43273,7 +42853,7 @@
       "sector": "Information Technology",
       "score": 25,
       "price": 17.81,
-      "market_cap": 660267392,
+      "market_cap": 656337152,
       "details": {
         "pb_ratio": 2.4,
         "pb_score": 0,
@@ -43673,7 +43253,7 @@
       "sector": "Consumer Discretionary",
       "score": 25,
       "price": 4.35,
-      "market_cap": 414399584,
+      "market_cap": 414687136,
       "details": {
         "pb_ratio": null,
         "pb_score": 0,
@@ -43728,7 +43308,7 @@
       "sector": "Financials",
       "score": 25,
       "price": 20.68,
-      "market_cap": 438849536,
+      "market_cap": 438860704,
       "details": {
         "pb_ratio": 1.12,
         "pb_score": 20,
@@ -43908,7 +43488,7 @@
       "sector": "Consumer Discretionary",
       "score": 23,
       "price": 130.06,
-      "market_cap": 143677849600,
+      "market_cap": 143062614016,
       "details": {
         "pb_ratio": 13.82,
         "pb_score": 0,
@@ -43938,7 +43518,7 @@
       "sector": "Industrials",
       "score": 23,
       "price": 439.98,
-      "market_cap": 170844241920,
+      "market_cap": 170888232960,
       "details": {
         "pb_ratio": 8.44,
         "pb_score": 0,
@@ -43947,8 +43527,8 @@
         "revenue_growth_quarters": 1,
         "revenue_growth_detail": [
           {
-            "quarter": "2026-03-31",
-            "yoy_growth_pct": 22.1
+            "quarter": "2026-06-30",
+            "yoy_growth_pct": 28.1
           }
         ],
         "revenue_score": 5,
@@ -44058,7 +43638,7 @@
       "sector": "Consumer Staples",
       "score": 23,
       "price": 60.25,
-      "market_cap": 77339901952,
+      "market_cap": 76897566720,
       "details": {
         "pb_ratio": 2.9,
         "pb_score": 0,
@@ -44102,7 +43682,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.5,
+        "analyst_mean": 2.52,
         "analyst_score": 0,
         "fcf": 4785249792,
         "fcf_score": 15,
@@ -44118,7 +43698,7 @@
       "sector": "Energy",
       "score": 23,
       "price": 393.52,
-      "market_cap": 114882904064,
+      "market_cap": 110510161920,
       "details": {
         "pb_ratio": 5.84,
         "pb_score": 0,
@@ -44323,7 +43903,7 @@
       "sector": "Energy",
       "score": 23,
       "price": 30.75,
-      "market_cap": 68413394944,
+      "market_cap": 68474167296,
       "details": {
         "pb_ratio": 2.16,
         "pb_score": 0,
@@ -44413,7 +43993,7 @@
       "sector": "Industrials",
       "score": 23,
       "price": 434.15,
-      "market_cap": 48211779584,
+      "market_cap": 48309583872,
       "details": {
         "pb_ratio": 13.8,
         "pb_score": 0,
@@ -44653,7 +44233,7 @@
       "sector": "Industrials",
       "score": 23,
       "price": 466.62,
-      "market_cap": 24657029120,
+      "market_cap": 24652734464,
       "details": {
         "pb_ratio": 6.3,
         "pb_score": 0,
@@ -44667,7 +44247,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.92,
+        "analyst_mean": 2.0,
         "analyst_score": 0,
         "fcf": 495812512,
         "fcf_score": 15,
@@ -44773,7 +44353,7 @@
       "sector": "Information Technology",
       "score": 23,
       "price": 151.89,
-      "market_cap": 23132846080,
+      "market_cap": 23208792064,
       "details": {
         "pb_ratio": 5.58,
         "pb_score": 0,
@@ -44782,8 +44362,8 @@
         "revenue_growth_quarters": 1,
         "revenue_growth_detail": [
           {
-            "quarter": "2026-03-31",
-            "yoy_growth_pct": 8.2
+            "quarter": "2026-06-30",
+            "yoy_growth_pct": 10.1
           }
         ],
         "revenue_score": 5,
@@ -44893,7 +44473,7 @@
       "sector": "Communication",
       "score": 23,
       "price": 76.15,
-      "market_cap": 21703223296,
+      "market_cap": 20891445248,
       "details": {
         "pb_ratio": 2.16,
         "pb_score": 0,
@@ -44955,7 +44535,7 @@
       "price": 545.2,
       "market_cap": 23311374336,
       "details": {
-        "pb_ratio": 8.83,
+        "pb_ratio": 8.59,
         "pb_score": 0,
         "drop_from_high_pct": -23.7,
         "drop_score": 0,
@@ -45043,7 +44623,7 @@
       "sector": "Real Estate",
       "score": 23,
       "price": 271.61,
-      "market_cap": 18721042432,
+      "market_cap": 18722861056,
       "details": {
         "pb_ratio": 3.28,
         "pb_score": 0,
@@ -45133,7 +44713,7 @@
       "sector": "Materials",
       "score": 23,
       "price": 56.83,
-      "market_cap": 15130789888,
+      "market_cap": 15043092480,
       "details": {
         "pb_ratio": 2.62,
         "pb_score": 0,
@@ -45163,7 +44743,7 @@
       "sector": "Real Estate",
       "score": 23,
       "price": 118.35,
-      "market_cap": 14122307584,
+      "market_cap": 14079364096,
       "details": {
         "pb_ratio": 2.53,
         "pb_score": 0,
@@ -45338,7 +44918,7 @@
       "sector": "Industrials",
       "score": 23,
       "price": 138.37,
-      "market_cap": 16338850816,
+      "market_cap": 16194631680,
       "details": {
         "pb_ratio": 4.96,
         "pb_score": 0,
@@ -45518,7 +45098,7 @@
       "sector": "Real Estate",
       "score": 23,
       "price": 98.12,
-      "market_cap": 9864921088,
+      "market_cap": 11355680768,
       "details": {
         "pb_ratio": 2.65,
         "pb_score": 0,
@@ -45548,7 +45128,7 @@
       "sector": "Information Technology",
       "score": 23,
       "price": 370.04,
-      "market_cap": 17626261504,
+      "market_cap": 17506836480,
       "details": {
         "pb_ratio": 5.11,
         "pb_score": 0,
@@ -45638,7 +45218,7 @@
       "sector": "Real Estate",
       "score": 23,
       "price": 110.52,
-      "market_cap": 9606220800,
+      "market_cap": 9661473792,
       "details": {
         "pb_ratio": 3.0,
         "pb_score": 0,
@@ -45698,7 +45278,7 @@
       "sector": "Industrials",
       "score": 23,
       "price": 73.82,
-      "market_cap": 9434714112,
+      "market_cap": 9383465984,
       "details": {
         "pb_ratio": 4.16,
         "pb_score": 0,
@@ -45788,7 +45368,7 @@
       "sector": "Health Care",
       "score": 23,
       "price": 86.37,
-      "market_cap": 9838991360,
+      "market_cap": 9625637888,
       "details": {
         "pb_ratio": 3.06,
         "pb_score": 0,
@@ -45848,7 +45428,7 @@
       "sector": "Real Estate",
       "score": 23,
       "price": 37.82,
-      "market_cap": 8574414336,
+      "market_cap": 8560820224,
       "details": {
         "pb_ratio": 3.31,
         "pb_score": 0,
@@ -45938,7 +45518,7 @@
       "sector": "Real Estate",
       "score": 23,
       "price": 61.17,
-      "market_cap": 8381296128,
+      "market_cap": 8381450752,
       "details": {
         "pb_ratio": 2.92,
         "pb_score": 0,
@@ -45968,7 +45548,7 @@
       "sector": "Health Care",
       "score": 23,
       "price": 57.43,
-      "market_cap": 8790756352,
+      "market_cap": 8791589888,
       "details": {
         "pb_ratio": 13.96,
         "pb_score": 0,
@@ -46129,6 +45709,36 @@
         "debt_to_equity": 146.8,
         "de_score": 3,
         "shareholder_turnover": 1.0,
+        "turnover_score": 0
+      }
+    },
+    {
+      "ticker": "VNO",
+      "name": "VORNADO REALTY TRUST REIT",
+      "sector": "Real Estate",
+      "score": 23,
+      "price": 34.73,
+      "market_cap": 6878235648,
+      "details": {
+        "pb_ratio": null,
+        "pb_score": 0,
+        "drop_from_high_pct": -17.0,
+        "drop_score": 0,
+        "revenue_growth_quarters": 1,
+        "revenue_growth_detail": [
+          {
+            "quarter": "2026-06-30",
+            "yoy_growth_pct": 4.7
+          }
+        ],
+        "revenue_score": 5,
+        "analyst_mean": 2.77,
+        "analyst_score": 0,
+        "fcf": 445744128,
+        "fcf_score": 15,
+        "debt_to_equity": 122.3,
+        "de_score": 3,
+        "shareholder_turnover": 0.6,
         "turnover_score": 0
       }
     },
@@ -46333,7 +45943,7 @@
       "sector": "Real Estate",
       "score": 23,
       "price": 37.39,
-      "market_cap": 5278403584,
+      "market_cap": 5288686080,
       "details": {
         "pb_ratio": 2.02,
         "pb_score": 0,
@@ -46733,7 +46343,7 @@
       "sector": "Industrials",
       "score": 23,
       "price": 58.12,
-      "market_cap": 1841011456,
+      "market_cap": 1839299712,
       "details": {
         "pb_ratio": 2.81,
         "pb_score": 0,
@@ -47168,7 +46778,7 @@
         "fcf_score": 15,
         "debt_to_equity": 96.4,
         "de_score": 3,
-        "shareholder_turnover": 0.6,
+        "shareholder_turnover": 0.5,
         "turnover_score": 0
       }
     },
@@ -47240,7 +46850,7 @@
       "price": 51.81,
       "market_cap": 1158079488,
       "details": {
-        "pb_ratio": 2.49,
+        "pb_ratio": 2.42,
         "pb_score": 0,
         "drop_from_high_pct": -14.0,
         "drop_score": 0,
@@ -47249,9 +46859,9 @@
         "revenue_score": 0,
         "analyst_mean": 3.11,
         "analyst_score": 8,
-        "fcf": 92739872,
+        "fcf": 43626876,
         "fcf_score": 15,
-        "debt_to_equity": 206.5,
+        "debt_to_equity": 216.7,
         "de_score": 0,
         "shareholder_turnover": 2.9,
         "turnover_score": 0
@@ -47323,7 +46933,7 @@
       "sector": "Real Estate",
       "score": 23,
       "price": 15.4,
-      "market_cap": 1314938240,
+      "market_cap": 1311559296,
       "details": {
         "pb_ratio": 2.36,
         "pb_score": 0,
@@ -47344,31 +46954,6 @@
         "debt_to_equity": 88.8,
         "de_score": 3,
         "shareholder_turnover": 0.5,
-        "turnover_score": 0
-      }
-    },
-    {
-      "ticker": "HOV",
-      "name": "HOVNANIAN ENTERPRISES INC CLASS A",
-      "sector": "Consumer Discretionary",
-      "score": 23,
-      "price": 115.15,
-      "market_cap": 674732608,
-      "details": {
-        "pb_ratio": 1.0,
-        "pb_score": 20,
-        "drop_from_high_pct": -22.4,
-        "drop_score": 0,
-        "revenue_growth_quarters": 0,
-        "revenue_growth_detail": [],
-        "revenue_score": 0,
-        "analyst_mean": null,
-        "analyst_score": 0,
-        "fcf": -93522496,
-        "fcf_score": 0,
-        "debt_to_equity": 131.1,
-        "de_score": 3,
-        "shareholder_turnover": 1.9,
         "turnover_score": 0
       }
     },
@@ -47493,7 +47078,7 @@
       "sector": "Consumer Discretionary",
       "score": 23,
       "price": 9.71,
-      "market_cap": 1376409344,
+      "market_cap": 1374354048,
       "details": {
         "pb_ratio": 3.32,
         "pb_score": 0,
@@ -47748,7 +47333,7 @@
       "sector": "Health Care",
       "score": 21,
       "price": 172.79,
-      "market_cap": 48714485760,
+      "market_cap": 48720871424,
       "details": {
         "pb_ratio": 6.62,
         "pb_score": 0,
@@ -47773,7 +47358,7 @@
       "sector": "Consumer Discretionary",
       "score": 21,
       "price": 231.9,
-      "market_cap": 27310399488,
+      "market_cap": 27312990208,
       "details": {
         "pb_ratio": 14.6,
         "pb_score": 0,
@@ -47823,7 +47408,7 @@
       "sector": "Materials",
       "score": 21,
       "price": 85.69,
-      "market_cap": 21876955136,
+      "market_cap": 21863800832,
       "details": {
         "pb_ratio": 1.57,
         "pb_score": 10,
@@ -47878,7 +47463,7 @@
       "sector": "Consumer Discretionary",
       "score": 21,
       "price": 6297.6,
-      "market_cap": 16782222336,
+      "market_cap": 16865936384,
       "details": {
         "pb_ratio": 4.97,
         "pb_score": 0,
@@ -47953,7 +47538,7 @@
       "sector": "Real Estate",
       "score": 21,
       "price": 112.26,
-      "market_cap": 14353654784,
+      "market_cap": 14184353792,
       "details": {
         "pb_ratio": 2.49,
         "pb_score": 0,
@@ -48358,7 +47943,7 @@
       "sector": "Utilities",
       "score": 21,
       "price": 70.06,
-      "market_cap": 2647147776,
+      "market_cap": 2644521216,
       "details": {
         "pb_ratio": 1.84,
         "pb_score": 10,
@@ -48390,7 +47975,7 @@
       "price": 26.71,
       "market_cap": 3301571072,
       "details": {
-        "pb_ratio": 8.41,
+        "pb_ratio": 8.72,
         "pb_score": 0,
         "drop_from_high_pct": -13.8,
         "drop_score": 0,
@@ -48598,7 +48183,7 @@
       "sector": "Consumer Staples",
       "score": 21,
       "price": 62.07,
-      "market_cap": 1202142848,
+      "market_cap": 1244436608,
       "details": {
         "pb_ratio": 2.89,
         "pb_score": 0,
@@ -48845,7 +48430,7 @@
       "price": 30.98,
       "market_cap": 502761440,
       "details": {
-        "pb_ratio": 1.71,
+        "pb_ratio": 1.85,
         "pb_score": 10,
         "drop_from_high_pct": -11.0,
         "drop_score": 0,
@@ -48903,7 +48488,7 @@
       "sector": "Health Care",
       "score": 20,
       "price": 1183.46,
-      "market_cap": 1054885412864,
+      "market_cap": 1055340232704,
       "details": {
         "pb_ratio": 31.14,
         "pb_score": 0,
@@ -48965,7 +48550,7 @@
       "price": 137.1,
       "market_cap": 414554226688,
       "details": {
-        "pb_ratio": 10.51,
+        "pb_ratio": 6.71,
         "pb_score": 0,
         "drop_from_high_pct": -57.5,
         "drop_score": 15,
@@ -49189,7 +48774,7 @@
         "revenue_score": 5,
         "analyst_mean": 1.5,
         "analyst_score": 0,
-        "fcf": 3776000000,
+        "fcf": 3785999872,
         "fcf_score": 15,
         "debt_to_equity": 162.2,
         "de_score": 0,
@@ -49503,7 +49088,7 @@
       "sector": "Consumer Discretionary",
       "score": 20,
       "price": 264.17,
-      "market_cap": 31705511936,
+      "market_cap": 31706234880,
       "details": {
         "pb_ratio": 26.22,
         "pb_score": 0,
@@ -49623,7 +49208,7 @@
       "sector": "Consumer Discretionary",
       "score": 20,
       "price": 13.88,
-      "market_cap": 24915490816,
+      "market_cap": 24949463040,
       "details": {
         "pb_ratio": 8.33,
         "pb_score": 0,
@@ -49863,7 +49448,7 @@
       "sector": "Real Estate",
       "score": 20,
       "price": 33.84,
-      "market_cap": 12538249216,
+      "market_cap": 12431605760,
       "details": {
         "pb_ratio": 3.75,
         "pb_score": 0,
@@ -49923,7 +49508,7 @@
       "sector": "Materials",
       "score": 20,
       "price": 170.34,
-      "market_cap": 13029371904,
+      "market_cap": 12909752320,
       "details": {
         "pb_ratio": 5.57,
         "pb_score": 0,
@@ -49953,7 +49538,7 @@
       "sector": "Real Estate",
       "score": 20,
       "price": 59.23,
-      "market_cap": 11868735488,
+      "market_cap": 11876260864,
       "details": {
         "pb_ratio": 6.53,
         "pb_score": 0,
@@ -49983,7 +49568,7 @@
       "sector": "Real Estate",
       "score": 20,
       "price": 38.79,
-      "market_cap": 11617624064,
+      "market_cap": 11617652736,
       "details": {
         "pb_ratio": 2.26,
         "pb_score": 0,
@@ -50015,7 +49600,7 @@
       "price": 30.6,
       "market_cap": 17686800384,
       "details": {
-        "pb_ratio": 8.92,
+        "pb_ratio": 8.63,
         "pb_score": 0,
         "drop_from_high_pct": -23.0,
         "drop_score": 0,
@@ -50188,6 +49773,36 @@
       }
     },
     {
+      "ticker": "W",
+      "name": "WAYFAIR INC CLASS A",
+      "sector": "Consumer Discretionary",
+      "score": 20,
+      "price": 98.15,
+      "market_cap": 13443416064,
+      "details": {
+        "pb_ratio": null,
+        "pb_score": 0,
+        "drop_from_high_pct": -18.2,
+        "drop_score": 0,
+        "revenue_growth_quarters": 1,
+        "revenue_growth_detail": [
+          {
+            "quarter": "2026-06-30",
+            "yoy_growth_pct": 7.7
+          }
+        ],
+        "revenue_score": 5,
+        "analyst_mean": 1.94,
+        "analyst_score": 0,
+        "fcf": 471624992,
+        "fcf_score": 15,
+        "debt_to_equity": null,
+        "de_score": 0,
+        "shareholder_turnover": 1.6,
+        "turnover_score": 0
+      }
+    },
+    {
       "ticker": "AM",
       "name": "ANTERO MIDSTREAM CORP",
       "sector": "Energy",
@@ -50255,7 +49870,7 @@
       "price": 132.61,
       "market_cap": 5556045312,
       "details": {
-        "pb_ratio": 3.88,
+        "pb_ratio": 4.01,
         "pb_score": 0,
         "drop_from_high_pct": -7.0,
         "drop_score": 0,
@@ -50313,7 +49928,7 @@
       "sector": "Real Estate",
       "score": 20,
       "price": 34.73,
-      "market_cap": 4151580928,
+      "market_cap": 4151689984,
       "details": {
         "pb_ratio": 5.92,
         "pb_score": 0,
@@ -50375,7 +49990,7 @@
       "price": 70.79,
       "market_cap": 5571014656,
       "details": {
-        "pb_ratio": 5.15,
+        "pb_ratio": 5.08,
         "pb_score": 0,
         "drop_from_high_pct": -17.5,
         "drop_score": 0,
@@ -50424,36 +50039,6 @@
         "debt_to_equity": null,
         "de_score": 0,
         "shareholder_turnover": 2.2,
-        "turnover_score": 0
-      }
-    },
-    {
-      "ticker": "CDP",
-      "name": "COPT DEFENSE PROPERTIES",
-      "sector": "Real Estate",
-      "score": 20,
-      "price": 33.88,
-      "market_cap": 3924810240,
-      "details": {
-        "pb_ratio": 2.5,
-        "pb_score": 0,
-        "drop_from_high_pct": -12.9,
-        "drop_score": 0,
-        "revenue_growth_quarters": 1,
-        "revenue_growth_detail": [
-          {
-            "quarter": "2026-03-31",
-            "yoy_growth_pct": 10.5
-          }
-        ],
-        "revenue_score": 5,
-        "analyst_mean": 1.75,
-        "analyst_score": 0,
-        "fcf": 257286368,
-        "fcf_score": 15,
-        "debt_to_equity": 164.2,
-        "de_score": 0,
-        "shareholder_turnover": 0.5,
         "turnover_score": 0
       }
     },
@@ -50523,7 +50108,7 @@
       "sector": "Information Technology",
       "score": 20,
       "price": 33.49,
-      "market_cap": 3693008640,
+      "market_cap": 3688588288,
       "details": {
         "pb_ratio": 18.65,
         "pb_score": 0,
@@ -50555,7 +50140,7 @@
       "price": 24.33,
       "market_cap": 3686289664,
       "details": {
-        "pb_ratio": 7.65,
+        "pb_ratio": 8.59,
         "pb_score": 0,
         "drop_from_high_pct": -6.1,
         "drop_score": 0,
@@ -50693,7 +50278,7 @@
       "sector": "Consumer Discretionary",
       "score": 20,
       "price": 55.55,
-      "market_cap": 2379702784,
+      "market_cap": 2376513280,
       "details": {
         "pb_ratio": 4.12,
         "pb_score": 0,
@@ -50723,7 +50308,7 @@
       "sector": "Financials",
       "score": 20,
       "price": 28.18,
-      "market_cap": 1736461312,
+      "market_cap": 1683826688,
       "details": {
         "pb_ratio": 2.63,
         "pb_score": 0,
@@ -51063,6 +50648,36 @@
       }
     },
     {
+      "ticker": "FLNG",
+      "name": "FLEX LNG LTD",
+      "sector": "Energy",
+      "score": 20,
+      "price": 30.88,
+      "market_cap": 1670372480,
+      "details": {
+        "pb_ratio": 2.38,
+        "pb_score": 0,
+        "drop_from_high_pct": -7.5,
+        "drop_score": 0,
+        "revenue_growth_quarters": 1,
+        "revenue_growth_detail": [
+          {
+            "quarter": "2026-06-30",
+            "yoy_growth_pct": 13.2
+          }
+        ],
+        "revenue_score": 5,
+        "analyst_mean": null,
+        "analyst_score": 0,
+        "fcf": 143191744,
+        "fcf_score": 15,
+        "debt_to_equity": 255.3,
+        "de_score": 0,
+        "shareholder_turnover": 0.8,
+        "turnover_score": 0
+      }
+    },
+    {
       "ticker": "GSBC",
       "name": "GREAT SOUTHERN BANCORP INC",
       "sector": "Financials",
@@ -51173,7 +50788,7 @@
       "sector": "Consumer Discretionary",
       "score": 20,
       "price": 11.07,
-      "market_cap": 901019328,
+      "market_cap": 898811712,
       "details": {
         "pb_ratio": 3.17,
         "pb_score": 0,
@@ -51523,7 +51138,7 @@
       "sector": "Consumer Staples",
       "score": 18,
       "price": 157.45,
-      "market_cap": 71528185856,
+      "market_cap": 71529021440,
       "details": {
         "pb_ratio": 4.01,
         "pb_score": 0,
@@ -51705,7 +51320,7 @@
       "price": 121.0,
       "market_cap": 12925604864,
       "details": {
-        "pb_ratio": 2.33,
+        "pb_ratio": 2.25,
         "pb_score": 0,
         "drop_from_high_pct": -11.0,
         "drop_score": 0,
@@ -51728,7 +51343,7 @@
       "sector": "Health Care",
       "score": 18,
       "price": 292.84,
-      "market_cap": 13979850752,
+      "market_cap": 14105437184,
       "details": {
         "pb_ratio": 4.92,
         "pb_score": 0,
@@ -51883,7 +51498,7 @@
       "sector": "Utilities",
       "score": 18,
       "price": 50.61,
-      "market_cap": 5107640832,
+      "market_cap": 5135292928,
       "details": {
         "pb_ratio": 1.94,
         "pb_score": 10,
@@ -52068,31 +51683,6 @@
       }
     },
     {
-      "ticker": "WSR",
-      "name": "WHITESTONE REIT",
-      "sector": "Real Estate",
-      "score": 18,
-      "price": 18.99,
-      "market_cap": 988012416,
-      "details": {
-        "pb_ratio": 2.12,
-        "pb_score": 0,
-        "drop_from_high_pct": -0.6,
-        "drop_score": 0,
-        "revenue_growth_quarters": 0,
-        "revenue_growth_detail": [],
-        "revenue_score": 0,
-        "analyst_mean": null,
-        "analyst_score": 0,
-        "fcf": 105923624,
-        "fcf_score": 15,
-        "debt_to_equity": 139.7,
-        "de_score": 3,
-        "shareholder_turnover": 0.8,
-        "turnover_score": 0
-      }
-    },
-    {
       "ticker": "MSEX",
       "name": "MIDDLESEX WATER",
       "sector": "Utilities",
@@ -52128,7 +51718,7 @@
       "sector": "Industrials",
       "score": 18,
       "price": 60.97,
-      "market_cap": 11852171264,
+      "market_cap": 11919282176,
       "details": {
         "pb_ratio": 1.52,
         "pb_score": 10,
@@ -52268,7 +51858,7 @@
       "sector": "Consumer Staples",
       "score": 16,
       "price": 66.97,
-      "market_cap": 2280600064,
+      "market_cap": 2275343872,
       "details": {
         "pb_ratio": 1.71,
         "pb_score": 10,
@@ -52412,8 +52002,8 @@
         "revenue_growth_quarters": 1,
         "revenue_growth_detail": [
           {
-            "quarter": "2026-03-31",
-            "yoy_growth_pct": 18.7
+            "quarter": "2026-06-30",
+            "yoy_growth_pct": 0.2
           }
         ],
         "revenue_score": 5,
@@ -52502,8 +52092,8 @@
         "revenue_growth_quarters": 1,
         "revenue_growth_detail": [
           {
-            "quarter": "2026-03-31",
-            "yoy_growth_pct": 40.7
+            "quarter": "2026-06-30",
+            "yoy_growth_pct": 25.9
           }
         ],
         "revenue_score": 5,
@@ -52578,7 +52168,7 @@
       "sector": "Utilities",
       "score": 15,
       "price": 43.3,
-      "market_cap": 25046069248,
+      "market_cap": 25055109120,
       "details": {
         "pb_ratio": 1.94,
         "pb_score": 10,
@@ -52610,7 +52200,7 @@
       "price": 126.0,
       "market_cap": 41986633728,
       "details": {
-        "pb_ratio": 28.79,
+        "pb_ratio": 27.26,
         "pb_score": 0,
         "drop_from_high_pct": -4.1,
         "drop_score": 0,
@@ -52622,7 +52212,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.53,
+        "analyst_mean": 1.55,
         "analyst_score": 0,
         "fcf": -114351752,
         "fcf_score": 0,
@@ -52693,7 +52283,7 @@
       "sector": "Consumer Staples",
       "score": 15,
       "price": 94.47,
-      "market_cap": 34178764800,
+      "market_cap": 34179110912,
       "details": {
         "pb_ratio": 8.98,
         "pb_score": 0,
@@ -52838,7 +52428,7 @@
       "sector": "Financials",
       "score": 15,
       "price": 101.19,
-      "market_cap": 22062053376,
+      "market_cap": 21859899392,
       "details": {
         "pb_ratio": 3.26,
         "pb_score": 0,
@@ -53063,6 +52653,31 @@
       }
     },
     {
+      "ticker": "CDP",
+      "name": "COPT DEFENSE PROPERTIES",
+      "sector": "Real Estate",
+      "score": 15,
+      "price": 33.88,
+      "market_cap": 3924810240,
+      "details": {
+        "pb_ratio": 2.5,
+        "pb_score": 0,
+        "drop_from_high_pct": -12.9,
+        "drop_score": 0,
+        "revenue_growth_quarters": 0,
+        "revenue_growth_detail": [],
+        "revenue_score": 0,
+        "analyst_mean": 1.75,
+        "analyst_score": 0,
+        "fcf": 257286368,
+        "fcf_score": 15,
+        "debt_to_equity": 164.2,
+        "de_score": 0,
+        "shareholder_turnover": 0.5,
+        "turnover_score": 0
+      }
+    },
+    {
       "ticker": "CBU",
       "name": "COMMUNITY FINANCIAL SYSTEM INC",
       "sector": "Financials",
@@ -53158,7 +52773,7 @@
       "sector": "Financials",
       "score": 15,
       "price": 108.71,
-      "market_cap": 3651176192,
+      "market_cap": 3652519424,
       "details": {
         "pb_ratio": 1.87,
         "pb_score": 10,
@@ -53353,7 +52968,7 @@
       "sector": "Financials",
       "score": 15,
       "price": 86.09,
-      "market_cap": 2072090880,
+      "market_cap": 2073204352,
       "details": {
         "pb_ratio": 1.58,
         "pb_score": 10,
@@ -53533,7 +53148,7 @@
       "sector": "Financials",
       "score": 15,
       "price": 34.98,
-      "market_cap": 1002528256,
+      "market_cap": 1006767360,
       "details": {
         "pb_ratio": 1.77,
         "pb_score": 10,
@@ -53563,7 +53178,7 @@
       "sector": "Health Care",
       "score": 15,
       "price": 48.18,
-      "market_cap": 891430208,
+      "market_cap": 899995840,
       "details": {
         "pb_ratio": 2.11,
         "pb_score": 0,
@@ -53593,7 +53208,7 @@
       "sector": "Health Care",
       "score": 15,
       "price": 18.59,
-      "market_cap": 824453184,
+      "market_cap": 833177344,
       "details": {
         "pb_ratio": 4.56,
         "pb_score": 0,
@@ -53692,8 +53307,8 @@
         "revenue_growth_quarters": 1,
         "revenue_growth_detail": [
           {
-            "quarter": "2026-03-31",
-            "yoy_growth_pct": 8.5
+            "quarter": "2026-06-30",
+            "yoy_growth_pct": 13.8
           }
         ],
         "revenue_score": 5,
@@ -53803,7 +53418,7 @@
       "sector": "Financials",
       "score": 15,
       "price": 63.73,
-      "market_cap": 650813568,
+      "market_cap": 648129664,
       "details": {
         "pb_ratio": 1.53,
         "pb_score": 10,
@@ -54093,7 +53708,7 @@
       "sector": "Information Technology",
       "score": 13,
       "price": 139.75,
-      "market_cap": 16337906688,
+      "market_cap": 16431741952,
       "details": {
         "pb_ratio": 15.77,
         "pb_score": 0,
@@ -54123,7 +53738,7 @@
       "sector": "Utilities",
       "score": 13,
       "price": 39.53,
-      "market_cap": 11217767424,
+      "market_cap": 11212011520,
       "details": {
         "pb_ratio": 1.6,
         "pb_score": 10,
@@ -54148,7 +53763,7 @@
       "sector": "Utilities",
       "score": 13,
       "price": 14.87,
-      "market_cap": 10604654592,
+      "market_cap": 10608832512,
       "details": {
         "pb_ratio": 2.15,
         "pb_score": 0,
@@ -54178,7 +53793,7 @@
       "sector": "Real Estate",
       "score": 13,
       "price": 41.3,
-      "market_cap": 7926766592,
+      "market_cap": 7857249280,
       "details": {
         "pb_ratio": 1.78,
         "pb_score": 10,
@@ -54258,7 +53873,7 @@
       "sector": "Financials",
       "score": 13,
       "price": 36.72,
-      "market_cap": 3614631936,
+      "market_cap": 3578385152,
       "details": {
         "pb_ratio": 3.91,
         "pb_score": 0,
@@ -54288,7 +53903,7 @@
       "sector": "Financials",
       "score": 13,
       "price": 141.97,
-      "market_cap": 1993991424,
+      "market_cap": 1994962432,
       "details": {
         "pb_ratio": 2.47,
         "pb_score": 0,
@@ -54348,7 +53963,7 @@
       "sector": "Financials",
       "score": 11,
       "price": 159.87,
-      "market_cap": 30752866304,
+      "market_cap": 30711025664,
       "details": {
         "pb_ratio": 2.42,
         "pb_score": 0,
@@ -54408,7 +54023,7 @@
       "sector": "Materials",
       "score": 11,
       "price": 129.22,
-      "market_cap": 5500761088,
+      "market_cap": 5499966464,
       "details": {
         "pb_ratio": 4.34,
         "pb_score": 0,
@@ -54468,7 +54083,7 @@
       "sector": "Industrials",
       "score": 11,
       "price": 100.57,
-      "market_cap": 5556075520,
+      "market_cap": 5765031424,
       "details": {
         "pb_ratio": 18.63,
         "pb_score": 0,
@@ -54558,7 +54173,7 @@
       "sector": "Consumer Discretionary",
       "score": 11,
       "price": 49.28,
-      "market_cap": 1343577600,
+      "market_cap": 1352699648,
       "details": {
         "pb_ratio": 2.51,
         "pb_score": 0,
@@ -54678,7 +54293,7 @@
         "fcf_score": 0,
         "debt_to_equity": 13.2,
         "de_score": 10,
-        "shareholder_turnover": 0.9,
+        "shareholder_turnover": 0.8,
         "turnover_score": 0
       }
     },
@@ -54763,7 +54378,7 @@
       "sector": "Consumer Discretionary",
       "score": 10,
       "price": 6.14,
-      "market_cap": 1285988736,
+      "market_cap": 1288777600,
       "details": {
         "pb_ratio": 3.49,
         "pb_score": 0,
@@ -54940,7 +54555,7 @@
       "price": 58.21,
       "market_cap": 33635801088,
       "details": {
-        "pb_ratio": 3.75,
+        "pb_ratio": 3.8,
         "pb_score": 0,
         "drop_from_high_pct": -9.6,
         "drop_score": 0,
@@ -55180,7 +54795,7 @@
       "price": 50.58,
       "market_cap": 2062996864,
       "details": {
-        "pb_ratio": 3.04,
+        "pb_ratio": 2.97,
         "pb_score": 0,
         "drop_from_high_pct": -38.1,
         "drop_score": 8,
@@ -55313,7 +54928,7 @@
       "sector": "Utilities",
       "score": 5,
       "price": 76.08,
-      "market_cap": 158672863232,
+      "market_cap": 158701223936,
       "details": {
         "pb_ratio": 2.78,
         "pb_score": 0,
@@ -55615,7 +55230,7 @@
       "price": 101.45,
       "market_cap": 33057417216,
       "details": {
-        "pb_ratio": 2.43,
+        "pb_ratio": null,
         "pb_score": 0,
         "drop_from_high_pct": -15.4,
         "drop_score": 0,
@@ -55703,7 +55318,7 @@
       "sector": "Utilities",
       "score": 5,
       "price": 62.95,
-      "market_cap": 19446489088,
+      "market_cap": 19739682816,
       "details": {
         "pb_ratio": 2.07,
         "pb_score": 0,
@@ -55793,7 +55408,7 @@
       "sector": "Financials",
       "score": 5,
       "price": 32.45,
-      "market_cap": 4650728448,
+      "market_cap": 4650977792,
       "details": {
         "pb_ratio": 2.31,
         "pb_score": 0,
@@ -55802,8 +55417,8 @@
         "revenue_growth_quarters": 1,
         "revenue_growth_detail": [
           {
-            "quarter": "2026-03-31",
-            "yoy_growth_pct": 12.5
+            "quarter": "2026-06-30",
+            "yoy_growth_pct": 10.8
           }
         ],
         "revenue_score": 5,
@@ -56005,7 +55620,7 @@
       "price": 16.72,
       "market_cap": 4689002496,
       "details": {
-        "pb_ratio": 2.43,
+        "pb_ratio": 2.38,
         "pb_score": 0,
         "drop_from_high_pct": -14.2,
         "drop_score": 0,
@@ -56414,7 +56029,7 @@
       "price": 2.155,
       "market_cap": 287915936,
       "details": {
-        "pb_ratio": 1.43,
+        "pb_ratio": 1.46,
         "pb_score": 20,
         "drop_from_high_pct": -62.5,
         "drop_score": 20,
@@ -56502,7 +56117,7 @@
       "sector": "Materials",
       "score": 73,
       "price": 9.38,
-      "market_cap": 2775423744,
+      "market_cap": 2777151488,
       "details": {
         "pb_ratio": 0.86,
         "pb_score": 30,
@@ -56552,36 +56167,6 @@
       }
     },
     {
-      "ticker": "DH",
-      "name": "DEFINITIVE HEALTHCARE CORP CLASS A",
-      "sector": "Health Care",
-      "score": 73,
-      "price": 0.945,
-      "market_cap": 100873752,
-      "details": {
-        "pb_ratio": 0.7,
-        "pb_score": 30,
-        "drop_from_high_pct": -76.8,
-        "drop_score": 20,
-        "revenue_growth_quarters": 1,
-        "revenue_growth_detail": [
-          {
-            "quarter": "2026-06-30",
-            "yoy_growth_pct": 7.0
-          }
-        ],
-        "revenue_score": 5,
-        "analyst_mean": null,
-        "analyst_score": 0,
-        "fcf": 50353248,
-        "fcf_score": 15,
-        "debt_to_equity": 88.9,
-        "de_score": 3,
-        "shareholder_turnover": 1.0,
-        "turnover_score": 0
-      }
-    },
-    {
       "ticker": "SMPL",
       "name": "THE SIMPLY GOOD FOODS COMPANY",
       "sector": "Consumer Staples",
@@ -56596,7 +56181,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 2.4,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 107168376,
         "fcf_score": 15,
@@ -56672,7 +56257,7 @@
       "sector": "Health Care",
       "score": 71,
       "price": 9.44,
-      "market_cap": 384515808,
+      "market_cap": 381580384,
       "details": {
         "pb_ratio": 0.9,
         "pb_score": 30,
@@ -56757,7 +56342,7 @@
       "sector": "Communication",
       "score": 71,
       "price": 5.42,
-      "market_cap": 219228256,
+      "market_cap": 219814896,
       "details": {
         "pb_ratio": 0.32,
         "pb_score": 30,
@@ -56869,7 +56454,7 @@
       "price": 28.43,
       "market_cap": 6393195008,
       "details": {
-        "pb_ratio": 1.4,
+        "pb_ratio": 1.48,
         "pb_score": 20,
         "drop_from_high_pct": -65.1,
         "drop_score": 20,
@@ -57117,37 +56702,12 @@
       }
     },
     {
-      "ticker": "MYPS",
-      "name": "PLAYSTUDIOS INC CLASS A",
-      "sector": "Communication",
-      "score": 70,
-      "price": 0.4763,
-      "market_cap": 57213816,
-      "details": {
-        "pb_ratio": 0.29,
-        "pb_score": 30,
-        "drop_from_high_pct": -52.8,
-        "drop_score": 15,
-        "revenue_growth_quarters": 0,
-        "revenue_growth_detail": [],
-        "revenue_score": 0,
-        "analyst_mean": null,
-        "analyst_score": 0,
-        "fcf": 27444500,
-        "fcf_score": 15,
-        "debt_to_equity": 2.6,
-        "de_score": 10,
-        "shareholder_turnover": 0.3,
-        "turnover_score": 0
-      }
-    },
-    {
       "ticker": "LUMN",
       "name": "LUMEN TECHNOLOGIES INC",
       "sector": "Communication",
       "score": 68,
       "price": 5.71,
-      "market_cap": 5883076096,
+      "market_cap": 5889552896,
       "details": {
         "pb_ratio": -3.95,
         "pb_score": 30,
@@ -57202,7 +56762,7 @@
       "sector": "Industrials",
       "score": 68,
       "price": 4.03,
-      "market_cap": 620651072,
+      "market_cap": 619920384,
       "details": {
         "pb_ratio": -3.07,
         "pb_score": 30,
@@ -57392,6 +56952,31 @@
       }
     },
     {
+      "ticker": "SCHL",
+      "name": "SCHOLASTIC CORP",
+      "sector": "Communication",
+      "score": 67,
+      "price": 32.35,
+      "market_cap": 595545472,
+      "details": {
+        "pb_ratio": 0.81,
+        "pb_score": 30,
+        "drop_from_high_pct": -32.7,
+        "drop_score": 8,
+        "revenue_growth_quarters": 0,
+        "revenue_growth_detail": [],
+        "revenue_score": 0,
+        "analyst_mean": 3.0,
+        "analyst_score": 8,
+        "fcf": 35037500,
+        "fcf_score": 15,
+        "debt_to_equity": 77.6,
+        "de_score": 6,
+        "shareholder_turnover": 1.6,
+        "turnover_score": 0
+      }
+    },
+    {
       "ticker": "VSNT",
       "name": "VERSANT MEDIA GROUP INC",
       "sector": "Communication",
@@ -57472,7 +57057,7 @@
       "sector": "Financials",
       "score": 66,
       "price": 25.32,
-      "market_cap": 1491934208,
+      "market_cap": 1490695552,
       "details": {
         "pb_ratio": 0.68,
         "pb_score": 30,
@@ -57832,7 +57417,7 @@
       "sector": "Consumer Discretionary",
       "score": 65,
       "price": 5.05,
-      "market_cap": 1335220096,
+      "market_cap": 1446111104,
       "details": {
         "pb_ratio": 1.19,
         "pb_score": 20,
@@ -58509,7 +58094,7 @@
       "price": 18.03,
       "market_cap": 978373120,
       "details": {
-        "pb_ratio": 1.54,
+        "pb_ratio": 1.6,
         "pb_score": 10,
         "drop_from_high_pct": -47.7,
         "drop_score": 15,
@@ -58587,7 +58172,7 @@
       "sector": "Industrials",
       "score": 63,
       "price": 1.78,
-      "market_cap": 1137805312,
+      "market_cap": 1138601856,
       "details": {
         "pb_ratio": 0.25,
         "pb_score": 30,
@@ -58722,7 +58307,7 @@
       "sector": "Consumer Discretionary",
       "score": 63,
       "price": 13.74,
-      "market_cap": 429332064,
+      "market_cap": 429568192,
       "details": {
         "pb_ratio": 0.74,
         "pb_score": 30,
@@ -58774,7 +58359,7 @@
       "price": 13.31,
       "market_cap": 204050464,
       "details": {
-        "pb_ratio": 0.74,
+        "pb_ratio": 0.76,
         "pb_score": 30,
         "drop_from_high_pct": -58.0,
         "drop_score": 15,
@@ -58907,7 +58492,7 @@
       "sector": "Consumer Discretionary",
       "score": 61,
       "price": 44.79,
-      "market_cap": 9478483968,
+      "market_cap": 9299897344,
       "details": {
         "pb_ratio": 1.07,
         "pb_score": 20,
@@ -59017,37 +58602,12 @@
       }
     },
     {
-      "ticker": "AMR",
-      "name": "ALPHA METALLURGICAL RESOURCE INC",
-      "sector": "Materials",
-      "score": 61,
-      "price": 174.43,
-      "market_cap": 2211605760,
-      "details": {
-        "pb_ratio": 1.48,
-        "pb_score": 20,
-        "drop_from_high_pct": -31.3,
-        "drop_score": 8,
-        "revenue_growth_quarters": 0,
-        "revenue_growth_detail": [],
-        "revenue_score": 0,
-        "analyst_mean": 3.0,
-        "analyst_score": 8,
-        "fcf": 52462248,
-        "fcf_score": 15,
-        "debt_to_equity": 0.8,
-        "de_score": 10,
-        "shareholder_turnover": 1.9,
-        "turnover_score": 0
-      }
-    },
-    {
       "ticker": "ADNT",
       "name": "ADIENT PLC",
       "sector": "Consumer Discretionary",
       "score": 61,
       "price": 17.63,
-      "market_cap": 1359218816,
+      "market_cap": 1382427904,
       "details": {
         "pb_ratio": 0.79,
         "pb_score": 30,
@@ -59137,7 +58697,7 @@
       "sector": "Health Care",
       "score": 61,
       "price": 15.42,
-      "market_cap": 2139821824,
+      "market_cap": 2133631104,
       "details": {
         "pb_ratio": 0.85,
         "pb_score": 30,
@@ -59256,8 +58816,8 @@
         "revenue_growth_quarters": 1,
         "revenue_growth_detail": [
           {
-            "quarter": "2026-03-31",
-            "yoy_growth_pct": 1.8
+            "quarter": "2026-06-30",
+            "yoy_growth_pct": 3.9
           }
         ],
         "revenue_score": 5,
@@ -59401,8 +58961,8 @@
         "revenue_growth_quarters": 1,
         "revenue_growth_detail": [
           {
-            "quarter": "2026-03-31",
-            "yoy_growth_pct": 7.4
+            "quarter": "2026-06-30",
+            "yoy_growth_pct": 5.2
           }
         ],
         "revenue_score": 5,
@@ -59664,7 +59224,7 @@
       "price": 29.3,
       "market_cap": 6588836352,
       "details": {
-        "pb_ratio": 1.52,
+        "pb_ratio": 1.53,
         "pb_score": 10,
         "drop_from_high_pct": -62.8,
         "drop_score": 20,
@@ -59912,7 +59472,7 @@
       "sector": "Consumer Discretionary",
       "score": 60,
       "price": 4.57,
-      "market_cap": 120457768,
+      "market_cap": 121906384,
       "details": {
         "pb_ratio": -7.67,
         "pb_score": 30,
@@ -60077,7 +59637,7 @@
       "sector": "Consumer Discretionary",
       "score": 58,
       "price": 163.95,
-      "market_cap": 127041323008,
+      "market_cap": 123188830208,
       "details": {
         "pb_ratio": -11.52,
         "pb_score": 30,
@@ -60197,7 +59757,7 @@
       "sector": "Industrials",
       "score": 58,
       "price": 169.21,
-      "market_cap": 22170206208,
+      "market_cap": 22023700480,
       "details": {
         "pb_ratio": -18.98,
         "pb_score": 30,
@@ -60227,7 +59787,7 @@
       "sector": "Financials",
       "score": 58,
       "price": 35.41,
-      "market_cap": 18302689280,
+      "market_cap": 18261145600,
       "details": {
         "pb_ratio": 1.14,
         "pb_score": 20,
@@ -60347,7 +59907,7 @@
       "sector": "Consumer Discretionary",
       "score": 58,
       "price": 25.72,
-      "market_cap": 4814488064,
+      "market_cap": 4796610560,
       "details": {
         "pb_ratio": -7.12,
         "pb_score": 30,
@@ -60497,7 +60057,7 @@
       "sector": "Information Technology",
       "score": 58,
       "price": 69.64,
-      "market_cap": 3908150528,
+      "market_cap": 3789564160,
       "details": {
         "pb_ratio": -310.89,
         "pb_score": 30,
@@ -60612,7 +60172,7 @@
       "sector": "Consumer Staples",
       "score": 58,
       "price": 12.55,
-      "market_cap": 1315282432,
+      "market_cap": 1301051136,
       "details": {
         "pb_ratio": -2.77,
         "pb_score": 30,
@@ -60702,7 +60262,7 @@
       "sector": "Information Technology",
       "score": 58,
       "price": 9.51,
-      "market_cap": 931094464,
+      "market_cap": 931028992,
       "details": {
         "pb_ratio": 1.49,
         "pb_score": 20,
@@ -60914,7 +60474,7 @@
       "price": 3.51,
       "market_cap": 288613824,
       "details": {
-        "pb_ratio": -8.54,
+        "pb_ratio": -3.42,
         "pb_score": 30,
         "drop_from_high_pct": -37.4,
         "drop_score": 8,
@@ -61004,7 +60564,7 @@
       "price": 82.15,
       "market_cap": 19789535232,
       "details": {
-        "pb_ratio": 0.92,
+        "pb_ratio": 0.91,
         "pb_score": 30,
         "drop_from_high_pct": -38.6,
         "drop_score": 8,
@@ -61153,7 +60713,7 @@
         "revenue_score": 5,
         "analyst_mean": 2.17,
         "analyst_score": 0,
-        "fcf": 519709248,
+        "fcf": 529455264,
         "fcf_score": 15,
         "debt_to_equity": 40.0,
         "de_score": 6,
@@ -61242,7 +60802,7 @@
         "fcf_score": 0,
         "debt_to_equity": 108.7,
         "de_score": 3,
-        "shareholder_turnover": 1.0,
+        "shareholder_turnover": 0.9,
         "turnover_score": 0
       }
     },
@@ -61282,7 +60842,7 @@
       "sector": "Consumer Discretionary",
       "score": 56,
       "price": 49.99,
-      "market_cap": 1161381760,
+      "market_cap": 1162181120,
       "details": {
         "pb_ratio": 0.54,
         "pb_score": 30,
@@ -61422,7 +60982,7 @@
       "sector": "Real Estate",
       "score": 56,
       "price": 26.49,
-      "market_cap": 1351221248,
+      "market_cap": 1351456896,
       "details": {
         "pb_ratio": 0.73,
         "pb_score": 30,
@@ -61452,7 +61012,7 @@
       "sector": "Real Estate",
       "score": 56,
       "price": 13.35,
-      "market_cap": 655221568,
+      "market_cap": 653678208,
       "details": {
         "pb_ratio": 0.86,
         "pb_score": 30,
@@ -61512,7 +61072,7 @@
       "sector": "Real Estate",
       "score": 56,
       "price": 21.11,
-      "market_cap": 404684544,
+      "market_cap": 405276128,
       "details": {
         "pb_ratio": 0.94,
         "pb_score": 30,
@@ -61827,7 +61387,7 @@
       "sector": "Information Technology",
       "score": 55,
       "price": 78.12,
-      "market_cap": 3315695360,
+      "market_cap": 3322798336,
       "details": {
         "pb_ratio": 1.56,
         "pb_score": 10,
@@ -61857,7 +61417,7 @@
       "sector": "Financials",
       "score": 55,
       "price": 6.24,
-      "market_cap": 800043456,
+      "market_cap": 802116736,
       "details": {
         "pb_ratio": 0.64,
         "pb_score": 30,
@@ -61872,7 +61432,7 @@
         "fcf_score": 0,
         "debt_to_equity": 29.6,
         "de_score": 10,
-        "shareholder_turnover": 2.7,
+        "shareholder_turnover": 2.6,
         "turnover_score": 0
       }
     },
@@ -61882,7 +61442,7 @@
       "sector": "Industrials",
       "score": 55,
       "price": 40.56,
-      "market_cap": 1203978496,
+      "market_cap": 1203087488,
       "details": {
         "pb_ratio": 1.35,
         "pb_score": 20,
@@ -61912,7 +61472,7 @@
       "sector": "Real Estate",
       "score": 55,
       "price": 21.58,
-      "market_cap": 1674013952,
+      "market_cap": 1674300544,
       "details": {
         "pb_ratio": 1.18,
         "pb_score": 20,
@@ -61967,7 +61527,7 @@
       "sector": "Financials",
       "score": 55,
       "price": 14.89,
-      "market_cap": 493848416,
+      "market_cap": 486029632,
       "details": {
         "pb_ratio": 0.7,
         "pb_score": 30,
@@ -62511,7 +62071,7 @@
       "price": 2.155,
       "market_cap": 287915936,
       "details": {
-        "pb_ratio": 1.43,
+        "pb_ratio": 1.46,
         "pb_score": 20,
         "drop_from_high_pct": -62.5,
         "drop_score": 20,
@@ -62599,7 +62159,7 @@
       "sector": "Materials",
       "score": 73,
       "price": 9.38,
-      "market_cap": 2775423744,
+      "market_cap": 2777151488,
       "details": {
         "pb_ratio": 0.86,
         "pb_score": 30,
@@ -62649,36 +62209,6 @@
       }
     },
     {
-      "ticker": "DH",
-      "name": "DEFINITIVE HEALTHCARE CORP CLASS A",
-      "sector": "Health Care",
-      "score": 73,
-      "price": 0.945,
-      "market_cap": 100873752,
-      "details": {
-        "pb_ratio": 0.7,
-        "pb_score": 30,
-        "drop_from_high_pct": -76.8,
-        "drop_score": 20,
-        "revenue_growth_quarters": 1,
-        "revenue_growth_detail": [
-          {
-            "quarter": "2026-06-30",
-            "yoy_growth_pct": 7.0
-          }
-        ],
-        "revenue_score": 5,
-        "analyst_mean": null,
-        "analyst_score": 0,
-        "fcf": 50353248,
-        "fcf_score": 15,
-        "debt_to_equity": 88.9,
-        "de_score": 3,
-        "shareholder_turnover": 1.0,
-        "turnover_score": 0
-      }
-    },
-    {
       "ticker": "SMPL",
       "name": "THE SIMPLY GOOD FOODS COMPANY",
       "sector": "Consumer Staples",
@@ -62693,7 +62223,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 2.4,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 107168376,
         "fcf_score": 15,
@@ -62769,7 +62299,7 @@
       "sector": "Health Care",
       "score": 71,
       "price": 9.44,
-      "market_cap": 384515808,
+      "market_cap": 381580384,
       "details": {
         "pb_ratio": 0.9,
         "pb_score": 30,
@@ -62854,7 +62384,7 @@
       "sector": "Communication",
       "score": 71,
       "price": 5.42,
-      "market_cap": 219228256,
+      "market_cap": 219814896,
       "details": {
         "pb_ratio": 0.32,
         "pb_score": 30,
@@ -62966,7 +62496,7 @@
       "price": 28.43,
       "market_cap": 6393195008,
       "details": {
-        "pb_ratio": 1.4,
+        "pb_ratio": 1.48,
         "pb_score": 20,
         "drop_from_high_pct": -65.1,
         "drop_score": 20,
@@ -63095,6 +62625,31 @@
         "debt_to_equity": 6.2,
         "de_score": 10,
         "shareholder_turnover": 0.7,
+        "turnover_score": 0
+      }
+    },
+    {
+      "ticker": "IIIV",
+      "name": "I3 VERTICALS INC CLASS A",
+      "sector": "Information Technology",
+      "score": 70,
+      "price": 14.88,
+      "market_cap": 517572704,
+      "details": {
+        "pb_ratio": 0.97,
+        "pb_score": 30,
+        "drop_from_high_pct": -56.2,
+        "drop_score": 15,
+        "revenue_growth_quarters": 0,
+        "revenue_growth_detail": [],
+        "revenue_score": 0,
+        "analyst_mean": null,
+        "analyst_score": 0,
+        "fcf": 36879248,
+        "fcf_score": 15,
+        "debt_to_equity": 29.7,
+        "de_score": 10,
+        "shareholder_turnover": 2.4,
         "turnover_score": 0
       }
     }
