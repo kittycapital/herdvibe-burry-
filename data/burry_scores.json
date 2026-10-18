@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-17 22:07 UTC",
-  "updated_kst": "2026-10-18 07:07 KST",
+  "updated_at": "2026-10-18 22:18 UTC",
+  "updated_kst": "2026-10-19 07:18 KST",
   "total_screened": 1938,
   "burry_zone_count": 12,
   "watchlist_count": 201,
@@ -178,7 +178,7 @@
         "fcf_score": 15,
         "debt_to_equity": 2.2,
         "de_score": 10,
-        "shareholder_turnover": 0.7,
+        "shareholder_turnover": 0.8,
         "turnover_score": 0
       }
     },
@@ -8412,7 +8412,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.31,
+        "analyst_mean": 1.25,
         "analyst_score": 0,
         "fcf": 782625024,
         "fcf_score": 15,
@@ -12277,7 +12277,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.54,
+        "analyst_mean": 1.5,
         "analyst_score": 0,
         "fcf": 2268750080,
         "fcf_score": 15,
@@ -18123,7 +18123,7 @@
         "fcf_score": 15,
         "debt_to_equity": 117.2,
         "de_score": 3,
-        "shareholder_turnover": 0.9,
+        "shareholder_turnover": 0.8,
         "turnover_score": 0
       }
     },
@@ -21288,36 +21288,6 @@
       }
     },
     {
-      "ticker": "NXDR",
-      "name": "NEXTDOOR HOLDINGS INC CLASS A",
-      "sector": "Communication",
-      "score": 38,
-      "price": 2.66,
-      "market_cap": 1029016832,
-      "details": {
-        "pb_ratio": 2.48,
-        "pb_score": 0,
-        "drop_from_high_pct": -28.5,
-        "drop_score": 8,
-        "revenue_growth_quarters": 1,
-        "revenue_growth_detail": [
-          {
-            "quarter": "2026-06-30",
-            "yoy_growth_pct": 7.8
-          }
-        ],
-        "revenue_score": 5,
-        "analyst_mean": 2.2,
-        "analyst_score": 0,
-        "fcf": 22892500,
-        "fcf_score": 15,
-        "debt_to_equity": 6.7,
-        "de_score": 10,
-        "shareholder_turnover": 0.6,
-        "turnover_score": 0
-      }
-    },
-    {
       "ticker": "EGHT",
       "name": "8X8 INC",
       "sector": "Information Technology",
@@ -21797,7 +21767,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.59,
+        "analyst_mean": 1.63,
         "analyst_score": 0,
         "fcf": 1230499968,
         "fcf_score": 15,
@@ -22603,7 +22573,7 @@
         "fcf_score": 15,
         "debt_to_equity": 78.6,
         "de_score": 6,
-        "shareholder_turnover": 3.0,
+        "shareholder_turnover": 2.9,
         "turnover_score": 0
       }
     },
@@ -22664,36 +22634,6 @@
         "debt_to_equity": 32.4,
         "de_score": 6,
         "shareholder_turnover": 0.7,
-        "turnover_score": 0
-      }
-    },
-    {
-      "ticker": "TFC",
-      "name": "TRUIST FINANCIAL CORP",
-      "sector": "Financials",
-      "score": 35,
-      "price": 47.07,
-      "market_cap": 57501945856,
-      "details": {
-        "pb_ratio": 0.99,
-        "pb_score": 30,
-        "drop_from_high_pct": -16.2,
-        "drop_score": 0,
-        "revenue_growth_quarters": 1,
-        "revenue_growth_detail": [
-          {
-            "quarter": "2026-03-31",
-            "yoy_growth_pct": 5.2
-          }
-        ],
-        "revenue_score": 5,
-        "analyst_mean": 2.62,
-        "analyst_score": 0,
-        "fcf": null,
-        "fcf_score": 0,
-        "debt_to_equity": null,
-        "de_score": 0,
-        "shareholder_turnover": 0.4,
         "turnover_score": 0
       }
     },
@@ -28972,7 +28912,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.49,
+        "analyst_mean": 1.48,
         "analyst_score": 0,
         "fcf": 8841499648,
         "fcf_score": 15,
@@ -29380,7 +29320,7 @@
       "price": 530.46,
       "market_cap": 109054205952,
       "details": {
-        "pb_ratio": 11.57,
+        "pb_ratio": 11.58,
         "pb_score": 0,
         "drop_from_high_pct": -23.9,
         "drop_score": 0,
@@ -29872,7 +29812,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.62,
+        "analyst_mean": 2.54,
         "analyst_score": 0,
         "fcf": 717135488,
         "fcf_score": 15,
@@ -33058,6 +32998,36 @@
       }
     },
     {
+      "ticker": "NXDR",
+      "name": "NEXTDOOR HOLDINGS INC CLASS A",
+      "sector": "Communication",
+      "score": 30,
+      "price": 2.46,
+      "market_cap": 951647104,
+      "details": {
+        "pb_ratio": 2.29,
+        "pb_score": 0,
+        "drop_from_high_pct": -5.7,
+        "drop_score": 0,
+        "revenue_growth_quarters": 1,
+        "revenue_growth_detail": [
+          {
+            "quarter": "2026-06-30",
+            "yoy_growth_pct": 7.8
+          }
+        ],
+        "revenue_score": 5,
+        "analyst_mean": 2.2,
+        "analyst_score": 0,
+        "fcf": 22892500,
+        "fcf_score": 15,
+        "debt_to_equity": 6.7,
+        "de_score": 10,
+        "shareholder_turnover": 0.5,
+        "turnover_score": 0
+      }
+    },
+    {
       "ticker": "MASS",
       "name": "908 DEVICES INC",
       "sector": "Information Technology",
@@ -33350,6 +33320,36 @@
         "de_score": 6,
         "shareholder_turnover": 0.9,
         "turnover_score": 0
+      }
+    },
+    {
+      "ticker": "WEAV",
+      "name": "WEAVE COMMUNICATIONS INC",
+      "sector": "Information Technology",
+      "score": 29,
+      "price": 7.4,
+      "market_cap": 595333312,
+      "details": {
+        "pb_ratio": 6.96,
+        "pb_score": 0,
+        "drop_from_high_pct": -3.9,
+        "drop_score": 0,
+        "revenue_growth_quarters": 1,
+        "revenue_growth_detail": [
+          {
+            "quarter": "2026-06-30",
+            "yoy_growth_pct": 14.9
+          }
+        ],
+        "revenue_score": 5,
+        "analyst_mean": null,
+        "analyst_score": 0,
+        "fcf": 39375752,
+        "fcf_score": 15,
+        "debt_to_equity": 60.5,
+        "de_score": 6,
+        "shareholder_turnover": 3.0,
+        "turnover_score": 3
       }
     },
     {
@@ -34223,7 +34223,7 @@
         "fcf_score": 15,
         "debt_to_equity": 163.6,
         "de_score": 0,
-        "shareholder_turnover": 0.7,
+        "shareholder_turnover": 0.6,
         "turnover_score": 0
       }
     },
@@ -35555,7 +35555,7 @@
       "price": 229.68,
       "market_cap": 140550848512,
       "details": {
-        "pb_ratio": 4.34,
+        "pb_ratio": 4.33,
         "pb_score": 0,
         "drop_from_high_pct": -21.1,
         "drop_score": 0,
@@ -35569,7 +35569,7 @@
         "revenue_score": 5,
         "analyst_mean": 2.26,
         "analyst_score": 0,
-        "fcf": 11181248512,
+        "fcf": 10684486656,
         "fcf_score": 15,
         "debt_to_equity": 40.3,
         "de_score": 6,
@@ -35689,7 +35689,7 @@
         "revenue_score": 5,
         "analyst_mean": 2.97,
         "analyst_score": 0,
-        "fcf": 15955749888,
+        "fcf": 15819750400,
         "fcf_score": 15,
         "debt_to_equity": 33.8,
         "de_score": 6,
@@ -36614,36 +36614,6 @@
         "debt_to_equity": 57.0,
         "de_score": 6,
         "shareholder_turnover": 1.6,
-        "turnover_score": 0
-      }
-    },
-    {
-      "ticker": "JBHT",
-      "name": "JB HUNT TRANSPORT SERVICES INC",
-      "sector": "Industrials",
-      "score": 26,
-      "price": 228.78,
-      "market_cap": 21485858816,
-      "details": {
-        "pb_ratio": 6.07,
-        "pb_score": 0,
-        "drop_from_high_pct": -23.7,
-        "drop_score": 0,
-        "revenue_growth_quarters": 1,
-        "revenue_growth_detail": [
-          {
-            "quarter": "2026-06-30",
-            "yoy_growth_pct": 20.0
-          }
-        ],
-        "revenue_score": 5,
-        "analyst_mean": 2.0,
-        "analyst_score": 0,
-        "fcf": 903028352,
-        "fcf_score": 15,
-        "debt_to_equity": 38.4,
-        "de_score": 6,
-        "shareholder_turnover": 0.9,
         "turnover_score": 0
       }
     },
@@ -39673,36 +39643,6 @@
       }
     },
     {
-      "ticker": "WEAV",
-      "name": "WEAVE COMMUNICATIONS INC",
-      "sector": "Information Technology",
-      "score": 26,
-      "price": 7.4,
-      "market_cap": 595333312,
-      "details": {
-        "pb_ratio": 6.96,
-        "pb_score": 0,
-        "drop_from_high_pct": -3.9,
-        "drop_score": 0,
-        "revenue_growth_quarters": 1,
-        "revenue_growth_detail": [
-          {
-            "quarter": "2026-06-30",
-            "yoy_growth_pct": 14.9
-          }
-        ],
-        "revenue_score": 5,
-        "analyst_mean": null,
-        "analyst_score": 0,
-        "fcf": 39375752,
-        "fcf_score": 15,
-        "debt_to_equity": 60.5,
-        "de_score": 6,
-        "shareholder_turnover": 2.8,
-        "turnover_score": 0
-      }
-    },
-    {
       "ticker": "BAC",
       "name": "BANK OF AMERICA CORP",
       "sector": "Financials",
@@ -39848,6 +39788,36 @@
       }
     },
     {
+      "ticker": "TFC",
+      "name": "TRUIST FINANCIAL CORP",
+      "sector": "Financials",
+      "score": 25,
+      "price": 47.07,
+      "market_cap": 57501945856,
+      "details": {
+        "pb_ratio": 1.01,
+        "pb_score": 20,
+        "drop_from_high_pct": -16.2,
+        "drop_score": 0,
+        "revenue_growth_quarters": 1,
+        "revenue_growth_detail": [
+          {
+            "quarter": "2026-03-31",
+            "yoy_growth_pct": 5.2
+          }
+        ],
+        "revenue_score": 5,
+        "analyst_mean": 2.62,
+        "analyst_score": 0,
+        "fcf": null,
+        "fcf_score": 0,
+        "debt_to_equity": null,
+        "de_score": 0,
+        "shareholder_turnover": 0.4,
+        "turnover_score": 0
+      }
+    },
+    {
       "ticker": "EA",
       "name": "ELECTRONIC ARTS INC",
       "sector": "Communication",
@@ -39910,7 +39880,7 @@
       "price": 215.28,
       "market_cap": 31089932288,
       "details": {
-        "pb_ratio": 1.24,
+        "pb_ratio": 1.23,
         "pb_score": 20,
         "drop_from_high_pct": -15.9,
         "drop_score": 0,
@@ -39928,7 +39898,7 @@
         "fcf_score": 0,
         "debt_to_equity": null,
         "de_score": 0,
-        "shareholder_turnover": 0.4,
+        "shareholder_turnover": 0.5,
         "turnover_score": 0
       }
     },
@@ -40000,7 +39970,7 @@
       "price": 27.45,
       "market_cap": 23385466880,
       "details": {
-        "pb_ratio": 1.35,
+        "pb_ratio": 1.42,
         "pb_score": 20,
         "drop_from_high_pct": -15.5,
         "drop_score": 0,
@@ -43999,7 +43969,7 @@
         "revenue_score": 5,
         "analyst_mean": 2.52,
         "analyst_score": 0,
-        "fcf": 4207624960,
+        "fcf": 4321375232,
         "fcf_score": 15,
         "debt_to_equity": 149.8,
         "de_score": 3,
@@ -46788,7 +46758,7 @@
         "fcf_score": 15,
         "debt_to_equity": 107.4,
         "de_score": 3,
-        "shareholder_turnover": 2.4,
+        "shareholder_turnover": 2.2,
         "turnover_score": 0
       }
     },
@@ -54398,6 +54368,36 @@
       }
     },
     {
+      "ticker": "JBHT",
+      "name": "JB HUNT TRANSPORT SERVICES INC",
+      "sector": "Industrials",
+      "score": 11,
+      "price": 228.78,
+      "market_cap": 21485858816,
+      "details": {
+        "pb_ratio": 6.07,
+        "pb_score": 0,
+        "drop_from_high_pct": -23.7,
+        "drop_score": 0,
+        "revenue_growth_quarters": 1,
+        "revenue_growth_detail": [
+          {
+            "quarter": "2026-06-30",
+            "yoy_growth_pct": 20.0
+          }
+        ],
+        "revenue_score": 5,
+        "analyst_mean": 2.0,
+        "analyst_score": 0,
+        "fcf": null,
+        "fcf_score": 0,
+        "debt_to_equity": 40.3,
+        "de_score": 6,
+        "shareholder_turnover": 0.9,
+        "turnover_score": 0
+      }
+    },
+    {
       "ticker": "SXT",
       "name": "SENSIENT TECHNOLOGIES CORP",
       "sector": "Materials",
@@ -55952,7 +55952,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 2.61,
+        "analyst_mean": 2.65,
         "analyst_score": 0,
         "fcf": -3913374976,
         "fcf_score": 0,
@@ -55977,7 +55977,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 1.82,
+        "analyst_mean": 1.88,
         "analyst_score": 0,
         "fcf": -1786249984,
         "fcf_score": 0,
@@ -56160,7 +56160,7 @@
         "fcf_score": 15,
         "debt_to_equity": 2.2,
         "de_score": 10,
-        "shareholder_turnover": 0.7,
+        "shareholder_turnover": 0.8,
         "turnover_score": 0
       }
     },
@@ -62219,7 +62219,7 @@
         "fcf_score": 15,
         "debt_to_equity": 2.2,
         "de_score": 10,
-        "shareholder_turnover": 0.7,
+        "shareholder_turnover": 0.8,
         "turnover_score": 0
       }
     },
