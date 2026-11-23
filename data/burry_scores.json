@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-22 00:14 UTC",
-  "updated_kst": "2026-11-22 09:14 KST",
-  "total_screened": 1955,
+  "updated_at": "2026-11-23 00:50 UTC",
+  "updated_kst": "2026-11-23 09:50 KST",
+  "total_screened": 1952,
   "burry_zone_count": 24,
   "watchlist_count": 248,
   "failed_count": 0,
@@ -423,7 +423,7 @@
       "sector": "Materials",
       "score": 78,
       "price": 3.13,
-      "market_cap": 176916064,
+      "market_cap": 176496480,
       "details": {
         "pb_ratio": 0.44,
         "pb_score": 30,
@@ -578,7 +578,7 @@
         "fcf_score": 15,
         "debt_to_equity": 63.6,
         "de_score": 6,
-        "shareholder_turnover": 1.0,
+        "shareholder_turnover": 0.9,
         "turnover_score": 0
       }
     },
@@ -602,7 +602,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 0.0,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 9436375,
         "fcf_score": 15,
@@ -1419,7 +1419,7 @@
         "revenue_score": 5,
         "analyst_mean": 2.0,
         "analyst_score": 0,
-        "fcf": 10197125,
+        "fcf": 11947125,
         "fcf_score": 15,
         "debt_to_equity": 34.2,
         "de_score": 6,
@@ -1732,7 +1732,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 2.15,
+        "analyst_mean": 2.08,
         "analyst_score": 0,
         "fcf": 59145876,
         "fcf_score": 15,
@@ -2108,7 +2108,7 @@
         "fcf_score": 15,
         "debt_to_equity": null,
         "de_score": 0,
-        "shareholder_turnover": 3.4,
+        "shareholder_turnover": 3.7,
         "turnover_score": 3
       }
     },
@@ -2648,7 +2648,7 @@
       "sector": "Energy",
       "score": 67,
       "price": 32.15,
-      "market_cap": 4609703424,
+      "market_cap": 4608688640,
       "details": {
         "pb_ratio": 0.86,
         "pb_score": 30,
@@ -3205,7 +3205,7 @@
       "price": 14.57,
       "market_cap": 1695770880,
       "details": {
-        "pb_ratio": -3.63,
+        "pb_ratio": -3.99,
         "pb_score": 30,
         "drop_from_high_pct": -56.6,
         "drop_score": 15,
@@ -4383,7 +4383,7 @@
       "sector": "Industrials",
       "score": 61,
       "price": 25.75,
-      "market_cap": 1543715456,
+      "market_cap": 1544411776,
       "details": {
         "pb_ratio": 1.14,
         "pb_score": 20,
@@ -5038,7 +5038,7 @@
       "sector": "Financials",
       "score": 60,
       "price": 2.32,
-      "market_cap": 297452064,
+      "market_cap": 298222880,
       "details": {
         "pb_ratio": 0.24,
         "pb_score": 30,
@@ -5053,7 +5053,7 @@
         "fcf_score": 0,
         "debt_to_equity": 29.6,
         "de_score": 10,
-        "shareholder_turnover": 2.0,
+        "shareholder_turnover": 2.3,
         "turnover_score": 0
       }
     },
@@ -5063,7 +5063,7 @@
       "sector": "Information Technology",
       "score": 60,
       "price": 43.08,
-      "market_cap": 573844160,
+      "market_cap": 573007104,
       "details": {
         "pb_ratio": 1.72,
         "pb_score": 10,
@@ -6343,7 +6343,7 @@
       "sector": "Industrials",
       "score": 58,
       "price": 11.75,
-      "market_cap": 958672320,
+      "market_cap": 959524672,
       "details": {
         "pb_ratio": 1.26,
         "pb_score": 20,
@@ -8355,7 +8355,7 @@
       "price": 29.74,
       "market_cap": 1158306176,
       "details": {
-        "pb_ratio": 1.14,
+        "pb_ratio": 1.17,
         "pb_score": 20,
         "drop_from_high_pct": -33.8,
         "drop_score": 8,
@@ -8385,7 +8385,7 @@
       "price": 65.05,
       "market_cap": 3616379136,
       "details": {
-        "pb_ratio": 1.27,
+        "pb_ratio": 1.29,
         "pb_score": 20,
         "drop_from_high_pct": -28.2,
         "drop_score": 8,
@@ -8623,7 +8623,7 @@
         "revenue_growth_detail": [
           {
             "quarter": "2026-09-30",
-            "yoy_growth_pct": 45.6
+            "yoy_growth_pct": 12.1
           }
         ],
         "revenue_score": 5,
@@ -9368,7 +9368,7 @@
       "sector": "Consumer Discretionary",
       "score": 53,
       "price": 26.36,
-      "market_cap": 201693552,
+      "market_cap": 201509024,
       "details": {
         "pb_ratio": 0.86,
         "pb_score": 30,
@@ -9580,6 +9580,36 @@
         "de_score": 3,
         "shareholder_turnover": 0.7,
         "turnover_score": 0
+      }
+    },
+    {
+      "ticker": "RKT",
+      "name": "ROCKET COMPANIES INC CLASS A",
+      "sector": "Financials",
+      "score": 51,
+      "price": 13.75,
+      "market_cap": 39021076480,
+      "details": {
+        "pb_ratio": 1.6,
+        "pb_score": 10,
+        "drop_from_high_pct": -43.6,
+        "drop_score": 15,
+        "revenue_growth_quarters": 1,
+        "revenue_growth_detail": [
+          {
+            "quarter": "2026-09-30",
+            "yoy_growth_pct": 100.3
+          }
+        ],
+        "revenue_score": 5,
+        "analyst_mean": 2.19,
+        "analyst_score": 0,
+        "fcf": 1639153024,
+        "fcf_score": 15,
+        "debt_to_equity": 125.0,
+        "de_score": 3,
+        "shareholder_turnover": 4.7,
+        "turnover_score": 3
       }
     },
     {
@@ -9969,36 +9999,6 @@
         "debt_to_equity": 56.7,
         "de_score": 6,
         "shareholder_turnover": 1.3,
-        "turnover_score": 0
-      }
-    },
-    {
-      "ticker": "AMPH",
-      "name": "AMPHASTAR PHARMACEUTICALS INC",
-      "sector": "Health Care",
-      "score": 51,
-      "price": 28.25,
-      "market_cap": 1204815104,
-      "details": {
-        "pb_ratio": 1.48,
-        "pb_score": 20,
-        "drop_from_high_pct": -8.9,
-        "drop_score": 0,
-        "revenue_growth_quarters": 1,
-        "revenue_growth_detail": [
-          {
-            "quarter": "2026-09-30",
-            "yoy_growth_pct": 15.9
-          }
-        ],
-        "revenue_score": 5,
-        "analyst_mean": 3.14,
-        "analyst_score": 8,
-        "fcf": 9201000,
-        "fcf_score": 15,
-        "debt_to_equity": 84.9,
-        "de_score": 3,
-        "shareholder_turnover": 1.0,
         "turnover_score": 0
       }
     },
@@ -10823,7 +10823,7 @@
         "revenue_growth_detail": [
           {
             "quarter": "2026-09-30",
-            "yoy_growth_pct": 6.0
+            "yoy_growth_pct": 2.4
           }
         ],
         "revenue_score": 5,
@@ -11643,36 +11643,6 @@
       }
     },
     {
-      "ticker": "WMK",
-      "name": "WEIS MARKETS INC",
-      "sector": "Consumer Staples",
-      "score": 50,
-      "price": 78.63,
-      "market_cap": 1945667456,
-      "details": {
-        "pb_ratio": 1.39,
-        "pb_score": 20,
-        "drop_from_high_pct": -6.2,
-        "drop_score": 0,
-        "revenue_growth_quarters": 1,
-        "revenue_growth_detail": [
-          {
-            "quarter": "2026-09-30",
-            "yoy_growth_pct": 2.1
-          }
-        ],
-        "revenue_score": 5,
-        "analyst_mean": null,
-        "analyst_score": 0,
-        "fcf": 61900624,
-        "fcf_score": 15,
-        "debt_to_equity": 12.0,
-        "de_score": 10,
-        "shareholder_turnover": 0.8,
-        "turnover_score": 0
-      }
-    },
-    {
       "ticker": "AIP",
       "name": "ARTERIS INC",
       "sector": "Information Technology",
@@ -11973,7 +11943,7 @@
       "sector": "Energy",
       "score": 50,
       "price": 17.09,
-      "market_cap": 697316736,
+      "market_cap": 698158528,
       "details": {
         "pb_ratio": 1.02,
         "pb_score": 20,
@@ -12793,6 +12763,31 @@
       }
     },
     {
+      "ticker": "IIIV",
+      "name": "I3 VERTICALS INC CLASS A",
+      "sector": "Information Technology",
+      "score": 49,
+      "price": 19.51,
+      "market_cap": 664960448,
+      "details": {
+        "pb_ratio": 1.27,
+        "pb_score": 20,
+        "drop_from_high_pct": -30.0,
+        "drop_score": 8,
+        "revenue_growth_quarters": 0,
+        "revenue_growth_detail": [],
+        "revenue_score": 0,
+        "analyst_mean": 1.8,
+        "analyst_score": 0,
+        "fcf": 50524376,
+        "fcf_score": 15,
+        "debt_to_equity": 32.4,
+        "de_score": 6,
+        "shareholder_turnover": 2.1,
+        "turnover_score": 0
+      }
+    },
+    {
       "ticker": "CMCSA",
       "name": "COMCAST CORP CLASS A",
       "sector": "Communication",
@@ -12874,36 +12869,6 @@
         "debt_to_equity": 14.5,
         "de_score": 10,
         "shareholder_turnover": 0.9,
-        "turnover_score": 0
-      }
-    },
-    {
-      "ticker": "RKT",
-      "name": "ROCKET COMPANIES INC CLASS A",
-      "sector": "Financials",
-      "score": 48,
-      "price": 13.75,
-      "market_cap": 39021076480,
-      "details": {
-        "pb_ratio": 1.6,
-        "pb_score": 10,
-        "drop_from_high_pct": -43.6,
-        "drop_score": 15,
-        "revenue_growth_quarters": 1,
-        "revenue_growth_detail": [
-          {
-            "quarter": "2026-09-30",
-            "yoy_growth_pct": 100.3
-          }
-        ],
-        "revenue_score": 5,
-        "analyst_mean": 2.19,
-        "analyst_score": 0,
-        "fcf": 1639153024,
-        "fcf_score": 15,
-        "debt_to_equity": 125.0,
-        "de_score": 3,
-        "shareholder_turnover": 1.2,
         "turnover_score": 0
       }
     },
@@ -13473,7 +13438,7 @@
         "fcf_score": 15,
         "debt_to_equity": 9.6,
         "de_score": 10,
-        "shareholder_turnover": 1.2,
+        "shareholder_turnover": 1.3,
         "turnover_score": 0
       }
     },
@@ -13995,7 +13960,7 @@
       "price": 270.44,
       "market_cap": 72271306752,
       "details": {
-        "pb_ratio": 3.96,
+        "pb_ratio": 3.82,
         "pb_score": 0,
         "drop_from_high_pct": -60.3,
         "drop_score": 20,
@@ -14553,6 +14518,31 @@
       }
     },
     {
+      "ticker": "HP",
+      "name": "HELMERICH & PAYNE INC",
+      "sector": "Energy",
+      "score": 46,
+      "price": 31.77,
+      "market_cap": 3175661824,
+      "details": {
+        "pb_ratio": 1.23,
+        "pb_score": 20,
+        "drop_from_high_pct": -34.0,
+        "drop_score": 8,
+        "revenue_growth_quarters": 0,
+        "revenue_growth_detail": [],
+        "revenue_score": 0,
+        "analyst_mean": 2.47,
+        "analyst_score": 0,
+        "fcf": 356535360,
+        "fcf_score": 15,
+        "debt_to_equity": 91.1,
+        "de_score": 3,
+        "shareholder_turnover": 0.8,
+        "turnover_score": 0
+      }
+    },
+    {
       "ticker": "LMND",
       "name": "LEMONADE INC",
       "sector": "Financials",
@@ -15028,36 +15018,6 @@
       }
     },
     {
-      "ticker": "HVT",
-      "name": "HAVERTY FURNITURE COMPANIES INC",
-      "sector": "Consumer Discretionary",
-      "score": 46,
-      "price": 23.91,
-      "market_cap": 384839872,
-      "details": {
-        "pb_ratio": 1.25,
-        "pb_score": 20,
-        "drop_from_high_pct": -21.9,
-        "drop_score": 0,
-        "revenue_growth_quarters": 1,
-        "revenue_growth_detail": [
-          {
-            "quarter": "2026-09-30",
-            "yoy_growth_pct": 8.0
-          }
-        ],
-        "revenue_score": 5,
-        "analyst_mean": null,
-        "analyst_score": 0,
-        "fcf": 22045624,
-        "fcf_score": 15,
-        "debt_to_equity": 78.2,
-        "de_score": 6,
-        "shareholder_turnover": 0.5,
-        "turnover_score": 0
-      }
-    },
-    {
       "ticker": "REPX",
       "name": "RILEY EXPLORATION PERMIAN INC",
       "sector": "Energy",
@@ -15247,7 +15207,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.48,
+        "analyst_mean": 1.45,
         "analyst_score": 0,
         "fcf": 2520250112,
         "fcf_score": 15,
@@ -15828,7 +15788,7 @@
         "revenue_growth_detail": [
           {
             "quarter": "2026-09-30",
-            "yoy_growth_pct": 3.5
+            "yoy_growth_pct": 4.2
           }
         ],
         "revenue_score": 5,
@@ -16373,7 +16333,7 @@
       "sector": "Consumer Discretionary",
       "score": 45,
       "price": 15.96,
-      "market_cap": 2868930816,
+      "market_cap": 2849028096,
       "details": {
         "pb_ratio": 1.3,
         "pb_score": 20,
@@ -16414,9 +16374,9 @@
         "revenue_score": 5,
         "analyst_mean": 1.4,
         "analyst_score": 0,
-        "fcf": 128642496,
+        "fcf": 125462000,
         "fcf_score": 15,
-        "debt_to_equity": 9.5,
+        "debt_to_equity": 11.1,
         "de_score": 10,
         "shareholder_turnover": 0.7,
         "turnover_score": 0
@@ -18068,31 +18028,6 @@
       }
     },
     {
-      "ticker": "MCY",
-      "name": "MERCURY GENERAL CORP",
-      "sector": "Financials",
-      "score": 43,
-      "price": 81.43,
-      "market_cap": 4510296064,
-      "details": {
-        "pb_ratio": 1.61,
-        "pb_score": 10,
-        "drop_from_high_pct": -28.0,
-        "drop_score": 8,
-        "revenue_growth_quarters": 0,
-        "revenue_growth_detail": [],
-        "revenue_score": 0,
-        "analyst_mean": 1.0,
-        "analyst_score": 0,
-        "fcf": 1035238400,
-        "fcf_score": 15,
-        "debt_to_equity": 20.9,
-        "de_score": 10,
-        "shareholder_turnover": 0.7,
-        "turnover_score": 0
-      }
-    },
-    {
       "ticker": "BANC",
       "name": "BANC OF CALIFORNIA INC",
       "sector": "Financials",
@@ -18428,6 +18363,36 @@
         "fcf_score": 0,
         "debt_to_equity": 298.5,
         "de_score": 0,
+        "shareholder_turnover": 1.0,
+        "turnover_score": 0
+      }
+    },
+    {
+      "ticker": "AMPH",
+      "name": "AMPHASTAR PHARMACEUTICALS INC",
+      "sector": "Health Care",
+      "score": 43,
+      "price": 28.25,
+      "market_cap": 1204815104,
+      "details": {
+        "pb_ratio": 1.48,
+        "pb_score": 20,
+        "drop_from_high_pct": -8.9,
+        "drop_score": 0,
+        "revenue_growth_quarters": 1,
+        "revenue_growth_detail": [
+          {
+            "quarter": "2026-09-30",
+            "yoy_growth_pct": 15.9
+          }
+        ],
+        "revenue_score": 5,
+        "analyst_mean": null,
+        "analyst_score": 0,
+        "fcf": 9201000,
+        "fcf_score": 15,
+        "debt_to_equity": 84.9,
+        "de_score": 3,
         "shareholder_turnover": 1.0,
         "turnover_score": 0
       }
@@ -18798,7 +18763,7 @@
         "fcf_score": 15,
         "debt_to_equity": 112.4,
         "de_score": 3,
-        "shareholder_turnover": 0.9,
+        "shareholder_turnover": 1.0,
         "turnover_score": 0
       }
     },
@@ -18903,7 +18868,7 @@
         "revenue_growth_detail": [
           {
             "quarter": "2026-09-30",
-            "yoy_growth_pct": 7.2
+            "yoy_growth_pct": 10.3
           }
         ],
         "revenue_score": 5,
@@ -18967,7 +18932,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.78,
+        "analyst_mean": 1.74,
         "analyst_score": 0,
         "fcf": 1867000064,
         "fcf_score": 15,
@@ -18993,7 +18958,7 @@
         "revenue_growth_detail": [
           {
             "quarter": "2026-09-30",
-            "yoy_growth_pct": 3.7
+            "yoy_growth_pct": 12.6
           }
         ],
         "revenue_score": 5,
@@ -20198,7 +20163,7 @@
       "sector": "Consumer Discretionary",
       "score": 41,
       "price": 89.1,
-      "market_cap": 522090080,
+      "market_cap": 531026176,
       "details": {
         "pb_ratio": 0.78,
         "pb_score": 30,
@@ -20304,6 +20269,31 @@
         "debt_to_equity": 38.2,
         "de_score": 6,
         "shareholder_turnover": 0.8,
+        "turnover_score": 0
+      }
+    },
+    {
+      "ticker": "HVT",
+      "name": "HAVERTY FURNITURE COMPANIES INC",
+      "sector": "Consumer Discretionary",
+      "score": 41,
+      "price": 23.91,
+      "market_cap": 372843584,
+      "details": {
+        "pb_ratio": 1.25,
+        "pb_score": 20,
+        "drop_from_high_pct": -21.9,
+        "drop_score": 0,
+        "revenue_growth_quarters": 0,
+        "revenue_growth_detail": [],
+        "revenue_score": 0,
+        "analyst_mean": null,
+        "analyst_score": 0,
+        "fcf": 22045624,
+        "fcf_score": 15,
+        "debt_to_equity": 78.2,
+        "de_score": 6,
+        "shareholder_turnover": 0.5,
         "turnover_score": 0
       }
     },
@@ -20543,6 +20533,36 @@
       }
     },
     {
+      "ticker": "DLB",
+      "name": "DOLBY LABORATORIES INC CLASS A",
+      "sector": "Information Technology",
+      "score": 40,
+      "price": 55.33,
+      "market_cap": 5182694400,
+      "details": {
+        "pb_ratio": 1.97,
+        "pb_score": 10,
+        "drop_from_high_pct": -20.9,
+        "drop_score": 0,
+        "revenue_growth_quarters": 1,
+        "revenue_growth_detail": [
+          {
+            "quarter": "2026-09-30",
+            "yoy_growth_pct": 47.4
+          }
+        ],
+        "revenue_score": 5,
+        "analyst_mean": 1.75,
+        "analyst_score": 0,
+        "fcf": 314440512,
+        "fcf_score": 15,
+        "debt_to_equity": 1.8,
+        "de_score": 10,
+        "shareholder_turnover": 1.0,
+        "turnover_score": 0
+      }
+    },
+    {
       "ticker": "CURB",
       "name": "CURBLINE PROPERTIES",
       "sector": "Real Estate",
@@ -20649,36 +20669,6 @@
         "debt_to_equity": 3.2,
         "de_score": 10,
         "shareholder_turnover": 1.2,
-        "turnover_score": 0
-      }
-    },
-    {
-      "ticker": "BULL",
-      "name": "WEBULL CORP CLASS A",
-      "sector": "Financials",
-      "score": 40,
-      "price": 4.15,
-      "market_cap": 2243786752,
-      "details": {
-        "pb_ratio": 1.89,
-        "pb_score": 10,
-        "drop_from_high_pct": -60.0,
-        "drop_score": 15,
-        "revenue_growth_quarters": 1,
-        "revenue_growth_detail": [
-          {
-            "quarter": "2026-06-30",
-            "yoy_growth_pct": 27.4
-          }
-        ],
-        "revenue_score": 5,
-        "analyst_mean": 1.25,
-        "analyst_score": 0,
-        "fcf": null,
-        "fcf_score": 0,
-        "debt_to_equity": 10.8,
-        "de_score": 10,
-        "shareholder_turnover": 2.6,
         "turnover_score": 0
       }
     },
@@ -21287,7 +21277,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.35,
+        "analyst_mean": 1.33,
         "analyst_score": 0,
         "fcf": 7357125120,
         "fcf_score": 15,
@@ -21688,7 +21678,7 @@
       "sector": "Information Technology",
       "score": 38,
       "price": 285.9,
-      "market_cap": 23031058432,
+      "market_cap": 22995486720,
       "details": {
         "pb_ratio": 7.74,
         "pb_score": 0,
@@ -24508,7 +24498,7 @@
         "fcf_score": 0,
         "debt_to_equity": 56.1,
         "de_score": 6,
-        "shareholder_turnover": 2.7,
+        "shareholder_turnover": 2.6,
         "turnover_score": 0
       }
     },
@@ -24788,31 +24778,6 @@
       }
     },
     {
-      "ticker": "HP",
-      "name": "HELMERICH & PAYNE INC",
-      "sector": "Energy",
-      "score": 36,
-      "price": 31.77,
-      "market_cap": 3175661824,
-      "details": {
-        "pb_ratio": 1.52,
-        "pb_score": 10,
-        "drop_from_high_pct": -34.0,
-        "drop_score": 8,
-        "revenue_growth_quarters": 0,
-        "revenue_growth_detail": [],
-        "revenue_score": 0,
-        "analyst_mean": 2.47,
-        "analyst_score": 0,
-        "fcf": 356535360,
-        "fcf_score": 15,
-        "debt_to_equity": 91.1,
-        "de_score": 3,
-        "shareholder_turnover": 0.8,
-        "turnover_score": 0
-      }
-    },
-    {
       "ticker": "NWS",
       "name": "NEWS CORP CLASS B",
       "sector": "Communication",
@@ -24864,7 +24829,7 @@
         "revenue_score": 5,
         "analyst_mean": 1.58,
         "analyst_score": 0,
-        "fcf": 325624992,
+        "fcf": 352500000,
         "fcf_score": 15,
         "debt_to_equity": 79.7,
         "de_score": 6,
@@ -25658,7 +25623,7 @@
         "revenue_growth_detail": [
           {
             "quarter": "2026-09-30",
-            "yoy_growth_pct": 0.6
+            "yoy_growth_pct": 0.5
           }
         ],
         "revenue_score": 5,
@@ -25795,7 +25760,7 @@
       "price": 69.29,
       "market_cap": 3975926784,
       "details": {
-        "pb_ratio": 3.76,
+        "pb_ratio": 3.53,
         "pb_score": 0,
         "drop_from_high_pct": -54.1,
         "drop_score": 15,
@@ -26079,7 +26044,7 @@
         "revenue_score": 5,
         "analyst_mean": 1.85,
         "analyst_score": 0,
-        "fcf": 28152876,
+        "fcf": 21933876,
         "fcf_score": 15,
         "debt_to_equity": 157.4,
         "de_score": 0,
@@ -26738,7 +26703,7 @@
         "revenue_growth_detail": [
           {
             "quarter": "2026-09-30",
-            "yoy_growth_pct": 18.4
+            "yoy_growth_pct": 59.2
           }
         ],
         "revenue_score": 5,
@@ -27398,7 +27363,7 @@
       "sector": "Information Technology",
       "score": 34,
       "price": 124.53,
-      "market_cap": 18965919744,
+      "market_cap": 19028183040,
       "details": {
         "pb_ratio": 4.37,
         "pb_score": 0,
@@ -27408,7 +27373,7 @@
         "revenue_growth_detail": [
           {
             "quarter": "2026-09-30",
-            "yoy_growth_pct": 21.0
+            "yoy_growth_pct": 16.3
           }
         ],
         "revenue_score": 5,
@@ -27598,7 +27563,7 @@
         "fcf_score": 15,
         "debt_to_equity": 65.2,
         "de_score": 6,
-        "shareholder_turnover": 1.6,
+        "shareholder_turnover": 1.4,
         "turnover_score": 0
       }
     },
@@ -27629,6 +27594,36 @@
         "debt_to_equity": 67.0,
         "de_score": 6,
         "shareholder_turnover": 0.6,
+        "turnover_score": 0
+      }
+    },
+    {
+      "ticker": "PTC",
+      "name": "PTC INC",
+      "sector": "Information Technology",
+      "score": 34,
+      "price": 195.1,
+      "market_cap": 21194328064,
+      "details": {
+        "pb_ratio": 6.21,
+        "pb_score": 0,
+        "drop_from_high_pct": -0.9,
+        "drop_score": 0,
+        "revenue_growth_quarters": 1,
+        "revenue_growth_detail": [
+          {
+            "quarter": "2026-06-30",
+            "yoy_growth_pct": 1.9
+          }
+        ],
+        "revenue_score": 5,
+        "analyst_mean": 3.0,
+        "analyst_score": 8,
+        "fcf": 861373760,
+        "fcf_score": 15,
+        "debt_to_equity": 52.7,
+        "de_score": 6,
+        "shareholder_turnover": 1.5,
         "turnover_score": 0
       }
     },
@@ -27828,7 +27823,7 @@
         "revenue_growth_detail": [
           {
             "quarter": "2026-09-30",
-            "yoy_growth_pct": 21.0
+            "yoy_growth_pct": 18.8
           }
         ],
         "revenue_score": 5,
@@ -28044,9 +28039,9 @@
         "revenue_score": 5,
         "analyst_mean": 2.5,
         "analyst_score": 0,
-        "fcf": 140624992,
+        "fcf": 110500000,
         "fcf_score": 15,
-        "debt_to_equity": 70.7,
+        "debt_to_equity": 76.6,
         "de_score": 6,
         "shareholder_turnover": 0.5,
         "turnover_score": 0
@@ -28378,6 +28373,36 @@
       }
     },
     {
+      "ticker": "ITGR",
+      "name": "INTEGER HOLDINGS CORP",
+      "sector": "Health Care",
+      "score": 34,
+      "price": 126.97,
+      "market_cap": 4316641792,
+      "details": {
+        "pb_ratio": 2.5,
+        "pb_score": 0,
+        "drop_from_high_pct": -4.6,
+        "drop_score": 0,
+        "revenue_growth_quarters": 1,
+        "revenue_growth_detail": [
+          {
+            "quarter": "2026-09-30",
+            "yoy_growth_pct": 1.6
+          }
+        ],
+        "revenue_score": 5,
+        "analyst_mean": 3.0,
+        "analyst_score": 8,
+        "fcf": 86022752,
+        "fcf_score": 15,
+        "debt_to_equity": 77.9,
+        "de_score": 6,
+        "shareholder_turnover": 1.7,
+        "turnover_score": 0
+      }
+    },
+    {
       "ticker": "GOLF",
       "name": "ACUSHNET HOLDINGS CORP",
       "sector": "Consumer Discretionary",
@@ -28424,7 +28449,7 @@
         "revenue_score": 5,
         "analyst_mean": 1.62,
         "analyst_score": 0,
-        "fcf": 14471625,
+        "fcf": 21846624,
         "fcf_score": 15,
         "debt_to_equity": 65.7,
         "de_score": 6,
@@ -28574,7 +28599,7 @@
         "revenue_score": 5,
         "analyst_mean": 2.25,
         "analyst_score": 0,
-        "fcf": 43038624,
+        "fcf": 44726124,
         "fcf_score": 15,
         "debt_to_equity": 43.7,
         "de_score": 6,
@@ -28668,7 +28693,7 @@
         "fcf_score": 15,
         "debt_to_equity": 47.8,
         "de_score": 6,
-        "shareholder_turnover": 2.2,
+        "shareholder_turnover": 2.1,
         "turnover_score": 0
       }
     },
@@ -28759,31 +28784,6 @@
         "debt_to_equity": 61.8,
         "de_score": 6,
         "shareholder_turnover": 1.0,
-        "turnover_score": 0
-      }
-    },
-    {
-      "ticker": "IIIV",
-      "name": "I3 VERTICALS INC CLASS A",
-      "sector": "Information Technology",
-      "score": 34,
-      "price": 19.51,
-      "market_cap": 664960448,
-      "details": {
-        "pb_ratio": 1.27,
-        "pb_score": 20,
-        "drop_from_high_pct": -30.0,
-        "drop_score": 8,
-        "revenue_growth_quarters": 0,
-        "revenue_growth_detail": [],
-        "revenue_score": 0,
-        "analyst_mean": 1.8,
-        "analyst_score": 0,
-        "fcf": null,
-        "fcf_score": 0,
-        "debt_to_equity": 32.4,
-        "de_score": 6,
-        "shareholder_turnover": 2.0,
         "turnover_score": 0
       }
     },
@@ -29243,7 +29243,7 @@
       "sector": "Materials",
       "score": 33,
       "price": 49.04,
-      "market_cap": 2783209216,
+      "market_cap": 2783678208,
       "details": {
         "pb_ratio": 1.59,
         "pb_score": 10,
@@ -29935,7 +29935,7 @@
       "price": 31.87,
       "market_cap": 1000323712,
       "details": {
-        "pb_ratio": 4.02,
+        "pb_ratio": 4.23,
         "pb_score": 0,
         "drop_from_high_pct": -32.6,
         "drop_score": 8,
@@ -30153,7 +30153,7 @@
       "sector": "Consumer Staples",
       "score": 33,
       "price": 14.29,
-      "market_cap": 1266282880,
+      "market_cap": 2057219968,
       "details": {
         "pb_ratio": 1.88,
         "pb_score": 10,
@@ -30218,7 +30218,7 @@
         "revenue_growth_detail": [
           {
             "quarter": "2026-09-30",
-            "yoy_growth_pct": 31.8
+            "yoy_growth_pct": 35.5
           }
         ],
         "revenue_score": 5,
@@ -31587,7 +31587,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.38,
+        "analyst_mean": 1.36,
         "analyst_score": 0,
         "fcf": 2994125056,
         "fcf_score": 15,
@@ -31737,7 +31737,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.35,
+        "analyst_mean": 1.32,
         "analyst_score": 0,
         "fcf": 4147339008,
         "fcf_score": 15,
@@ -31853,7 +31853,7 @@
         "revenue_growth_detail": [
           {
             "quarter": "2026-09-30",
-            "yoy_growth_pct": 30.1
+            "yoy_growth_pct": 13.3
           }
         ],
         "revenue_score": 5,
@@ -32062,7 +32062,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.89,
+        "analyst_mean": 2.83,
         "analyst_score": 0,
         "fcf": 916437504,
         "fcf_score": 15,
@@ -32088,7 +32088,7 @@
         "revenue_growth_detail": [
           {
             "quarter": "2026-09-30",
-            "yoy_growth_pct": 7.2
+            "yoy_growth_pct": 7.0
           }
         ],
         "revenue_score": 5,
@@ -32122,7 +32122,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.56,
+        "analyst_mean": 2.44,
         "analyst_score": 0,
         "fcf": 832715392,
         "fcf_score": 15,
@@ -33337,7 +33337,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.43,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 520204640,
         "fcf_score": 15,
@@ -33558,36 +33558,6 @@
       }
     },
     {
-      "ticker": "DLB",
-      "name": "DOLBY LABORATORIES INC CLASS A",
-      "sector": "Information Technology",
-      "score": 30,
-      "price": 55.33,
-      "market_cap": 5182694400,
-      "details": {
-        "pb_ratio": 2.01,
-        "pb_score": 0,
-        "drop_from_high_pct": -20.9,
-        "drop_score": 0,
-        "revenue_growth_quarters": 1,
-        "revenue_growth_detail": [
-          {
-            "quarter": "2026-09-30",
-            "yoy_growth_pct": 47.4
-          }
-        ],
-        "revenue_score": 5,
-        "analyst_mean": 1.75,
-        "analyst_score": 0,
-        "fcf": 314440512,
-        "fcf_score": 15,
-        "debt_to_equity": 1.8,
-        "de_score": 10,
-        "shareholder_turnover": 1.0,
-        "turnover_score": 0
-      }
-    },
-    {
       "ticker": "EXPO",
       "name": "EXPONENT INC",
       "sector": "Industrials",
@@ -33663,7 +33633,7 @@
         "revenue_growth_detail": [
           {
             "quarter": "2026-09-30",
-            "yoy_growth_pct": 5.9
+            "yoy_growth_pct": 2.0
           }
         ],
         "revenue_score": 5,
@@ -33823,6 +33793,36 @@
       }
     },
     {
+      "ticker": "PLUS",
+      "name": "EPLUS",
+      "sector": "Information Technology",
+      "score": 30,
+      "price": 92.13,
+      "market_cap": 2395379968,
+      "details": {
+        "pb_ratio": 2.31,
+        "pb_score": 0,
+        "drop_from_high_pct": -7.5,
+        "drop_score": 0,
+        "revenue_growth_quarters": 1,
+        "revenue_growth_detail": [
+          {
+            "quarter": "2026-09-30",
+            "yoy_growth_pct": 9.2
+          }
+        ],
+        "revenue_score": 5,
+        "analyst_mean": null,
+        "analyst_score": 0,
+        "fcf": 22156876,
+        "fcf_score": 15,
+        "debt_to_equity": 13.9,
+        "de_score": 10,
+        "shareholder_turnover": 0.6,
+        "turnover_score": 0
+      }
+    },
+    {
       "ticker": "VCEL",
       "name": "VERICEL CORP",
       "sector": "Health Care",
@@ -33962,7 +33962,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.5,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": -19082624,
         "fcf_score": 0,
@@ -34153,6 +34153,36 @@
       }
     },
     {
+      "ticker": "BULL",
+      "name": "WEBULL CORP CLASS A",
+      "sector": "Financials",
+      "score": 30,
+      "price": 4.15,
+      "market_cap": 2243786752,
+      "details": {
+        "pb_ratio": 2.11,
+        "pb_score": 0,
+        "drop_from_high_pct": -60.0,
+        "drop_score": 15,
+        "revenue_growth_quarters": 1,
+        "revenue_growth_detail": [
+          {
+            "quarter": "2026-06-30",
+            "yoy_growth_pct": 27.4
+          }
+        ],
+        "revenue_score": 5,
+        "analyst_mean": 1.25,
+        "analyst_score": 0,
+        "fcf": null,
+        "fcf_score": 0,
+        "debt_to_equity": 10.8,
+        "de_score": 10,
+        "shareholder_turnover": 2.4,
+        "turnover_score": 0
+      }
+    },
+    {
       "ticker": "CRVL",
       "name": "CORVEL CORP",
       "sector": "Health Care",
@@ -34204,9 +34234,9 @@
         "revenue_score": 5,
         "analyst_mean": 1.5,
         "analyst_score": 0,
-        "fcf": 75498376,
+        "fcf": 69889376,
         "fcf_score": 15,
-        "debt_to_equity": 13.4,
+        "debt_to_equity": 14.9,
         "de_score": 10,
         "shareholder_turnover": 1.2,
         "turnover_score": 0
@@ -34723,7 +34753,7 @@
       "sector": "Consumer Staples",
       "score": 30,
       "price": 37.46,
-      "market_cap": 3506709248,
+      "market_cap": 3506829312,
       "details": {
         "pb_ratio": 9.41,
         "pb_score": 0,
@@ -35444,31 +35474,6 @@
         "debt_to_equity": 35.4,
         "de_score": 6,
         "shareholder_turnover": 1.0,
-        "turnover_score": 0
-      }
-    },
-    {
-      "ticker": "ITGR",
-      "name": "INTEGER HOLDINGS CORP",
-      "sector": "Health Care",
-      "score": 29,
-      "price": 126.97,
-      "market_cap": 4316641792,
-      "details": {
-        "pb_ratio": 2.5,
-        "pb_score": 0,
-        "drop_from_high_pct": -4.6,
-        "drop_score": 0,
-        "revenue_growth_quarters": 0,
-        "revenue_growth_detail": [],
-        "revenue_score": 0,
-        "analyst_mean": 3.0,
-        "analyst_score": 8,
-        "fcf": 86022752,
-        "fcf_score": 15,
-        "debt_to_equity": 77.9,
-        "de_score": 6,
-        "shareholder_turnover": 1.7,
         "turnover_score": 0
       }
     },
@@ -37043,7 +37048,7 @@
       "sector": "Consumer Staples",
       "score": 26,
       "price": 127.95,
-      "market_cap": 1015122821120,
+      "market_cap": 1018236174336,
       "details": {
         "pb_ratio": 10.34,
         "pb_score": 0,
@@ -37593,7 +37598,7 @@
         "revenue_growth_detail": [
           {
             "quarter": "2026-09-30",
-            "yoy_growth_pct": 14.2
+            "yoy_growth_pct": 5.9
           }
         ],
         "revenue_score": 5,
@@ -37703,7 +37708,7 @@
       "sector": "Consumer Discretionary",
       "score": 26,
       "price": 213.46,
-      "market_cap": 68190466048,
+      "market_cap": 68473933824,
       "details": {
         "pb_ratio": 9.76,
         "pb_score": 0,
@@ -38333,7 +38338,7 @@
       "sector": "Real Estate",
       "score": 26,
       "price": 63.66,
-      "market_cap": 24609972224,
+      "market_cap": 24611481600,
       "details": {
         "pb_ratio": 2.27,
         "pb_score": 0,
@@ -38598,7 +38603,7 @@
       "sector": "Industrials",
       "score": 26,
       "price": 307.22,
-      "market_cap": 17117668352,
+      "market_cap": 17111959552,
       "details": {
         "pb_ratio": 5.23,
         "pb_score": 0,
@@ -39988,7 +39993,7 @@
       "sector": "Industrials",
       "score": 26,
       "price": 87.02,
-      "market_cap": 4574564352,
+      "market_cap": 4578531328,
       "details": {
         "pb_ratio": 3.52,
         "pb_score": 0,
@@ -40544,7 +40549,7 @@
         "revenue_score": 5,
         "analyst_mean": 2.33,
         "analyst_score": 0,
-        "fcf": 134262256,
+        "fcf": 125199752,
         "fcf_score": 15,
         "debt_to_equity": 60.2,
         "de_score": 6,
@@ -40973,7 +40978,7 @@
       "sector": "Energy",
       "score": 26,
       "price": 69.03,
-      "market_cap": 776331712,
+      "market_cap": 791960384,
       "details": {
         "pb_ratio": 2.49,
         "pb_score": 0,
@@ -41292,7 +41297,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 1.55,
+        "analyst_mean": 1.5,
         "analyst_score": 0,
         "fcf": null,
         "fcf_score": 0,
@@ -41492,7 +41497,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.77,
+        "analyst_mean": 2.69,
         "analyst_score": 0,
         "fcf": null,
         "fcf_score": 0,
@@ -41577,7 +41582,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 2.31,
+        "analyst_mean": 2.25,
         "analyst_score": 0,
         "fcf": 573700352,
         "fcf_score": 15,
@@ -41763,7 +41768,7 @@
       "sector": "Financials",
       "score": 25,
       "price": 28.7,
-      "market_cap": 8116848128,
+      "market_cap": 8119295488,
       "details": {
         "pb_ratio": 1.12,
         "pb_score": 20,
@@ -42332,7 +42337,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.18,
+        "analyst_mean": 2.12,
         "analyst_score": 0,
         "fcf": null,
         "fcf_score": 0,
@@ -42709,31 +42714,6 @@
         "debt_to_equity": null,
         "de_score": 0,
         "shareholder_turnover": 0.5,
-        "turnover_score": 0
-      }
-    },
-    {
-      "ticker": "PLUS",
-      "name": "EPLUS",
-      "sector": "Information Technology",
-      "score": 25,
-      "price": 92.13,
-      "market_cap": 2395379968,
-      "details": {
-        "pb_ratio": 2.31,
-        "pb_score": 0,
-        "drop_from_high_pct": -7.5,
-        "drop_score": 0,
-        "revenue_growth_quarters": 0,
-        "revenue_growth_detail": [],
-        "revenue_score": 0,
-        "analyst_mean": null,
-        "analyst_score": 0,
-        "fcf": 22156876,
-        "fcf_score": 15,
-        "debt_to_equity": 13.9,
-        "de_score": 10,
-        "shareholder_turnover": 0.6,
         "turnover_score": 0
       }
     },
@@ -43168,7 +43148,7 @@
         "fcf_score": 0,
         "debt_to_equity": null,
         "de_score": 0,
-        "shareholder_turnover": 0.4,
+        "shareholder_turnover": 0.3,
         "turnover_score": 0
       }
     },
@@ -45003,7 +44983,7 @@
       "sector": "Consumer Discretionary",
       "score": 25,
       "price": 4.35,
-      "market_cap": 414399584,
+      "market_cap": 414687136,
       "details": {
         "pb_ratio": null,
         "pb_score": 0,
@@ -45388,7 +45368,7 @@
       "sector": "Consumer Discretionary",
       "score": 23,
       "price": 139.62,
-      "market_cap": 154238828544,
+      "market_cap": 153578373120,
       "details": {
         "pb_ratio": 14.43,
         "pb_score": 0,
@@ -46553,7 +46533,7 @@
       "sector": "Industrials",
       "score": 23,
       "price": 150.62,
-      "market_cap": 17785341952,
+      "market_cap": 17628354560,
       "details": {
         "pb_ratio": 5.4,
         "pb_score": 0,
@@ -47390,7 +47370,7 @@
       "price": 35.51,
       "market_cap": 7616715776,
       "details": {
-        "pb_ratio": 1.46,
+        "pb_ratio": 1.48,
         "pb_score": 20,
         "drop_from_high_pct": -14.1,
         "drop_score": 0,
@@ -47399,9 +47379,9 @@
         "revenue_score": 0,
         "analyst_mean": 1.25,
         "analyst_score": 0,
-        "fcf": null,
+        "fcf": -280000000,
         "fcf_score": 0,
-        "debt_to_equity": 135.0,
+        "debt_to_equity": 149.0,
         "de_score": 3,
         "shareholder_turnover": 0.5,
         "turnover_score": 0
@@ -47483,7 +47463,7 @@
         "revenue_growth_detail": [
           {
             "quarter": "2026-09-30",
-            "yoy_growth_pct": 15.3
+            "yoy_growth_pct": 16.5
           }
         ],
         "revenue_score": 5,
@@ -48788,7 +48768,7 @@
       "sector": "Health Care",
       "score": 21,
       "price": 170.38,
-      "market_cap": 48035041280,
+      "market_cap": 48041336832,
       "details": {
         "pb_ratio": 6.52,
         "pb_score": 0,
@@ -49028,7 +49008,7 @@
       "sector": "Information Technology",
       "score": 21,
       "price": 114.17,
-      "market_cap": 10071849984,
+      "market_cap": 10072263680,
       "details": {
         "pb_ratio": 2.9,
         "pb_score": 0,
@@ -49310,7 +49290,7 @@
       "price": 62.79,
       "market_cap": 3298672640,
       "details": {
-        "pb_ratio": 1.8,
+        "pb_ratio": 1.89,
         "pb_score": 10,
         "drop_from_high_pct": -37.2,
         "drop_score": 8,
@@ -50833,7 +50813,7 @@
         "fcf_score": 15,
         "debt_to_equity": 189.4,
         "de_score": 0,
-        "shareholder_turnover": 1.2,
+        "shareholder_turnover": 1.1,
         "turnover_score": 0
       }
     },
@@ -51118,7 +51098,7 @@
         "revenue_growth_detail": [
           {
             "quarter": "2026-09-30",
-            "yoy_growth_pct": 9.8
+            "yoy_growth_pct": 12.3
           }
         ],
         "revenue_score": 5,
@@ -51813,36 +51793,6 @@
       }
     },
     {
-      "ticker": "PTC",
-      "name": "PTC INC",
-      "sector": "Information Technology",
-      "score": 19,
-      "price": 195.1,
-      "market_cap": 21194328064,
-      "details": {
-        "pb_ratio": 6.22,
-        "pb_score": 0,
-        "drop_from_high_pct": -0.9,
-        "drop_score": 0,
-        "revenue_growth_quarters": 1,
-        "revenue_growth_detail": [
-          {
-            "quarter": "2026-06-30",
-            "yoy_growth_pct": 1.9
-          }
-        ],
-        "revenue_score": 5,
-        "analyst_mean": 3.0,
-        "analyst_score": 8,
-        "fcf": null,
-        "fcf_score": 0,
-        "debt_to_equity": 52.7,
-        "de_score": 6,
-        "shareholder_turnover": 1.5,
-        "turnover_score": 0
-      }
-    },
-    {
       "ticker": "EVR",
       "name": "EVERCORE INC CLASS A",
       "sector": "Financials",
@@ -52369,7 +52319,7 @@
         "revenue_score": 5,
         "analyst_mean": 2.0,
         "analyst_score": 0,
-        "fcf": -1473846144,
+        "fcf": -1456971136,
         "fcf_score": 0,
         "debt_to_equity": 101.1,
         "de_score": 3,
@@ -52768,31 +52718,6 @@
       }
     },
     {
-      "ticker": "WSR",
-      "name": "WHITESTONE REIT",
-      "sector": "Real Estate",
-      "score": 18,
-      "price": 18.99,
-      "market_cap": 988012416,
-      "details": {
-        "pb_ratio": 2.12,
-        "pb_score": 0,
-        "drop_from_high_pct": -0.6,
-        "drop_score": 0,
-        "revenue_growth_quarters": 0,
-        "revenue_growth_detail": [],
-        "revenue_score": 0,
-        "analyst_mean": null,
-        "analyst_score": 0,
-        "fcf": 105923624,
-        "fcf_score": 15,
-        "debt_to_equity": 139.7,
-        "de_score": 3,
-        "shareholder_turnover": 0.8,
-        "turnover_score": 0
-      }
-    },
-    {
       "ticker": "RPC",
       "name": "RIDGEPOST CAPITAL INC CLASS A",
       "sector": "Financials",
@@ -53053,7 +52978,7 @@
         "revenue_growth_detail": [
           {
             "quarter": "2026-09-30",
-            "yoy_growth_pct": 24.2
+            "yoy_growth_pct": 10.9
           }
         ],
         "revenue_score": 5,
@@ -53529,7 +53454,7 @@
         "revenue_score": 0,
         "analyst_mean": 2.09,
         "analyst_score": 0,
-        "fcf": 423737504,
+        "fcf": 416237504,
         "fcf_score": 15,
         "debt_to_equity": 158.9,
         "de_score": 0,
@@ -54143,7 +54068,7 @@
       "sector": "Financials",
       "score": 15,
       "price": 34.3,
-      "market_cap": 983039424,
+      "market_cap": 987196096,
       "details": {
         "pb_ratio": 1.69,
         "pb_score": 10,
@@ -54243,7 +54168,7 @@
         "revenue_growth_detail": [
           {
             "quarter": "2026-09-30",
-            "yoy_growth_pct": 15.8
+            "yoy_growth_pct": 6.7
           }
         ],
         "revenue_score": 5,
@@ -54978,7 +54903,7 @@
       "sector": "Financials",
       "score": 11,
       "price": 155.82,
-      "market_cap": 29973803008,
+      "market_cap": 29933023232,
       "details": {
         "pb_ratio": 2.36,
         "pb_score": 0,
@@ -55757,7 +55682,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 2.18,
+        "analyst_mean": 2.12,
         "analyst_score": 0,
         "fcf": null,
         "fcf_score": 0,
@@ -55873,7 +55798,7 @@
         "revenue_growth_detail": [
           {
             "quarter": "2026-09-30",
-            "yoy_growth_pct": 0.6
+            "yoy_growth_pct": 30.2
           }
         ],
         "revenue_score": 5,
@@ -56195,7 +56120,7 @@
       "price": 55.54,
       "market_cap": 5636865536,
       "details": {
-        "pb_ratio": 2.15,
+        "pb_ratio": 2.13,
         "pb_score": 0,
         "drop_from_high_pct": -8.7,
         "drop_score": 0,
@@ -56233,7 +56158,7 @@
         "revenue_growth_detail": [
           {
             "quarter": "2026-09-30",
-            "yoy_growth_pct": 11.7
+            "yoy_growth_pct": 8.5
           }
         ],
         "revenue_score": 5,
@@ -56830,7 +56755,7 @@
       "sector": "Materials",
       "score": 78,
       "price": 3.13,
-      "market_cap": 176916064,
+      "market_cap": 176496480,
       "details": {
         "pb_ratio": 0.44,
         "pb_score": 30,
@@ -56985,7 +56910,7 @@
         "fcf_score": 15,
         "debt_to_equity": 63.6,
         "de_score": 6,
-        "shareholder_turnover": 1.0,
+        "shareholder_turnover": 0.9,
         "turnover_score": 0
       }
     },
@@ -57009,7 +56934,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 0.0,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 9436375,
         "fcf_score": 15,
@@ -57828,7 +57753,7 @@
         "revenue_score": 5,
         "analyst_mean": 2.0,
         "analyst_score": 0,
-        "fcf": 10197125,
+        "fcf": 11947125,
         "fcf_score": 15,
         "debt_to_equity": 34.2,
         "de_score": 6,
@@ -58141,7 +58066,7 @@
         "revenue_growth_quarters": 0,
         "revenue_growth_detail": [],
         "revenue_score": 0,
-        "analyst_mean": 2.15,
+        "analyst_mean": 2.08,
         "analyst_score": 0,
         "fcf": 59145876,
         "fcf_score": 15,
@@ -58517,7 +58442,7 @@
         "fcf_score": 15,
         "debt_to_equity": null,
         "de_score": 0,
-        "shareholder_turnover": 3.4,
+        "shareholder_turnover": 3.7,
         "turnover_score": 3
       }
     },
@@ -59057,7 +58982,7 @@
       "sector": "Energy",
       "score": 67,
       "price": 32.15,
-      "market_cap": 4609703424,
+      "market_cap": 4608688640,
       "details": {
         "pb_ratio": 0.86,
         "pb_score": 30,
@@ -59614,7 +59539,7 @@
       "price": 14.57,
       "market_cap": 1695770880,
       "details": {
-        "pb_ratio": -3.63,
+        "pb_ratio": -3.99,
         "pb_score": 30,
         "drop_from_high_pct": -56.6,
         "drop_score": 15,
@@ -60792,7 +60717,7 @@
       "sector": "Industrials",
       "score": 61,
       "price": 25.75,
-      "market_cap": 1543715456,
+      "market_cap": 1544411776,
       "details": {
         "pb_ratio": 1.14,
         "pb_score": 20,
@@ -61447,7 +61372,7 @@
       "sector": "Financials",
       "score": 60,
       "price": 2.32,
-      "market_cap": 297452064,
+      "market_cap": 298222880,
       "details": {
         "pb_ratio": 0.24,
         "pb_score": 30,
@@ -61462,7 +61387,7 @@
         "fcf_score": 0,
         "debt_to_equity": 29.6,
         "de_score": 10,
-        "shareholder_turnover": 2.0,
+        "shareholder_turnover": 2.3,
         "turnover_score": 0
       }
     },
@@ -61472,7 +61397,7 @@
       "sector": "Information Technology",
       "score": 60,
       "price": 43.08,
-      "market_cap": 573844160,
+      "market_cap": 573007104,
       "details": {
         "pb_ratio": 1.72,
         "pb_score": 10,
@@ -62752,7 +62677,7 @@
       "sector": "Industrials",
       "score": 58,
       "price": 11.75,
-      "market_cap": 958672320,
+      "market_cap": 959524672,
       "details": {
         "pb_ratio": 1.26,
         "pb_score": 20,
@@ -64584,7 +64509,7 @@
       "sector": "Materials",
       "score": 78,
       "price": 3.13,
-      "market_cap": 176916064,
+      "market_cap": 176496480,
       "details": {
         "pb_ratio": 0.44,
         "pb_score": 30,
@@ -64739,7 +64664,7 @@
         "fcf_score": 15,
         "debt_to_equity": 63.6,
         "de_score": 6,
-        "shareholder_turnover": 1.0,
+        "shareholder_turnover": 0.9,
         "turnover_score": 0
       }
     },
@@ -64763,7 +64688,7 @@
           }
         ],
         "revenue_score": 5,
-        "analyst_mean": 0.0,
+        "analyst_mean": null,
         "analyst_score": 0,
         "fcf": 9436375,
         "fcf_score": 15,
